@@ -1210,6 +1210,7 @@
 
     <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Person">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+ <rdfs:comment>الشخص</rdfs:comment>
     </rdf:Description>
     
 
