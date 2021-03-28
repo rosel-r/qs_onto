@@ -914,6 +914,7 @@
 
     <owl:Class rdf:about="http://purl.org/net/QS-onto/Bird">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/QS-onto/Animal"/>
+         <rdfs:comment>الطير</rdfs:comment>
     </owl:Class>
     
 
