@@ -1190,6 +1190,8 @@
 
     <owl:Class rdf:about="http://purl.org/net/QS-onto/Surah">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+<rdfs:comment>السورة القرانية</rdfs:comment>
+<rdfs:isDefinedBy rdf:resource="http://purl.org/net/QS-onto/"/>
     </owl:Class>
     
 
@@ -1199,6 +1201,7 @@
     <owl:Class rdf:about="http://purl.org/net/QS-onto/Verse">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
  <rdfs:comment>الأية.</rdfs:comment>
+<rdfs:isDefinedBy rdf:resource="http://purl.org/net/QS-onto/"/>
     </owl:Class>
     
 
