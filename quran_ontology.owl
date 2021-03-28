@@ -914,6 +914,7 @@
 
     <owl:Class rdf:about="http://purl.org/net/QS-onto/Bird">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/QS-onto/Animal"/>
+<rdfs:comment>الطير</rdfs:comment>
     </owl:Class>
     
 
@@ -933,6 +934,7 @@
 
     <owl:Class rdf:about="http://purl.org/net/QS-onto/Book">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+<rdfs:comment>الكتاب</rdfs:comment>
     </owl:Class>
     
 
@@ -941,6 +943,7 @@
 
     <owl:Class rdf:about="http://purl.org/net/QS-onto/Chapter">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+<rdfs:comment>الجزء القرأني</rdfs:comment>
     </owl:Class>
     
 
@@ -1060,6 +1063,7 @@
 
     <owl:Class rdf:about="http://purl.org/net/QS-onto/Insect">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/QS-onto/Animal"/>
+<rdfs:comment>الحشرات</rdfs:comment>
     </owl:Class>
     
 
@@ -1079,6 +1083,7 @@
 
     <owl:Class rdf:about="http://purl.org/net/QS-onto/Mammal">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/QS-onto/Animal"/>
+<rdfs:comment>الثدييات</rdfs:comment>
     </owl:Class>
     
 
@@ -1098,6 +1103,7 @@
 
     <owl:Class rdf:about="http://purl.org/net/QS-onto/Messenger">
         <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+<rdfs:comment>الرسول</rdfs:comment>
     </owl:Class>
     
 
@@ -1139,6 +1145,7 @@
 
     <owl:Class rdf:about="http://purl.org/net/QS-onto/Place">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+<rdfs:comment>المكان</rdfs:comment>
     </owl:Class>
     
 
@@ -1147,6 +1154,7 @@
 
     <owl:Class rdf:about="http://purl.org/net/QS-onto/Prophet">
         <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+<rdfs:comment>النبي</rdfs:comment>
     </owl:Class>
     
 
@@ -1155,6 +1163,7 @@
 
     <owl:Class rdf:about="http://purl.org/net/QS-onto/Reptile">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/QS-onto/Animal"/>
+<rdfs:comment>الزواحف</rdfs:comment>
     </owl:Class>
     
 
