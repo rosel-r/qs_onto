@@ -1,0 +1,3204 @@
+@prefix : <http://purl.org/net/QS-onto/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://purl.org/net/QS-onto/> .
+
+<http://purl.org/net/QS-onto/> rdf:type owl:Ontology ;
+                                owl:versionIRI <http://purl.org/net/QS-onto/> ;
+                                owl:imports <http://xmlns.com/foaf/0.1/> .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://www.w3.org/2002/07/owl#sameAs
+owl:sameAs rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://purl.org/net/QS-onto/accomplishedBy
+:accomplishedBy rdf:type owl:ObjectProperty ;
+                owl:inverseOf :commandeIn ;
+                rdfs:domain :God_Comanded ;
+                rdfs:range [ rdf:type owl:Class ;
+                             owl:unionOf ( :Messenger
+                                           :Prophet
+                                         )
+                           ] ;
+                <http://purl.org/dc/elements/1.1/description> "انجاز الأمر الألهي من قبل النبي او الرسول" ;
+                rdfs:comment "انجز من قبل" ;
+                rdfs:isDefinedBy <http://purl.org/net/QS-onto/> ;
+                rdfs:label "accomplishedBy" .
+
+
+###  http://purl.org/net/QS-onto/advised
+:advised rdf:type owl:ObjectProperty ;
+         owl:inverseOf :advisedBy ;
+         rdfs:domain :Prophet ;
+         rdfs:range :Nation ;
+         <http://purl.org/dc/elements/1.1/description> "نصح الاقوام بواسطة النبي المكلف بالنصح من قبل الله." ;
+         rdfs:comment "نصح" ;
+         rdfs:isDefinedBy <http://purl.org/net/QS-onto/> ;
+         rdfs:label "advised" .
+
+
+###  http://purl.org/net/QS-onto/advisedBy
+:advisedBy rdf:type owl:ObjectProperty ;
+           rdfs:domain :Nation ;
+           rdfs:range :Prophet ;
+           <http://purl.org/dc/elements/1.1/description> "نصيحة الاقوام التي تمت من قبل النبي المكلف من قبل الله ." ;
+           rdfs:comment "نصح من قبل" ;
+           rdfs:isDefinedBy <http://purl.org/net/QS-onto/> ;
+           rdfs:label "advisedBy" .
+
+
+###  http://purl.org/net/QS-onto/appearedWith
+:appearedWith rdf:type owl:ObjectProperty ;
+              rdfs:domain :Animal ;
+              rdfs:range [ rdf:type owl:Class ;
+                           owl:unionOf ( :Messenger
+                                         :Prophet
+                                       )
+                         ] ;
+              <http://purl.org/dc/elements/1.1/description> "ظهور دور الحيوان الذي ذُكر في القران مع نبي او رسول." ;
+              rdfs:comment "ظهر مع." ;
+              rdfs:isDefinedBy <http://purl.org/net/QS-onto/> ;
+              rdfs:label "appearedWith" .
+
+
+###  http://purl.org/net/QS-onto/assignedIn
+:assignedIn rdf:type owl:ObjectProperty ;
+            rdfs:domain :Prophet ;
+            rdfs:range :God_Comanded ;
+            <http://purl.org/dc/elements/1.1/description> "تكليف النبي بنصيحة القوم وارشادهم." ;
+            rdfs:comment "كلف ب ." ;
+            rdfs:isDefinedBy <http://purl.org/net/QS-onto/> ;
+            rdfs:label "assignedIn" .
+
+
+###  http://purl.org/net/QS-onto/belongTo
+:belongTo rdf:type owl:ObjectProperty ;
+          owl:inverseOf :include ;
+          rdfs:domain :Animal ,
+                      <http://xmlns.com/foaf/0.1/Person> ;
+          rdfs:range :Place ;
+          <http://purl.org/dc/elements/1.1/description> "انتماء الشخص او الحيوان الى مكان معين." ;
+          rdfs:comment "ينتمي الى ." ;
+          rdfs:isDefinedBy <http://purl.org/net/QS-onto/> ;
+          rdfs:label "belongTo" .
+
+
+###  http://purl.org/net/QS-onto/bornPlaceOf
+:bornPlaceOf rdf:type owl:ObjectProperty ;
+             rdfs:domain :Place ;
+             rdfs:range <http://xmlns.com/foaf/0.1/Person> ;
+             <http://purl.org/dc/elements/1.1/description> "مكان الولادة لشخص ما." ;
+             rdfs:comment "مكان ولادة ." ;
+             rdfs:isDefinedBy <http://purl.org/net/QS-onto/> ;
+             rdfs:label "bornedPlaceOf" .
+
+
+###  http://purl.org/net/QS-onto/bornedIn
+:bornedIn rdf:type owl:ObjectProperty ,
+                   owl:FunctionalProperty ;
+          rdfs:domain <http://xmlns.com/foaf/0.1/Person> ;
+          rdfs:range :Place ;
+          <http://purl.org/dc/elements/1.1/description> "ولادة الشخص في مكان محدد واحد." ;
+          rdfs:comment "ولد في ." ;
+          rdfs:isDefinedBy <http://purl.org/net/QS-onto/> ;
+          rdfs:label "bornedIn" .
+
+
+###  http://purl.org/net/QS-onto/commandeIn
+:commandeIn rdf:type owl:ObjectProperty ;
+            rdfs:domain :Messenger ;
+            rdfs:range :God_Comanded ;
+            <http://purl.org/dc/elements/1.1/description> "امر الرسول بتبليغ تعاليم الدين من قبل الله." ;
+            rdfs:comment "امر ب ." ;
+            rdfs:isDefinedBy <http://purl.org/net/QS-onto/> ;
+            rdfs:label "commandeIn" .
+
+
+###  http://purl.org/net/QS-onto/consisitOf
+:consisitOf rdf:type owl:ObjectProperty ;
+            owl:inverseOf :partOf ;
+            rdfs:domain [ rdf:type owl:Class ;
+                          owl:unionOf ( :Book
+                                        :Chapter
+                                        :Surah
+                                      )
+                        ] ;
+            rdfs:range [ rdf:type owl:Class ;
+                         owl:unionOf ( :Surah
+                                       :Verse
+                                     )
+                       ] ;
+            <http://purl.org/dc/elements/1.1/description> "يتكون كتاب القران من اجزاء وتتألف الاجزاء من سور قرانية والسور تتألف من ايات." ;
+            rdfs:comment "يتكون من ,يتألف من." ;
+            rdfs:isDefinedBy <http://purl.org/net/QS-onto/> ;
+            rdfs:label "consistOf" .
+
+
+###  http://purl.org/net/QS-onto/doneBy
+:doneBy rdf:type owl:ObjectProperty ;
+        owl:inverseOf :generate ;
+        rdfs:domain :Event ;
+        rdfs:range :Event_Tool ;
+        <http://purl.org/dc/elements/1.1/description> "حدوث الحدث بواسطة اداة الحدث." ;
+        rdfs:comment "تم بواسطة ." ;
+        rdfs:isDefinedBy <http://purl.org/net/QS-onto/> ;
+        rdfs:label "doneBy" .
+
+
+###  http://purl.org/net/QS-onto/dueTo
+:dueTo rdf:type owl:ObjectProperty ;
+       rdfs:domain :Event ;
+       rdfs:range :Event ;
+       <http://purl.org/dc/elements/1.1/description> "حدوث حدث بسبب اداة الحدث." ;
+       rdfs:comment "بسبب" ;
+       rdfs:isDefinedBy <http://purl.org/net/QS-onto/> ;
+       rdfs:label "dueTo" .
+
+
+###  http://purl.org/net/QS-onto/endowedTo
+:endowedTo rdf:type owl:ObjectProperty ;
+           owl:inverseOf :hasMiracle ;
+           rdfs:domain :Miracles ;
+           rdfs:range [ rdf:type owl:Class ;
+                        owl:unionOf ( :Messenger
+                                      :Prophet
+                                    )
+                      ] ;
+           <http://purl.org/dc/elements/1.1/description> "المعجزة وهبت الى نبي او رسسول." ;
+           rdfs:comment "وهب الى ." ;
+           rdfs:isDefinedBy <http://purl.org/net/QS-onto/> ;
+           rdfs:label "endowedTo" .
+
+
+###  http://purl.org/net/QS-onto/gaveTo
+:gaveTo rdf:type owl:ObjectProperty ;
+        rdfs:domain :Book ;
+        rdfs:range [ rdf:type owl:Class ;
+                     owl:unionOf ( :Messenger
+                                   :Prophet
+                                 )
+                   ] ;
+        <http://purl.org/dc/elements/1.1/description> "الكتاب اعطي الى نبي او رسول." ;
+        rdfs:comment "اعطي الى ." ;
+        rdfs:isDefinedBy <http://purl.org/net/QS-onto/> ;
+        rdfs:label "gaveTo" .
+
+
+###  http://purl.org/net/QS-onto/generate
+:generate rdf:type owl:ObjectProperty ;
+          rdfs:domain :Event_Tool ;
+          rdfs:range :Event ;
+          <http://purl.org/dc/elements/1.1/description> "احداث اداة الحدث للحدث." ;
+          rdfs:comment "أحدث" ;
+          rdfs:isDefinedBy <http://purl.org/net/QS-onto/> ;
+          rdfs:label "generate" .
+
+
+###  http://purl.org/net/QS-onto/hasBook
+:hasBook rdf:type owl:ObjectProperty ;
+         rdfs:domain [ rdf:type owl:Class ;
+                       owl:unionOf ( :Messenger
+                                     :Prophet
+                                   )
+                     ] ;
+         rdfs:range :Book ;
+         <http://purl.org/dc/elements/1.1/description> "امتلاك النبي او الرسول للكتاب الذي انوله عليه الله تعالى ." ;
+         rdfs:comment "امتلك كتاب" ;
+         rdfs:isDefinedBy <http://purl.org/net/QS-onto/> ;
+         rdfs:label "hasBook" .
+
+
+###  http://purl.org/net/QS-onto/hasMiracle
+:hasMiracle rdf:type owl:ObjectProperty ;
+            rdfs:domain [ rdf:type owl:Class ;
+                          owl:unionOf ( :Messenger
+                                        :Prophet
+                                      )
+                        ] ;
+            rdfs:range :Miracles ;
+            <http://purl.org/dc/elements/1.1/description> "امتلاك النبي او الرسول لمعجزة وهبت له من الله تعالى." ;
+            rdfs:comment "لديه معجزة ." ;
+            rdfs:isDefinedBy <http://purl.org/net/QS-onto/> ;
+            rdfs:label "hasMiracle" .
+
+
+###  http://purl.org/net/QS-onto/honoredWith
+:honoredWith rdf:type owl:ObjectProperty ;
+             owl:inverseOf :honoringTo ;
+             rdfs:domain [ rdf:type owl:Class ;
+                           owl:unionOf ( :Messenger
+                                         :Prophet
+                                       )
+                         ] ;
+             rdfs:range :Honoring ;
+             <http://purl.org/dc/elements/1.1/description> "تكريم النبي او الرسول بتكريم ألهي." ;
+             rdfs:comment "كُرم ب ." ;
+             rdfs:isDefinedBy <http://purl.org/net/QS-onto/> ;
+             rdfs:label "honoredWith" .
+
+
+###  http://purl.org/net/QS-onto/honoringTo
+:honoringTo rdf:type owl:ObjectProperty ;
+            rdfs:domain :Honoring ;
+            rdfs:range [ rdf:type owl:Class ;
+                         owl:unionOf ( :Messenger
+                                       :Prophet
+                                     )
+                       ] ;
+            <http://purl.org/dc/elements/1.1/description> "التكريم للنبي او الرسول." ;
+            rdfs:comment "تكريماً الى." ;
+            rdfs:isDefinedBy <http://purl.org/net/QS-onto/> ;
+            rdfs:label "honoringTo" .
+
+
+###  http://purl.org/net/QS-onto/include
+:include rdf:type owl:ObjectProperty ;
+         rdfs:domain :Place ;
+         rdfs:range :Animal ,
+                    <http://xmlns.com/foaf/0.1/Person> ;
+         <http://purl.org/dc/elements/1.1/description> "يحتوي المكان على اشياء." ;
+         rdfs:comment "يشمل , يحتوي ." ;
+         rdfs:isDefinedBy <http://purl.org/net/QS-onto/> ;
+         rdfs:label "include" .
+
+
+###  http://purl.org/net/QS-onto/isPlaceOccurance
+:isPlaceOccurance rdf:type owl:ObjectProperty ;
+                  owl:inverseOf :occuredIn ;
+                  rdfs:domain :Place ;
+                  rdfs:range :Event ;
+                  <http://purl.org/dc/elements/1.1/description> "مكان حدوث حدث معين." ;
+                  rdfs:comment "مكان حدوث" ;
+                  rdfs:isDefinedBy <http://purl.org/net/QS-onto/> ;
+                  rdfs:label "isPlaceOccurance" .
+
+
+###  http://purl.org/net/QS-onto/ledTo
+:ledTo rdf:type owl:ObjectProperty ;
+       rdfs:domain :Event ;
+       rdfs:range :Event ;
+       <http://purl.org/dc/elements/1.1/description> "ادى الحدث الى حدث معين." ;
+       rdfs:comment "ادى الى" ;
+       rdfs:isDefinedBy <http://purl.org/net/QS-onto/> ;
+       rdfs:label "ledTo" .
+
+
+###  http://purl.org/net/QS-onto/livePlace_Of
+:livePlace_Of rdf:type owl:ObjectProperty ;
+              owl:inverseOf :livedIn ;
+              rdfs:domain :Place ;
+              rdfs:range :Animal ,
+                         <http://xmlns.com/foaf/0.1/Person> ;
+              <http://purl.org/dc/elements/1.1/description> "مكان عيش شخص ما." ;
+              rdfs:comment "مكان عيش ." ;
+              rdfs:isDefinedBy <http://purl.org/net/QS-onto/> ;
+              rdfs:label "livePlace_Of" .
+
+
+###  http://purl.org/net/QS-onto/livedIn
+:livedIn rdf:type owl:ObjectProperty ;
+         rdfs:domain :Animal ,
+                     <http://xmlns.com/foaf/0.1/Person> ;
+         rdfs:range :Place ;
+         <http://purl.org/dc/elements/1.1/description> "عاش شخص ما في مكان معين." ;
+         rdfs:comment "عاش في" ;
+         rdfs:isDefinedBy <http://purl.org/net/QS-onto/> ;
+         rdfs:label "livedIn" .
+
+
+###  http://purl.org/net/QS-onto/mentionedIn
+:mentionedIn rdf:type owl:ObjectProperty ;
+             owl:inverseOf :reported ;
+             rdfs:domain owl:Thing ;
+             rdfs:range :Surah ;
+             <http://purl.org/dc/elements/1.1/description> "ذُكر الشيء في سورة ما." ;
+             rdfs:comment "ذُكر في" ;
+             rdfs:isDefinedBy <http://purl.org/net/QS-onto/> ;
+             rdfs:label "mentionedIn" .
+
+
+###  http://purl.org/net/QS-onto/missionPlace_Of
+:missionPlace_Of rdf:type owl:ObjectProperty ;
+                 owl:inverseOf :missionedTo ;
+                 rdfs:domain :Place ;
+                 rdfs:range [ rdf:type owl:Class ;
+                              owl:unionOf ( :Messenger
+                                            :Prophet
+                                          )
+                            ] ;
+                 <http://purl.org/dc/elements/1.1/description> "مكان بعثة الرسول او النبي." ;
+                 rdfs:comment "مكان بعثة" ;
+                 rdfs:isDefinedBy <http://purl.org/net/QS-onto/> ;
+                 rdfs:label "missionedPlace_Of" .
+
+
+###  http://purl.org/net/QS-onto/missionedTo
+:missionedTo rdf:type owl:ObjectProperty ;
+             rdfs:domain [ rdf:type owl:Class ;
+                           owl:unionOf ( :Messenger
+                                         :Prophet
+                                       )
+                         ] ;
+             rdfs:range :Place ;
+             <http://purl.org/dc/elements/1.1/description> "بعث النبي او الرسول لمكن معين." ;
+             rdfs:comment "بُعث الى" ;
+             rdfs:isDefinedBy <http://purl.org/net/QS-onto/> ;
+             rdfs:label "missionedTo" .
+
+
+###  http://purl.org/net/QS-onto/occuredIn
+:occuredIn rdf:type owl:ObjectProperty ;
+           rdfs:domain :Event ;
+           rdfs:range :Place ;
+           <http://purl.org/dc/elements/1.1/description> "حدوث الحدث في مكان معين." ;
+           rdfs:comment "حدث في" ;
+           rdfs:isDefinedBy <http://purl.org/net/QS-onto/> ;
+           rdfs:label "occuredIn" .
+
+
+###  http://purl.org/net/QS-onto/partOf
+:partOf rdf:type owl:ObjectProperty ;
+        rdfs:domain :Surah ;
+        rdfs:range [ rdf:type owl:Class ;
+                     owl:unionOf ( :Book
+                                   :Chapter
+                                 )
+                   ] .
+
+
+###  http://purl.org/net/QS-onto/received
+:received rdf:type owl:ObjectProperty ;
+          owl:inverseOf :sendTo ;
+          rdfs:domain :Nation ;
+          rdfs:range :Messenger ;
+          <http://purl.org/dc/elements/1.1/description> "استلام الاقوام لنبي او رسول." ;
+          rdfs:comment "استلم , استقبل ." ;
+          rdfs:isDefinedBy <http://purl.org/net/QS-onto/> ;
+          rdfs:label "received" .
+
+
+###  http://purl.org/net/QS-onto/reported
+:reported rdf:type owl:ObjectProperty ;
+          rdfs:domain :Surah ;
+          rdfs:range owl:Thing ;
+          <http://purl.org/dc/elements/1.1/description> "ذكر السورة القرانية لشيء ما ." ;
+          rdfs:comment "ذكرت" ;
+          rdfs:isDefinedBy <http://purl.org/net/QS-onto/> ;
+          rdfs:label "reported" .
+
+
+###  http://purl.org/net/QS-onto/sendTo
+:sendTo rdf:type owl:ObjectProperty ;
+        rdfs:domain :Messenger ;
+        rdfs:range :Nation ;
+        <http://purl.org/dc/elements/1.1/description> "ارسال النبي او الرسول الى قوما ما." ;
+        rdfs:comment "ارسل اللى" ;
+        rdfs:isDefinedBy <http://purl.org/net/QS-onto/> ;
+        rdfs:label "sendTo" .
+
+
+###  http://purl.org/net/QS-onto/swallow
+:swallow rdf:type owl:ObjectProperty ;
+         rdfs:domain :Animal ;
+         <http://purl.org/dc/elements/1.1/description> "ابتلاع الحيوان لشيء ما ." ;
+         rdfs:comment "ابتلع" ;
+         rdfs:isDefinedBy <http://purl.org/net/QS-onto/> ;
+         rdfs:label "swallow" .
+
+
+###  http://purl.org/net/QS-onto/targeted
+:targeted rdf:type owl:ObjectProperty ;
+          owl:inverseOf :targetedBy ;
+          rdfs:domain :God_Punishment ;
+          rdfs:range :Nation ;
+          <http://purl.org/dc/elements/1.1/description> "استهداف الحدث لقوم ما ." ;
+          rdfs:comment "استهدف" ;
+          rdfs:isDefinedBy <http://purl.org/net/QS-onto/> ;
+          rdfs:label "targeted" .
+
+
+###  http://purl.org/net/QS-onto/targetedBy
+:targetedBy rdf:type owl:ObjectProperty ;
+            rdfs:domain :Nation ;
+            rdfs:range :God_Punishment ;
+            <http://purl.org/dc/elements/1.1/description> "استهداف القوم بواسطة حدث ما ." ;
+            rdfs:comment "استُهدف من قبل" ;
+            rdfs:isDefinedBy <http://purl.org/net/QS-onto/> ;
+            rdfs:label "targetedBy" .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://purl.org/net/QS-onto/advise
+:advise rdf:type owl:DatatypeProperty ;
+        rdfs:domain :Prophet ;
+        rdfs:range rdfs:Literal ;
+        <http://purl.org/dc/elements/1.1/description> "النصحية المقدمة من النبي الى قومه." ;
+        rdfs:comment "نصح" ;
+        rdfs:isDefinedBy <http://purl.org/net/QS-onto/> ;
+        rdfs:label "advise" .
+
+
+###  http://purl.org/net/QS-onto/assignedBy
+:assignedBy rdf:type owl:DatatypeProperty ;
+            rdfs:domain [ rdf:type owl:Class ;
+                          owl:unionOf ( :Messenger
+                                        :Prophet
+                                      )
+                        ] ;
+            rdfs:range rdfs:Literal ;
+            <http://purl.org/dc/elements/1.1/description> "تكليف النبي او الرسول من قبل الله." ;
+            rdfs:comment "كُلف من قبل." ;
+            rdfs:isDefinedBy <http://purl.org/net/QS-onto/> ;
+            rdfs:label "assignedBy" .
+
+
+###  http://purl.org/net/QS-onto/happenedBy
+:happenedBy rdf:type owl:DatatypeProperty ;
+            rdfs:domain :Event ;
+            rdfs:range rdfs:Literal ;
+            <http://purl.org/dc/elements/1.1/description> "حدث تم حدوثه من قبل الله." ;
+            rdfs:comment "حدثَ بواسطة" ;
+            rdfs:isDefinedBy <http://purl.org/net/QS-onto/> ;
+            rdfs:label "happendBy" .
+
+
+###  http://purl.org/net/QS-onto/hasFather
+:hasFather rdf:type owl:DatatypeProperty ;
+           rdfs:subPropertyOf :hasParents ;
+           rdf:type owl:FunctionalProperty ;
+           rdfs:domain <http://xmlns.com/foaf/0.1/Person> ;
+           rdfs:range rdfs:Literal ;
+           <http://purl.org/dc/elements/1.1/description> "الاب لشخص ما ." ;
+           rdfs:comment "له أب" ;
+           rdfs:isDefinedBy <http://purl.org/net/QS-onto/> ;
+           rdfs:label "hasFather" .
+
+
+###  http://purl.org/net/QS-onto/hasMother
+:hasMother rdf:type owl:DatatypeProperty ;
+           rdfs:subPropertyOf :hasParents ;
+           rdf:type owl:FunctionalProperty ;
+           rdfs:domain <http://xmlns.com/foaf/0.1/Person> ;
+           rdfs:range rdfs:Literal ;
+           <http://purl.org/dc/elements/1.1/description> "الأم لشخص ما." ;
+           rdfs:comment "له أم" ;
+           rdfs:isDefinedBy <http://purl.org/net/QS-onto/> ;
+           rdfs:label "hasMother" .
+
+
+###  http://purl.org/net/QS-onto/hasName
+:hasName rdf:type owl:DatatypeProperty ,
+                  owl:FunctionalProperty ;
+         rdfs:domain owl:Thing ;
+         rdfs:range rdfs:Literal ;
+         <http://purl.org/dc/elements/1.1/description> "الاسم لشيء ما ." ;
+         rdfs:comment "له اسم" ;
+         rdfs:isDefinedBy <http://purl.org/net/QS-onto/> ;
+         rdfs:label "hasName" .
+
+
+###  http://purl.org/net/QS-onto/hasParents
+:hasParents rdf:type owl:DatatypeProperty ;
+            rdfs:domain <http://xmlns.com/foaf/0.1/Person> ;
+            rdfs:range rdfs:Literal ;
+            <http://purl.org/dc/elements/1.1/description> "الوالدان لشخص ما." ;
+            rdfs:comment "له والدان" ;
+            rdfs:isDefinedBy <http://purl.org/net/QS-onto/> ;
+            rdfs:label "hasParents" .
+
+
+###  http://purl.org/net/QS-onto/inVerse_Nu.
+<http://purl.org/net/QS-onto/inVerse_Nu.> rdf:type owl:DatatypeProperty ;
+                                          rdfs:domain owl:Thing ;
+                                          rdfs:range rdfs:Literal ;
+                                          <http://purl.org/dc/elements/1.1/description> "رقم الأية التي ذكر فيها شيء ما." ;
+                                          rdfs:comment "في الاية_رقم" ;
+                                          rdfs:isDefinedBy <http://purl.org/net/QS-onto/> ;
+                                          rdfs:label "inVerse_Nu." .
+
+
+###  http://purl.org/net/QS-onto/inVerse_Text
+:inVerse_Text rdf:type owl:DatatypeProperty ;
+              rdfs:subPropertyOf <http://purl.org/net/QS-onto/inVerse_Nu.> ;
+              rdfs:domain owl:Thing ;
+              rdfs:range rdfs:Literal ;
+              <http://purl.org/dc/elements/1.1/description> "نص الأية التي ذكرت الشيء." ;
+              rdfs:comment "نص الاية" ;
+              rdfs:isDefinedBy <http://purl.org/net/QS-onto/> ;
+              rdfs:label "inVerse_Text" .
+
+
+###  http://purl.org/net/QS-onto/lesson
+:lesson rdf:type owl:DatatypeProperty ;
+        rdfs:domain :Event ;
+        rdfs:range rdfs:Literal ;
+        rdfs:comment "الدرس او العبرة من الحدث." ;
+        rdfs:isDefinedBy <http://purl.org/net/QS-onto/> ;
+        rdfs:label "lesson" .
+
+
+###  http://purl.org/net/QS-onto/message
+:message rdf:type owl:DatatypeProperty ;
+         rdfs:domain :Messenger ;
+         rdfs:range rdfs:Literal ;
+         <http://purl.org/dc/elements/1.1/description> "الرسالة التي حملها الرسول لقومه." ;
+         rdfs:comment "الرسالة" ;
+         rdfs:isDefinedBy <http://www.semanticweb.org/quran_s_ontology> ;
+         rdfs:label "message" .
+
+
+###  http://purl.org/net/QS-onto/nameRepeat
+:nameRepeat rdf:type owl:DatatypeProperty ;
+            rdfs:domain owl:Thing ;
+            rdfs:range rdfs:Literal ;
+            <http://purl.org/dc/elements/1.1/description> "عدد المرات التي تكرر فيها اسم شيء ما" ;
+            rdfs:comment "تكرار الاسم" ;
+            rdfs:isDefinedBy <http://purl.org/net/QS-onto/> ;
+            rdfs:label "nameRepeat" .
+
+
+###  http://purl.org/net/QS-onto/overturnedFrom
+:overturnedFrom rdf:type owl:DatatypeProperty ;
+                rdfs:domain :Animal ;
+                rdfs:range rdfs:Literal ;
+                <http://purl.org/dc/elements/1.1/description> "انقلاب الشي من شيئ اخر مثلا \" انقلاب عصى موسى الى ثعبان\"." ;
+                rdfs:comment "منقلب من" ;
+                rdfs:isDefinedBy <http://purl.org/net/QS-onto/> ;
+                rdfs:label "overturnedFrom" .
+
+
+###  http://purl.org/net/QS-onto/reasonFor_Mention
+:reasonFor_Mention rdf:type owl:DatatypeProperty ;
+                   rdfs:domain :Animal ;
+                   rdfs:range rdfs:Literal ;
+                   <http://purl.org/dc/elements/1.1/description> "سبب ذكر حيوان معين في القران." ;
+                   rdfs:comment "سبب الذكر" ;
+                   rdfs:isDefinedBy <http://purl.org/net/QS-onto/> ;
+                   rdfs:label "reasonFor_Mention" .
+
+
+###  http://www.semanticweb.org/quran_s_ontology#don'tHave
+<http://www.semanticweb.org/quran_s_ontology#don'tHave> rdf:type owl:DatatypeProperty ;
+                                                        rdfs:domain <http://xmlns.com/foaf/0.1/Person> ;
+                                                        rdfs:range rdfs:Literal ;
+                                                        <http://purl.org/dc/elements/1.1/description> "عدم امتلاك الشخص لشيء ما." ;
+                                                        rdfs:comment "لا يملك" ;
+                                                        rdfs:isDefinedBy <http://purl.org/net/QS-onto/> ;
+                                                        rdfs:label "don'tHave" .
+
+
+###  http://www.semanticweb.org/quran_s_ontology#it'sEnd
+<http://www.semanticweb.org/quran_s_ontology#it'sEnd> rdf:type owl:DatatypeProperty ;
+                                                      rdfs:domain :Infidel ;
+                                                      rdfs:range rdfs:Literal ;
+                                                      rdfs:comment "نهاية الكافر." ;
+                                                      rdfs:isDefinedBy <http://purl.org/net/QS-onto/> ;
+                                                      rdfs:label "it'sEnd" .
+
+
+###  http://xmlns.com/foaf/0.1/age
+<http://xmlns.com/foaf/0.1/age> rdfs:domain <http://xmlns.com/foaf/0.1/Person> .
+
+
+###  http://xmlns.com/foaf/0.1/birthday
+<http://xmlns.com/foaf/0.1/birthday> rdfs:domain <http://xmlns.com/foaf/0.1/Person> .
+
+
+###  http://xmlns.com/foaf/0.1/familyName
+<http://xmlns.com/foaf/0.1/familyName> rdfs:domain <http://xmlns.com/foaf/0.1/Person> .
+
+
+###  http://xmlns.com/foaf/0.1/gender
+<http://xmlns.com/foaf/0.1/gender> rdfs:domain <http://xmlns.com/foaf/0.1/Person> .
+
+
+###  http://xmlns.com/foaf/0.1/nick
+<http://xmlns.com/foaf/0.1/nick> rdfs:domain <http://xmlns.com/foaf/0.1/Person> ;
+                                 rdfs:range rdfs:Literal .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://purl.org/net/QS-onto/AfterLive_Event
+:AfterLive_Event rdf:type owl:Class ;
+                 rdfs:subClassOf :Event ;
+                 rdfs:comment "احداث ما بعد الحياة" ;
+                 rdfs:isDefinedBy <http://purl.org/net/QS-onto/> ;
+                 rdfs:label "AfterLive_Event" .
+
+
+###  http://purl.org/net/QS-onto/Animal
+:Animal rdf:type owl:Class ;
+        rdfs:subClassOf owl:Thing .
+
+
+###  http://purl.org/net/QS-onto/Bird
+:Bird rdf:type owl:Class ;
+      rdfs:subClassOf :Animal .
+
+
+###  http://purl.org/net/QS-onto/BirthPlace
+:BirthPlace rdf:type owl:Class ;
+            rdfs:subClassOf :Place ;
+            rdfs:comment "مكان ولاده" ;
+            rdfs:isDefinedBy <http://purl.org/net/QS-onto/> ;
+            rdfs:label "BirthPlace" .
+
+
+###  http://purl.org/net/QS-onto/Book
+:Book rdf:type owl:Class ;
+      rdfs:subClassOf owl:Thing .
+
+
+###  http://purl.org/net/QS-onto/Chapter
+:Chapter rdf:type owl:Class ;
+         rdfs:subClassOf owl:Thing .
+
+
+###  http://purl.org/net/QS-onto/City
+:City rdf:type owl:Class ;
+      owl:equivalentClass :LivePlace ;
+      rdfs:subClassOf :Place ;
+      rdfs:comment "المدينة" ;
+      rdfs:isDefinedBy <http://purl.org/net/QS-onto/> ;
+      rdfs:label "City" .
+
+
+###  http://purl.org/net/QS-onto/Civilian_Surah
+:Civilian_Surah rdf:type owl:Class ;
+                rdfs:subClassOf :Surah ;
+                rdfs:comment "السورة المدنية" ;
+                rdfs:isDefinedBy <http://purl.org/net/QS-onto/> ;
+                rdfs:label "Civilian_Surah" .
+
+
+###  http://purl.org/net/QS-onto/Date
+:Date rdf:type owl:Class ;
+      rdfs:subClassOf owl:Thing ;
+      rdfs:comment "التاريخ." ;
+      rdfs:isDefinedBy <http://purl.org/net/QS-onto/> ;
+      rdfs:label "Date" .
+
+
+###  http://purl.org/net/QS-onto/Event
+:Event rdf:type owl:Class ;
+       rdfs:subClassOf owl:Thing ;
+       rdfs:comment "الحدث." ;
+       rdfs:isDefinedBy <http://purl.org/net/QS-onto/> ;
+       rdfs:label "Event" .
+
+
+###  http://purl.org/net/QS-onto/Event_Tool
+:Event_Tool rdf:type owl:Class ;
+            rdfs:subClassOf owl:Thing ;
+            rdfs:comment "أداة الحدث." ;
+            rdfs:isDefinedBy <http://purl.org/net/QS-onto/> ;
+            rdfs:label "Event_Tool" .
+
+
+###  http://purl.org/net/QS-onto/God_Comanded
+:God_Comanded rdf:type owl:Class ;
+              rdfs:subClassOf :HistoricEvent ;
+              rdfs:comment "الأمر الألهي." ;
+              rdfs:isDefinedBy <http://purl.org/net/QS-onto/> ;
+              rdfs:label "God_Comanded" .
+
+
+###  http://purl.org/net/QS-onto/God_Punishment
+:God_Punishment rdf:type owl:Class ;
+                rdfs:subClassOf :HistoricEvent ;
+                rdfs:comment "العقاب الألهي" ;
+                rdfs:isDefinedBy <http://purl.org/net/QS-onto/> ;
+                rdfs:label "God_punishment" .
+
+
+###  http://purl.org/net/QS-onto/HistoricEvent
+:HistoricEvent rdf:type owl:Class ;
+               rdfs:subClassOf :Event ;
+               rdfs:comment "الاحداث التاريخية" ;
+               rdfs:isDefinedBy <http://purl.org/net/QS-onto/> ;
+               rdfs:label "HistoricEvent" .
+
+
+###  http://purl.org/net/QS-onto/Honoring
+:Honoring rdf:type owl:Class ;
+          rdfs:subClassOf :HistoricEvent ;
+          rdfs:comment "التكريم الألهي" ;
+          rdfs:isDefinedBy <http://purl.org/net/QS-onto/> ;
+          rdfs:label "Honoring" .
+
+
+###  http://purl.org/net/QS-onto/Infidel
+:Infidel rdf:type owl:Class ;
+         rdfs:subClassOf <http://xmlns.com/foaf/0.1/Person> ;
+         rdfs:comment "الكافر." ;
+         rdfs:isDefinedBy <http://purl.org/net/QS-onto/> ;
+         rdfs:label "Infidel" .
+
+
+###  http://purl.org/net/QS-onto/Insect
+:Insect rdf:type owl:Class ;
+        rdfs:subClassOf :Animal .
+
+
+###  http://purl.org/net/QS-onto/LivePlace
+:LivePlace rdf:type owl:Class ;
+           rdfs:subClassOf :Place ;
+           rdfs:comment "مكان العيش." ;
+           rdfs:isDefinedBy <http://purl.org/net/QS-onto/> ;
+           rdfs:label "LivePlace" .
+
+
+###  http://purl.org/net/QS-onto/Mammal
+:Mammal rdf:type owl:Class ;
+        rdfs:subClassOf :Animal .
+
+
+###  http://purl.org/net/QS-onto/Meccan_Surah
+:Meccan_Surah rdf:type owl:Class ;
+              rdfs:subClassOf :Surah ;
+              rdfs:comment "السورة المكية" ;
+              rdfs:isDefinedBy <http://purl.org/net/QS-onto/> ;
+              rdfs:label "Meccan_Surah" .
+
+
+###  http://purl.org/net/QS-onto/Messenger
+:Messenger rdf:type owl:Class ;
+           rdfs:subClassOf <http://xmlns.com/foaf/0.1/Person> .
+
+
+###  http://purl.org/net/QS-onto/Miracles
+:Miracles rdf:type owl:Class ;
+          rdfs:subClassOf :HistoricEvent ;
+          rdfs:comment "المعجزات" ;
+          rdfs:isDefinedBy <http://purl.org/net/QS-onto/> ;
+          rdfs:label "Miracles" .
+
+
+###  http://purl.org/net/QS-onto/MissionPlace
+:MissionPlace rdf:type owl:Class ;
+              rdfs:subClassOf :Place ;
+              rdfs:comment "مكان البعثه." ;
+              rdfs:isDefinedBy <http://purl.org/net/QS-onto/> ;
+              rdfs:label "MissionPlace" .
+
+
+###  http://purl.org/net/QS-onto/Nation
+:Nation rdf:type owl:Class ;
+        rdfs:subClassOf <http://xmlns.com/foaf/0.1/Person> ;
+        rdfs:comment "القوم." ;
+        rdfs:isDefinedBy <http://purl.org/net/QS-onto/> ;
+        rdfs:label "Nation" .
+
+
+###  http://purl.org/net/QS-onto/Place
+:Place rdf:type owl:Class ;
+       rdfs:subClassOf owl:Thing .
+
+
+###  http://purl.org/net/QS-onto/Prophet
+:Prophet rdf:type owl:Class ;
+         rdfs:subClassOf <http://xmlns.com/foaf/0.1/Person> .
+
+
+###  http://purl.org/net/QS-onto/Reptile
+:Reptile rdf:type owl:Class ;
+         rdfs:subClassOf :Animal .
+
+
+###  http://purl.org/net/QS-onto/Righteou
+:Righteou rdf:type owl:Class ;
+          rdfs:subClassOf <http://xmlns.com/foaf/0.1/Person> ;
+          rdfs:comment "الصالح." ;
+          rdfs:isDefinedBy <http://purl.org/net/QS-onto/> ;
+          rdfs:label "Righteou" .
+
+
+###  http://purl.org/net/QS-onto/Surah
+:Surah rdf:type owl:Class ;
+       rdfs:subClassOf owl:Thing .
+
+
+###  http://purl.org/net/QS-onto/Verse
+:Verse rdf:type owl:Class ;
+       rdfs:subClassOf owl:Thing .
+
+
+###  http://xmlns.com/foaf/0.1/Person
+<http://xmlns.com/foaf/0.1/Person> rdfs:subClassOf owl:Thing .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://dbpedia.org/ontology/Animal
+<http://dbpedia.org/ontology/Animal> rdf:type owl:NamedIndividual ;
+                                     owl:sameAs :Animal .
+
+
+###  http://dbpedia.org/ontology/Book
+<http://dbpedia.org/ontology/Book> rdf:type owl:NamedIndividual ;
+                                   owl:sameAs :Book .
+
+
+###  http://dbpedia.org/ontology/Person
+<http://dbpedia.org/ontology/Person> rdf:type owl:NamedIndividual ;
+                                     owl:sameAs <http://xmlns.com/foaf/0.1/Person> .
+
+
+###  http://purl.org/dc/terms/isPartOf
+<http://purl.org/dc/terms/isPartOf> rdf:type owl:NamedIndividual ;
+                                    owl:sameAs :partOf .
+
+
+###  http://purl.org/net/QS-onto/Animal
+:Animal rdf:type owl:NamedIndividual ;
+        owl:sameAs <https://en.wikipedia.org/wiki/Animal> ,
+                   <https://www.wikidata.org/wiki/Q729> .
+
+
+###  http://purl.org/net/QS-onto/Bird
+:Bird rdf:type owl:NamedIndividual ;
+      owl:sameAs <https://dbpedia.org/ontology/Bird> ,
+                 <https://en.wikipedia.org/wiki/Bird> .
+
+
+###  http://purl.org/net/QS-onto/Book
+:Book rdf:type owl:NamedIndividual ;
+      owl:sameAs <https://www.wikidata.org/wiki/Q571> .
+
+
+###  http://purl.org/net/QS-onto/Chapter
+:Chapter rdf:type owl:NamedIndividual ;
+         owl:sameAs <https://www.wikidata.org/wiki/Q1980247> .
+
+
+###  http://purl.org/net/QS-onto/Insect
+:Insect rdf:type owl:NamedIndividual ;
+        owl:sameAs <https://dbpedia.org/ontology/Insect> ,
+                   <https://en.wikipedia.org/wiki/Insect> .
+
+
+###  http://purl.org/net/QS-onto/Mammal
+:Mammal rdf:type owl:NamedIndividual ;
+        owl:sameAs <https://dbpedia.org/ontology/Mammal> ,
+                   <https://en.wikipedia.org/wiki/Mammal> .
+
+
+###  http://purl.org/net/QS-onto/Messenger
+:Messenger rdf:type owl:NamedIndividual ;
+           owl:sameAs <https://en.wikipedia.org/wiki/Prophets_and_messengers_in_Islam> .
+
+
+###  http://purl.org/net/QS-onto/Place
+:Place rdf:type owl:NamedIndividual ;
+       owl:sameAs <https://dbpedia.org/ontology/Place> .
+
+
+###  http://purl.org/net/QS-onto/Prophet
+:Prophet rdf:type owl:NamedIndividual ;
+         owl:sameAs <https://en.wikipedia.org/wiki/Prophets_and_messengers_in_Islam> .
+
+
+###  http://purl.org/net/QS-onto/Reptile
+:Reptile rdf:type owl:NamedIndividual ;
+         owl:sameAs <https://dbpedia.org/ontology/Reptile> ,
+                    <https://en.wikipedia.org/wiki/Reptile> .
+
+
+###  http://purl.org/net/QS-onto/Surah
+:Surah rdf:type owl:NamedIndividual ;
+       owl:sameAs <https://www.wikidata.org/wiki/Q234262> .
+
+
+###  http://purl.org/net/QS-onto/Verse
+:Verse rdf:type owl:NamedIndividual ;
+       owl:sameAs <https://www.wikidata.org/wiki/Q188219> .
+
+
+###  http://purl.org/net/QS-onto/anim1
+:anim1 rdf:type owl:NamedIndividual ,
+                :Bird ;
+       :appearedWith :per1 ;
+       :mentionedIn :surah20 ;
+       :hasName "Crow" ;
+       <http://purl.org/net/QS-onto/inVerse_Nu.> "Al-Mā’idah31" ;
+       :inVerse_Text "فَبَعَثَ اللَّهُ غُرَابًا يَبْحَثُ فِي الْأَرْضِ لِيُرِيَهُ كَيْفَ يُوَارِي سَوْءَةَ أَخِيهِ قَالَ يَا وَيْلَتَا أَعَجَزْتُ أَنْ أَكُونَ مِثْلَ هَٰذَا الْغُرَابِ فَأُوَارِيَ سَوْءَةَ أَخِي فَأَصْبَحَ مِنَ النَّادِمِينَ" ;
+       :reasonFor_Mention "To show the son of Adam how to hide the body of his brother who killed him" ;
+       <http://xmlns.com/foaf/0.1/name> "غراب ابني ادم" ;
+       rdfs:isDefinedBy <http://purl.org/net/QS-onto/> .
+
+
+###  http://purl.org/net/QS-onto/anim2
+:anim2 rdf:type owl:NamedIndividual ,
+                :Mammal ;
+       :appearedWith :per15 ;
+       :mentionedIn :surah14 ;
+       :hasName "Camel" ;
+       <http://purl.org/net/QS-onto/inVerse_Nu.> "Al_qamar 27" ;
+       :inVerse_Text "إِنَّا مُرْسِلُو النَّاقَةِ فِتْنَةً لَهُمْ فَارْتَقِبْهُمْ وَاصْطَبِرْ" ;
+       :reasonFor_Mention "trial for Salih's nation " ;
+       <http://xmlns.com/foaf/0.1/name> "الناقة" .
+
+
+###  http://purl.org/net/QS-onto/anim3
+:anim3 rdf:type owl:NamedIndividual ,
+                :Mammal ;
+       :appearedWith :per14 ;
+       :mentionedIn :surah15 ;
+       :swallow :per14 ;
+       :hasName "Whale" ;
+       <http://purl.org/net/QS-onto/inVerse_Nu.> "Alsaafaat142" ;
+       :inVerse_Text "فَالْتَقَمَهُ الْحُوتُ وَهُوَ مُلِيمٌ" ;
+       <http://xmlns.com/foaf/0.1/name> "الحوت" .
+
+
+###  http://purl.org/net/QS-onto/anim4
+:anim4 rdf:type owl:NamedIndividual ,
+                :Bird ;
+       :appearedWith :per19 ;
+       :mentionedIn :surah16 ;
+       :hasName "Hoopoe" ;
+       <http://purl.org/net/QS-onto/inVerse_Nu.> "Alnaml20" ;
+       :inVerse_Text "وَتَفَقَّدَ الطَّيْرَ فَقَالَ مَا لِيَ لَا أَرَى الْهُدْهُدَ أَمْ كَانَ مِنَ الْغَائِبِينَ" ;
+       :reasonFor_Mention "the hoopoe have come to Sulaiman from Sheba with certain news" ;
+       rdfs:comment "هدهد سليمان" .
+
+
+###  http://purl.org/net/QS-onto/anim5
+:anim5 rdf:type owl:NamedIndividual ,
+                :Insect ;
+       :appearedWith :per19 ;
+       :mentionedIn :surah16 ;
+       :hasName "ant" ;
+       <http://purl.org/net/QS-onto/inVerse_Nu.> "Al-Naml18" ;
+       :inVerse_Text "حَتَّىٰ إِذَا أَتَوْا عَلَىٰ وَادِ النَّمْلِ قَالَتْ نَمْلَةٌ يَا أَيُّهَا النَّمْلُ ادْخُلُوا مَسَاكِنَكُمْ لَا يَحْطِمَنَّكُمْ سُلَيْمَانُ وَجُنُودُهُ وَهُمْ لَا يَشْعُرُونَ" ;
+       <http://xmlns.com/foaf/0.1/name> "النملة" .
+
+
+###  http://purl.org/net/QS-onto/anim6
+:anim6 rdf:type owl:NamedIndividual ,
+                :Reptile ;
+       :appearedWith :per16 ;
+       :mentionedIn :surah5 ;
+       :hasName "snack" ;
+       <http://purl.org/net/QS-onto/inVerse_Nu.> "Al-A‘rāf107" ;
+       :inVerse_Text "فَأَلْقَىٰ عَصَاهُ فَإِذَا هِيَ ثُعْبَانٌ مُّبِينٌ" ;
+       :overturnedFrom "Stick" ;
+       :reasonFor_Mention "God made it sign to Pharaoh and his people" ;
+       <http://xmlns.com/foaf/0.1/name> "الثعبان" .
+
+
+###  http://purl.org/net/QS-onto/book1
+:book1 rdf:type owl:NamedIndividual ,
+                :Book ;
+       :gaveTo :per18 ;
+       :mentionedIn :surah26 ;
+       :hasName "Zabur" ;
+       <http://purl.org/net/QS-onto/inVerse_Nu.> "Al-Isrā55" ;
+       :inVerse_Text "وَرَبُّكَ أَعۡلَمُ بِمَن فِي ٱلسَّمَٰوَٰتِ وَٱلۡأَرۡضِۗ وَلَقَدۡ فَضَّلۡنَا بَعۡضَ ٱلنَّبِيِّـۧنَ عَلَىٰ بَعۡضٖۖ وَءَاتَيۡنَا دَاوُۥدَ زَبُورٗا" ;
+       <http://xmlns.com/foaf/0.1/name> "الزبور" ;
+       rdfs:comment "هو الكتاب الذي اعطاه الله سبحانه وتعالى الى النبي داوود (عليه السلام) والذي يتضمن تعاليم الدين الاسلامي انذاك." .
+
+
+###  http://purl.org/net/QS-onto/book2
+:book2 rdf:type owl:NamedIndividual ,
+                :Book ;
+       :gaveTo :per16 ;
+       :mentionedIn :surah20 ;
+       :hasName "Torah" ;
+       <http://purl.org/net/QS-onto/inVerse_Nu.> "Al-Mā’idah46" ;
+       :inVerse_Text "وَقَفَّيۡنَا عَلَىٰٓ ءَاثَٰرِهِم بِعِيسَى ٱبۡنِ مَرۡيَمَ مُصَدِّقٗا لِّمَا بَيۡنَ يَدَيۡهِ مِنَ ٱلتَّوۡرَىٰةِۖ وَءَاتَيۡنَٰهُ ٱلۡإِنجِيلَ فِيهِ هُدٗى وَنُورٞ وَمُصَدِّقٗا لِّمَا بَيۡنَ يَدَيۡهِ مِنَ ٱلتَّوۡرَىٰةِ وَهُدٗى وَمَوۡعِظَةٗ لِّلۡمُتَّقِينَ" ;
+       <http://xmlns.com/foaf/0.1/name> "التوراة" .
+
+
+###  http://purl.org/net/QS-onto/book3
+:book3 rdf:type owl:NamedIndividual ,
+                :Book ;
+       :gaveTo :per24 ;
+       :mentionedIn :surah20 ;
+       :hasName "Gospel" ;
+       <http://purl.org/net/QS-onto/inVerse_Nu.> "Al-Mā’idah46" ;
+       :inVerse_Text "وَقَفَّيۡنَا عَلَىٰٓ ءَاثَٰرِهِم بِعِيسَى ٱبۡنِ مَرۡيَمَ مُصَدِّقٗا لِّمَا بَيۡنَ يَدَيۡهِ مِنَ ٱلتَّوۡرَىٰةِۖ وَءَاتَيۡنَٰهُ ٱلۡإِنجِيلَ فِيهِ هُدٗى وَنُورٞ وَمُصَدِّقٗا لِّمَا بَيۡنَ يَدَيۡهِ مِنَ ٱلتَّوۡرَىٰةِ وَهُدٗى وَمَوۡعِظَةٗ لِّلۡمُتَّقِينَ" ;
+       <http://xmlns.com/foaf/0.1/name> "الانجيل" .
+
+
+###  http://purl.org/net/QS-onto/book4
+:book4 rdf:type owl:NamedIndividual ,
+                :Book ;
+       :consisitOf :surah1 ,
+                   :surah10 ,
+                   :surah11 ,
+                   :surah12 ,
+                   :surah13 ,
+                   :surah14 ,
+                   :surah15 ,
+                   :surah16 ,
+                   :surah17 ,
+                   :surah18 ,
+                   :surah19 ,
+                   :surah2 ,
+                   :surah20 ,
+                   :surah21 ,
+                   :surah22 ,
+                   :surah23 ,
+                   :surah24 ,
+                   :surah25 ,
+                   :surah26 ,
+                   :surah27 ,
+                   :surah28 ,
+                   :surah3 ,
+                   :surah4 ,
+                   :surah5 ,
+                   :surah6 ,
+                   :surah7 ,
+                   :surah8 ,
+                   :surah9 ;
+       :gaveTo :per25 ;
+       :mentionedIn :surah1 ;
+       :hasName "Quran" ;
+       <http://purl.org/net/QS-onto/inVerse_Nu.> "Al-Baqarah185" ;
+       :inVerse_Text "شَهۡرُ رَمَضَانَ ٱلَّذِيٓ أُنزِلَ فِيهِ ٱلۡقُرۡءَانُ هُدٗى لِّلنَّاسِ وَبَيِّنَٰتٖ مِّنَ ٱلۡهُدَىٰ وَٱلۡفُرۡقَانِۚ فَمَن شَهِدَ مِنكُمُ ٱلشَّهۡرَ فَلۡيَصُمۡهُۖ وَمَن كَانَ مَرِيضًا أَوۡ عَلَىٰ سَفَرٖ فَعِدَّةٞ مِّنۡ أَيَّامٍ أُخَرَۗ يُرِيدُ ٱللَّهُ بِكُمُ ٱلۡيُسۡرَ وَلَا يُرِيدُ بِكُمُ ٱلۡعُسۡرَ وَلِتُكۡمِلُواْ ٱلۡعِدَّةَ وَلِتُكَبِّرُواْ ٱللَّهَ عَلَىٰ مَا هَدَىٰكُمۡ وَلَعَلَّكُمۡ تَشۡكُرُونَ" ;
+       <http://xmlns.com/foaf/0.1/name> "القران الكريم" ;
+       <http://purl.org/dc/elements/1.1/description> "الكتاب المقدّس عند المسلمين" .
+
+
+###  http://purl.org/net/QS-onto/ch1
+:ch1 rdf:type owl:NamedIndividual ,
+              :Chapter ;
+     :consisitOf :surah1 ;
+     :hasName "Juz1" ;
+     <http://xmlns.com/foaf/0.1/name> "الجزء الاول" .
+
+
+###  http://purl.org/net/QS-onto/ch10
+:ch10 rdf:type owl:NamedIndividual ,
+               :Chapter ;
+      :consisitOf :surah27 ;
+      :hasName "Juz10" ;
+      <http://xmlns.com/foaf/0.1/name> "الجزء الثاني" .
+
+
+###  http://purl.org/net/QS-onto/ch11
+:ch11 rdf:type owl:NamedIndividual ,
+               :Chapter ;
+      :consisitOf :surah4 ;
+      :hasName "Juz11" ;
+      <http://xmlns.com/foaf/0.1/name> "الجزء الثالث" .
+
+
+###  http://purl.org/net/QS-onto/ch12
+:ch12 rdf:type owl:NamedIndividual ,
+               :Chapter ;
+      :consisitOf :surah22 ;
+      :hasName "Juz12" .
+
+
+###  http://purl.org/net/QS-onto/ch13
+:ch13 rdf:type owl:NamedIndividual ,
+               :Chapter ;
+      :hasName "Juz13" .
+
+
+###  http://purl.org/net/QS-onto/ch14
+:ch14 rdf:type owl:NamedIndividual ,
+               :Chapter ;
+      :consisitOf :surah25 ;
+      :hasName "Juz14" .
+
+
+###  http://purl.org/net/QS-onto/ch15
+:ch15 rdf:type owl:NamedIndividual ,
+               :Chapter ;
+      :consisitOf :surah12 ,
+                  :surah26 ;
+      :hasName "Juz15" .
+
+
+###  http://purl.org/net/QS-onto/ch16
+:ch16 rdf:type owl:NamedIndividual ,
+               :Chapter ;
+      :consisitOf :surah2 ;
+      :hasName "Juz16" .
+
+
+###  http://purl.org/net/QS-onto/ch17
+:ch17 rdf:type owl:NamedIndividual ,
+               :Chapter ;
+      :consisitOf :surah7 ;
+      :hasName "Juz17" .
+
+
+###  http://purl.org/net/QS-onto/ch18
+:ch18 rdf:type owl:NamedIndividual ,
+               :Chapter ;
+      :consisitOf :surah19 ,
+                  :surah3 ;
+      :hasName "Juz18" .
+
+
+###  http://purl.org/net/QS-onto/ch19
+:ch19 rdf:type owl:NamedIndividual ,
+               :Chapter ;
+      :consisitOf :surah16 ,
+                  :surah17 ;
+      :hasName "Juz19" .
+
+
+###  http://purl.org/net/QS-onto/ch2
+:ch2 rdf:type owl:NamedIndividual ,
+              :Chapter ;
+     :consisitOf :surah1 ;
+     :hasName "Juz2" .
+
+
+###  http://purl.org/net/QS-onto/ch20
+:ch20 rdf:type owl:NamedIndividual ,
+               :Chapter ;
+      :consisitOf :surah23 ;
+      :hasName "Juz20" .
+
+
+###  http://purl.org/net/QS-onto/ch21
+:ch21 rdf:type owl:NamedIndividual ,
+               :Chapter ;
+      :consisitOf :surah11 ;
+      :hasName "Juz21" .
+
+
+###  http://purl.org/net/QS-onto/ch22
+:ch22 rdf:type owl:NamedIndividual ,
+               :Chapter ;
+      :hasName "Juz22" .
+
+
+###  http://purl.org/net/QS-onto/ch23
+:ch23 rdf:type owl:NamedIndividual ,
+               :Chapter ;
+      :consisitOf :surah15 ;
+      :hasName "Juz23" .
+
+
+###  http://purl.org/net/QS-onto/ch24
+:ch24 rdf:type owl:NamedIndividual ,
+               :Chapter ;
+      :hasName "Juz24" .
+
+
+###  http://purl.org/net/QS-onto/ch25
+:ch25 rdf:type owl:NamedIndividual ,
+               :Chapter ;
+      :hasName "Juz25" .
+
+
+###  http://purl.org/net/QS-onto/ch26
+:ch26 rdf:type owl:NamedIndividual ,
+               :Chapter ;
+      :consisitOf :surah28 ,
+                  :surah9 ;
+      :hasName "Juz26" .
+
+
+###  http://purl.org/net/QS-onto/ch27
+:ch27 rdf:type owl:NamedIndividual ,
+               :Chapter ;
+      :consisitOf :surah14 ;
+      :hasName "Juz27" .
+
+
+###  http://purl.org/net/QS-onto/ch28
+:ch28 rdf:type owl:NamedIndividual ,
+               :Chapter ;
+      :consisitOf :surah13 ;
+      :hasName "Juz28" .
+
+
+###  http://purl.org/net/QS-onto/ch29
+:ch29 rdf:type owl:NamedIndividual ,
+               :Chapter ;
+      :consisitOf :surah18 ;
+      :hasName "Juz29" .
+
+
+###  http://purl.org/net/QS-onto/ch3
+:ch3 rdf:type owl:NamedIndividual ,
+              :Chapter ;
+     :consisitOf :surah10 ;
+     :hasName "Juz3" .
+
+
+###  http://purl.org/net/QS-onto/ch30
+:ch30 rdf:type owl:NamedIndividual ,
+               :Chapter ;
+      :consisitOf :surah21 ,
+                  :surah24 ;
+      :hasName "Juz30" .
+
+
+###  http://purl.org/net/QS-onto/ch4
+:ch4 rdf:type owl:NamedIndividual ,
+              :Chapter ;
+     :consisitOf :surah8 ;
+     :hasName "Juz4" .
+
+
+###  http://purl.org/net/QS-onto/ch5
+:ch5 rdf:type owl:NamedIndividual ,
+              :Chapter ;
+     :hasName "Juz5" .
+
+
+###  http://purl.org/net/QS-onto/ch6
+:ch6 rdf:type owl:NamedIndividual ,
+              :Chapter ;
+     :consisitOf :surah20 ;
+     :hasName "Juz6" .
+
+
+###  http://purl.org/net/QS-onto/ch7
+:ch7 rdf:type owl:NamedIndividual ,
+              :Chapter ;
+     :consisitOf :surah6 ;
+     :hasName "Juz7" .
+
+
+###  http://purl.org/net/QS-onto/ch8
+:ch8 rdf:type owl:NamedIndividual ,
+              :Chapter ;
+     :consisitOf :surah5 ;
+     :hasName "Juz8" .
+
+
+###  http://purl.org/net/QS-onto/ch9
+:ch9 rdf:type owl:NamedIndividual ,
+              :Chapter ;
+     :hasName "Juz9" .
+
+
+###  http://purl.org/net/QS-onto/ev1
+:ev1 rdf:type owl:NamedIndividual ,
+              :Honoring ;
+     :honoringTo :per1 ;
+     :mentionedIn :surah1 ;
+     :happenedBy "God" ;
+     :hasName "Prostration of angels" ;
+     <http://purl.org/net/QS-onto/inVerse_Nu.> "Al-Baqarah34" ;
+     :inVerse_Text "وَإِذْ قُلْنَا لِلْمَلَائِكَةِ اسْجُدُوا لِآدَمَ فَسَجَدُوا إِلَّا إِبْلِيسَ أَبَى وَاسْتَكْبَرَ وَكَانَ مِنَ الْكَافِرِينَ " ;
+     :lesson "Honorable and honor him" ;
+     <http://xmlns.com/foaf/0.1/name> "سجود الملائكة" .
+
+
+###  http://purl.org/net/QS-onto/ev10
+:ev10 rdf:type owl:NamedIndividual ,
+               :Miracles ;
+      :endowedTo :per6 ;
+      :mentionedIn :surah7 ;
+      :happenedBy "God" ;
+      :hasName "fire goes out" ;
+      <http://purl.org/net/QS-onto/inVerse_Nu.> "Al-Anbiyā69" ;
+      :inVerse_Text "قُلْنَا يَا نَارُ كُونِي بَرْدًا وَسَلَامًا عَلَىٰ إِبْرَاهِيمَ" ;
+      :lesson "God made it for mankind a sign" ;
+      <http://xmlns.com/foaf/0.1/name> "انطفاء النار" .
+
+
+###  http://purl.org/net/QS-onto/ev11
+:ev11 rdf:type owl:NamedIndividual ,
+               :Miracles ;
+      :endowedTo :per3 ;
+      :mentionedIn :surah23 ;
+      :happenedBy "God" ;
+      :hasName "ship" ;
+      <http://purl.org/net/QS-onto/inVerse_Nu.> "Al-‘Ankabūt15" ;
+      :inVerse_Text "فَأَنجَيۡنَٰهُ وَأَصۡحَٰبَ ٱلسَّفِينَةِ وَجَعَلۡنَٰهَآ ءَايَةٗ لِّلۡعَٰلَمِينَ" ;
+      :lesson "God made it for mankind a sign" ;
+      <http://xmlns.com/foaf/0.1/name> "السفينة" .
+
+
+###  http://purl.org/net/QS-onto/ev12
+:ev12 rdf:type owl:NamedIndividual ,
+               :Miracles ;
+      :endowedTo :per5 ;
+      :mentionedIn :surah5 ;
+      :happenedBy "God" ;
+      :hasName "camel of Allāh" ;
+      <http://purl.org/net/QS-onto/inVerse_Nu.> "Al-A‘rāf73" ;
+      :inVerse_Text "وَإِلَى ثَمُودَ أَخَاهُمْ صَالِحًا قَالَ يَا قَوْمِ اعْبُدُوا اللَّهَ مَا لَكُمْ مِنْ إِلَهٍ غَيْرُهُ قَدْ جَاءَتْكُمْ بَيِّنَةٌ مِنْ رَبِّكُمْ هَذِهِ نَاقَةُ اللَّهِ لَكُمْ آيَةً فَذَرُوهَا تَأْكُلْ فِي أَرْضِ اللَّهِ وَلَا تَمَسُّوهَا بِسُوءٍ فَيَأْخُذَكُمْ عَذَابٌ أَلِيمٌ" ;
+      :lesson "God made it for mankind a sign" ;
+      <http://xmlns.com/foaf/0.1/name> "ناقة صالح" .
+
+
+###  http://purl.org/net/QS-onto/ev13
+:ev13 rdf:type owl:NamedIndividual ,
+               :Miracles ;
+      :endowedTo :per16 ;
+      :mentionedIn :surah16 ;
+      :happenedBy "God" ;
+      :hasName "White hand" ;
+      <http://purl.org/net/QS-onto/inVerse_Nu.> "Al-Naml12" ;
+      :inVerse_Text "وَأَدۡخِلۡ يَدَكَ فِي جَيۡبِكَ تَخۡرُجۡ بَيۡضَآءَ مِنۡ غَيۡرِ سُوٓءٖۖ فِي تِسۡعِ ءَايَٰتٍ إِلَىٰ فِرۡعَوۡنَ وَقَوۡمِهِۦٓۚ إِنَّهُمۡ كَانُواْ قَوۡمٗا فَٰسِقِينَ" ;
+      :lesson "God made it sign to Pharaoh and his people" ;
+      <http://xmlns.com/foaf/0.1/name> "اليد البيضاء" .
+
+
+###  http://purl.org/net/QS-onto/ev14
+:ev14 rdf:type owl:NamedIndividual ,
+               :Miracles ;
+      :endowedTo :per16 ;
+      :mentionedIn :surah5 ;
+      :happenedBy "God" ;
+      :hasName "the staff become serpent " ;
+      <http://purl.org/net/QS-onto/inVerse_Nu.> "Al-A‘rāf107" ;
+      :inVerse_Text "فَأَلۡقَىٰ عَصَاهُ فَإِذَا هِيَ ثُعۡبَانٞ مُّبِينٞ" ;
+      :lesson "God made it sign to Pharaoh and his people" ;
+      <http://xmlns.com/foaf/0.1/name> "العصا المنقلبة الى ثعبان" .
+
+
+###  http://purl.org/net/QS-onto/ev15
+:ev15 rdf:type owl:NamedIndividual ,
+               :Miracles ;
+      :endowedTo :per16 ;
+      :mentionedIn :surah17 ;
+      :happenedBy "God" ;
+      :hasName "Sea slit" ;
+      <http://purl.org/net/QS-onto/inVerse_Nu.> "Al-Shu‘arā63" ;
+      :inVerse_Text "فَأَوْحَيْنَا إِلَى مُوسَى أَنِ اضْرِبْ بِعَصَاكَ الْبَحْرَ ۖ فَانْفَلَقَ فَكَانَ كُلُّ فِرْقٍ كَالطَّوْدِ الْعَظِيمِ" ;
+      :lesson "God made it sign to Pharaoh and his people" ;
+      <http://xmlns.com/foaf/0.1/name> "انشقاق البحر" .
+
+
+###  http://purl.org/net/QS-onto/ev16
+:ev16 rdf:type owl:NamedIndividual ,
+               :God_Punishment ;
+      :happenedBy "God" ;
+      :hasName "Their perdition" ;
+      <http://xmlns.com/foaf/0.1/name> "الهلاك" .
+
+
+###  http://purl.org/net/QS-onto/ev17
+:ev17 rdf:type owl:NamedIndividual ,
+               :Miracles ;
+      :endowedTo :per24 ;
+      :mentionedIn :surah10 ;
+      :happenedBy "God" ;
+      :hasName "cure the blind and the leper" ;
+      <http://purl.org/net/QS-onto/inVerse_Nu.> "Aal Imran49" ;
+      :inVerse_Text "وَرَسُولًا إِلَىٰ بَنِيٓ إِسۡرَـٰٓءِيلَ أَنِّي قَدۡ جِئۡتُكُم بِـَٔايَةٖ مِّن رَّبِّكُمۡ أَنِّيٓ أَخۡلُقُ لَكُم مِّنَ ٱلطِّينِ كَهَيۡـَٔةِ ٱلطَّيۡرِ فَأَنفُخُ فِيهِ فَيَكُونُ طَيۡرَۢا بِإِذۡنِ ٱللَّهِۖ وَأُبۡرِئُ ٱلۡأَكۡمَهَ وَٱلۡأَبۡرَصَ وَأُحۡيِ ٱلۡمَوۡتَىٰ بِإِذۡنِ ٱللَّهِۖ وَأُنَبِّئُكُم بِمَا تَأۡكُلُونَ وَمَا تَدَّخِرُونَ فِي بُيُوتِكُمۡۚ إِنَّ فِي ذَٰلِكَ لَأٓيَةٗ لَّكُمۡ إِن كُنتُم مُّؤۡمِنِينَ" ;
+      <http://xmlns.com/foaf/0.1/name> "ابراء الأكمئ والابرص" .
+
+
+###  http://purl.org/net/QS-onto/ev2
+:ev2 rdf:type owl:NamedIndividual ,
+              :God_Comanded ;
+     :accomplishedBy :per3 ;
+     :mentionedIn :surah19 ;
+     :happenedBy "God" ;
+     :hasName "Building a ship and carrying out the command to board it" ;
+     <http://purl.org/net/QS-onto/inVerse_Nu.> "Almuminun27" ;
+     :inVerse_Text "فَأَوْحَيْنَا إِلَيْهِ أَنِ اصْنَعِ الْفُلْكَ بِأَعْيُنِنَا وَوَحْيِنَا فَإِذَا جَاءَ أَمْرُنَا وَفَارَ التَّنُّورُ فَاسْلُكْ فِيهَا مِنْ كُلٍّ زَوْجَيْنِ اثْنَيْنِ وَأَهْلَكَ إِلَّا مَنْ سَبَقَ عَلَيْهِ الْقَوْلُ مِنْهُمْ وَلَا تُخَاطِبْنِي فِي الَّذِينَ ظَلَمُوا ۖ إِنَّهُمْ مُغْرَقُونَ" ;
+     <http://xmlns.com/foaf/0.1/name> "بناء السفينة" .
+
+
+###  http://purl.org/net/QS-onto/ev3
+:ev3 rdf:type owl:NamedIndividual ,
+              :Miracles ;
+     :endowedTo :per3 ;
+     :mentionedIn :surah4 ;
+     :happenedBy "God" ;
+     :hasName "oven overflowed" ;
+     <http://purl.org/net/QS-onto/inVerse_Nu.> "Hūd40" ;
+     :inVerse_Text "حَتَّىٰ إِذَا جَاءَ أَمْرُنَا وَفَارَ التَّنُّورُ قُلْنَا احْمِلْ فِيهَا مِن كُلٍّ زَوْجَيْنِ اثْنَيْنِ وَأَهْلَكَ إِلَّا مَن سَبَقَ عَلَيْهِ الْقَوْلُ وَمَنْ آمَنَ وَمَا آمَنَ مَعَهُ إِلَّا قَلِيلٌ" ;
+     :lesson "God made it for mankind a sign" ;
+     <http://xmlns.com/foaf/0.1/name> "فوران التنور" .
+
+
+###  http://purl.org/net/QS-onto/ev4
+:ev4 rdf:type owl:NamedIndividual ,
+              :God_Punishment ;
+     :doneBy :evT1 ;
+     :ledTo :ev16 ;
+     :mentionedIn :surah3 ;
+     :targeted :nat2 ;
+     :happenedBy "God" ;
+     :hasName "flood" ;
+     <http://purl.org/net/QS-onto/inVerse_Nu.> "Al-Furqān37" ;
+     :inVerse_Text "وَقَوْمَ نُوحٍ لَّمَّا كَذَّبُوا الرُّسُلَ أَغْرَقْنَاهُمْ وَجَعَلْنَاهُمْ لِلنَّاسِ آيَةً ۖ وَأَعْتَدْنَا لِلظَّالِمِينَ عَذَابًا أَلِيمًا" ;
+     :lesson "God made them for mankind a sign when they denied the messengers" ;
+     <http://xmlns.com/foaf/0.1/name> "الطوفان" .
+
+
+###  http://purl.org/net/QS-onto/ev5
+:ev5 rdf:type owl:NamedIndividual ,
+              :God_Punishment ;
+     :doneBy :evT2 ;
+     :ledTo :ev16 ;
+     :mentionedIn :surah25 ;
+     :targeted :nat6 ;
+     :happenedBy "God" ;
+     :hasName "shriek" ;
+     <http://purl.org/net/QS-onto/inVerse_Nu.> "Al-Hijr73" ;
+     :inVerse_Text " فَأَخَذَتْهُمُ الصَّيْحَةُ مُشْرِقِينَ " ;
+     :lesson "God made them for mankind a sign when they denied the messengers" ;
+     <http://xmlns.com/foaf/0.1/name> "الصيحة" .
+
+
+###  http://purl.org/net/QS-onto/ev6
+:ev6 rdf:type owl:NamedIndividual ,
+              :God_Punishment ;
+     :doneBy :evT3 ;
+     :ledTo :ev16 ;
+     :mentionedIn :surah4 ;
+     :targeted :nat6 ;
+     :happenedBy "God" ;
+     :hasName "Bad rain" ;
+     <http://purl.org/net/QS-onto/inVerse_Nu.> "Hūd82" ;
+     :inVerse_Text " فَلَمَّا جَاءَ أَمْرُنَا جَعَلْنَا عَالِيَهَا سَافِلَهَا وَأَمْطَرْنَا عَلَيْهَا حِجَارَةً مِنْ سِجِّيلٍ مَنْضُودٍ " ;
+     :lesson "God made them for mankind a sign when they denied the messengers" ;
+     <http://xmlns.com/foaf/0.1/name> "مطر السوء" .
+
+
+###  http://purl.org/net/QS-onto/ev7
+:ev7 rdf:type owl:NamedIndividual ,
+              :God_Punishment ;
+     :doneBy :evT4 ;
+     :ledTo :ev16 ;
+     :mentionedIn :surah18 ;
+     :targeted :nat3 ;
+     :happenedBy "God" ;
+     :hasName "violent wind" ;
+     <http://purl.org/net/QS-onto/inVerse_Nu.> "Alhaka6" ;
+     :inVerse_Text "وَأَمَّا عَادٌ فَأُهْلِكُوا بِرِيحٍ صَرْصَرٍ عَاتِيَةٍ " ;
+     :lesson "God made them for mankind a sign when they denied the messengers" ;
+     <http://xmlns.com/foaf/0.1/name> "الريح العاتية" .
+
+
+###  http://purl.org/net/QS-onto/ev8
+:ev8 rdf:type owl:NamedIndividual ,
+              :God_Punishment ;
+     :doneBy :evT4 ;
+     :ledTo :ev16 ;
+     :mentionedIn :surah18 ;
+     :targeted :nat4 ;
+     :happenedBy "God" ;
+     :hasName "overpowering" ;
+     <http://purl.org/net/QS-onto/inVerse_Nu.> "Alhaka5" ;
+     :inVerse_Text "فَأَمَّا ثَمُودُ فَأُهْلِكُوا بِالطَّاغِيَةِ " ;
+     :lesson "God made them for mankind a sign when they denied the messengers" ;
+     <http://xmlns.com/foaf/0.1/name> "الطاغية" .
+
+
+###  http://purl.org/net/QS-onto/ev9
+:ev9 rdf:type owl:NamedIndividual ,
+              :God_Punishment ;
+     :ledTo :ev16 ;
+     :mentionedIn :surah23 ;
+     :targeted :nat8 ;
+     :happenedBy "God" ;
+     :hasName "earthquake" ;
+     <http://purl.org/net/QS-onto/inVerse_Nu.> "Al-‘Ankabūt37" ;
+     :inVerse_Text "فَكَذَّبُوهُ فَأَخَذَتۡهُمُ ٱلرَّجۡفَةُ فَأَصۡبَحُواْ فِي دَارِهِمۡ جَٰثِمِينَ" ;
+     :lesson "God made them for mankind a sign when they denied the messengers" ;
+     <http://xmlns.com/foaf/0.1/name> "الرجفة" .
+
+
+###  http://purl.org/net/QS-onto/evT1
+:evT1 rdf:type owl:NamedIndividual ,
+               :Event_Tool ;
+      :generate :ev4 ;
+      :hasName "water" ;
+      <http://xmlns.com/foaf/0.1/name> "الماء" .
+
+
+###  http://purl.org/net/QS-onto/evT2
+:evT2 rdf:type owl:NamedIndividual ,
+               :Event_Tool ;
+      :generate :ev5 ;
+      :hasName "sound" ;
+      <http://xmlns.com/foaf/0.1/name> "الصوت" .
+
+
+###  http://purl.org/net/QS-onto/evT3
+:evT3 rdf:type owl:NamedIndividual ,
+               :Event_Tool ;
+      :generate :ev6 ;
+      :hasName "Stones from shale" ;
+      <http://xmlns.com/foaf/0.1/name> "حجارة السجيل" .
+
+
+###  http://purl.org/net/QS-onto/evT4
+:evT4 rdf:type owl:NamedIndividual ,
+               :Event_Tool ;
+      :generate :ev7 ,
+                :ev8 ;
+      :hasName "blunt wind " ;
+      <http://xmlns.com/foaf/0.1/name> "الرياح العاتية" .
+
+
+###  http://purl.org/net/QS-onto/nat1
+:nat1 rdf:type owl:NamedIndividual ,
+               :Nation ;
+      :advisedBy :per2 ;
+      :hasName "Bani adam" ;
+      <http://xmlns.com/foaf/0.1/name> "بني ادم" .
+
+
+###  http://purl.org/net/QS-onto/nat10
+:nat10 rdf:type owl:NamedIndividual ,
+                :Nation ;
+       :received :per25 ;
+       :hasName "Qurish" ;
+       <http://xmlns.com/foaf/0.1/name> "قريش" .
+
+
+###  http://purl.org/net/QS-onto/nat2
+:nat2 rdf:type owl:NamedIndividual ,
+               :Nation ;
+      :received :per3 ;
+      :targetedBy :ev4 ;
+      :hasName "Naoh's nation" ;
+      <http://xmlns.com/foaf/0.1/name> "قوم نوح" .
+
+
+###  http://purl.org/net/QS-onto/nat3
+:nat3 rdf:type owl:NamedIndividual ,
+               :Nation ;
+      :received :per4 ;
+      :targetedBy :ev7 ;
+      :hasName "Aad" ;
+      <http://xmlns.com/foaf/0.1/name> "عاد" .
+
+
+###  http://purl.org/net/QS-onto/nat4
+:nat4 rdf:type owl:NamedIndividual ,
+               :Nation ;
+      :received :per5 ;
+      :targetedBy :ev8 ;
+      :hasName "Thamūd" ;
+      <http://xmlns.com/foaf/0.1/name> "ثمود" .
+
+
+###  http://purl.org/net/QS-onto/nat5
+:nat5 rdf:type owl:NamedIndividual ,
+               :Nation ;
+      :received :per6 ;
+      :hasName "Ibrahim's nation" ;
+      <http://xmlns.com/foaf/0.1/name> "قوم أبراهيم" .
+
+
+###  http://purl.org/net/QS-onto/nat6
+:nat6 rdf:type owl:NamedIndividual ,
+               :Nation ;
+      :received :per7 ;
+      :targetedBy :ev5 ,
+                  :ev6 ;
+      :hasName "Lut's nation" ;
+      <http://xmlns.com/foaf/0.1/name> "قوم لوط" .
+
+
+###  http://purl.org/net/QS-onto/nat7
+:nat7 rdf:type owl:NamedIndividual ,
+               :Nation ;
+      :received :per14 ;
+      :hasName "Yunus's nation" ;
+      <http://xmlns.com/foaf/0.1/name> "قوم يونس" .
+
+
+###  http://purl.org/net/QS-onto/nat8
+:nat8 rdf:type owl:NamedIndividual ,
+               :Nation ;
+      :received :per15 ;
+      :targetedBy :ev9 ;
+      :hasName "madyan" ;
+      <http://xmlns.com/foaf/0.1/name> "مدين" .
+
+
+###  http://purl.org/net/QS-onto/nat9
+:nat9 rdf:type owl:NamedIndividual ,
+               :Nation ;
+      :advisedBy :per17 ,
+                 :per18 ,
+                 :per19 ,
+                 :per22 ,
+                 :per23 ;
+      :received :per16 ,
+                :per20 ,
+                :per24 ;
+      :hasName "Israelis" ;
+      <http://xmlns.com/foaf/0.1/name> "بني اسرائيل" .
+
+
+###  http://purl.org/net/QS-onto/partOf
+:partOf rdf:type owl:NamedIndividual .
+
+
+###  http://purl.org/net/QS-onto/pc1
+:pc1 rdf:type owl:NamedIndividual ,
+              :City ,
+              :LivePlace ;
+     :bornPlaceOf :per25 ;
+     :mentionedIn :surah28 ;
+     :hasName "Mecca" ;
+     <http://purl.org/net/QS-onto/inVerse_Nu.> "Alfateh24" ;
+     :inVerse_Text "وَهُوَ الَّذِي كَفَّ أَيْدِيَهُمْ عَنْكُمْ وَأَيْدِيَكُمْ عَنْهُمْ بِبَطْنِ مَكَّةَ مِنْ بَعْدِ أَنْ أَظْفَرَكُمْ عَلَيْهِمْ ۚ وَكَانَ اللَّهُ بِمَا تَعْمَلُونَ بَصِيرًا" ;
+     <http://xmlns.com/foaf/0.1/name> "مكة" .
+
+
+###  http://purl.org/net/QS-onto/pc10
+:pc10 rdf:type owl:NamedIndividual ,
+               :City ,
+               :LivePlace ;
+      :missionPlace_Of :per10 ,
+                       :per12 ,
+                       :per17 ,
+                       :per18 ,
+                       :per19 ,
+                       :per20 ,
+                       :per21 ,
+                       :per22 ,
+                       :per23 ,
+                       :per24 ,
+                       :per28 ,
+                       :per7 ;
+      :hasName "Levant" ;
+      <http://purl.org/net/QS-onto/inVerse_Nu.> "null" ;
+      :inVerse_Text "null" ;
+      <http://xmlns.com/foaf/0.1/name> "بلاد الشام" .
+
+
+###  http://purl.org/net/QS-onto/pc2
+:pc2 rdf:type owl:NamedIndividual ,
+              :City ,
+              :LivePlace ;
+     :mentionedIn :surah27 ;
+     :hasName "Medina" ;
+     <http://purl.org/net/QS-onto/inVerse_Nu.> "Al-Tawbah101" ;
+     :inVerse_Text "وَمِمَّنْ حَوْلَكُم مِّنَ الْأَعْرَابِ مُنَافِقُونَ ۖ وَمِنْ أَهْلِ الْمَدِينَةِ ۖ مَرَدُوا عَلَى النِّفَاقِ لَا تَعْلَمُهُمْ ۖ نَحْنُ نَعْلَمُهُمْ ۚ سَنُعَذِّبُهُم مَّرَّتَيْنِ ثُمَّ يُرَدُّونَ إِلَىٰ عَذَابٍ عَظِيمٍ" ;
+     <http://xmlns.com/foaf/0.1/name> "المدينة المنورة" .
+
+
+###  http://purl.org/net/QS-onto/pc3
+:pc3 rdf:type owl:NamedIndividual ,
+              :City ,
+              :LivePlace ;
+     :mentionedIn :surah22 ;
+     :missionPlace_Of :per11 ,
+                      :per16 ;
+     :hasName "Egypt" ;
+     <http://purl.org/net/QS-onto/inVerse_Nu.> "Yūsuf99" ;
+     :inVerse_Text "فَلَمَّا دَخَلُوا عَلَىٰ يُوسُفَ آوَىٰ إِلَيْهِ أَبَوَيْهِ وَقَالَ ادْخُلُوا مِصْرَ إِن شَاءَ اللَّهُ آمِنِينَ" ;
+     <http://xmlns.com/foaf/0.1/name> "مصر" .
+
+
+###  http://purl.org/net/QS-onto/pc4
+:pc4 rdf:type owl:NamedIndividual ,
+              :City ,
+              :LivePlace ;
+     :mentionedIn :surah20 ;
+     :hasName "Holy Land" ;
+     <http://purl.org/net/QS-onto/inVerse_Nu.> "Al-Mā’idah21" ;
+     :inVerse_Text "يَا قَوْمِ ادْخُلُوا الْأَرْضَ الْمُقَدَّسَةَ الَّتِي كَتَبَ اللَّهُ لَكُمْ وَلَا تَرْتَدُّوا عَلَىٰ أَدْبَارِكُمْ فَتَنقَلِبُوا خَاسِرِينَ" ;
+     <http://xmlns.com/foaf/0.1/name> "الارض المقدسة" .
+
+
+###  http://purl.org/net/QS-onto/pc5
+:pc5 rdf:type owl:NamedIndividual ,
+              :City ,
+              :LivePlace ;
+     :mentionedIn :surah1 ;
+     :hasName "Babylon" ;
+     <http://purl.org/net/QS-onto/inVerse_Nu.> "Al-Baqarah102" ;
+     :inVerse_Text "وَاتَّبَعُواْ مَا تَتْلُواْ الشَّيَاطِينُ عَلَى مُلْكِ سُلَيْمَانَ وَمَا كَفَرَ سُلَيْمَانُ وَلَـكِنَّ الشَّيْاطِينَ كَفَرُواْ يُعَلِّمُونَ النَّاسَ السِّحْرَ وَمَا أُنزِلَ عَلَى الْمَلَكَيْنِ بِبَابِلَ هَارُوتَ وَمَارُوتَ وَمَا يُعَلِّمَانِ مِنْ أَحَدٍ حَتَّى يَقُولاَ إِنَّمَا نَحْنُ فِتْنَةٌ فَلاَ تَكْفُرْ فَيَتَعَلَّمُونَ مِنْهُمَا مَا يُفَرِّقُونَ بِهِ بَيْنَ الْمَرْءِ وَزَوْجِهِ وَمَا هُم بِضَآرِّينَ بِهِ مِنْ أَحَدٍ إِلاَّ بِإِذْنِ اللّهِ وَيَتَعَلَّمُونَ مَا يَضُرُّهُمْ وَلاَ يَنفَعُهُمْ وَلَقَدْ عَلِمُواْ لَمَنِ اشْتَرَاهُ مَا لَهُ فِي الآخِرَةِ مِنْ خَلاَقٍ وَلَبِئْسَ مَا شَرَوْاْ بِهِ أَنفُسَهُمْ لَوْ كَانُواْ يَعْلَمُونَ" ;
+     <http://xmlns.com/foaf/0.1/name> "بابل" .
+
+
+###  http://purl.org/net/QS-onto/pc6
+:pc6 rdf:type owl:NamedIndividual ,
+              :MissionPlace ;
+     :mentionedIn :surah24 ;
+     :hasName "ARM" ;
+     <http://purl.org/net/QS-onto/inVerse_Nu.> "Alfajr7" ;
+     :inVerse_Text "إِرَمَ ذَاتِ الْعِمَادِ" ;
+     <http://xmlns.com/foaf/0.1/name> "ارم" .
+
+
+###  http://purl.org/net/QS-onto/pc7
+:pc7 rdf:type owl:NamedIndividual ,
+              :MissionPlace ;
+     :mentionedIn :surah25 ;
+     :hasName "Al-Hijr" ;
+     <http://purl.org/net/QS-onto/inVerse_Nu.> "Al-Hijr80" ;
+     :inVerse_Text "وَلَقَدْ كَذَّبَ أَصْحَابُ الْحِجْرِ الْمُرْسَلِينَ" ;
+     <http://xmlns.com/foaf/0.1/name> "الحجر" .
+
+
+###  http://purl.org/net/QS-onto/pc8
+:pc8 rdf:type owl:NamedIndividual ,
+              :City ,
+              :LivePlace ;
+     :missionPlace_Of :per1 ,
+                      :per15 ,
+                      :per25 ,
+                      :per4 ,
+                      :per5 ,
+                      :per8 ;
+     :hasName "Arabian island" ;
+     <http://purl.org/net/QS-onto/inVerse_Nu.> "null" ;
+     :inVerse_Text "null" ;
+     <http://xmlns.com/foaf/0.1/name> "الجزيرة العربية" .
+
+
+###  http://purl.org/net/QS-onto/pc9
+:pc9 rdf:type owl:NamedIndividual ,
+              :City ,
+              :LivePlace ;
+     :missionPlace_Of :per14 ,
+                      :per2 ,
+                      :per3 ,
+                      :per6 ;
+     :hasName "Iraq" ;
+     <http://purl.org/net/QS-onto/inVerse_Nu.> "null" ;
+     :inVerse_Text "null" ;
+     <http://xmlns.com/foaf/0.1/name> "العراق" .
+
+
+###  http://purl.org/net/QS-onto/per1
+:per1 rdf:type owl:NamedIndividual ,
+               :Prophet ;
+      owl:sameAs <https://www.wikidata.org/wiki/Q2001710> ;
+      :honoredWith :ev1 ;
+      :mentionedIn :surah1 ;
+      :missionedTo :pc8 ;
+      :advise "Worship God alone and apply the commands of his religion" ;
+      :assignedBy "God" ;
+      :hasFather "null" ;
+      :hasMother "null" ;
+      :hasName "Adam" ;
+      <http://purl.org/net/QS-onto/inVerse_Nu.> "Al-Baqarah33" ;
+      :inVerse_Text "قَالَ يَاآدَمُ أَنْبِئْهُمْ بِأَسْمَائِهِمْ ۖ فَلَمَّا أَنْبَأَهُمْ بِأَسْمَائِهِمْ قَالَ أَلَمْ أَقُلْ لَكُمْ إِنِّي أَعْلَمُ غَيْبَ السَّمَاوَاتِ وَالْأَرْضِ وَأَعْلَمُ مَا تُبْدُونَ وَمَا كُنْتُمْ تَكْتُمُونَ" ;
+      :nameRepeat "25" ;
+      <http://www.semanticweb.org/quran_s_ontology#don'tHave> "Father and Mother" ;
+      <http://xmlns.com/foaf/0.1/age> "100 year" ;
+      <http://xmlns.com/foaf/0.1/gender> "Male" ;
+      <http://xmlns.com/foaf/0.1/name> "أدم" ;
+      <http://xmlns.com/foaf/0.1/nick> "Father of mankind" ;
+      rdfs:comment <http://purl.org/net/QS-onto/> .
+
+
+###  http://purl.org/net/QS-onto/per10
+:per10 rdf:type owl:NamedIndividual ,
+                :Prophet ;
+       owl:sameAs <https://www.wikidata.org/wiki/Q2513598> ;
+       :mentionedIn :surah8 ;
+       :missionedTo :pc10 ;
+       :advise "Worship God alone and apply the commands of his religion" ;
+       :assignedBy "God" ;
+       :hasFather "Ishaq" ;
+       :hasMother "Rafaqa" ;
+       :hasName "Yacoub" ;
+       <http://purl.org/net/QS-onto/inVerse_Nu.> "Alnisa163" ;
+       :inVerse_Text "إِنَّا أَوْحَيْنَا إِلَيْكَ كَمَا أَوْحَيْنَا إِلَى نُوحٍ وَالنَّبِيِّينَ مِنْ بَعْدِهِ وَأَوْحَيْنَا إِلَى إِبْرَاهِيمَ وَإِسْمَاعِيلَ وَإِسْحَاقَ وَيَعْقُوبَ وَالْأَسْبَاطِ وَعِيسَى وَأَيُّوبَ وَيُونُسَ وَهَارُونَ وَسُلَيْمَانَ وَآتَيْنَا دَاوُودَ زَبُورًا" ;
+       :nameRepeat "16" ;
+       <http://xmlns.com/foaf/0.1/age> "147 year" ;
+       <http://xmlns.com/foaf/0.1/gender> "Male" ;
+       <http://xmlns.com/foaf/0.1/name> "يعقوب" ;
+       <http://xmlns.com/foaf/0.1/nick> "null" ;
+       rdfs:comment <http://purl.org/net/QS-onto/> .
+
+
+###  http://purl.org/net/QS-onto/per11
+:per11 rdf:type owl:NamedIndividual ,
+                :Prophet ;
+       owl:sameAs <https://www.wikidata.org/wiki/Q563644> ;
+       :mentionedIn :surah6 ;
+       :missionedTo :pc3 ;
+       :advise "Worship God alone and apply the commands of his religion" ;
+       :assignedBy "God" ;
+       :hasFather "Yacoub" ;
+       :hasMother "Raheel" ;
+       :hasName "Yousuf" ;
+       <http://purl.org/net/QS-onto/inVerse_Nu.> "Al'aneam84" ;
+       :inVerse_Text "وَوَهَبْنَا لَهُ إِسْحَاقَ وَيَعْقُوبَ كُلًّا هَدَيْنَا وَنُوحًا هَدَيْنَا مِنْ قَبْلُ وَمِنْ ذُرِّيَّتِهِ دَاوُودَ وَسُلَيْمَانَ وَأَيُّوبَ وَيُوسُفَ وَمُوسَى وَهَارُونَ وَكَذَلِكَ نَجْزِي الْمُحْسِنِينَ " ;
+       :nameRepeat "27" ;
+       <http://xmlns.com/foaf/0.1/age> "110 year" ;
+       <http://xmlns.com/foaf/0.1/gender> "Male" ;
+       <http://xmlns.com/foaf/0.1/name> "يوسف" ;
+       <http://xmlns.com/foaf/0.1/nick> "null" ;
+       rdfs:comment <http://purl.org/net/QS-onto/> .
+
+
+###  http://purl.org/net/QS-onto/per12
+:per12 rdf:type owl:NamedIndividual ,
+                :Prophet ;
+       owl:sameAs <https://www.wikidata.org/wiki/Q2625307> ;
+       :mentionedIn :surah6 ;
+       :missionedTo :pc10 ;
+       :advise "Worship God alone and apply the commands of his religion" ;
+       :assignedBy "God" ;
+       :hasFather "null" ;
+       :hasMother "null" ;
+       :hasName "Ayoub" ;
+       <http://purl.org/net/QS-onto/inVerse_Nu.> "Al'aneam84" ;
+       :inVerse_Text "وَوَهَبْنَا لَهُ إِسْحَاقَ وَيَعْقُوبَ كُلًّا هَدَيْنَا وَنُوحًا هَدَيْنَا مِنْ قَبْلُ وَمِنْ ذُرِّيَّتِهِ دَاوُودَ وَسُلَيْمَانَ وَأَيُّوبَ وَيُوسُفَ وَمُوسَى وَهَارُونَ وَكَذَلِكَ نَجْزِي الْمُحْسِنِينَ " ;
+       :nameRepeat "4" ;
+       <http://xmlns.com/foaf/0.1/age> "93 year" ;
+       <http://xmlns.com/foaf/0.1/gender> "Male" ;
+       <http://xmlns.com/foaf/0.1/name> "أيوب" ;
+       <http://xmlns.com/foaf/0.1/nick> "null" ;
+       rdfs:comment <http://purl.org/net/QS-onto/> .
+
+
+###  http://purl.org/net/QS-onto/per13
+:per13 rdf:type owl:NamedIndividual ,
+                :Righteou ;
+       owl:sameAs <https://www.wikidata.org/wiki/Q332574> ;
+       :mentionedIn :surah7 ;
+       :assignedBy "God" ;
+       :hasFather "null" ;
+       :hasMother "null" ;
+       :hasName "Haskell" ;
+       <http://purl.org/net/QS-onto/inVerse_Nu.> "Al-Anbiyā85" ;
+       :inVerse_Text "وَإِسْمَاعِيلَ وَإِدْرِيسَ وَذَا الْكِفْلِ كُلٌّ مِنَ الصَّابِرِينَ" ;
+       :nameRepeat "2" ;
+       <http://xmlns.com/foaf/0.1/age> "null" ;
+       <http://xmlns.com/foaf/0.1/gender> "Male" ;
+       <http://xmlns.com/foaf/0.1/name> "ذي الكفل" ;
+       <http://xmlns.com/foaf/0.1/nick> "Dhi_alkifl" .
+
+
+###  http://purl.org/net/QS-onto/per14
+:per14 rdf:type owl:NamedIndividual ,
+                :Messenger ,
+                :Prophet ;
+       owl:sameAs <https://www.wikidata.org/wiki/Q18811437> ;
+       :bornedIn :pc9 ;
+       :mentionedIn :surah6 ;
+       :missionedTo :pc9 ;
+       :sendTo :nat7 ;
+       :assignedBy "God" ;
+       :hasFather "null" ;
+       :hasMother "null" ;
+       :hasName "Yunus" ;
+       <http://purl.org/net/QS-onto/inVerse_Nu.> "Al'aneam86" ;
+       :inVerse_Text "وَإِسْمَاعِيلَ وَالْيَسَعَ وَيُونُسَ وَلُوطًا وَكُلًّا فَضَّلْنَا عَلَى الْعَالَمِينَ" ;
+       :message "call people to worship god alone" ;
+       :nameRepeat "4" ;
+       <http://xmlns.com/foaf/0.1/age> "null" ;
+       <http://xmlns.com/foaf/0.1/gender> "Male" ;
+       <http://xmlns.com/foaf/0.1/name> "يونس" ;
+       <http://xmlns.com/foaf/0.1/nick> "null" ;
+       rdfs:comment <http://purl.org/net/QS-onto/> .
+
+
+###  http://purl.org/net/QS-onto/per15
+:per15 rdf:type owl:NamedIndividual ,
+                :Messenger ;
+       owl:sameAs <https://www.wikidata.org/wiki/Q982867> ;
+       :bornedIn :pc8 ;
+       :mentionedIn :surah5 ;
+       :missionedTo :pc8 ;
+       :sendTo :nat8 ;
+       :assignedBy "God" ;
+       :hasFather "null" ;
+       :hasMother "null" ;
+       :hasName "Shoaib" ;
+       <http://purl.org/net/QS-onto/inVerse_Nu.> "Al-A‘rāf85" ;
+       :inVerse_Text "وَإِلَىٰ مَدْيَنَ أَخَاهُمْ شُعَيْبًا قَالَ يَا قَوْمِ اعْبُدُوا اللَّهَ مَا لَكُم مِّنْ إِلَٰه غَيْرُهُ قَدْ جَاءَتْكُم بَيِّنَةٌ مِّن رَّبِّكُمْ  فَأَوْفُوا الْكَيْلَ وَالْمِيزَانَ وَلَا تَبْخَسُوا النَّاسَ أَشْيَاءَهُمْ وَلَا تُفْسِدُوا فِي الْأَرْضِ بَعْدَ إِصْلَاحِهَا ذَٰلِكُمْ خَيْرٌ لَّكُمْ إِن كُنتُم مُّؤْمِنِينَ" ;
+       :message "call people to worship god alone" ;
+       :nameRepeat "11" ;
+       <http://xmlns.com/foaf/0.1/age> "null" ;
+       <http://xmlns.com/foaf/0.1/gender> "Male" ;
+       <http://xmlns.com/foaf/0.1/name> "شعيب" ;
+       <http://xmlns.com/foaf/0.1/nick> "null" ;
+       rdfs:comment <http://purl.org/net/QS-onto/> .
+
+
+###  http://purl.org/net/QS-onto/per16
+:per16 rdf:type owl:NamedIndividual ,
+                :Messenger ,
+                :Prophet ;
+       owl:sameAs <https://www.wikidata.org/wiki/Q1990155> ;
+       :hasBook :book2 ;
+       :hasMiracle :ev13 ,
+                   :ev14 ,
+                   :ev15 ;
+       :mentionedIn :surah1 ;
+       :missionedTo :pc3 ;
+       :sendTo :nat9 ;
+       :assignedBy "God" ;
+       :hasFather "Omran" ;
+       :hasMother "null" ;
+       :hasName "Mousa" ;
+       <http://purl.org/net/QS-onto/inVerse_Nu.> "Al-Baqarah53" ;
+       :inVerse_Text "وَإِذْ آتَيْنَا مُوسَى الْكِتَابَ وَالْفُرْقَانَ لَعَلَّكُمْ تَهْتَدُونَ" ;
+       :message "call people to worship god alone" ;
+       :nameRepeat "136" ;
+       <http://xmlns.com/foaf/0.1/age> "120 year" ;
+       <http://xmlns.com/foaf/0.1/gender> "Male" ;
+       <http://xmlns.com/foaf/0.1/name> "موسى" ;
+       <http://xmlns.com/foaf/0.1/nick> "those of determination" ;
+       rdfs:comment <http://purl.org/net/QS-onto/> .
+
+
+###  http://purl.org/net/QS-onto/per17
+:per17 rdf:type owl:NamedIndividual ,
+                :Prophet ;
+       owl:sameAs <https://www.wikidata.org/wiki/Q380714> ;
+       :advised :nat9 ;
+       :mentionedIn :surah2 ;
+       :missionedTo :pc10 ;
+       :advise "Worship God alone and apply the commands of his religion" ;
+       :assignedBy "God" ;
+       :hasFather "Omran" ;
+       :hasMother "null" ;
+       :hasName "Harun" ;
+       <http://purl.org/net/QS-onto/inVerse_Nu.> "Muriam53" ;
+       :inVerse_Text "وَوَهَبْنَا لَهُ مِنْ رَحْمَتِنَا أَخَاهُ هَارُونَ نَبِيًّا" ;
+       :nameRepeat "20" ;
+       <http://xmlns.com/foaf/0.1/age> "122 year" ;
+       <http://xmlns.com/foaf/0.1/gender> "Male" ;
+       <http://xmlns.com/foaf/0.1/name> "هارون" ;
+       <http://xmlns.com/foaf/0.1/nick> "null" ;
+       rdfs:comment <http://purl.org/net/QS-onto/> .
+
+
+###  http://purl.org/net/QS-onto/per18
+:per18 rdf:type owl:NamedIndividual ,
+                :Prophet ;
+       owl:sameAs <https://www.wikidata.org/wiki/Q1257863> ;
+       :advised :nat9 ;
+       :hasBook :book1 ;
+       :mentionedIn :surah6 ;
+       :missionedTo :pc10 ;
+       :advise "Worship God alone and apply the commands of his religion" ;
+       :assignedBy "God" ;
+       :hasFather "null" ;
+       :hasMother "null" ;
+       :hasName "Dawud" ;
+       <http://purl.org/net/QS-onto/inVerse_Nu.> "Al'aneam84" ;
+       :inVerse_Text "وَوَهَبْنَا لَهُ إِسْحَاقَ وَيَعْقُوبَ كُلًّا هَدَيْنَا وَنُوحًا هَدَيْنَا مِنْ قَبْلُ وَمِنْ ذُرِّيَّتِهِ دَاوُودَ وَسُلَيْمَانَ وَأَيُّوبَ وَيُوسُفَ وَمُوسَى وَهَارُونَ وَكَذَلِكَ نَجْزِي الْمُحْسِنِينَ " ;
+       :nameRepeat "16" ;
+       <http://xmlns.com/foaf/0.1/age> "100 year" ;
+       <http://xmlns.com/foaf/0.1/gender> "Male" ;
+       <http://xmlns.com/foaf/0.1/name> "داوود" ;
+       <http://xmlns.com/foaf/0.1/nick> "null" ;
+       rdfs:comment <http://purl.org/net/QS-onto/> .
+
+
+###  http://purl.org/net/QS-onto/per19
+:per19 rdf:type owl:NamedIndividual ,
+                :Prophet ;
+       owl:sameAs <https://www.wikidata.org/wiki/Q1768167> ;
+       :advised :nat9 ;
+       :mentionedIn :surah6 ;
+       :missionedTo :pc10 ;
+       :advise "Worship God alone and apply the commands of his religion" ;
+       :assignedBy "God" ;
+       :hasFather "Dawud" ;
+       :hasMother "null" ;
+       :hasName "Sulaiman" ;
+       <http://purl.org/net/QS-onto/inVerse_Nu.> "Al'aneam84" ;
+       :inVerse_Text "وَوَهَبْنَا لَهُ إِسْحَاقَ وَيَعْقُوبَ كُلًّا هَدَيْنَا وَنُوحًا هَدَيْنَا مِنْ قَبْلُ وَمِنْ ذُرِّيَّتِهِ دَاوُودَ وَسُلَيْمَانَ وَأَيُّوبَ وَيُوسُفَ وَمُوسَى وَهَارُونَ وَكَذَلِكَ نَجْزِي الْمُحْسِنِينَ " ;
+       :nameRepeat "17" ;
+       <http://xmlns.com/foaf/0.1/age> "52 year" ;
+       <http://xmlns.com/foaf/0.1/gender> "Male" ;
+       <http://xmlns.com/foaf/0.1/name> "سليمان" ;
+       <http://xmlns.com/foaf/0.1/nick> "null" ;
+       rdfs:comment <http://purl.org/net/QS-onto/> .
+
+
+###  http://purl.org/net/QS-onto/per2
+:per2 rdf:type owl:NamedIndividual ,
+               :Prophet ;
+      owl:sameAs <https://www.wikidata.org/wiki/Q327375> ;
+      :advised :nat1 ;
+      :mentionedIn :surah2 ;
+      :missionedTo :pc9 ;
+      :advise "Worship God alone and apply the commands of his religion" ;
+      :assignedBy "God" ;
+      :hasFather "Yard" ;
+      :hasMother "null" ;
+      :hasName "Enoch" ;
+      <http://purl.org/net/QS-onto/inVerse_Nu.> "Muriam56" ;
+      :inVerse_Text "وَاذْكُرْ فِي الْكِتَابِ إِدْرِيسَ إِنَّهُ كَانَ صِدِّيقًا نَبِيًّا" ;
+      :nameRepeat "2" ;
+      <http://xmlns.com/foaf/0.1/age> "865 year" ;
+      <http://xmlns.com/foaf/0.1/gender> "Male" ;
+      <http://xmlns.com/foaf/0.1/name> "ادريس" ;
+      <http://xmlns.com/foaf/0.1/nick> "Idris" ;
+      rdfs:comment <http://purl.org/net/QS-onto/> .
+
+
+###  http://purl.org/net/QS-onto/per20
+:per20 rdf:type owl:NamedIndividual ,
+                :Messenger ,
+                :Prophet ;
+       owl:sameAs <https://www.wikidata.org/wiki/Q2090543> ;
+       :mentionedIn :surah6 ;
+       :missionedTo :pc10 ;
+       :sendTo :nat9 ;
+       :assignedBy "God" ;
+       :hasFather "null" ;
+       :hasMother "null" ;
+       :hasName "Ilyas" ;
+       <http://purl.org/net/QS-onto/inVerse_Nu.> "Al'aneam85" ;
+       :inVerse_Text "وَزَكَرِيَّا وَيَحْيَى وَعِيسَى وَإِلْيَاسَ كُلٌّ مِنَ الصَّالِحِينَ" ;
+       :message "call people to worship god alone" ;
+       :nameRepeat "2" ;
+       <http://xmlns.com/foaf/0.1/age> "null" ;
+       <http://xmlns.com/foaf/0.1/gender> "Male" ;
+       <http://xmlns.com/foaf/0.1/name> "الياس" ;
+       <http://xmlns.com/foaf/0.1/nick> "null" ;
+       rdfs:comment <http://purl.org/net/QS-onto/> .
+
+
+###  http://purl.org/net/QS-onto/per21
+:per21 rdf:type owl:NamedIndividual ,
+                :Prophet ;
+       owl:sameAs <https://www.wikidata.org/wiki/Q15215483> ;
+       :mentionedIn :surah6 ;
+       :missionedTo :pc10 ;
+       :advise "Worship God alone and apply the commands of his religion" ;
+       :assignedBy "God" ;
+       :hasFather "null" ;
+       :hasMother "null" ;
+       :hasName "Alyse" ;
+       <http://purl.org/net/QS-onto/inVerse_Nu.> "Al'aneam86" ;
+       :inVerse_Text "وَإِسْمَاعِيلَ وَالْيَسَعَ وَيُونُسَ وَلُوطًا وَكُلًّا فَضَّلْنَا عَلَى الْعَالَمِينَ" ;
+       :nameRepeat "2" ;
+       <http://xmlns.com/foaf/0.1/age> "null" ;
+       <http://xmlns.com/foaf/0.1/gender> "Male" ;
+       <http://xmlns.com/foaf/0.1/name> "اليسع" ;
+       <http://xmlns.com/foaf/0.1/nick> "null" ;
+       rdfs:comment <http://purl.org/net/QS-onto/> .
+
+
+###  http://purl.org/net/QS-onto/per22
+:per22 rdf:type owl:NamedIndividual ,
+                :Prophet ;
+       :advised :nat9 ;
+       :mentionedIn :surah10 ;
+       :missionedTo :pc10 ;
+       :advise "Worship God alone and apply the commands of his religion" ;
+       :assignedBy "God" ;
+       :hasFather "null" ;
+       :hasMother "null" ;
+       :hasName "Zakariaa" ;
+       <http://purl.org/net/QS-onto/inVerse_Nu.> "Aal Imran38" ;
+       :inVerse_Text "هُنَالِكَ دَعَا زَكَرِيَّا رَبَّهُ ۖ قَالَ رَبِّ هَبْ لِي مِن لَّدُنكَ ذُرِّيَّةً طَيِّبَةً ۖ إِنَّكَ سَمِيعُ الدُّعَاءِ" ;
+       :nameRepeat "7" ;
+       <http://xmlns.com/foaf/0.1/age> "150 year" ;
+       <http://xmlns.com/foaf/0.1/gender> "Male" ;
+       <http://xmlns.com/foaf/0.1/name> "زكريا" ;
+       <http://xmlns.com/foaf/0.1/nick> "null" ;
+       rdfs:comment <http://purl.org/net/QS-onto/> .
+
+
+###  http://purl.org/net/QS-onto/per23
+:per23 rdf:type owl:NamedIndividual ,
+                :Prophet ;
+       :advised :nat9 ;
+       :mentionedIn :surah10 ;
+       :missionedTo :pc10 ;
+       :advise "Worship God alone and apply the commands of his religion" ;
+       :assignedBy "God" ;
+       :hasFather "Zakariaa" ;
+       :hasMother "null" ;
+       :hasName "Yahia" ;
+       <http://purl.org/net/QS-onto/inVerse_Nu.> "Al Imran39" ;
+       :inVerse_Text "فَنَادَتْهُ الْمَلَائِكَةُ وَهُوَ قَائِمٌ يُصَلِّي فِي الْمِحْرَابِ أَنَّ اللَّهَ يُبَشِّرُكَ بِيَحْيَىٰ مُصَدِّقًا بِكَلِمَةٍ مِّنَ اللَّهِ وَسَيِّدًا وَحَصُورًا وَنَبِيًّا مِّنَ الصَّالِحِينَ" ;
+       :nameRepeat "5" ;
+       <http://xmlns.com/foaf/0.1/age> "null" ;
+       <http://xmlns.com/foaf/0.1/gender> "Male" ;
+       <http://xmlns.com/foaf/0.1/name> "يحيى" ;
+       <http://xmlns.com/foaf/0.1/nick> "null" ;
+       rdfs:comment <http://purl.org/net/QS-onto/> .
+
+
+###  http://purl.org/net/QS-onto/per24
+:per24 rdf:type owl:NamedIndividual ,
+                :Messenger ,
+                :Prophet ;
+       owl:sameAs <https://www.wikidata.org/wiki/Q51664> ;
+       :hasBook :book3 ;
+       :hasMiracle :ev17 ;
+       :mentionedIn :surah8 ;
+       :missionedTo :pc10 ;
+       :sendTo :nat9 ;
+       :assignedBy "God" ;
+       :hasFather "null" ;
+       :hasMother "Mariam" ;
+       :hasName "Eisaa" ;
+       <http://purl.org/net/QS-onto/inVerse_Nu.> "Alnisa157" ;
+       :inVerse_Text "وَقَوْلِهِمْ إِنَّا قَتَلْنَا الْمَسِيحَ عِيسَى ابْنَ مَرْيَمَ رَسُولَ اللّهِ وَمَا قَتَلُوهُ وَمَا صَلَبُوهُ وَلَـكِن شُبِّهَ لَهُمْ وَإِنَّ الَّذِينَ اخْتَلَفُواْ فِيهِ لَفِي شَكٍّ مِّنْهُ مَا لَهُم بِهِ مِنْ عِلْمٍ إِلاَّ اتِّبَاعَ الظَّنِّ وَمَا قَتَلُوهُ يَقِينًا" ;
+       :message "call people to worship god alone" ;
+       :nameRepeat "25" ;
+       <http://www.semanticweb.org/quran_s_ontology#don'tHave> "Father" ;
+       <http://xmlns.com/foaf/0.1/age> "33 year" ;
+       <http://xmlns.com/foaf/0.1/gender> "Male" ;
+       <http://xmlns.com/foaf/0.1/name> "عيسى" ;
+       <http://xmlns.com/foaf/0.1/nick> "those of determination" ;
+       rdfs:isDefinedBy <http://purl.org/net/QS-onto/> .
+
+
+###  http://purl.org/net/QS-onto/per25
+:per25 rdf:type owl:NamedIndividual ,
+                :Messenger ,
+                :Prophet ;
+       owl:sameAs <https://www.wikidata.org/wiki/Q9458> ;
+       :bornedIn :pc1 ;
+       :hasBook :book4 ;
+       :mentionedIn :surah9 ;
+       :missionedTo :pc8 ;
+       :sendTo :nat10 ;
+       :assignedBy "God" ;
+       :hasFather "Abdalla" ;
+       :hasMother "Amnah" ;
+       :hasName "Mohammed" ;
+       <http://purl.org/net/QS-onto/inVerse_Nu.> "Mohammed2" ;
+       :inVerse_Text "وَالَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ وَآمَنُوا بِمَا نُزِّلَ عَلَى مُحَمَّدٍ وَهُوَ الْحَقُّ مِنْ رَبِّهِمْ ۙ كَفَّرَ عَنْهُمْ سَيِّئَاتِهِمْ وَأَصْلَحَ بَالَهُمْ " ;
+       :message "call people to worship god alone" ;
+       :nameRepeat "5" ;
+       <http://xmlns.com/foaf/0.1/age> "63 year" ;
+       <http://xmlns.com/foaf/0.1/gender> "Male" ;
+       <http://xmlns.com/foaf/0.1/name> "محمد" ;
+       <http://xmlns.com/foaf/0.1/nick> "those of determination" ;
+       <http://purl.org/dc/elements/1.1/description> "خاتم الأنبياء والرسل وفقًا للمعتقد الإسلامي." ;
+       rdfs:isDefinedBy <http://purl.org/net/QS-onto/> .
+
+
+###  http://purl.org/net/QS-onto/per26
+:per26 rdf:type owl:NamedIndividual ,
+                :Righteou ;
+       owl:sameAs <https://www.wikidata.org/wiki/Q1478857> ;
+       :mentionedIn :surah10 ;
+       :hasFather "Omran" ;
+       :hasMother "null" ;
+       :hasName "Muriam" ;
+       <http://purl.org/net/QS-onto/inVerse_Nu.> "Aal Imran42" ;
+       :inVerse_Text "وَإِذْ قَالَتِ الْمَلَائِكَةُ يَا مَرْيَمُ إِنَّ اللَّهَ اصْطَفَاكِ وَطَهَّرَكِ وَاصْطَفَاكِ عَلَىٰ نِسَاءِ الْعَالَمِينَ " ;
+       :nameRepeat "34" ;
+       <http://xmlns.com/foaf/0.1/age> "null" ;
+       <http://xmlns.com/foaf/0.1/gender> "Female" ;
+       <http://xmlns.com/foaf/0.1/name> "مريم" ;
+       <http://xmlns.com/foaf/0.1/nick> "Mary" .
+
+
+###  http://purl.org/net/QS-onto/per27
+:per27 rdf:type owl:NamedIndividual ,
+                :Righteou ;
+       owl:sameAs <https://www.wikidata.org/wiki/Q1729394> ;
+       :mentionedIn :surah11 ;
+       :hasName "Luqman" ;
+       <http://purl.org/net/QS-onto/inVerse_Nu.> "Luqman12" ;
+       :inVerse_Text "وَلَقَدْ آتَيْنَا لُقْمَانَ الحِكْمَةَ أَنِ اشْكُرْ للهِ ومَن يَشْكُرْ فَإنَّمَا يَشـكُرُ لِنَفْسِهِ ومَن كَفَرَ فَإنَّ اللهَ غَنِيٌّ حَمِيدٌ" ;
+       :nameRepeat "2" ;
+       <http://xmlns.com/foaf/0.1/age> "null" ;
+       <http://xmlns.com/foaf/0.1/gender> "Male" ;
+       <http://xmlns.com/foaf/0.1/name> "لقمان" ;
+       <http://xmlns.com/foaf/0.1/nick> "the wise" .
+
+
+###  http://purl.org/net/QS-onto/per28
+:per28 rdf:type owl:NamedIndividual ,
+                :Righteou ;
+       owl:sameAs <https://www.wikidata.org/wiki/Q1207846> ;
+       :mentionedIn :surah12 ;
+       :missionedTo :pc10 ;
+       :assignedBy "God" ;
+       :hasName "Eiash" ;
+       <http://purl.org/net/QS-onto/inVerse_Nu.> "Alkahf83" ;
+       :inVerse_Text "وَيَسْئَلُونَكَ عَنْ ذِي الْقَرْنَيْنِ قُلْ سَأَتْلُوا عَلَيْكُمْ مِنْهُ ذِكْرًا" ;
+       :nameRepeat "1" ;
+       <http://xmlns.com/foaf/0.1/age> "null" ;
+       <http://xmlns.com/foaf/0.1/gender> "Male" ;
+       <http://xmlns.com/foaf/0.1/name> "ذي القرنين" ;
+       <http://xmlns.com/foaf/0.1/nick> "Dhi_Alqarnayn" .
+
+
+###  http://purl.org/net/QS-onto/per29
+:per29 rdf:type owl:NamedIndividual ,
+                :Infidel ;
+       :mentionedIn :surah1 ;
+       :hasFather "null" ;
+       :hasMother "null" ;
+       :hasName "Pharaoh" ;
+       <http://purl.org/net/QS-onto/inVerse_Nu.> "Al-Baqarah50" ;
+       :inVerse_Text "وَإِذْ فَرَقْنَا بِكُمُ الْبَحْرَ فَأَنجَيْنَاكُمْ وَأَغْرَقْنَا آلَ فِرْعَوْنَ وَأَنتُمْ تَنظُرُونَ" ;
+       :nameRepeat "71" ;
+       <http://www.semanticweb.org/quran_s_ontology#it'sEnd> "God drowned him in the sea with his soldiers" ;
+       <http://xmlns.com/foaf/0.1/age> "400 year" ;
+       <http://xmlns.com/foaf/0.1/gender> "Male" ;
+       <http://xmlns.com/foaf/0.1/name> "فرعون" ;
+       <http://xmlns.com/foaf/0.1/nick> "null" .
+
+
+###  http://purl.org/net/QS-onto/per3
+:per3 rdf:type owl:NamedIndividual ,
+               :Messenger ,
+               :Prophet ;
+      owl:sameAs <https://www.wikidata.org/wiki/Q1782672> ;
+      :commandeIn :ev2 ;
+      :hasMiracle :ev11 ,
+                  :ev3 ;
+      :mentionedIn :surah3 ;
+      :missionedTo :pc9 ;
+      :sendTo :nat2 ;
+      :assignedBy "God" ;
+      :hasFather "lamk" ;
+      :hasMother "null" ;
+      :hasName "Noah" ;
+      <http://purl.org/net/QS-onto/inVerse_Nu.> "Al-Furqān37" ;
+      :inVerse_Text "وَقَوْمَ نُوحٍ لَمَّا كَذَّبُوا الرُّسُلَ أَغْرَقْنَاهُمْ وَجَعَلْنَاهُمْ لِلنَّاسِ آيَةً ۖ وَأَعْتَدْنَا لِلظَّالِمِينَ عَذَابًا أَلِيمًا " ;
+      :message "call people to worship god alone" ;
+      :nameRepeat "43" ;
+      <http://xmlns.com/foaf/0.1/age> "950 year" ;
+      <http://xmlns.com/foaf/0.1/gender> "Male" ;
+      <http://xmlns.com/foaf/0.1/name> "نوح" ;
+      <http://xmlns.com/foaf/0.1/nick> "those of determination" ;
+      rdfs:comment <http://purl.org/net/QS-onto/> .
+
+
+###  http://purl.org/net/QS-onto/per30
+:per30 rdf:type owl:NamedIndividual ,
+                :Infidel ;
+       owl:sameAs <https://www.wikidata.org/wiki/Q1542154> ;
+       :mentionedIn :surah13 ;
+       :hasFather "null" ;
+       :hasMother "null" ;
+       :hasName "Noah's wife" ;
+       <http://purl.org/net/QS-onto/inVerse_Nu.> "Altahrim10" ;
+       :inVerse_Text "ضَرَبَ اللَّهُ مَثَلًا لِّلَّذِينَ كَفَرُوا امْرَأَتَ نُوحٍ وَامْرَأَتَ لُوطٍ كَانَتَا تَحْتَ عَبْدَيْنِ مِنْ عِبَادِنَا صَالِحَيْنِ فَخَانَتَاهُمَا فَلَمْ يُغْنِيَا عَنْهُمَا مِنَ اللَّهِ شَيْئًا وَقِيلَ ادْخُلَا النَّارَ مَعَ الدَّاخِلِينَ" ;
+       :nameRepeat "1" ;
+       <http://www.semanticweb.org/quran_s_ontology#it'sEnd> "God drowned her in the flood with her nation" ;
+       <http://xmlns.com/foaf/0.1/age> "null" ;
+       <http://xmlns.com/foaf/0.1/gender> "Female" ;
+       <http://xmlns.com/foaf/0.1/name> "امرأة نوح" ;
+       <http://xmlns.com/foaf/0.1/nick> "null" .
+
+
+###  http://purl.org/net/QS-onto/per31
+:per31 rdf:type owl:NamedIndividual ,
+                :Infidel ;
+       owl:sameAs <https://www.wikidata.org/wiki/Q2575060> ;
+       :mentionedIn :surah13 ;
+       :hasFather "null" ;
+       :hasMother "null" ;
+       :hasName "Lut's wife" ;
+       <http://purl.org/net/QS-onto/inVerse_Nu.> "Altahrim10" ;
+       :inVerse_Text "ضَرَبَ اللَّهُ مَثَلًا لِّلَّذِينَ كَفَرُوا امْرَأَتَ نُوحٍ وَامْرَأَتَ لُوطٍ كَانَتَا تَحْتَ عَبْدَيْنِ مِنْ عِبَادِنَا صَالِحَيْنِ فَخَانَتَاهُمَا فَلَمْ يُغْنِيَا عَنْهُمَا مِنَ اللَّهِ شَيْئًا وَقِيلَ ادْخُلَا النَّارَ مَعَ الدَّاخِلِينَ" ;
+       :nameRepeat "1" ;
+       <http://www.semanticweb.org/quran_s_ontology#it'sEnd> "God punished her in torment with her nation" ;
+       <http://xmlns.com/foaf/0.1/age> "null" ;
+       <http://xmlns.com/foaf/0.1/gender> "Female" ;
+       <http://xmlns.com/foaf/0.1/name> "امرأة لوط" ;
+       <http://xmlns.com/foaf/0.1/nick> "null" .
+
+
+###  http://purl.org/net/QS-onto/per4
+:per4 rdf:type owl:NamedIndividual ,
+               :Messenger ;
+      owl:sameAs <https://www.wikidata.org/wiki/Q193669> ;
+      :mentionedIn :surah4 ;
+      :missionedTo :pc8 ;
+      :sendTo :nat3 ;
+      :assignedBy "God" ;
+      :hasFather "Shalikh" ;
+      :hasMother "null" ;
+      :hasName "Hūd" ;
+      <http://purl.org/net/QS-onto/inVerse_Nu.> "Hūd50" ;
+      :inVerse_Text "وَإِلَى عَادٍ أَخَاهُمْ هُودًا قَالَ يَا قَوْمِ اعْبُدُوا اللَّهَ مَا لَكُمْ مِنْ إِلَهٍ غَيْرُهُ إِنْ أَنْتُمْ إِلَّا مُفْتَرُونَ" ;
+      :message "call people to worship god alone" ;
+      :nameRepeat "7" ;
+      <http://xmlns.com/foaf/0.1/age> "464 year" ;
+      <http://xmlns.com/foaf/0.1/gender> "Male" ;
+      <http://xmlns.com/foaf/0.1/name> "هود" ;
+      <http://xmlns.com/foaf/0.1/nick> "null" ;
+      rdfs:comment <http://purl.org/net/QS-onto/> .
+
+
+###  http://purl.org/net/QS-onto/per5
+:per5 rdf:type owl:NamedIndividual ,
+               :Messenger ;
+      owl:sameAs <https://www.wikidata.org/wiki/Q326189> ;
+      :hasMiracle :ev12 ;
+      :mentionedIn :surah5 ;
+      :missionedTo :pc8 ;
+      :sendTo :nat4 ;
+      :assignedBy "God" ;
+      :hasFather "null" ;
+      :hasMother "null" ;
+      :hasName "Salih" ;
+      <http://purl.org/net/QS-onto/inVerse_Nu.> "Al-A‘rāf77" ;
+      :inVerse_Text "فَعَقَرُوا النَّاقَةَ وَعَتَوْا عَنْ أَمْرِ رَبِّهِمْ وَقَالُوا يَاصَالِحُ ائْتِنَا بِمَا تَعِدُنَا إِنْ كُنْتَ مِنَ الْمُرْسَلِينَ " ;
+      :message "call people to worship god alone" ;
+      :nameRepeat "9" ;
+      <http://xmlns.com/foaf/0.1/age> "null" ;
+      <http://xmlns.com/foaf/0.1/gender> "Male" ;
+      <http://xmlns.com/foaf/0.1/name> "صالح" ;
+      <http://xmlns.com/foaf/0.1/nick> "null" ;
+      rdfs:comment <http://purl.org/net/QS-onto/> .
+
+
+###  http://purl.org/net/QS-onto/per6
+:per6 rdf:type owl:NamedIndividual ,
+               :Messenger ,
+               :Prophet ;
+      owl:sameAs <https://www.wikidata.org/wiki/Q1768161> ;
+      :hasMiracle :ev10 ;
+      :mentionedIn :surah1 ;
+      :missionedTo :pc9 ;
+      :sendTo :nat5 ;
+      :assignedBy "God" ;
+      :hasFather "null" ;
+      :hasMother "null" ;
+      :hasName "Ibrahim" ;
+      <http://purl.org/net/QS-onto/inVerse_Nu.> "Al-Baqarah124" ;
+      :inVerse_Text "وَإِذِ ابْتَلَى إِبْرَاهِيمَ رَبُّهُ بِكَلِمَاتٍ فَأَتَمَّهُنَّ قَالَ إِنِّي جَاعِلُكَ لِلنَّاسِ إِمَامًا قَالَ وَمِنْ ذُرِّيَّتِي قَالَ لَا يَنَالُ عَهْدِي الظَّالِمِينَ" ;
+      :message "call people to worship god alone" ;
+      :nameRepeat "69" ;
+      <http://xmlns.com/foaf/0.1/age> "200 year" ;
+      <http://xmlns.com/foaf/0.1/gender> "Male" ;
+      <http://xmlns.com/foaf/0.1/name> "أبراهيم" ;
+      <http://xmlns.com/foaf/0.1/nick> "those of determination" ;
+      rdfs:comment <http://purl.org/net/QS-onto/> .
+
+
+###  http://purl.org/net/QS-onto/per7
+:per7 rdf:type owl:NamedIndividual ,
+               :Messenger ,
+               :Prophet ;
+      owl:sameAs <https://www.wikidata.org/wiki/Q1918059> ;
+      :mentionedIn :surah6 ;
+      :missionedTo :pc10 ;
+      :sendTo :nat6 ;
+      :assignedBy "God" ;
+      :hasFather "null" ;
+      :hasMother "null" ;
+      :hasName "Lut" ;
+      <http://purl.org/net/QS-onto/inVerse_Nu.> "Al'aneam86" ;
+      :inVerse_Text "وَإِسْمَاعِيلَ وَالْيَسَعَ وَيُونُسَ وَلُوطًا وَكُلًّا فَضَّلْنَا عَلَى الْعَالَمِينَ" ;
+      :message "call people to worship god alone" ;
+      :nameRepeat "27" ;
+      <http://xmlns.com/foaf/0.1/age> "null" ;
+      <http://xmlns.com/foaf/0.1/gender> "Male" ;
+      <http://xmlns.com/foaf/0.1/name> "لوط" ;
+      rdfs:comment <http://purl.org/net/QS-onto/> .
+
+
+###  http://purl.org/net/QS-onto/per8
+:per8 rdf:type owl:NamedIndividual ,
+               :Messenger ,
+               :Prophet ;
+      owl:sameAs <https://www.wikidata.org/wiki/Q470988> ;
+      :mentionedIn :surah6 ;
+      :missionedTo :pc8 ;
+      :assignedBy "God" ;
+      :hasFather "Ibrahim" ;
+      :hasMother "Hajer" ;
+      :hasName "Ismail" ;
+      <http://purl.org/net/QS-onto/inVerse_Nu.> "Al'aneam86" ;
+      :inVerse_Text "وَإِسْمَاعِيلَ وَالْيَسَعَ وَيُونُسَ وَلُوطًا وَكُلًّا فَضَّلْنَا عَلَى الْعَالَمِينَ" ;
+      :message "call people to worship god alone" ;
+      :nameRepeat "12" ;
+      <http://xmlns.com/foaf/0.1/age> "137 year" ;
+      <http://xmlns.com/foaf/0.1/gender> "Male" ;
+      <http://xmlns.com/foaf/0.1/name> "اسماعيل" ;
+      <http://xmlns.com/foaf/0.1/nick> "Aldhabih" ;
+      rdfs:comment <http://purl.org/net/QS-onto/> .
+
+
+###  http://purl.org/net/QS-onto/per9
+:per9 rdf:type owl:NamedIndividual ,
+               :Prophet ;
+      owl:sameAs <https://www.wikidata.org/wiki/Q1642480> ;
+      :mentionedIn :surah4 ;
+      :advise "Worship God alone and apply the commands of his religion" ;
+      :assignedBy "God" ;
+      :hasFather "Ibrahim" ;
+      :hasMother "Sara" ;
+      :hasName "Ishaq" ;
+      <http://purl.org/net/QS-onto/inVerse_Nu.> "Hūd71" ;
+      :inVerse_Text "وَامْرَأَتُهُ قَائِمَةٌ فَضَحِكَتْ فَبَشَّرْنَاهَا بِإِسْحَاقَ وَمِنْ وَرَاءِ إِسْحَاقَ يَعْقُوبَ" ;
+      :nameRepeat "17" ;
+      <http://xmlns.com/foaf/0.1/age> "108 year" ;
+      <http://xmlns.com/foaf/0.1/gender> "Male" ;
+      <http://xmlns.com/foaf/0.1/name> "اسحاق" ;
+      <http://xmlns.com/foaf/0.1/nick> "null" ;
+      rdfs:comment <http://purl.org/net/QS-onto/> .
+
+
+###  http://purl.org/net/QS-onto/surah1
+:surah1 rdf:type owl:NamedIndividual ,
+                 :Civilian_Surah ;
+        owl:sameAs <https://www.wikidata.org/wiki/Q219675> ;
+        :partOf :book4 ,
+                :ch1 ,
+                :ch2 ;
+        :reported :book4 ,
+                  :ev1 ,
+                  :pc5 ,
+                  :per1 ,
+                  :per16 ,
+                  :per29 ,
+                  :per6 ;
+        :hasName "Al-Baqarah" ;
+        <http://xmlns.com/foaf/0.1/name> "سورة البقرة" .
+
+
+###  http://purl.org/net/QS-onto/surah10
+:surah10 rdf:type owl:NamedIndividual ,
+                  :Civilian_Surah ;
+         owl:sameAs <https://www.wikidata.org/wiki/Q219682> ;
+         :partOf :book4 ,
+                 :ch3 ;
+         :reported :ev17 ,
+                   :per22 ,
+                   :per23 ,
+                   :per26 ;
+         :hasName "Aal Imran" ;
+         <http://xmlns.com/foaf/0.1/name> "ال عمران" ;
+         <http://purl.org/dc/elements/1.1/description> "سورة قرانية في الفصل الثالث من القرآن." .
+
+
+###  http://purl.org/net/QS-onto/surah11
+:surah11 rdf:type owl:NamedIndividual ,
+                  :Meccan_Surah ;
+         owl:sameAs <https://www.wikidata.org/wiki/Q223754> ;
+         :partOf :book4 ,
+                 :ch21 ;
+         :reported :per27 ;
+         :hasName "Luqman" ;
+         <http://xmlns.com/foaf/0.1/name> "سورة لقمان" .
+
+
+###  http://purl.org/net/QS-onto/surah12
+:surah12 rdf:type owl:NamedIndividual ,
+                  :Meccan_Surah ;
+         owl:sameAs <https://www.wikidata.org/wiki/Q220706> ;
+         :partOf :book4 ,
+                 :ch15 ;
+         :reported :per28 ;
+         :hasName "Alkahf" ;
+         <http://xmlns.com/foaf/0.1/name> "الكهف" .
+
+
+###  http://purl.org/net/QS-onto/surah13
+:surah13 rdf:type owl:NamedIndividual ,
+                  :Civilian_Surah ;
+         owl:sameAs <https://www.wikidata.org/wiki/Q235785> ;
+         :partOf :book4 ,
+                 :ch28 ;
+         :reported :per30 ,
+                   :per31 ;
+         :hasName "Altahrim" ;
+         <http://xmlns.com/foaf/0.1/name> "التحريم" .
+
+
+###  http://purl.org/net/QS-onto/surah14
+:surah14 rdf:type owl:NamedIndividual ,
+                  :Meccan_Surah ;
+         owl:sameAs <https://www.wikidata.org/wiki/Q230856> ;
+         :partOf :book4 ,
+                 :ch27 ;
+         :reported :anim2 ;
+         :hasName "Al_qamar" ;
+         <http://xmlns.com/foaf/0.1/name> "القمر" .
+
+
+###  http://purl.org/net/QS-onto/surah15
+:surah15 rdf:type owl:NamedIndividual ,
+                  :Meccan_Surah ;
+         owl:sameAs <https://www.wikidata.org/wiki/Q230107> ;
+         :partOf :book4 ,
+                 :ch23 ;
+         :reported :anim3 ;
+         :hasName "Alsaafaat" ;
+         <http://xmlns.com/foaf/0.1/name> "الصافات" .
+
+
+###  http://purl.org/net/QS-onto/surah16
+:surah16 rdf:type owl:NamedIndividual ,
+                  :Meccan_Surah ;
+         owl:sameAs <https://www.wikidata.org/wiki/Q221025> ;
+         :partOf :book4 ,
+                 :ch19 ;
+         :reported :anim4 ,
+                   :anim5 ,
+                   :ev13 ;
+         :hasName "Alnaml" ;
+         <http://xmlns.com/foaf/0.1/name> "النمل" .
+
+
+###  http://purl.org/net/QS-onto/surah17
+:surah17 rdf:type owl:NamedIndividual ,
+                  :Meccan_Surah ;
+         owl:sameAs <https://www.wikidata.org/wiki/Q221013> ;
+         :partOf :book4 ,
+                 :ch19 ;
+         :reported :ev15 ;
+         :hasName "Al-Shu‘arā" ;
+         <http://xmlns.com/foaf/0.1/name> "الشعراء" .
+
+
+###  http://purl.org/net/QS-onto/surah18
+:surah18 rdf:type owl:NamedIndividual ,
+                  :Meccan_Surah ;
+         owl:sameAs <https://www.wikidata.org/wiki/Q232063> ;
+         :partOf :book4 ,
+                 :ch29 ;
+         :reported :ev7 ,
+                   :ev8 ;
+         :hasName "Alhaka" ;
+         <http://xmlns.com/foaf/0.1/name> "الحاقة" .
+
+
+###  http://purl.org/net/QS-onto/surah19
+:surah19 rdf:type owl:NamedIndividual ,
+                  :Meccan_Surah ;
+         owl:sameAs <https://www.wikidata.org/wiki/Q220785> ;
+         :partOf :book4 ,
+                 :ch18 ;
+         :reported :ev2 ;
+         :hasName "Almuminun" ;
+         <http://xmlns.com/foaf/0.1/name> "المؤمنون" .
+
+
+###  http://purl.org/net/QS-onto/surah2
+:surah2 rdf:type owl:NamedIndividual ,
+                 :Meccan_Surah ;
+        owl:sameAs <https://www.wikidata.org/wiki/Q220716> ;
+        :partOf :book4 ,
+                :ch16 ;
+        :reported :per17 ,
+                  :per2 ;
+        :hasName "Muriam" ;
+        <http://xmlns.com/foaf/0.1/name> "سورة مريم" .
+
+
+###  http://purl.org/net/QS-onto/surah20
+:surah20 rdf:type owl:NamedIndividual ,
+                  :Civilian_Surah ;
+         owl:sameAs <https://www.wikidata.org/wiki/Q219701> ;
+         :partOf :book4 ,
+                 :ch6 ;
+         :reported :anim1 ,
+                   :book2 ,
+                   :book3 ,
+                   :pc4 ;
+         :hasName "Al-Mā’idah" ;
+         <http://xmlns.com/foaf/0.1/name> "المائدة" .
+
+
+###  http://purl.org/net/QS-onto/surah21
+:surah21 rdf:type owl:NamedIndividual ,
+                  :Civilian_Surah ;
+         owl:sameAs <https://www.wikidata.org/wiki/Q233170> ;
+         :partOf :book4 ,
+                 :ch30 ;
+         :hasName "Al-Shams" ;
+         <http://xmlns.com/foaf/0.1/name> "الشمس" .
+
+
+###  http://purl.org/net/QS-onto/surah22
+:surah22 rdf:type owl:NamedIndividual ,
+                  :Meccan_Surah ;
+         owl:sameAs <https://www.wikidata.org/wiki/Q219815> ;
+         :partOf :book4 ,
+                 :ch12 ;
+         :reported :pc3 ;
+         :hasName "Yūsuf" ;
+         <http://xmlns.com/foaf/0.1/name> "سورة يوسف" .
+
+
+###  http://purl.org/net/QS-onto/surah23
+:surah23 rdf:type owl:NamedIndividual ,
+                  :Meccan_Surah ;
+         owl:sameAs <https://www.wikidata.org/wiki/Q221060> ;
+         :partOf :book4 ,
+                 :ch20 ;
+         :reported :ev11 ,
+                   :ev9 ;
+         :hasName "Al-‘Ankabūt" ;
+         <http://xmlns.com/foaf/0.1/name> "العنكبوت" .
+
+
+###  http://purl.org/net/QS-onto/surah24
+:surah24 rdf:type owl:NamedIndividual ,
+                  :Meccan_Surah ;
+         owl:sameAs <https://www.wikidata.org/wiki/Q233123> ;
+         :partOf :book4 ,
+                 :ch30 ;
+         :reported :pc6 ;
+         :hasName "Alfajr" ;
+         <http://xmlns.com/foaf/0.1/name> "الفجر" .
+
+
+###  http://purl.org/net/QS-onto/surah25
+:surah25 rdf:type owl:NamedIndividual ,
+                  :Meccan_Surah ;
+         owl:sameAs <https://www.wikidata.org/wiki/Q219933> ;
+         :partOf :book4 ,
+                 :ch14 ;
+         :reported :ev5 ,
+                   :pc7 ;
+         :hasName "Al-Hijr" ;
+         <http://xmlns.com/foaf/0.1/name> "سورة الحجر" ;
+         <http://purl.org/dc/elements/1.1/description> "السورة القرانية في الجزء الرابع عشر." .
+
+
+###  http://purl.org/net/QS-onto/surah26
+:surah26 rdf:type owl:NamedIndividual ,
+                  :Meccan_Surah ;
+         owl:sameAs <https://www.wikidata.org/wiki/Q220678> ;
+         :partOf :book4 ,
+                 :ch15 ;
+         :reported :book1 ;
+         :hasName " Al-Isrā" ;
+         <http://xmlns.com/foaf/0.1/name> "الاسراء" ;
+         <http://purl.org/dc/elements/1.1/description> "السورة القرانية في الجزءالخامس عشر." .
+
+
+###  http://purl.org/net/QS-onto/surah27
+:surah27 rdf:type owl:NamedIndividual ,
+                  :Civilian_Surah ;
+         owl:sameAs <https://www.wikidata.org/wiki/Q219738> ;
+         :partOf :book4 ,
+                 :ch10 ;
+         :reported :pc2 ;
+         :hasName "Al-Tawbah" ;
+         <http://xmlns.com/foaf/0.1/name> "التوبة" .
+
+
+###  http://purl.org/net/QS-onto/surah28
+:surah28 rdf:type owl:NamedIndividual ,
+                  :Meccan_Surah ;
+         owl:sameAs <https://www.wikidata.org/wiki/Q230638> ;
+         :partOf :book4 ,
+                 :ch26 ;
+         :reported :pc1 ;
+         :hasName "Alfateh" ;
+         <http://xmlns.com/foaf/0.1/name> "الفتح" .
+
+
+###  http://purl.org/net/QS-onto/surah3
+:surah3 rdf:type owl:NamedIndividual ,
+                 :Meccan_Surah ;
+        owl:sameAs <https://www.wikidata.org/wiki/Q220983> ;
+        :partOf :book4 ,
+                :ch18 ;
+        :reported :ev4 ,
+                  :per3 ;
+        :hasName "Al-Furqān" ;
+        <http://xmlns.com/foaf/0.1/name> "الفرقان" .
+
+
+###  http://purl.org/net/QS-onto/surah4
+:surah4 rdf:type owl:NamedIndividual ,
+                 :Meccan_Surah ;
+        owl:sameAs <https://www.wikidata.org/wiki/Q219786> ;
+        :partOf :book4 ,
+                :ch11 ;
+        :reported :ev3 ,
+                  :ev6 ,
+                  :per4 ,
+                  :per9 ;
+        :hasName "Hūd" ;
+        <http://xmlns.com/foaf/0.1/name> "سورة هود" ;
+        <http://purl.org/dc/elements/1.1/description> "سورة قرانية في الجزء الحادي عشر من القران." .
+
+
+###  http://purl.org/net/QS-onto/surah5
+:surah5 rdf:type owl:NamedIndividual ,
+                 :Meccan_Surah ;
+        owl:sameAs <https://www.wikidata.org/wiki/Q219713> ;
+        :partOf :book4 ,
+                :ch8 ;
+        :reported :anim6 ,
+                  :ev12 ,
+                  :ev14 ,
+                  :per15 ,
+                  :per5 ;
+        :hasName "Al-A‘rāf" ;
+        <http://xmlns.com/foaf/0.1/name> "الاعراف" ;
+        <http://purl.org/dc/elements/1.1/description> "سورة قرانية في الجزء السابع من القران." .
+
+
+###  http://purl.org/net/QS-onto/surah6
+:surah6 rdf:type owl:NamedIndividual ,
+                 :Meccan_Surah ;
+        owl:sameAs <https://www.wikidata.org/wiki/Q219707> ;
+        :partOf :book4 ,
+                :ch7 ;
+        :reported :per11 ,
+                  :per12 ,
+                  :per14 ,
+                  :per18 ,
+                  :per19 ,
+                  :per20 ,
+                  :per21 ,
+                  :per7 ,
+                  :per8 ;
+        :hasName "Al'aneam" ;
+        <http://xmlns.com/foaf/0.1/name> "الانعام" .
+
+
+###  http://purl.org/net/QS-onto/surah7
+:surah7 rdf:type owl:NamedIndividual ,
+                 :Meccan_Surah ;
+        owl:sameAs <https://www.wikidata.org/wiki/Q220757> ;
+        :partOf :book4 ,
+                :ch17 ;
+        :reported :ev10 ,
+                  :per13 ;
+        :hasName "Al-Anbiyā" ;
+        <http://xmlns.com/foaf/0.1/name> "الانبياء" .
+
+
+###  http://purl.org/net/QS-onto/surah8
+:surah8 rdf:type owl:NamedIndividual ,
+                 :Civilian_Surah ;
+        owl:sameAs <https://www.wikidata.org/wiki/Q219696> ;
+        :partOf :book4 ,
+                :ch4 ;
+        :reported :per10 ,
+                  :per24 ;
+        :hasName "Alnisa" ;
+        <http://xmlns.com/foaf/0.1/name> "النساء" .
+
+
+###  http://purl.org/net/QS-onto/surah9
+:surah9 rdf:type owl:NamedIndividual ,
+                 :Civilian_Surah ;
+        owl:sameAs <https://www.wikidata.org/wiki/Q230604> ;
+        :partOf :book4 ,
+                :ch26 ;
+        :reported :per25 ;
+        :hasName "Mohammed" ;
+        <http://xmlns.com/foaf/0.1/name> "سورة محمد" .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#per32
+<http://www.co-ode.org/ontologies/ont.owl#per32> rdf:type owl:NamedIndividual ,
+                                                          :Infidel ;
+                                                 owl:sameAs <https://www.wikidata.org/wiki/Q192785> ;
+                                                 :hasFather "null" ;
+                                                 :hasMother "null" ;
+                                                 :hasName "Goliath" ;
+                                                 <http://purl.org/net/QS-onto/inVerse_Nu.> "Al-Baqarah251" ;
+                                                 :inVerse_Text "فَهَزَمُوهُمْ بِإِذْنِ اللَّهِ وَقَتَلَ دَاوُودُ جَالُوتَ وَآتَاهُ اللَّهُ الْمُلْكَ وَالْحِكْمَةَ وَعَلَّمَهُ مِمَّا يَشَاءُ ۗ وَلَوْلَا دَفْعُ اللَّهِ النَّاسَ بَعْضَهُمْ بِبَعْضٍ لَفَسَدَتِ الْأَرْضُ وَلَكِنَّ اللَّهَ ذُو فَضْلٍ عَلَى الْعَالَمِينَ" ;
+                                                 :nameRepeat "3" ;
+                                                 <http://xmlns.com/foaf/0.1/age> "null" ;
+                                                 <http://xmlns.com/foaf/0.1/gender> "Male" ;
+                                                 <http://xmlns.com/foaf/0.1/name> "جالوت" ;
+                                                 <http://xmlns.com/foaf/0.1/nick> "null" .
+
+
+###  http://xmlns.com/foaf/0.1/Person
+<http://xmlns.com/foaf/0.1/Person> rdf:type owl:NamedIndividual ;
+                                   owl:sameAs <https://www.wikidata.org/wiki/Q215627> .
+
+
+###  http://xmlns.com/foaf/0.1/age
+<http://xmlns.com/foaf/0.1/age> rdf:type owl:NamedIndividual ;
+                                owl:sameAs <https://www.wikidata.org/wiki/Property:P21> .
+
+
+###  https://dbpedia.org/ontology/Bird
+<https://dbpedia.org/ontology/Bird> rdf:type owl:NamedIndividual .
+
+
+###  https://dbpedia.org/ontology/Insect
+<https://dbpedia.org/ontology/Insect> rdf:type owl:NamedIndividual .
+
+
+###  https://dbpedia.org/ontology/Mammal
+<https://dbpedia.org/ontology/Mammal> rdf:type owl:NamedIndividual .
+
+
+###  https://dbpedia.org/ontology/Place
+<https://dbpedia.org/ontology/Place> rdf:type owl:NamedIndividual .
+
+
+###  https://dbpedia.org/ontology/Reptile
+<https://dbpedia.org/ontology/Reptile> rdf:type owl:NamedIndividual .
+
+
+###  https://en.wikipedia.org/wiki/Animal
+<https://en.wikipedia.org/wiki/Animal> rdf:type owl:NamedIndividual .
+
+
+###  https://en.wikipedia.org/wiki/Bird
+<https://en.wikipedia.org/wiki/Bird> rdf:type owl:NamedIndividual .
+
+
+###  https://en.wikipedia.org/wiki/Insect
+<https://en.wikipedia.org/wiki/Insect> rdf:type owl:NamedIndividual .
+
+
+###  https://en.wikipedia.org/wiki/Mammal
+<https://en.wikipedia.org/wiki/Mammal> rdf:type owl:NamedIndividual .
+
+
+###  https://en.wikipedia.org/wiki/Prophets_and_messengers_in_Islam
+<https://en.wikipedia.org/wiki/Prophets_and_messengers_in_Islam> rdf:type owl:NamedIndividual .
+
+
+###  https://en.wikipedia.org/wiki/Reptile
+<https://en.wikipedia.org/wiki/Reptile> rdf:type owl:NamedIndividual .
+
+
+###  https://www.wikidata.org/wiki/Q1207846
+<https://www.wikidata.org/wiki/Q1207846> rdf:type owl:NamedIndividual .
+
+
+###  https://www.wikidata.org/wiki/Q1257863
+<https://www.wikidata.org/wiki/Q1257863> rdf:type owl:NamedIndividual .
+
+
+###  https://www.wikidata.org/wiki/Q1478857
+<https://www.wikidata.org/wiki/Q1478857> rdf:type owl:NamedIndividual .
+
+
+###  https://www.wikidata.org/wiki/Q15215483
+<https://www.wikidata.org/wiki/Q15215483> rdf:type owl:NamedIndividual .
+
+
+###  https://www.wikidata.org/wiki/Q1542154
+<https://www.wikidata.org/wiki/Q1542154> rdf:type owl:NamedIndividual .
+
+
+###  https://www.wikidata.org/wiki/Q1642480
+<https://www.wikidata.org/wiki/Q1642480> rdf:type owl:NamedIndividual .
+
+
+###  https://www.wikidata.org/wiki/Q1729394
+<https://www.wikidata.org/wiki/Q1729394> rdf:type owl:NamedIndividual .
+
+
+###  https://www.wikidata.org/wiki/Q1768161
+<https://www.wikidata.org/wiki/Q1768161> rdf:type owl:NamedIndividual .
+
+
+###  https://www.wikidata.org/wiki/Q1768167
+<https://www.wikidata.org/wiki/Q1768167> rdf:type owl:NamedIndividual .
+
+
+###  https://www.wikidata.org/wiki/Q1782672
+<https://www.wikidata.org/wiki/Q1782672> rdf:type owl:NamedIndividual .
+
+
+###  https://www.wikidata.org/wiki/Q18811437
+<https://www.wikidata.org/wiki/Q18811437> rdf:type owl:NamedIndividual .
+
+
+###  https://www.wikidata.org/wiki/Q188219
+<https://www.wikidata.org/wiki/Q188219> rdf:type owl:NamedIndividual .
+
+
+###  https://www.wikidata.org/wiki/Q1918059
+<https://www.wikidata.org/wiki/Q1918059> rdf:type owl:NamedIndividual .
+
+
+###  https://www.wikidata.org/wiki/Q192785
+<https://www.wikidata.org/wiki/Q192785> rdf:type owl:NamedIndividual .
+
+
+###  https://www.wikidata.org/wiki/Q193669
+<https://www.wikidata.org/wiki/Q193669> rdf:type owl:NamedIndividual .
+
+
+###  https://www.wikidata.org/wiki/Q1980247
+<https://www.wikidata.org/wiki/Q1980247> rdf:type owl:NamedIndividual .
+
+
+###  https://www.wikidata.org/wiki/Q1990155
+<https://www.wikidata.org/wiki/Q1990155> rdf:type owl:NamedIndividual .
+
+
+###  https://www.wikidata.org/wiki/Q2001710
+<https://www.wikidata.org/wiki/Q2001710> rdf:type owl:NamedIndividual .
+
+
+###  https://www.wikidata.org/wiki/Q2090543
+<https://www.wikidata.org/wiki/Q2090543> rdf:type owl:NamedIndividual .
+
+
+###  https://www.wikidata.org/wiki/Q215627
+<https://www.wikidata.org/wiki/Q215627> rdf:type owl:NamedIndividual .
+
+
+###  https://www.wikidata.org/wiki/Q219675
+<https://www.wikidata.org/wiki/Q219675> rdf:type owl:NamedIndividual .
+
+
+###  https://www.wikidata.org/wiki/Q219682
+<https://www.wikidata.org/wiki/Q219682> rdf:type owl:NamedIndividual .
+
+
+###  https://www.wikidata.org/wiki/Q219696
+<https://www.wikidata.org/wiki/Q219696> rdf:type owl:NamedIndividual .
+
+
+###  https://www.wikidata.org/wiki/Q219701
+<https://www.wikidata.org/wiki/Q219701> rdf:type owl:NamedIndividual .
+
+
+###  https://www.wikidata.org/wiki/Q219707
+<https://www.wikidata.org/wiki/Q219707> rdf:type owl:NamedIndividual .
+
+
+###  https://www.wikidata.org/wiki/Q219713
+<https://www.wikidata.org/wiki/Q219713> rdf:type owl:NamedIndividual .
+
+
+###  https://www.wikidata.org/wiki/Q219738
+<https://www.wikidata.org/wiki/Q219738> rdf:type owl:NamedIndividual .
+
+
+###  https://www.wikidata.org/wiki/Q219786
+<https://www.wikidata.org/wiki/Q219786> rdf:type owl:NamedIndividual .
+
+
+###  https://www.wikidata.org/wiki/Q219815
+<https://www.wikidata.org/wiki/Q219815> rdf:type owl:NamedIndividual .
+
+
+###  https://www.wikidata.org/wiki/Q219933
+<https://www.wikidata.org/wiki/Q219933> rdf:type owl:NamedIndividual .
+
+
+###  https://www.wikidata.org/wiki/Q220678
+<https://www.wikidata.org/wiki/Q220678> rdf:type owl:NamedIndividual .
+
+
+###  https://www.wikidata.org/wiki/Q220706
+<https://www.wikidata.org/wiki/Q220706> rdf:type owl:NamedIndividual .
+
+
+###  https://www.wikidata.org/wiki/Q220716
+<https://www.wikidata.org/wiki/Q220716> rdf:type owl:NamedIndividual .
+
+
+###  https://www.wikidata.org/wiki/Q220757
+<https://www.wikidata.org/wiki/Q220757> rdf:type owl:NamedIndividual .
+
+
+###  https://www.wikidata.org/wiki/Q220785
+<https://www.wikidata.org/wiki/Q220785> rdf:type owl:NamedIndividual .
+
+
+###  https://www.wikidata.org/wiki/Q220983
+<https://www.wikidata.org/wiki/Q220983> rdf:type owl:NamedIndividual .
+
+
+###  https://www.wikidata.org/wiki/Q221013
+<https://www.wikidata.org/wiki/Q221013> rdf:type owl:NamedIndividual .
+
+
+###  https://www.wikidata.org/wiki/Q221025
+<https://www.wikidata.org/wiki/Q221025> rdf:type owl:NamedIndividual .
+
+
+###  https://www.wikidata.org/wiki/Q221060
+<https://www.wikidata.org/wiki/Q221060> rdf:type owl:NamedIndividual .
+
+
+###  https://www.wikidata.org/wiki/Q223754
+<https://www.wikidata.org/wiki/Q223754> rdf:type owl:NamedIndividual .
+
+
+###  https://www.wikidata.org/wiki/Q230107
+<https://www.wikidata.org/wiki/Q230107> rdf:type owl:NamedIndividual .
+
+
+###  https://www.wikidata.org/wiki/Q230604
+<https://www.wikidata.org/wiki/Q230604> rdf:type owl:NamedIndividual .
+
+
+###  https://www.wikidata.org/wiki/Q230638
+<https://www.wikidata.org/wiki/Q230638> rdf:type owl:NamedIndividual .
+
+
+###  https://www.wikidata.org/wiki/Q230856
+<https://www.wikidata.org/wiki/Q230856> rdf:type owl:NamedIndividual .
+
+
+###  https://www.wikidata.org/wiki/Q232063
+<https://www.wikidata.org/wiki/Q232063> rdf:type owl:NamedIndividual .
+
+
+###  https://www.wikidata.org/wiki/Q233123
+<https://www.wikidata.org/wiki/Q233123> rdf:type owl:NamedIndividual .
+
+
+###  https://www.wikidata.org/wiki/Q233170
+<https://www.wikidata.org/wiki/Q233170> rdf:type owl:NamedIndividual .
+
+
+###  https://www.wikidata.org/wiki/Q234262
+<https://www.wikidata.org/wiki/Q234262> rdf:type owl:NamedIndividual .
+
+
+###  https://www.wikidata.org/wiki/Q235785
+<https://www.wikidata.org/wiki/Q235785> rdf:type owl:NamedIndividual .
+
+
+###  https://www.wikidata.org/wiki/Q2513598
+<https://www.wikidata.org/wiki/Q2513598> rdf:type owl:NamedIndividual .
+
+
+###  https://www.wikidata.org/wiki/Q2575060
+<https://www.wikidata.org/wiki/Q2575060> rdf:type owl:NamedIndividual .
+
+
+###  https://www.wikidata.org/wiki/Q2625307
+<https://www.wikidata.org/wiki/Q2625307> rdf:type owl:NamedIndividual .
+
+
+###  https://www.wikidata.org/wiki/Q326189
+<https://www.wikidata.org/wiki/Q326189> rdf:type owl:NamedIndividual .
+
+
+###  https://www.wikidata.org/wiki/Q327375
+<https://www.wikidata.org/wiki/Q327375> rdf:type owl:NamedIndividual .
+
+
+###  https://www.wikidata.org/wiki/Q332574
+<https://www.wikidata.org/wiki/Q332574> rdf:type owl:NamedIndividual .
+
+
+###  https://www.wikidata.org/wiki/Q380714
+<https://www.wikidata.org/wiki/Q380714> rdf:type owl:NamedIndividual .
+
+
+###  https://www.wikidata.org/wiki/Q470988
+<https://www.wikidata.org/wiki/Q470988> rdf:type owl:NamedIndividual .
+
+
+###  https://www.wikidata.org/wiki/Q51664
+<https://www.wikidata.org/wiki/Q51664> rdf:type owl:NamedIndividual .
+
+
+###  https://www.wikidata.org/wiki/Q563644
+<https://www.wikidata.org/wiki/Q563644> rdf:type owl:NamedIndividual .
+
+
+###  https://www.wikidata.org/wiki/Q571
+<https://www.wikidata.org/wiki/Q571> rdf:type owl:NamedIndividual .
+
+
+###  https://www.wikidata.org/wiki/Q729
+<https://www.wikidata.org/wiki/Q729> rdf:type owl:NamedIndividual .
+
+
+###  https://www.wikidata.org/wiki/Q9458
+<https://www.wikidata.org/wiki/Q9458> rdf:type owl:NamedIndividual .
+
+
+###  https://www.wikidata.org/wiki/Q982867
+<https://www.wikidata.org/wiki/Q982867> rdf:type owl:NamedIndividual .
+
+
+###  https://www.wikidata.org/wiki/Property:P21
+<https://www.wikidata.org/wiki/Property:P21> rdf:type owl:NamedIndividual .
+
+
+#################################################################
+#    Annotations
+#################################################################
+
+:Animal rdfs:comment "الحيوان." ;
+        rdfs:isDefinedBy <http://purl.org/net/QS-onto/> ;
+        rdfs:label "Animal" .
+
+
+:Bird rdfs:comment "الطير" ,
+                   "الطير." ;
+      rdfs:isDefinedBy <http://purl.org/net/QS-onto/> ;
+      rdfs:label "Bird" .
+
+
+:Book <http://purl.org/dc/elements/1.1/description> "مجموعة من الأوراق بأنواع مختلفة (ورقية، إلكترونية، إلخ.) تحتوي على كلمات وجمل لهدف أساسي وهو الحفظ (ضد الضياع)." ;
+      rdfs:comment "الكتاب" ,
+                   "الكتاب." ;
+      rdfs:isDefinedBy <http://purl.org/net/QS-onto/> ;
+      rdfs:label "Book" .
+
+
+:Chapter rdfs:comment "الجزء القرأني" ,
+                      "الجزء القراني" ;
+         rdfs:isDefinedBy <http://purl.org/net/QS-onto/> ;
+         rdfs:label "Chapter" .
+
+
+:Insect rdfs:comment "الحشرات" ,
+                     "الحشرة." ;
+        rdfs:isDefinedBy <http://purl.org/net/QS-onto/> ;
+        rdfs:label "Insect" .
+
+
+:Mammal rdfs:comment "الثدييات" ;
+        rdfs:isDefinedBy <http://purl.org/net/QS-onto/> ;
+        rdfs:label "Mammal" .
+
+
+:Messenger rdfs:comment "الرسول" ,
+                        "الرسول." ;
+           rdfs:isDefinedBy <http://purl.org/net/QS-onto/> ;
+           rdfs:label "Messenger" .
+
+
+:Place rdfs:comment "المكان" ,
+                    "المكان." ;
+       rdfs:isDefinedBy <http://purl.org/net/QS-onto/> ;
+       rdfs:label "Place" .
+
+
+:Prophet rdfs:comment "النبي" ,
+                      "النبي." ;
+         rdfs:isDefinedBy <http://purl.org/net/QS-onto/> ;
+         rdfs:label "Prophet" .
+
+
+:Reptile rdfs:comment "الزواحف" ;
+         rdfs:isDefinedBy <http://purl.org/net/QS-onto/> ;
+         rdfs:label "Reptile" .
+
+
+:Surah rdfs:comment "السورة" ,
+                    "السورة القرانية" ;
+       rdfs:isDefinedBy <http://purl.org/net/QS-onto/> ;
+       rdfs:label "Surah" .
+
+
+:Verse rdfs:comment "الأية." ;
+       rdfs:isDefinedBy <http://purl.org/net/QS-onto/> ;
+       rdfs:label "Verse" .
+
+
+:partOf <http://purl.org/dc/elements/1.1/description> "السور القرانية هي جزء من الاجزاء والاجزاء هي جزء من القران." ;
+        rdfs:comment "جزء من" ;
+        rdfs:isDefinedBy <http://purl.org/net/QS-onto/> ;
+        rdfs:label "partOf" .
+
+
+<http://xmlns.com/foaf/0.1/Person> rdfs:comment "الشخص" .
+
+
+###  Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/
