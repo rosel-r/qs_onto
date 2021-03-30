@@ -16,6 +16,7 @@
     <owl:Ontology rdf:about="http://purl.org/net/QS-onto/">
         <owl:versionIRI rdf:resource="http://purl.org/net/QS-onto/"/>
         <owl:imports rdf:resource="http://xmlns.com/foaf/0.1/"/>
+        <dc:title>Quran Stories Ontology</dc:title>
     </owl:Ontology>
     
 
@@ -4460,7 +4461,6 @@
         <rdfs:label>Book</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.org/net/QS-onto/Chapter">
-        <rdfs:comment>الجزء القرأني</rdfs:comment>
         <rdfs:comment>الجزء القراني</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://purl.org/net/QS-onto/"/>
         <rdfs:label>Chapter</rdfs:label>

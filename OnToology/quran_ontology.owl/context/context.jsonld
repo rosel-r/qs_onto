@@ -249,6 +249,9 @@
       "@id" : "http://purl.org/net/QS-onto/missionPlace_Of",
       "@type" : "@id"
     },
+    "title" : {
+      "@id" : "http://purl.org/dc/elements/1.1/title"
+    },
     "received" : {
       "@id" : "http://purl.org/net/QS-onto/received",
       "@type" : "@id"
