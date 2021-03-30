@@ -17,6 +17,7 @@
     <owl:Ontology rdf:about="http://purl.org/net/QS-onto/">
         <owl:versionIRI rdf:resource="http://purl.org/net/QS-onto/"/>
         <owl:imports rdf:resource="http://xmlns.com/foaf/0.1/"/>
+        <dc:title>Quranic Stories Ontology</dc:title>
     </owl:Ontology>
     
 
@@ -906,7 +907,6 @@
 
     <owl:Class rdf:about="http://purl.org/net/QS-onto/Animal">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-<rdfs:isDefinedBy rdf:resource="http://purl.org/net/QS-onto/"/>
     </owl:Class>
     
 
@@ -915,7 +915,6 @@
 
     <owl:Class rdf:about="http://purl.org/net/QS-onto/Bird">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/QS-onto/Animal"/>
-<rdfs:comment>الطير</rdfs:comment>
     </owl:Class>
     
 
@@ -935,8 +934,6 @@
 
     <owl:Class rdf:about="http://purl.org/net/QS-onto/Book">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-<rdfs:comment>الكتاب</rdfs:comment>
-<rdfs:label>Book</rdfs:label>
     </owl:Class>
     
 
@@ -945,8 +942,6 @@
 
     <owl:Class rdf:about="http://purl.org/net/QS-onto/Chapter">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-<rdfs:comment>الجزء القرأني</rdfs:comment>
-<rdfs:label>Chapter</rdfs:label>
     </owl:Class>
     
 
@@ -1066,7 +1061,6 @@
 
     <owl:Class rdf:about="http://purl.org/net/QS-onto/Insect">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/QS-onto/Animal"/>
-<rdfs:comment>الحشرات</rdfs:comment>
     </owl:Class>
     
 
@@ -1086,7 +1080,6 @@
 
     <owl:Class rdf:about="http://purl.org/net/QS-onto/Mammal">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/QS-onto/Animal"/>
-<rdfs:comment>الثدييات</rdfs:comment>
     </owl:Class>
     
 
@@ -1106,7 +1099,6 @@
 
     <owl:Class rdf:about="http://purl.org/net/QS-onto/Messenger">
         <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
-<rdfs:comment>الرسول</rdfs:comment>
     </owl:Class>
     
 
@@ -1148,7 +1140,6 @@
 
     <owl:Class rdf:about="http://purl.org/net/QS-onto/Place">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-<rdfs:comment>المكان</rdfs:comment>
     </owl:Class>
     
 
@@ -1157,7 +1148,6 @@
 
     <owl:Class rdf:about="http://purl.org/net/QS-onto/Prophet">
         <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
-<rdfs:comment>النبي</rdfs:comment>
     </owl:Class>
     
 
@@ -1166,7 +1156,6 @@
 
     <owl:Class rdf:about="http://purl.org/net/QS-onto/Reptile">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/QS-onto/Animal"/>
-<rdfs:comment>الزواحف</rdfs:comment>
     </owl:Class>
     
 
@@ -1186,8 +1175,6 @@
 
     <owl:Class rdf:about="http://purl.org/net/QS-onto/Surah">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-<rdfs:comment>السورة القرانية</rdfs:comment>
-<rdfs:isDefinedBy rdf:resource="http://purl.org/net/QS-onto/"/>
     </owl:Class>
     
 
@@ -1196,8 +1183,6 @@
 
     <owl:Class rdf:about="http://purl.org/net/QS-onto/Verse">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
- <rdfs:comment>الأية.</rdfs:comment>
-<rdfs:isDefinedBy rdf:resource="http://purl.org/net/QS-onto/"/>
     </owl:Class>
     
 
@@ -1206,7 +1191,6 @@
 
     <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Person">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
- <rdfs:comment>الشخص</rdfs:comment>
     </rdf:Description>
     
 
@@ -4132,15 +4116,17 @@
 
     <rdf:Description rdf:about="http://purl.org/net/QS-onto/Animal">
         <rdfs:isDefinedBy rdf:resource="http://purl.org/net/QS-onto/"/>
-        <rdfs:label>Animal</rdfs:label>
         <rdfs:comment>الحيوان.</rdfs:comment>
+        <rdfs:label>Animal</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.org/net/QS-onto/Bird">
         <rdfs:isDefinedBy rdf:resource="http://purl.org/net/QS-onto/"/>
+        <rdfs:comment>الطير</rdfs:comment>
         <rdfs:label>Bird</rdfs:label>
         <rdfs:comment>الطير.</rdfs:comment>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.org/net/QS-onto/Book">
+        <rdfs:comment>الكتاب</rdfs:comment>
         <rdfs:comment>الكتاب.</rdfs:comment>
         <rdfs:label>Book</rdfs:label>
         <rdfs:isDefinedBy rdf:resource="http://purl.org/net/QS-onto/"/>
@@ -4154,6 +4140,7 @@
     <rdf:Description rdf:about="http://purl.org/net/QS-onto/Insect">
         <rdfs:label>Insect</rdfs:label>
         <rdfs:comment>الحشرة.</rdfs:comment>
+        <rdfs:comment>الحشرات</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://purl.org/net/QS-onto/"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.org/net/QS-onto/Mammal">
@@ -4162,6 +4149,7 @@
         <rdfs:label>Mammal</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.org/net/QS-onto/Messenger">
+        <rdfs:comment>الرسول</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://purl.org/net/QS-onto/"/>
         <rdfs:comment>الرسول.</rdfs:comment>
         <rdfs:label>Messenger</rdfs:label>
@@ -4169,12 +4157,14 @@
     <rdf:Description rdf:about="http://purl.org/net/QS-onto/Place">
         <rdfs:comment>المكان.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://purl.org/net/QS-onto/"/>
+        <rdfs:comment>المكان</rdfs:comment>
         <rdfs:label>Place</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.org/net/QS-onto/Prophet">
         <rdfs:label>Prophet</rdfs:label>
         <rdfs:isDefinedBy rdf:resource="http://purl.org/net/QS-onto/"/>
         <rdfs:comment>النبي.</rdfs:comment>
+        <rdfs:comment>النبي</rdfs:comment>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.org/net/QS-onto/Reptile">
         <rdfs:isDefinedBy rdf:resource="http://purl.org/net/QS-onto/"/>
@@ -4184,6 +4174,7 @@
     <rdf:Description rdf:about="http://purl.org/net/QS-onto/Surah">
         <rdfs:comment>السورة</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://purl.org/net/QS-onto/"/>
+        <rdfs:comment>السورة القرانية</rdfs:comment>
         <rdfs:label>Surah</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.org/net/QS-onto/Verse">
@@ -4196,6 +4187,9 @@
         <rdfs:label>partOf</rdfs:label>
         <dc:description>السور القرانية هي جزء من الاجزاء والاجزاء هي جزء من القران.</dc:description>
         <rdfs:isDefinedBy rdf:resource="http://purl.org/net/QS-onto/"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Person">
+        <rdfs:comment>الشخص</rdfs:comment>
     </rdf:Description>
 </rdf:RDF>
 
