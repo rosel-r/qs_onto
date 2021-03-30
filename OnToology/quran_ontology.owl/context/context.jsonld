@@ -1,344 +1,347 @@
 {
   "@context" : {
-    "message" : {
-      "@id" : "http://purl.org/net/QS-onto/message",
+    "abstract" : {
+      "@id" : "http://purl.org/dc/elements/1.1/abstract"
+    },
+    "en_qs_ontolivedIn" : {
+      "@id" : "https://w3id.org/def/en_qs_ontolivedIn",
+      "@type" : "@id"
+    },
+    "en_qs_ontobornPlaceOf" : {
+      "@id" : "https://w3id.org/def/en_qs_ontobornPlaceOf",
+      "@type" : "@id"
+    },
+    "en_qs_ontoBird" : {
+      "@id" : "https://w3id.org/def/en_qs_ontoBird"
+    },
+    "en_qs_ontoappearedWith" : {
+      "@id" : "https://w3id.org/def/en_qs_ontoappearedWith",
+      "@type" : "@id"
+    },
+    "en_qs_ontoGod_Punishment" : {
+      "@id" : "https://w3id.org/def/en_qs_ontoGod_Punishment"
+    },
+    "en_qs_ontohasMother" : {
+      "@id" : "https://w3id.org/def/en_qs_ontohasMother",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
-    "reported" : {
-      "@id" : "http://purl.org/net/QS-onto/reported",
+    "en_qs_ontomissionPlace_Of" : {
+      "@id" : "https://w3id.org/def/en_qs_ontomissionPlace_Of",
       "@type" : "@id"
     },
-    "inVerse_Text" : {
-      "@id" : "http://purl.org/net/QS-onto/inVerse_Text",
-      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
-    },
-    "swallow" : {
-      "@id" : "http://purl.org/net/QS-onto/swallow",
+    "en_qs_ontoadvised" : {
+      "@id" : "https://w3id.org/def/en_qs_ontoadvised",
       "@type" : "@id"
     },
-    "occuredIn" : {
-      "@id" : "http://purl.org/net/QS-onto/occuredIn",
-      "@type" : "@id"
+    "en_qs_ontoMissionPlace" : {
+      "@id" : "https://w3id.org/def/en_qs_ontoMissionPlace"
     },
-    "BirthPlace" : {
-      "@id" : "http://purl.org/net/QS-onto/BirthPlace"
+    "en_qs_ontoMeccan_Surah" : {
+      "@id" : "https://w3id.org/def/en_qs_ontoMeccan_Surah"
     },
-    "bornedIn" : {
-      "@id" : "http://purl.org/net/QS-onto/bornedIn",
-      "@type" : "@id"
+    "en_qs_ontoDate" : {
+      "@id" : "https://w3id.org/def/en_qs_ontoDate"
     },
-    "Bird" : {
-      "@id" : "http://purl.org/net/QS-onto/Bird"
-    },
-    "God_Punishment" : {
-      "@id" : "http://purl.org/net/QS-onto/God_Punishment"
-    },
-    "hasBook" : {
-      "@id" : "http://purl.org/net/QS-onto/hasBook",
-      "@type" : "@id"
-    },
-    "advisedBy" : {
-      "@id" : "http://purl.org/net/QS-onto/advisedBy",
-      "@type" : "@id"
-    },
-    "Mammal" : {
-      "@id" : "http://purl.org/net/QS-onto/Mammal"
-    },
-    "ledTo" : {
-      "@id" : "http://purl.org/net/QS-onto/ledTo",
-      "@type" : "@id"
+    "en_qs_ontoInsect" : {
+      "@id" : "https://w3id.org/def/en_qs_ontoInsect"
     },
     "Thing" : {
       "@id" : "http://www.w3.org/2002/07/owl#Thing"
+    },
+    "en_qs_ontoaccomplishedBy" : {
+      "@id" : "https://w3id.org/def/en_qs_ontoaccomplishedBy",
+      "@type" : "@id"
     },
     "age" : {
       "@id" : "http://xmlns.com/foaf/0.1/age",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
-    "hasName" : {
-      "@id" : "http://purl.org/net/QS-onto/hasName",
+    "en_qs_ontoInfidel" : {
+      "@id" : "https://w3id.org/def/en_qs_ontoInfidel"
+    },
+    "en_qs_ontoHistoricEvent" : {
+      "@id" : "https://w3id.org/def/en_qs_ontoHistoricEvent"
+    },
+    "en_qs_ontoCity" : {
+      "@id" : "https://w3id.org/def/en_qs_ontoCity"
+    },
+    "en_qs_ontoinVerse_Text" : {
+      "@id" : "https://w3id.org/def/en_qs_ontoinVerse_Text",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
-    },
-    "reasonFor_Mention" : {
-      "@id" : "http://purl.org/net/QS-onto/reasonFor_Mention",
-      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
-    },
-    "Verse" : {
-      "@id" : "http://purl.org/net/QS-onto/Verse"
-    },
-    "God_Comanded" : {
-      "@id" : "http://purl.org/net/QS-onto/God_Comanded"
-    },
-    "Messenger" : {
-      "@id" : "http://purl.org/net/QS-onto/Messenger"
-    },
-    "hasFather" : {
-      "@id" : "http://purl.org/net/QS-onto/hasFather",
-      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
-    },
-    "MissionPlace" : {
-      "@id" : "http://purl.org/net/QS-onto/MissionPlace"
-    },
-    "commandeIn" : {
-      "@id" : "http://purl.org/net/QS-onto/commandeIn",
-      "@type" : "@id"
     },
     "birthday" : {
       "@id" : "http://xmlns.com/foaf/0.1/birthday",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
-    "mentionedIn" : {
-      "@id" : "http://purl.org/net/QS-onto/mentionedIn",
-      "@type" : "@id"
+    "en_qs_ontoVerse" : {
+      "@id" : "https://w3id.org/def/en_qs_ontoVerse"
     },
     "tHave" : {
       "@id" : "http://www.semanticweb.org/quran_s_ontology#don'tHave",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
-    "sendTo" : {
-      "@id" : "http://purl.org/net/QS-onto/sendTo",
+    "en_qs_ontohasMiracle" : {
+      "@id" : "https://w3id.org/def/en_qs_ontohasMiracle",
+      "@type" : "@id"
+    },
+    "en_qs_ontodoneBy" : {
+      "@id" : "https://w3id.org/def/en_qs_ontodoneBy",
       "@type" : "@id"
     },
     "label" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
-    "dueTo" : {
-      "@id" : "http://purl.org/net/QS-onto/dueTo",
-      "@type" : "@id"
-    },
-    "Reptile" : {
-      "@id" : "http://purl.org/net/QS-onto/Reptile"
-    },
     "familyName" : {
       "@id" : "http://xmlns.com/foaf/0.1/familyName",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
-    "appearedWith" : {
-      "@id" : "http://purl.org/net/QS-onto/appearedWith",
+    "en_qs_ontoPlace" : {
+      "@id" : "https://w3id.org/def/en_qs_ontoPlace"
+    },
+    "en_qs_ontoCivilian_Surah" : {
+      "@id" : "https://w3id.org/def/en_qs_ontoCivilian_Surah"
+    },
+    "en_qs_ontoreceived" : {
+      "@id" : "https://w3id.org/def/en_qs_ontoreceived",
       "@type" : "@id"
     },
-    "Chapter" : {
-      "@id" : "http://purl.org/net/QS-onto/Chapter"
+    "en_qs_ontoassignedBy" : {
+      "@id" : "https://w3id.org/def/en_qs_ontoassignedBy",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
-    "generate" : {
-      "@id" : "http://purl.org/net/QS-onto/generate",
+    "en_qs_ontoadvise" : {
+      "@id" : "https://w3id.org/def/en_qs_ontoadvise",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "en_qs_ontooverturnedFrom" : {
+      "@id" : "https://w3id.org/def/en_qs_ontooverturnedFrom",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "en_qs_ontohonoredWith" : {
+      "@id" : "https://w3id.org/def/en_qs_ontohonoredWith",
       "@type" : "@id"
     },
-    "targetedBy" : {
-      "@id" : "http://purl.org/net/QS-onto/targetedBy",
-      "@type" : "@id"
+    "en_qs_ontoGod_Comanded" : {
+      "@id" : "https://w3id.org/def/en_qs_ontoGod_Comanded"
+    },
+    "en_qs_ontoMessenger" : {
+      "@id" : "https://w3id.org/def/en_qs_ontoMessenger"
     },
     "gender" : {
       "@id" : "http://xmlns.com/foaf/0.1/gender",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
-    "Animal" : {
-      "@id" : "http://purl.org/net/QS-onto/Animal"
+    "en_qs_ontoconsisitOf" : {
+      "@id" : "https://w3id.org/def/en_qs_ontoconsisitOf",
+      "@type" : "@id"
     },
-    "Event" : {
-      "@id" : "http://purl.org/net/QS-onto/Event"
-    },
-    "hasMiracle" : {
-      "@id" : "http://purl.org/net/QS-onto/hasMiracle",
+    "en_qs_ontoswallow" : {
+      "@id" : "https://w3id.org/def/en_qs_ontoswallow",
       "@type" : "@id"
     },
     "Person" : {
       "@id" : "http://xmlns.com/foaf/0.1/Person"
     },
-    "hasParents" : {
-      "@id" : "http://purl.org/net/QS-onto/hasParents",
-      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
-    },
-    "Date" : {
-      "@id" : "http://purl.org/net/QS-onto/Date"
-    },
-    "accomplishedBy" : {
-      "@id" : "http://purl.org/net/QS-onto/accomplishedBy",
+    "en_qs_ontoinclude" : {
+      "@id" : "https://w3id.org/def/en_qs_ontoinclude",
       "@type" : "@id"
     },
-    "consisitOf" : {
-      "@id" : "http://purl.org/net/QS-onto/consisitOf",
-      "@type" : "@id"
-    },
-    "Book" : {
-      "@id" : "http://purl.org/net/QS-onto/Book"
+    "en_qs_ontoChapter" : {
+      "@id" : "https://w3id.org/def/en_qs_ontoChapter"
     },
     "name" : {
       "@id" : "http://xmlns.com/foaf/0.1/name"
     },
-    "Event_Tool" : {
-      "@id" : "http://purl.org/net/QS-onto/Event_Tool"
-    },
-    "isPlaceOccurance" : {
-      "@id" : "http://purl.org/net/QS-onto/isPlaceOccurance",
+    "en_qs_ontotargetedBy" : {
+      "@id" : "https://w3id.org/def/en_qs_ontotargetedBy",
       "@type" : "@id"
     },
-    "hasMother" : {
-      "@id" : "http://purl.org/net/QS-onto/hasMother",
+    "en_qs_ontooccuredIn" : {
+      "@id" : "https://w3id.org/def/en_qs_ontooccuredIn",
+      "@type" : "@id"
+    },
+    "en_qs_ontohasFather" : {
+      "@id" : "https://w3id.org/def/en_qs_ontohasFather",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
-    "Prophet" : {
-      "@id" : "http://purl.org/net/QS-onto/Prophet"
-    },
-    "livePlace_Of" : {
-      "@id" : "http://purl.org/net/QS-onto/livePlace_Of",
+    "en_qs_ontoadvisedBy" : {
+      "@id" : "https://w3id.org/def/en_qs_ontoadvisedBy",
       "@type" : "@id"
     },
-    "partOf" : {
-      "@id" : "http://purl.org/net/QS-onto/partOf",
+    "en_qs_ontoMammal" : {
+      "@id" : "https://w3id.org/def/en_qs_ontoMammal"
+    },
+    "en_qs_ontoEvent" : {
+      "@id" : "https://w3id.org/def/en_qs_ontoEvent"
+    },
+    "en_qs_ontohonoringTo" : {
+      "@id" : "https://w3id.org/def/en_qs_ontohonoringTo",
       "@type" : "@id"
     },
     "nick" : {
       "@id" : "http://xmlns.com/foaf/0.1/nick",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
-    "assignedIn" : {
-      "@id" : "http://purl.org/net/QS-onto/assignedIn",
+    "en_qs_ontomentionedIn" : {
+      "@id" : "https://w3id.org/def/en_qs_ontomentionedIn",
       "@type" : "@id"
     },
-    "missionedTo" : {
-      "@id" : "http://purl.org/net/QS-onto/missionedTo",
+    "en_qs_ontobelongTo" : {
+      "@id" : "https://w3id.org/def/en_qs_ontobelongTo",
       "@type" : "@id"
     },
-    "Insect" : {
-      "@id" : "http://purl.org/net/QS-onto/Insect"
-    },
-    "include" : {
-      "@id" : "http://purl.org/net/QS-onto/include",
-      "@type" : "@id"
-    },
-    "livedIn" : {
-      "@id" : "http://purl.org/net/QS-onto/livedIn",
-      "@type" : "@id"
-    },
-    "advise" : {
-      "@id" : "http://purl.org/net/QS-onto/advise",
+    "en_qs_ontonameRepeat" : {
+      "@id" : "https://w3id.org/def/en_qs_ontonameRepeat",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
-    "Nation" : {
-      "@id" : "http://purl.org/net/QS-onto/Nation"
+    "en_qs_ontoMiracles" : {
+      "@id" : "https://w3id.org/def/en_qs_ontoMiracles"
     },
-    "inVerse_Nu." : {
-      "@id" : "http://purl.org/net/QS-onto/inVerse_Nu.",
-      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    "en_qs_ontoBirthPlace" : {
+      "@id" : "https://w3id.org/def/en_qs_ontoBirthPlace"
     },
-    "Place" : {
-      "@id" : "http://purl.org/net/QS-onto/Place"
+    "en_qs_ontoreported" : {
+      "@id" : "https://w3id.org/def/en_qs_ontoreported",
+      "@type" : "@id"
+    },
+    "en_qs_ontoEvent_Tool" : {
+      "@id" : "https://w3id.org/def/en_qs_ontoEvent_Tool"
+    },
+    "en_qs_ontocommandeIn" : {
+      "@id" : "https://w3id.org/def/en_qs_ontocommandeIn",
+      "@type" : "@id"
     },
     "isDefinedBy" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy"
-    },
-    "Meccan_Surah" : {
-      "@id" : "http://purl.org/net/QS-onto/Meccan_Surah"
     },
     "sEnd" : {
       "@id" : "http://www.semanticweb.org/quran_s_ontology#it'sEnd",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
-    "assignedBy" : {
-      "@id" : "http://purl.org/net/QS-onto/assignedBy",
-      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
-    },
-    "LivePlace" : {
-      "@id" : "http://purl.org/net/QS-onto/LivePlace"
-    },
-    "Righteou" : {
-      "@id" : "http://purl.org/net/QS-onto/Righteou"
-    },
-    "missionPlace_Of" : {
-      "@id" : "http://purl.org/net/QS-onto/missionPlace_Of",
+    "en_qs_ontomissionedTo" : {
+      "@id" : "https://w3id.org/def/en_qs_ontomissionedTo",
       "@type" : "@id"
+    },
+    "en_qs_ontoLivePlace" : {
+      "@id" : "https://w3id.org/def/en_qs_ontoLivePlace"
+    },
+    "en_qs_ontodueTo" : {
+      "@id" : "https://w3id.org/def/en_qs_ontodueTo",
+      "@type" : "@id"
+    },
+    "en_qs_ontoAfterLive_Event" : {
+      "@id" : "https://w3id.org/def/en_qs_ontoAfterLive_Event"
+    },
+    "en_qs_ontopartOf" : {
+      "@id" : "https://w3id.org/def/en_qs_ontopartOf",
+      "@type" : "@id"
+    },
+    "en_qs_ontoSurah" : {
+      "@id" : "https://w3id.org/def/en_qs_ontoSurah"
     },
     "title" : {
       "@id" : "http://purl.org/dc/elements/1.1/title"
     },
-    "received" : {
-      "@id" : "http://purl.org/net/QS-onto/received",
-      "@type" : "@id"
+    "en_qs_ontoReptile" : {
+      "@id" : "https://w3id.org/def/en_qs_ontoReptile"
     },
-    "gaveTo" : {
-      "@id" : "http://purl.org/net/QS-onto/gaveTo",
-      "@type" : "@id"
+    "en_qs_ontoBook" : {
+      "@id" : "https://w3id.org/def/en_qs_ontoBook"
     },
-    "HistoricEvent" : {
-      "@id" : "http://purl.org/net/QS-onto/HistoricEvent"
-    },
-    "overturnedFrom" : {
-      "@id" : "http://purl.org/net/QS-onto/overturnedFrom",
+    "en_qs_ontolesson" : {
+      "@id" : "https://w3id.org/def/en_qs_ontolesson",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
-    "Civilian_Surah" : {
-      "@id" : "http://purl.org/net/QS-onto/Civilian_Surah"
+    "en_qs_ontoisPlaceOccurance" : {
+      "@id" : "https://w3id.org/def/en_qs_ontoisPlaceOccurance",
+      "@type" : "@id"
     },
-    "happenedBy" : {
-      "@id" : "http://purl.org/net/QS-onto/happenedBy",
+    "en_qs_ontoassignedIn" : {
+      "@id" : "https://w3id.org/def/en_qs_ontoassignedIn",
+      "@type" : "@id"
+    },
+    "en_qs_ontogenerate" : {
+      "@id" : "https://w3id.org/def/en_qs_ontogenerate",
+      "@type" : "@id"
+    },
+    "en_qs_ontoHonoring" : {
+      "@id" : "https://w3id.org/def/en_qs_ontoHonoring"
+    },
+    "en_qs_ontohasBook" : {
+      "@id" : "https://w3id.org/def/en_qs_ontohasBook",
+      "@type" : "@id"
+    },
+    "en_qs_ontoledTo" : {
+      "@id" : "https://w3id.org/def/en_qs_ontoledTo",
+      "@type" : "@id"
+    },
+    "en_qs_ontobornedIn" : {
+      "@id" : "https://w3id.org/def/en_qs_ontobornedIn",
+      "@type" : "@id"
+    },
+    "en_qs_ontomessage" : {
+      "@id" : "https://w3id.org/def/en_qs_ontomessage",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
-    "Miracles" : {
-      "@id" : "http://purl.org/net/QS-onto/Miracles"
-    },
-    "City" : {
-      "@id" : "http://purl.org/net/QS-onto/City"
-    },
-    "bornPlaceOf" : {
-      "@id" : "http://purl.org/net/QS-onto/bornPlaceOf",
-      "@type" : "@id"
-    },
-    "lesson" : {
-      "@id" : "http://purl.org/net/QS-onto/lesson",
-      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
-    },
-    "endowedTo" : {
-      "@id" : "http://purl.org/net/QS-onto/endowedTo",
-      "@type" : "@id"
-    },
-    "targeted" : {
-      "@id" : "http://purl.org/net/QS-onto/targeted",
-      "@type" : "@id"
-    },
-    "honoredWith" : {
-      "@id" : "http://purl.org/net/QS-onto/honoredWith",
+    "en_qs_ontoendowedTo" : {
+      "@id" : "https://w3id.org/def/en_qs_ontoendowedTo",
       "@type" : "@id"
     },
     "sameAs" : {
       "@id" : "http://www.w3.org/2002/07/owl#sameAs"
     },
-    "Surah" : {
-      "@id" : "http://purl.org/net/QS-onto/Surah"
-    },
     "comment" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
     },
-    "nameRepeat" : {
-      "@id" : "http://purl.org/net/QS-onto/nameRepeat",
+    "en_qs_ontohasName" : {
+      "@id" : "https://w3id.org/def/en_qs_ontohasName",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
-    "Infidel" : {
-      "@id" : "http://purl.org/net/QS-onto/Infidel"
-    },
-    "belongTo" : {
-      "@id" : "http://purl.org/net/QS-onto/belongTo",
+    "en_qs_ontotargeted" : {
+      "@id" : "https://w3id.org/def/en_qs_ontotargeted",
       "@type" : "@id"
     },
-    "doneBy" : {
-      "@id" : "http://purl.org/net/QS-onto/doneBy",
+    "en_qs_ontoProphet" : {
+      "@id" : "https://w3id.org/def/en_qs_ontoProphet"
+    },
+    "en_qs_ontoreasonFor_Mention" : {
+      "@id" : "https://w3id.org/def/en_qs_ontoreasonFor_Mention",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "en_qs_ontoAnimal" : {
+      "@id" : "https://w3id.org/def/en_qs_ontoAnimal"
+    },
+    "en_qs_ontohappenedBy" : {
+      "@id" : "https://w3id.org/def/en_qs_ontohappenedBy",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "en_qs_ontoinVerse_Nu." : {
+      "@id" : "https://w3id.org/def/en_qs_ontoinVerse_Nu.",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "en_qs_ontogaveTo" : {
+      "@id" : "https://w3id.org/def/en_qs_ontogaveTo",
       "@type" : "@id"
     },
-    "advised" : {
-      "@id" : "http://purl.org/net/QS-onto/advised",
-      "@type" : "@id"
+    "en_qs_ontoRighteou" : {
+      "@id" : "https://w3id.org/def/en_qs_ontoRighteou"
+    },
+    "en_qs_ontohasParents" : {
+      "@id" : "https://w3id.org/def/en_qs_ontohasParents",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
     "description" : {
       "@id" : "http://purl.org/dc/elements/1.1/description"
     },
-    "AfterLive_Event" : {
-      "@id" : "http://purl.org/net/QS-onto/AfterLive_Event"
+    "en_qs_ontosendTo" : {
+      "@id" : "https://w3id.org/def/en_qs_ontosendTo",
+      "@type" : "@id"
     },
-    "Honoring" : {
-      "@id" : "http://purl.org/net/QS-onto/Honoring"
+    "en_qs_ontoNation" : {
+      "@id" : "https://w3id.org/def/en_qs_ontoNation"
     },
-    "honoringTo" : {
-      "@id" : "http://purl.org/net/QS-onto/honoringTo",
+    "en_qs_ontolivePlace_Of" : {
+      "@id" : "https://w3id.org/def/en_qs_ontolivePlace_Of",
       "@type" : "@id"
     }
   }
