@@ -17,7 +17,7 @@
     <owl:Ontology rdf:about="http://purl.org/net/QS-onto/">
         <owl:versionIRI rdf:resource="http://purl.org/net/QS-onto/"/>
         <owl:imports rdf:resource="http://xmlns.com/foaf/0.1/"/>
-        <dc:title>Quranic Stories Ontology</dc:title>
+        <dc:title>Quran Stories Ontology</dc:title>
     </owl:Ontology>
     
 
@@ -4129,8 +4129,8 @@
         <rdfs:comment>الكتاب</rdfs:comment>
         <rdfs:comment>الكتاب.</rdfs:comment>
         <rdfs:label>Book</rdfs:label>
-        <rdfs:isDefinedBy rdf:resource="http://purl.org/net/QS-onto/"/>
         <dc:description>مجموعة من الأوراق بأنواع مختلفة (ورقية، إلكترونية، إلخ.) تحتوي على كلمات وجمل لهدف أساسي وهو الحفظ (ضد الضياع).</dc:description>
+        <rdfs:isDefinedBy rdf:resource="http://purl.org/net/QS-onto/"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.org/net/QS-onto/Chapter">
         <rdfs:comment>الجزء القراني</rdfs:comment>
