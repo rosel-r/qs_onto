@@ -13,7 +13,6 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:QS-onto="http://purl.org/net/QS-onto/"
      xmlns:quran_s_ontology="http://www.semanticweb.org/quran_s_ontology#">
     <owl:Ontology rdf:about="https://w3id.org/def/en_qs_onto">
         <owl:versionIRI rdf:resource="https://w3id.org/def/en_qs_onto"/>
