@@ -18,6 +18,7 @@
     <owl:Ontology rdf:about="https://w3id.org/def/en_qs_onto">
         <owl:versionIRI rdf:resource="https://w3id.org/def/en_qs_onto"/>
         <owl:imports rdf:resource="http://xmlns.com/foaf/0.1/"/>
+        <dc:abstract>This Ontology for Quran Stories</dc:abstract>
         <dc:title>Quran Stories Ontology</dc:title>
     </owl:Ontology>
     
@@ -31,6 +32,12 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/abstract -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/abstract"/>
     
 
 
@@ -4165,8 +4172,8 @@
     <rdf:Description rdf:about="https://w3id.org/def/en_qs_ontoPlace">
         <rdfs:comment>المكان</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/def/en_qs_onto"/>
-        <rdfs:label>Place</rdfs:label>
         <rdfs:comment>المكان.</rdfs:comment>
+        <rdfs:label>Place</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="https://w3id.org/def/en_qs_ontoProphet">
         <rdfs:label>Prophet</rdfs:label>
@@ -4176,19 +4183,19 @@
     </rdf:Description>
     <rdf:Description rdf:about="https://w3id.org/def/en_qs_ontoReptile">
         <rdfs:label>Reptile</rdfs:label>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/def/en_qs_onto"/>
         <rdfs:comment>الزواحف</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/def/en_qs_onto"/>
     </rdf:Description>
     <rdf:Description rdf:about="https://w3id.org/def/en_qs_ontoSurah">
-        <rdfs:comment>السورة القرانية</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/def/en_qs_onto"/>
+        <rdfs:comment>السورة القرانية</rdfs:comment>
         <rdfs:label>Surah</rdfs:label>
         <rdfs:comment>السورة</rdfs:comment>
     </rdf:Description>
     <rdf:Description rdf:about="https://w3id.org/def/en_qs_ontoVerse">
         <rdfs:comment>الأية.</rdfs:comment>
-        <rdfs:label>Verse</rdfs:label>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/def/en_qs_onto"/>
+        <rdfs:label>Verse</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="https://w3id.org/def/en_qs_ontopartOf">
         <rdfs:label>partOf</rdfs:label>
