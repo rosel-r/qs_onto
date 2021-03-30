@@ -167,6 +167,9 @@
 }, {
   "@id" : "http://purl.org/net/QS-onto/",
   "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://purl.org/dc/elements/1.1/title" : [ {
+    "@value" : "Quran Stories Ontology"
+  } ],
   "http://www.w3.org/2002/07/owl#imports" : [ {
     "@id" : "http://xmlns.com/foaf/0.1/"
   } ],
@@ -272,8 +275,6 @@
   "@id" : "http://purl.org/net/QS-onto/Chapter",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "الجزء القرأني"
-  }, {
     "@value" : "الجزء القراني"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
