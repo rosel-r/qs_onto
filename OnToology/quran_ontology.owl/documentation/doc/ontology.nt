@@ -2,7 +2,10 @@
 <https://w3id.org/def/en_qs_onto> <http://www.w3.org/2002/07/owl#versionIRI> <https://w3id.org/def/en_qs_onto> .
 <https://w3id.org/def/en_qs_onto> <http://www.w3.org/2002/07/owl#imports> <http://xmlns.com/foaf/0.1/> .
 <https://w3id.org/def/en_qs_onto> <http://purl.org/dc/elements/1.1/abstract> "This Ontology for Quran Stories" .
+<https://w3id.org/def/en_qs_onto> <http://purl.org/dc/elements/1.1/date> "" .
+<https://w3id.org/def/en_qs_onto> <http://purl.org/dc/elements/1.1/date> "25/3/2021" .
 <https://w3id.org/def/en_qs_onto> <http://purl.org/dc/elements/1.1/title> "Quran Stories Ontology" .
+<https://w3id.org/def/en_qs_onto> <http://www.w3.org/2000/01/rdf-schema#label> "QURAN STORIES ONTOLOGY" .
 # 
 # 
 # #################################################################
@@ -500,6 +503,10 @@ _:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 # http://xmlns.com/foaf/0.1/gender
 <http://xmlns.com/foaf/0.1/gender> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/Person> .
 # 
+# http://xmlns.com/foaf/0.1/name
+<http://xmlns.com/foaf/0.1/name> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2002/07/owl#Thing> .
+<http://xmlns.com/foaf/0.1/name> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
 # http://xmlns.com/foaf/0.1/nick
 <http://xmlns.com/foaf/0.1/nick> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/Person> .
 <http://xmlns.com/foaf/0.1/nick> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
@@ -974,7 +981,7 @@ _:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 <https://w3id.org/def/en_qs_ontoanim1> <https://w3id.org/def/en_qs_ontoinVerse_Nu.> "Al-Mā’idah31" .
 <https://w3id.org/def/en_qs_ontoanim1> <https://w3id.org/def/en_qs_ontoinVerse_Text> "فَبَعَثَ اللَّهُ غُرَابًا يَبْحَثُ فِي الْأَرْضِ لِيُرِيَهُ كَيْفَ يُوَارِي سَوْءَةَ أَخِيهِ قَالَ يَا وَيْلَتَا أَعَجَزْتُ أَنْ أَكُونَ مِثْلَ هَٰذَا الْغُرَابِ فَأُوَارِيَ سَوْءَةَ أَخِي فَأَصْبَحَ مِنَ النَّادِمِينَ" .
 <https://w3id.org/def/en_qs_ontoanim1> <https://w3id.org/def/en_qs_ontoreasonFor_Mention> "To show the son of Adam how to hide the body of his brother who killed him" .
-<https://w3id.org/def/en_qs_ontoanim1> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/net/QS-onto/> .
+<https://w3id.org/def/en_qs_ontoanim1> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/def/en_qs_onto> .
 # 
 # https://w3id.org/def/en_qs_ontoanim2
 <https://w3id.org/def/en_qs_ontoanim2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -1007,6 +1014,7 @@ _:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 <https://w3id.org/def/en_qs_ontoanim4> <https://w3id.org/def/en_qs_ontoinVerse_Nu.> "Alnaml20" .
 <https://w3id.org/def/en_qs_ontoanim4> <https://w3id.org/def/en_qs_ontoinVerse_Text> "وَتَفَقَّدَ الطَّيْرَ فَقَالَ مَا لِيَ لَا أَرَى الْهُدْهُدَ أَمْ كَانَ مِنَ الْغَائِبِينَ" .
 <https://w3id.org/def/en_qs_ontoanim4> <https://w3id.org/def/en_qs_ontoreasonFor_Mention> "the hoopoe have come to Sulaiman from Sheba with certain news" .
+<https://w3id.org/def/en_qs_ontoanim4> <http://www.w3.org/2000/01/rdf-schema#comment> <https://w3id.org/def/en_qs_onto> .
 <https://w3id.org/def/en_qs_ontoanim4> <http://www.w3.org/2000/01/rdf-schema#comment> "هدهد سليمان" .
 # 
 # https://w3id.org/def/en_qs_ontoanim5
@@ -1018,6 +1026,7 @@ _:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 <https://w3id.org/def/en_qs_ontoanim5> <https://w3id.org/def/en_qs_ontohasName> "ant" .
 <https://w3id.org/def/en_qs_ontoanim5> <https://w3id.org/def/en_qs_ontoinVerse_Nu.> "Al-Naml18" .
 <https://w3id.org/def/en_qs_ontoanim5> <https://w3id.org/def/en_qs_ontoinVerse_Text> "حَتَّىٰ إِذَا أَتَوْا عَلَىٰ وَادِ النَّمْلِ قَالَتْ نَمْلَةٌ يَا أَيُّهَا النَّمْلُ ادْخُلُوا مَسَاكِنَكُمْ لَا يَحْطِمَنَّكُمْ سُلَيْمَانُ وَجُنُودُهُ وَهُمْ لَا يَشْعُرُونَ" .
+<https://w3id.org/def/en_qs_ontoanim5> <http://www.w3.org/2000/01/rdf-schema#comment> <https://w3id.org/def/en_qs_onto> .
 # 
 # https://w3id.org/def/en_qs_ontoanim6
 <https://w3id.org/def/en_qs_ontoanim6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -1112,31 +1121,34 @@ _:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 <https://w3id.org/def/en_qs_ontoch10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/def/en_qs_ontoch10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/en_qs_ontoChapter> .
 <https://w3id.org/def/en_qs_ontoch10> <https://w3id.org/def/en_qs_ontoconsisitOf> <https://w3id.org/def/en_qs_ontosurah27> .
-<https://w3id.org/def/en_qs_ontoch10> <http://xmlns.com/foaf/0.1/name> "الجزء الثاني" .
+<https://w3id.org/def/en_qs_ontoch10> <http://xmlns.com/foaf/0.1/name> "الجزء العاشر" .
 <https://w3id.org/def/en_qs_ontoch10> <https://w3id.org/def/en_qs_ontohasName> "Juz10" .
 # 
 # https://w3id.org/def/en_qs_ontoch11
 <https://w3id.org/def/en_qs_ontoch11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/def/en_qs_ontoch11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/en_qs_ontoChapter> .
 <https://w3id.org/def/en_qs_ontoch11> <https://w3id.org/def/en_qs_ontoconsisitOf> <https://w3id.org/def/en_qs_ontosurah4> .
-<https://w3id.org/def/en_qs_ontoch11> <http://xmlns.com/foaf/0.1/name> "الجزء الثالث" .
+<https://w3id.org/def/en_qs_ontoch11> <http://xmlns.com/foaf/0.1/name> "الجزء الحادي عشر" .
 <https://w3id.org/def/en_qs_ontoch11> <https://w3id.org/def/en_qs_ontohasName> "Juz11" .
 # 
 # https://w3id.org/def/en_qs_ontoch12
 <https://w3id.org/def/en_qs_ontoch12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/def/en_qs_ontoch12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/en_qs_ontoChapter> .
 <https://w3id.org/def/en_qs_ontoch12> <https://w3id.org/def/en_qs_ontoconsisitOf> <https://w3id.org/def/en_qs_ontosurah22> .
+<https://w3id.org/def/en_qs_ontoch12> <http://xmlns.com/foaf/0.1/name> "الجزء الثاني عشر" .
 <https://w3id.org/def/en_qs_ontoch12> <https://w3id.org/def/en_qs_ontohasName> "Juz12" .
 # 
 # https://w3id.org/def/en_qs_ontoch13
 <https://w3id.org/def/en_qs_ontoch13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/def/en_qs_ontoch13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/en_qs_ontoChapter> .
+<https://w3id.org/def/en_qs_ontoch13> <http://xmlns.com/foaf/0.1/name> "الجزء الثالث عشر" .
 <https://w3id.org/def/en_qs_ontoch13> <https://w3id.org/def/en_qs_ontohasName> "Juz13" .
 # 
 # https://w3id.org/def/en_qs_ontoch14
 <https://w3id.org/def/en_qs_ontoch14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/def/en_qs_ontoch14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/en_qs_ontoChapter> .
 <https://w3id.org/def/en_qs_ontoch14> <https://w3id.org/def/en_qs_ontoconsisitOf> <https://w3id.org/def/en_qs_ontosurah25> .
+<https://w3id.org/def/en_qs_ontoch14> <http://xmlns.com/foaf/0.1/name> "الجزء الرابع عشر" .
 <https://w3id.org/def/en_qs_ontoch14> <https://w3id.org/def/en_qs_ontohasName> "Juz14" .
 # 
 # https://w3id.org/def/en_qs_ontoch15
@@ -1144,18 +1156,21 @@ _:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 <https://w3id.org/def/en_qs_ontoch15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/en_qs_ontoChapter> .
 <https://w3id.org/def/en_qs_ontoch15> <https://w3id.org/def/en_qs_ontoconsisitOf> <https://w3id.org/def/en_qs_ontosurah12> .
 <https://w3id.org/def/en_qs_ontoch15> <https://w3id.org/def/en_qs_ontoconsisitOf> <https://w3id.org/def/en_qs_ontosurah26> .
+<https://w3id.org/def/en_qs_ontoch15> <http://xmlns.com/foaf/0.1/name> "الجزء الخامس عشر" .
 <https://w3id.org/def/en_qs_ontoch15> <https://w3id.org/def/en_qs_ontohasName> "Juz15" .
 # 
 # https://w3id.org/def/en_qs_ontoch16
 <https://w3id.org/def/en_qs_ontoch16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/def/en_qs_ontoch16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/en_qs_ontoChapter> .
 <https://w3id.org/def/en_qs_ontoch16> <https://w3id.org/def/en_qs_ontoconsisitOf> <https://w3id.org/def/en_qs_ontosurah2> .
+<https://w3id.org/def/en_qs_ontoch16> <http://xmlns.com/foaf/0.1/name> "الجزء السادس عشر" .
 <https://w3id.org/def/en_qs_ontoch16> <https://w3id.org/def/en_qs_ontohasName> "Juz16" .
 # 
 # https://w3id.org/def/en_qs_ontoch17
 <https://w3id.org/def/en_qs_ontoch17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/def/en_qs_ontoch17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/en_qs_ontoChapter> .
 <https://w3id.org/def/en_qs_ontoch17> <https://w3id.org/def/en_qs_ontoconsisitOf> <https://w3id.org/def/en_qs_ontosurah7> .
+<https://w3id.org/def/en_qs_ontoch17> <http://xmlns.com/foaf/0.1/name> "الجزء السابع عشر" .
 <https://w3id.org/def/en_qs_ontoch17> <https://w3id.org/def/en_qs_ontohasName> "Juz17" .
 # 
 # https://w3id.org/def/en_qs_ontoch18
@@ -1163,6 +1178,7 @@ _:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 <https://w3id.org/def/en_qs_ontoch18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/en_qs_ontoChapter> .
 <https://w3id.org/def/en_qs_ontoch18> <https://w3id.org/def/en_qs_ontoconsisitOf> <https://w3id.org/def/en_qs_ontosurah19> .
 <https://w3id.org/def/en_qs_ontoch18> <https://w3id.org/def/en_qs_ontoconsisitOf> <https://w3id.org/def/en_qs_ontosurah3> .
+<https://w3id.org/def/en_qs_ontoch18> <http://xmlns.com/foaf/0.1/name> "الجزء الثامن عشر" .
 <https://w3id.org/def/en_qs_ontoch18> <https://w3id.org/def/en_qs_ontohasName> "Juz18" .
 # 
 # https://w3id.org/def/en_qs_ontoch19
@@ -1170,6 +1186,7 @@ _:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 <https://w3id.org/def/en_qs_ontoch19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/en_qs_ontoChapter> .
 <https://w3id.org/def/en_qs_ontoch19> <https://w3id.org/def/en_qs_ontoconsisitOf> <https://w3id.org/def/en_qs_ontosurah16> .
 <https://w3id.org/def/en_qs_ontoch19> <https://w3id.org/def/en_qs_ontoconsisitOf> <https://w3id.org/def/en_qs_ontosurah17> .
+<https://w3id.org/def/en_qs_ontoch19> <http://xmlns.com/foaf/0.1/name> "الجزء التاسع عشر" .
 <https://w3id.org/def/en_qs_ontoch19> <https://w3id.org/def/en_qs_ontohasName> "Juz19" .
 # 
 # https://w3id.org/def/en_qs_ontoch2
@@ -1177,6 +1194,7 @@ _:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 <https://w3id.org/def/en_qs_ontoch2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/en_qs_ontoChapter> .
 <https://w3id.org/def/en_qs_ontoch2> <https://w3id.org/def/en_qs_ontoconsisitOf> <https://w3id.org/def/en_qs_ontosurah1> .
 <https://w3id.org/def/en_qs_ontoch2> <https://w3id.org/def/en_qs_ontohasName> "Juz2" .
+<https://w3id.org/def/en_qs_ontoch2> <http://www.w3.org/2000/01/rdf-schema#comment> "الجزء الثاني" .
 # 
 # https://w3id.org/def/en_qs_ontoch20
 <https://w3id.org/def/en_qs_ontoch20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
