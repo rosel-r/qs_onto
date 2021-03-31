@@ -150,7 +150,8 @@
       "@id" : "https://w3id.org/def/en_qs_ontoChapter"
     },
     "name" : {
-      "@id" : "http://xmlns.com/foaf/0.1/name"
+      "@id" : "http://xmlns.com/foaf/0.1/name",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
     "en_qs_ontotargetedBy" : {
       "@id" : "https://w3id.org/def/en_qs_ontotargetedBy",
@@ -263,6 +264,9 @@
     "en_qs_ontogenerate" : {
       "@id" : "https://w3id.org/def/en_qs_ontogenerate",
       "@type" : "@id"
+    },
+    "date" : {
+      "@id" : "http://purl.org/dc/elements/1.1/date"
     },
     "en_qs_ontoHonoring" : {
       "@id" : "https://w3id.org/def/en_qs_ontoHonoring"
