@@ -18,7 +18,10 @@
         <owl:versionIRI rdf:resource="https://w3id.org/def/en_qs_onto"/>
         <owl:imports rdf:resource="http://xmlns.com/foaf/0.1/"/>
         <dc:abstract>This Ontology for Quran Stories</dc:abstract>
+        <dc:date></dc:date>
+        <dc:date>23/3/2021</dc:date>
         <dc:title>Quran Stories Ontology</dc:title>
+        <rdfs:label>QURAN STORIES ONTOLOGY</rdfs:label>
     </owl:Ontology>
     
 
@@ -4171,8 +4174,8 @@
     <rdf:Description rdf:about="https://w3id.org/def/en_qs_ontoPlace">
         <rdfs:comment>المكان</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/def/en_qs_onto"/>
-        <rdfs:comment>المكان.</rdfs:comment>
         <rdfs:label>Place</rdfs:label>
+        <rdfs:comment>المكان.</rdfs:comment>
     </rdf:Description>
     <rdf:Description rdf:about="https://w3id.org/def/en_qs_ontoProphet">
         <rdfs:label>Prophet</rdfs:label>
@@ -4182,12 +4185,12 @@
     </rdf:Description>
     <rdf:Description rdf:about="https://w3id.org/def/en_qs_ontoReptile">
         <rdfs:label>Reptile</rdfs:label>
-        <rdfs:comment>الزواحف</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/def/en_qs_onto"/>
+        <rdfs:comment>الزواحف</rdfs:comment>
     </rdf:Description>
     <rdf:Description rdf:about="https://w3id.org/def/en_qs_ontoSurah">
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/def/en_qs_onto"/>
         <rdfs:comment>السورة القرانية</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/def/en_qs_onto"/>
         <rdfs:label>Surah</rdfs:label>
         <rdfs:comment>السورة</rdfs:comment>
     </rdf:Description>
