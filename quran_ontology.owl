@@ -688,6 +688,15 @@
     
 
 
+    <!-- http://xmlns.com/foaf/0.1/name -->
+
+    <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/name">
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    </rdf:Description>
+    
+
+
     <!-- http://xmlns.com/foaf/0.1/nick -->
 
     <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/nick">
@@ -1464,7 +1473,7 @@
         <def:en_qs_ontoinVerse_Nu. rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Al-Mā’idah31</def:en_qs_ontoinVerse_Nu.>
         <def:en_qs_ontoinVerse_Text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">فَبَعَثَ اللَّهُ غُرَابًا يَبْحَثُ فِي الْأَرْضِ لِيُرِيَهُ كَيْفَ يُوَارِي سَوْءَةَ أَخِيهِ قَالَ يَا وَيْلَتَا أَعَجَزْتُ أَنْ أَكُونَ مِثْلَ هَٰذَا الْغُرَابِ فَأُوَارِيَ سَوْءَةَ أَخِي فَأَصْبَحَ مِنَ النَّادِمِينَ</def:en_qs_ontoinVerse_Text>
         <def:en_qs_ontoreasonFor_Mention rdf:datatype="http://www.w3.org/2001/XMLSchema#string">To show the son of Adam how to hide the body of his brother who killed him</def:en_qs_ontoreasonFor_Mention>
-        <rdfs:isDefinedBy rdf:resource="http://purl.org/net/QS-onto/"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/def/en_qs_onto"/>
         <foaf:name>غراب ابني ادم</foaf:name>
     </owl:NamedIndividual>
     
@@ -1510,6 +1519,7 @@
         <def:en_qs_ontoinVerse_Nu. rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alnaml20</def:en_qs_ontoinVerse_Nu.>
         <def:en_qs_ontoinVerse_Text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">وَتَفَقَّدَ الطَّيْرَ فَقَالَ مَا لِيَ لَا أَرَى الْهُدْهُدَ أَمْ كَانَ مِنَ الْغَائِبِينَ</def:en_qs_ontoinVerse_Text>
         <def:en_qs_ontoreasonFor_Mention rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the hoopoe have come to Sulaiman from Sheba with certain news</def:en_qs_ontoreasonFor_Mention>
+        <rdfs:comment rdf:resource="https://w3id.org/def/en_qs_onto"/>
         <rdfs:comment>هدهد سليمان</rdfs:comment>
     </owl:NamedIndividual>
     
@@ -1524,6 +1534,7 @@
         <def:en_qs_ontohasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ant</def:en_qs_ontohasName>
         <def:en_qs_ontoinVerse_Nu. rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Al-Naml18</def:en_qs_ontoinVerse_Nu.>
         <def:en_qs_ontoinVerse_Text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">حَتَّىٰ إِذَا أَتَوْا عَلَىٰ وَادِ النَّمْلِ قَالَتْ نَمْلَةٌ يَا أَيُّهَا النَّمْلُ ادْخُلُوا مَسَاكِنَكُمْ لَا يَحْطِمَنَّكُمْ سُلَيْمَانُ وَجُنُودُهُ وَهُمْ لَا يَشْعُرُونَ</def:en_qs_ontoinVerse_Text>
+        <rdfs:comment rdf:resource="https://w3id.org/def/en_qs_onto"/>
         <foaf:name>النملة</foaf:name>
     </owl:NamedIndividual>
     
@@ -1670,6 +1681,7 @@
         <rdf:type rdf:resource="https://w3id.org/def/en_qs_ontoChapter"/>
         <def:en_qs_ontoconsisitOf rdf:resource="https://w3id.org/def/en_qs_ontosurah22"/>
         <def:en_qs_ontohasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Juz12</def:en_qs_ontohasName>
+        <foaf:name>الجزء الثاني عشر</foaf:name>
     </owl:NamedIndividual>
     
 
@@ -1679,6 +1691,7 @@
     <owl:NamedIndividual rdf:about="https://w3id.org/def/en_qs_ontoch13">
         <rdf:type rdf:resource="https://w3id.org/def/en_qs_ontoChapter"/>
         <def:en_qs_ontohasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Juz13</def:en_qs_ontohasName>
+        <foaf:name>الجزء الثالث عشر</foaf:name>
     </owl:NamedIndividual>
     
 
@@ -1689,6 +1702,7 @@
         <rdf:type rdf:resource="https://w3id.org/def/en_qs_ontoChapter"/>
         <def:en_qs_ontoconsisitOf rdf:resource="https://w3id.org/def/en_qs_ontosurah25"/>
         <def:en_qs_ontohasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Juz14</def:en_qs_ontohasName>
+        <foaf:name>الجزء الرابع عشر</foaf:name>
     </owl:NamedIndividual>
     
 
@@ -1700,6 +1714,7 @@
         <def:en_qs_ontoconsisitOf rdf:resource="https://w3id.org/def/en_qs_ontosurah12"/>
         <def:en_qs_ontoconsisitOf rdf:resource="https://w3id.org/def/en_qs_ontosurah26"/>
         <def:en_qs_ontohasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Juz15</def:en_qs_ontohasName>
+        <foaf:name>الجزء الخامس عشر</foaf:name>
     </owl:NamedIndividual>
     
 
@@ -1710,6 +1725,7 @@
         <rdf:type rdf:resource="https://w3id.org/def/en_qs_ontoChapter"/>
         <def:en_qs_ontoconsisitOf rdf:resource="https://w3id.org/def/en_qs_ontosurah2"/>
         <def:en_qs_ontohasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Juz16</def:en_qs_ontohasName>
+        <foaf:name>الجزء السادس عشر</foaf:name>
     </owl:NamedIndividual>
     
 
@@ -1720,6 +1736,7 @@
         <rdf:type rdf:resource="https://w3id.org/def/en_qs_ontoChapter"/>
         <def:en_qs_ontoconsisitOf rdf:resource="https://w3id.org/def/en_qs_ontosurah7"/>
         <def:en_qs_ontohasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Juz17</def:en_qs_ontohasName>
+        <foaf:name>الجزء السابع عشر</foaf:name>
     </owl:NamedIndividual>
     
 
@@ -1731,6 +1748,7 @@
         <def:en_qs_ontoconsisitOf rdf:resource="https://w3id.org/def/en_qs_ontosurah19"/>
         <def:en_qs_ontoconsisitOf rdf:resource="https://w3id.org/def/en_qs_ontosurah3"/>
         <def:en_qs_ontohasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Juz18</def:en_qs_ontohasName>
+        <foaf:name>الجزء الثامن عشر</foaf:name>
     </owl:NamedIndividual>
     
 
@@ -1742,6 +1760,7 @@
         <def:en_qs_ontoconsisitOf rdf:resource="https://w3id.org/def/en_qs_ontosurah16"/>
         <def:en_qs_ontoconsisitOf rdf:resource="https://w3id.org/def/en_qs_ontosurah17"/>
         <def:en_qs_ontohasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Juz19</def:en_qs_ontohasName>
+        <foaf:name>الجزء التاسع عشر</foaf:name>
     </owl:NamedIndividual>
     
 
@@ -4185,12 +4204,12 @@
     </rdf:Description>
     <rdf:Description rdf:about="https://w3id.org/def/en_qs_ontoReptile">
         <rdfs:label>Reptile</rdfs:label>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/def/en_qs_onto"/>
         <rdfs:comment>الزواحف</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/def/en_qs_onto"/>
     </rdf:Description>
     <rdf:Description rdf:about="https://w3id.org/def/en_qs_ontoSurah">
-        <rdfs:comment>السورة القرانية</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/def/en_qs_onto"/>
+        <rdfs:comment>السورة القرانية</rdfs:comment>
         <rdfs:label>Surah</rdfs:label>
         <rdfs:comment>السورة</rdfs:comment>
     </rdf:Description>
