@@ -282,6 +282,14 @@
     "@id" : "http://xmlns.com/foaf/0.1/Person"
   } ]
 }, {
+  "@id" : "http://xmlns.com/foaf/0.1/name",
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
   "@id" : "http://xmlns.com/foaf/0.1/nick",
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://xmlns.com/foaf/0.1/Person"
@@ -363,8 +371,16 @@
   "http://purl.org/dc/elements/1.1/abstract" : [ {
     "@value" : "This Ontology for Quran Stories"
   } ],
+  "http://purl.org/dc/elements/1.1/date" : [ {
+    "@value" : ""
+  }, {
+    "@value" : "25/3/2021"
+  } ],
   "http://purl.org/dc/elements/1.1/title" : [ {
     "@value" : "Quran Stories Ontology"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "QURAN STORIES ONTOLOGY"
   } ],
   "http://www.w3.org/2002/07/owl#imports" : [ {
     "@id" : "http://xmlns.com/foaf/0.1/"
@@ -951,7 +967,7 @@
   "@id" : "https://w3id.org/def/en_qs_ontoanim1",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/def/en_qs_ontoBird" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "http://purl.org/net/QS-onto/"
+    "@id" : "https://w3id.org/def/en_qs_onto"
   } ],
   "http://xmlns.com/foaf/0.1/name" : [ {
     "@value" : "غراب ابني ادم"
@@ -1026,6 +1042,8 @@
   "@id" : "https://w3id.org/def/en_qs_ontoanim4",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/def/en_qs_ontoBird" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@id" : "https://w3id.org/def/en_qs_onto"
+  }, {
     "@value" : "هدهد سليمان"
   } ],
   "https://w3id.org/def/en_qs_ontoappearedWith" : [ {
@@ -1049,6 +1067,9 @@
 }, {
   "@id" : "https://w3id.org/def/en_qs_ontoanim5",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/def/en_qs_ontoInsect" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@id" : "https://w3id.org/def/en_qs_onto"
+  } ],
   "http://xmlns.com/foaf/0.1/name" : [ {
     "@value" : "النملة"
   } ],
@@ -1388,7 +1409,7 @@
   "@id" : "https://w3id.org/def/en_qs_ontoch10",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/def/en_qs_ontoChapter" ],
   "http://xmlns.com/foaf/0.1/name" : [ {
-    "@value" : "الجزء الثاني"
+    "@value" : "الجزء العاشر"
   } ],
   "https://w3id.org/def/en_qs_ontoconsisitOf" : [ {
     "@id" : "https://w3id.org/def/en_qs_ontosurah27"
@@ -1400,7 +1421,7 @@
   "@id" : "https://w3id.org/def/en_qs_ontoch11",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/def/en_qs_ontoChapter" ],
   "http://xmlns.com/foaf/0.1/name" : [ {
-    "@value" : "الجزء الثالث"
+    "@value" : "الجزء الحادي عشر"
   } ],
   "https://w3id.org/def/en_qs_ontoconsisitOf" : [ {
     "@id" : "https://w3id.org/def/en_qs_ontosurah4"
@@ -1411,6 +1432,9 @@
 }, {
   "@id" : "https://w3id.org/def/en_qs_ontoch12",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/def/en_qs_ontoChapter" ],
+  "http://xmlns.com/foaf/0.1/name" : [ {
+    "@value" : "الجزء الثاني عشر"
+  } ],
   "https://w3id.org/def/en_qs_ontoconsisitOf" : [ {
     "@id" : "https://w3id.org/def/en_qs_ontosurah22"
   } ],
@@ -1420,12 +1444,18 @@
 }, {
   "@id" : "https://w3id.org/def/en_qs_ontoch13",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/def/en_qs_ontoChapter" ],
+  "http://xmlns.com/foaf/0.1/name" : [ {
+    "@value" : "الجزء الثالث عشر"
+  } ],
   "https://w3id.org/def/en_qs_ontohasName" : [ {
     "@value" : "Juz13"
   } ]
 }, {
   "@id" : "https://w3id.org/def/en_qs_ontoch14",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/def/en_qs_ontoChapter" ],
+  "http://xmlns.com/foaf/0.1/name" : [ {
+    "@value" : "الجزء الرابع عشر"
+  } ],
   "https://w3id.org/def/en_qs_ontoconsisitOf" : [ {
     "@id" : "https://w3id.org/def/en_qs_ontosurah25"
   } ],
@@ -1435,6 +1465,9 @@
 }, {
   "@id" : "https://w3id.org/def/en_qs_ontoch15",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/def/en_qs_ontoChapter" ],
+  "http://xmlns.com/foaf/0.1/name" : [ {
+    "@value" : "الجزء الخامس عشر"
+  } ],
   "https://w3id.org/def/en_qs_ontoconsisitOf" : [ {
     "@id" : "https://w3id.org/def/en_qs_ontosurah12"
   }, {
@@ -1446,6 +1479,9 @@
 }, {
   "@id" : "https://w3id.org/def/en_qs_ontoch16",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/def/en_qs_ontoChapter" ],
+  "http://xmlns.com/foaf/0.1/name" : [ {
+    "@value" : "الجزء السادس عشر"
+  } ],
   "https://w3id.org/def/en_qs_ontoconsisitOf" : [ {
     "@id" : "https://w3id.org/def/en_qs_ontosurah2"
   } ],
@@ -1455,6 +1491,9 @@
 }, {
   "@id" : "https://w3id.org/def/en_qs_ontoch17",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/def/en_qs_ontoChapter" ],
+  "http://xmlns.com/foaf/0.1/name" : [ {
+    "@value" : "الجزء السابع عشر"
+  } ],
   "https://w3id.org/def/en_qs_ontoconsisitOf" : [ {
     "@id" : "https://w3id.org/def/en_qs_ontosurah7"
   } ],
@@ -1464,6 +1503,9 @@
 }, {
   "@id" : "https://w3id.org/def/en_qs_ontoch18",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/def/en_qs_ontoChapter" ],
+  "http://xmlns.com/foaf/0.1/name" : [ {
+    "@value" : "الجزء الثامن عشر"
+  } ],
   "https://w3id.org/def/en_qs_ontoconsisitOf" : [ {
     "@id" : "https://w3id.org/def/en_qs_ontosurah19"
   }, {
@@ -1475,6 +1517,9 @@
 }, {
   "@id" : "https://w3id.org/def/en_qs_ontoch19",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/def/en_qs_ontoChapter" ],
+  "http://xmlns.com/foaf/0.1/name" : [ {
+    "@value" : "الجزء التاسع عشر"
+  } ],
   "https://w3id.org/def/en_qs_ontoconsisitOf" : [ {
     "@id" : "https://w3id.org/def/en_qs_ontosurah16"
   }, {
@@ -1486,6 +1531,9 @@
 }, {
   "@id" : "https://w3id.org/def/en_qs_ontoch2",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/def/en_qs_ontoChapter" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "الجزء الثاني"
+  } ],
   "https://w3id.org/def/en_qs_ontoconsisitOf" : [ {
     "@id" : "https://w3id.org/def/en_qs_ontosurah1"
   } ],

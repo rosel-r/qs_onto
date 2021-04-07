@@ -10,7 +10,10 @@
                                    owl:versionIRI <https://w3id.org/def/en_qs_onto> ;
                                    owl:imports <http://xmlns.com/foaf/0.1/> ;
                                    <http://purl.org/dc/elements/1.1/abstract> "This Ontology for Quran Stories" ;
-                                   <http://purl.org/dc/elements/1.1/title> "Quran Stories Ontology" .
+                                   <http://purl.org/dc/elements/1.1/date> "" ,
+                                                                          "25/3/2021" ;
+                                   <http://purl.org/dc/elements/1.1/title> "Quran Stories Ontology" ;
+                                   rdfs:label "QURAN STORIES ONTOLOGY" .
 
 #################################################################
 #    Annotation properties
@@ -481,6 +484,11 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 
 ###  http://xmlns.com/foaf/0.1/gender
 <http://xmlns.com/foaf/0.1/gender> rdfs:domain <http://xmlns.com/foaf/0.1/Person> .
+
+
+###  http://xmlns.com/foaf/0.1/name
+<http://xmlns.com/foaf/0.1/name> rdfs:domain owl:Thing ;
+                                 rdfs:range rdfs:Literal .
 
 
 ###  http://xmlns.com/foaf/0.1/nick
@@ -1019,7 +1027,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                                        <https://w3id.org/def/en_qs_ontoinVerse_Nu.> "Al-Mā’idah31" ;
                                        <https://w3id.org/def/en_qs_ontoinVerse_Text> "فَبَعَثَ اللَّهُ غُرَابًا يَبْحَثُ فِي الْأَرْضِ لِيُرِيَهُ كَيْفَ يُوَارِي سَوْءَةَ أَخِيهِ قَالَ يَا وَيْلَتَا أَعَجَزْتُ أَنْ أَكُونَ مِثْلَ هَٰذَا الْغُرَابِ فَأُوَارِيَ سَوْءَةَ أَخِي فَأَصْبَحَ مِنَ النَّادِمِينَ" ;
                                        <https://w3id.org/def/en_qs_ontoreasonFor_Mention> "To show the son of Adam how to hide the body of his brother who killed him" ;
-                                       rdfs:isDefinedBy <http://purl.org/net/QS-onto/> .
+                                       rdfs:isDefinedBy <https://w3id.org/def/en_qs_onto> .
 
 
 ###  https://w3id.org/def/en_qs_ontoanim2
@@ -1055,7 +1063,8 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                                        <https://w3id.org/def/en_qs_ontoinVerse_Nu.> "Alnaml20" ;
                                        <https://w3id.org/def/en_qs_ontoinVerse_Text> "وَتَفَقَّدَ الطَّيْرَ فَقَالَ مَا لِيَ لَا أَرَى الْهُدْهُدَ أَمْ كَانَ مِنَ الْغَائِبِينَ" ;
                                        <https://w3id.org/def/en_qs_ontoreasonFor_Mention> "the hoopoe have come to Sulaiman from Sheba with certain news" ;
-                                       rdfs:comment "هدهد سليمان" .
+                                       rdfs:comment <https://w3id.org/def/en_qs_onto> ,
+                                                    "هدهد سليمان" .
 
 
 ###  https://w3id.org/def/en_qs_ontoanim5
@@ -1066,7 +1075,8 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                                        <http://xmlns.com/foaf/0.1/name> "النملة" ;
                                        <https://w3id.org/def/en_qs_ontohasName> "ant" ;
                                        <https://w3id.org/def/en_qs_ontoinVerse_Nu.> "Al-Naml18" ;
-                                       <https://w3id.org/def/en_qs_ontoinVerse_Text> "حَتَّىٰ إِذَا أَتَوْا عَلَىٰ وَادِ النَّمْلِ قَالَتْ نَمْلَةٌ يَا أَيُّهَا النَّمْلُ ادْخُلُوا مَسَاكِنَكُمْ لَا يَحْطِمَنَّكُمْ سُلَيْمَانُ وَجُنُودُهُ وَهُمْ لَا يَشْعُرُونَ" .
+                                       <https://w3id.org/def/en_qs_ontoinVerse_Text> "حَتَّىٰ إِذَا أَتَوْا عَلَىٰ وَادِ النَّمْلِ قَالَتْ نَمْلَةٌ يَا أَيُّهَا النَّمْلُ ادْخُلُوا مَسَاكِنَكُمْ لَا يَحْطِمَنَّكُمْ سُلَيْمَانُ وَجُنُودُهُ وَهُمْ لَا يَشْعُرُونَ" ;
+                                       rdfs:comment <https://w3id.org/def/en_qs_onto> .
 
 
 ###  https://w3id.org/def/en_qs_ontoanim6
@@ -1168,7 +1178,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 <https://w3id.org/def/en_qs_ontoch10> rdf:type owl:NamedIndividual ,
                                                <https://w3id.org/def/en_qs_ontoChapter> ;
                                       <https://w3id.org/def/en_qs_ontoconsisitOf> <https://w3id.org/def/en_qs_ontosurah27> ;
-                                      <http://xmlns.com/foaf/0.1/name> "الجزء الثاني" ;
+                                      <http://xmlns.com/foaf/0.1/name> "الجزء العاشر" ;
                                       <https://w3id.org/def/en_qs_ontohasName> "Juz10" .
 
 
@@ -1176,7 +1186,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 <https://w3id.org/def/en_qs_ontoch11> rdf:type owl:NamedIndividual ,
                                                <https://w3id.org/def/en_qs_ontoChapter> ;
                                       <https://w3id.org/def/en_qs_ontoconsisitOf> <https://w3id.org/def/en_qs_ontosurah4> ;
-                                      <http://xmlns.com/foaf/0.1/name> "الجزء الثالث" ;
+                                      <http://xmlns.com/foaf/0.1/name> "الجزء الحادي عشر" ;
                                       <https://w3id.org/def/en_qs_ontohasName> "Juz11" .
 
 
@@ -1184,12 +1194,14 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 <https://w3id.org/def/en_qs_ontoch12> rdf:type owl:NamedIndividual ,
                                                <https://w3id.org/def/en_qs_ontoChapter> ;
                                       <https://w3id.org/def/en_qs_ontoconsisitOf> <https://w3id.org/def/en_qs_ontosurah22> ;
+                                      <http://xmlns.com/foaf/0.1/name> "الجزء الثاني عشر" ;
                                       <https://w3id.org/def/en_qs_ontohasName> "Juz12" .
 
 
 ###  https://w3id.org/def/en_qs_ontoch13
 <https://w3id.org/def/en_qs_ontoch13> rdf:type owl:NamedIndividual ,
                                                <https://w3id.org/def/en_qs_ontoChapter> ;
+                                      <http://xmlns.com/foaf/0.1/name> "الجزء الثالث عشر" ;
                                       <https://w3id.org/def/en_qs_ontohasName> "Juz13" .
 
 
@@ -1197,6 +1209,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 <https://w3id.org/def/en_qs_ontoch14> rdf:type owl:NamedIndividual ,
                                                <https://w3id.org/def/en_qs_ontoChapter> ;
                                       <https://w3id.org/def/en_qs_ontoconsisitOf> <https://w3id.org/def/en_qs_ontosurah25> ;
+                                      <http://xmlns.com/foaf/0.1/name> "الجزء الرابع عشر" ;
                                       <https://w3id.org/def/en_qs_ontohasName> "Juz14" .
 
 
@@ -1205,6 +1218,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                                                <https://w3id.org/def/en_qs_ontoChapter> ;
                                       <https://w3id.org/def/en_qs_ontoconsisitOf> <https://w3id.org/def/en_qs_ontosurah12> ,
                                                                                   <https://w3id.org/def/en_qs_ontosurah26> ;
+                                      <http://xmlns.com/foaf/0.1/name> "الجزء الخامس عشر" ;
                                       <https://w3id.org/def/en_qs_ontohasName> "Juz15" .
 
 
@@ -1212,6 +1226,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 <https://w3id.org/def/en_qs_ontoch16> rdf:type owl:NamedIndividual ,
                                                <https://w3id.org/def/en_qs_ontoChapter> ;
                                       <https://w3id.org/def/en_qs_ontoconsisitOf> <https://w3id.org/def/en_qs_ontosurah2> ;
+                                      <http://xmlns.com/foaf/0.1/name> "الجزء السادس عشر" ;
                                       <https://w3id.org/def/en_qs_ontohasName> "Juz16" .
 
 
@@ -1219,6 +1234,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 <https://w3id.org/def/en_qs_ontoch17> rdf:type owl:NamedIndividual ,
                                                <https://w3id.org/def/en_qs_ontoChapter> ;
                                       <https://w3id.org/def/en_qs_ontoconsisitOf> <https://w3id.org/def/en_qs_ontosurah7> ;
+                                      <http://xmlns.com/foaf/0.1/name> "الجزء السابع عشر" ;
                                       <https://w3id.org/def/en_qs_ontohasName> "Juz17" .
 
 
@@ -1227,6 +1243,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                                                <https://w3id.org/def/en_qs_ontoChapter> ;
                                       <https://w3id.org/def/en_qs_ontoconsisitOf> <https://w3id.org/def/en_qs_ontosurah19> ,
                                                                                   <https://w3id.org/def/en_qs_ontosurah3> ;
+                                      <http://xmlns.com/foaf/0.1/name> "الجزء الثامن عشر" ;
                                       <https://w3id.org/def/en_qs_ontohasName> "Juz18" .
 
 
@@ -1235,6 +1252,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                                                <https://w3id.org/def/en_qs_ontoChapter> ;
                                       <https://w3id.org/def/en_qs_ontoconsisitOf> <https://w3id.org/def/en_qs_ontosurah16> ,
                                                                                   <https://w3id.org/def/en_qs_ontosurah17> ;
+                                      <http://xmlns.com/foaf/0.1/name> "الجزء التاسع عشر" ;
                                       <https://w3id.org/def/en_qs_ontohasName> "Juz19" .
 
 
@@ -1242,7 +1260,8 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 <https://w3id.org/def/en_qs_ontoch2> rdf:type owl:NamedIndividual ,
                                               <https://w3id.org/def/en_qs_ontoChapter> ;
                                      <https://w3id.org/def/en_qs_ontoconsisitOf> <https://w3id.org/def/en_qs_ontosurah1> ;
-                                     <https://w3id.org/def/en_qs_ontohasName> "Juz2" .
+                                     <https://w3id.org/def/en_qs_ontohasName> "Juz2" ;
+                                     rdfs:comment "الجزء الثاني" .
 
 
 ###  https://w3id.org/def/en_qs_ontoch20
