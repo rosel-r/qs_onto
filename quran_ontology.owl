@@ -2583,7 +2583,7 @@
         <def:en_qs_ontoinVerse_Nu. rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Al-Baqarah33</def:en_qs_ontoinVerse_Nu.>
         <def:en_qs_ontoinVerse_Text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">قَالَ يَاآدَمُ أَنْبِئْهُمْ بِأَسْمَائِهِمْ ۖ فَلَمَّا أَنْبَأَهُمْ بِأَسْمَائِهِمْ قَالَ أَلَمْ أَقُلْ لَكُمْ إِنِّي أَعْلَمُ غَيْبَ السَّمَاوَاتِ وَالْأَرْضِ وَأَعْلَمُ مَا تُبْدُونَ وَمَا كُنْتُمْ تَكْتُمُونَ</def:en_qs_ontoinVerse_Text>
         <def:en_qs_ontonameRepeat rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25</def:en_qs_ontonameRepeat>
-        <rdfs:comment rdf:resource="https://w3id.org/def/en_qs_onto"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/def/en_qs_onto"/>
         <foaf:name>أدم</foaf:name>
     </owl:NamedIndividual>
     
@@ -2607,7 +2607,7 @@
         <def:en_qs_ontoinVerse_Nu. rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alnisa163</def:en_qs_ontoinVerse_Nu.>
         <def:en_qs_ontoinVerse_Text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">إِنَّا أَوْحَيْنَا إِلَيْكَ كَمَا أَوْحَيْنَا إِلَى نُوحٍ وَالنَّبِيِّينَ مِنْ بَعْدِهِ وَأَوْحَيْنَا إِلَى إِبْرَاهِيمَ وَإِسْمَاعِيلَ وَإِسْحَاقَ وَيَعْقُوبَ وَالْأَسْبَاطِ وَعِيسَى وَأَيُّوبَ وَيُونُسَ وَهَارُونَ وَسُلَيْمَانَ وَآتَيْنَا دَاوُودَ زَبُورًا</def:en_qs_ontoinVerse_Text>
         <def:en_qs_ontonameRepeat rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16</def:en_qs_ontonameRepeat>
-        <rdfs:comment rdf:resource="https://w3id.org/def/en_qs_onto"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/def/en_qs_onto"/>
         <foaf:name>يعقوب</foaf:name>
     </owl:NamedIndividual>
     
@@ -2631,7 +2631,7 @@
         <def:en_qs_ontoinVerse_Nu. rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Al&apos;aneam84</def:en_qs_ontoinVerse_Nu.>
         <def:en_qs_ontoinVerse_Text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">وَوَهَبْنَا لَهُ إِسْحَاقَ وَيَعْقُوبَ كُلًّا هَدَيْنَا وَنُوحًا هَدَيْنَا مِنْ قَبْلُ وَمِنْ ذُرِّيَّتِهِ دَاوُودَ وَسُلَيْمَانَ وَأَيُّوبَ وَيُوسُفَ وَمُوسَى وَهَارُونَ وَكَذَلِكَ نَجْزِي الْمُحْسِنِينَ </def:en_qs_ontoinVerse_Text>
         <def:en_qs_ontonameRepeat rdf:datatype="http://www.w3.org/2001/XMLSchema#string">27</def:en_qs_ontonameRepeat>
-        <rdfs:comment rdf:resource="https://w3id.org/def/en_qs_onto"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/def/en_qs_onto"/>
         <foaf:name>يوسف</foaf:name>
     </owl:NamedIndividual>
     
@@ -2655,7 +2655,7 @@
         <def:en_qs_ontoinVerse_Nu. rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Al&apos;aneam84</def:en_qs_ontoinVerse_Nu.>
         <def:en_qs_ontoinVerse_Text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">وَوَهَبْنَا لَهُ إِسْحَاقَ وَيَعْقُوبَ كُلًّا هَدَيْنَا وَنُوحًا هَدَيْنَا مِنْ قَبْلُ وَمِنْ ذُرِّيَّتِهِ دَاوُودَ وَسُلَيْمَانَ وَأَيُّوبَ وَيُوسُفَ وَمُوسَى وَهَارُونَ وَكَذَلِكَ نَجْزِي الْمُحْسِنِينَ </def:en_qs_ontoinVerse_Text>
         <def:en_qs_ontonameRepeat rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4</def:en_qs_ontonameRepeat>
-        <rdfs:comment rdf:resource="https://w3id.org/def/en_qs_onto"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/def/en_qs_onto"/>
         <foaf:name>أيوب</foaf:name>
     </owl:NamedIndividual>
     
@@ -2703,7 +2703,7 @@
         <def:en_qs_ontoinVerse_Text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">وَإِسْمَاعِيلَ وَالْيَسَعَ وَيُونُسَ وَلُوطًا وَكُلًّا فَضَّلْنَا عَلَى الْعَالَمِينَ</def:en_qs_ontoinVerse_Text>
         <def:en_qs_ontomessage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">call people to worship god alone</def:en_qs_ontomessage>
         <def:en_qs_ontonameRepeat rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4</def:en_qs_ontonameRepeat>
-        <rdfs:comment rdf:resource="https://w3id.org/def/en_qs_onto"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/def/en_qs_onto"/>
         <foaf:name>يونس</foaf:name>
     </owl:NamedIndividual>
     
@@ -2729,7 +2729,7 @@
         <def:en_qs_ontoinVerse_Text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">وَإِلَىٰ مَدْيَنَ أَخَاهُمْ شُعَيْبًا قَالَ يَا قَوْمِ اعْبُدُوا اللَّهَ مَا لَكُم مِّنْ إِلَٰه غَيْرُهُ قَدْ جَاءَتْكُم بَيِّنَةٌ مِّن رَّبِّكُمْ  فَأَوْفُوا الْكَيْلَ وَالْمِيزَانَ وَلَا تَبْخَسُوا النَّاسَ أَشْيَاءَهُمْ وَلَا تُفْسِدُوا فِي الْأَرْضِ بَعْدَ إِصْلَاحِهَا ذَٰلِكُمْ خَيْرٌ لَّكُمْ إِن كُنتُم مُّؤْمِنِينَ</def:en_qs_ontoinVerse_Text>
         <def:en_qs_ontomessage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">call people to worship god alone</def:en_qs_ontomessage>
         <def:en_qs_ontonameRepeat rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11</def:en_qs_ontonameRepeat>
-        <rdfs:comment rdf:resource="https://w3id.org/def/en_qs_onto"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/def/en_qs_onto"/>
         <foaf:name>شعيب</foaf:name>
     </owl:NamedIndividual>
     
@@ -2759,7 +2759,7 @@
         <def:en_qs_ontoinVerse_Text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">وَإِذْ آتَيْنَا مُوسَى الْكِتَابَ وَالْفُرْقَانَ لَعَلَّكُمْ تَهْتَدُونَ</def:en_qs_ontoinVerse_Text>
         <def:en_qs_ontomessage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">call people to worship god alone</def:en_qs_ontomessage>
         <def:en_qs_ontonameRepeat rdf:datatype="http://www.w3.org/2001/XMLSchema#string">136</def:en_qs_ontonameRepeat>
-        <rdfs:comment rdf:resource="https://w3id.org/def/en_qs_onto"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/def/en_qs_onto"/>
         <foaf:name>موسى</foaf:name>
     </owl:NamedIndividual>
     
@@ -2784,7 +2784,7 @@
         <def:en_qs_ontoinVerse_Nu. rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Muriam53</def:en_qs_ontoinVerse_Nu.>
         <def:en_qs_ontoinVerse_Text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">وَوَهَبْنَا لَهُ مِنْ رَحْمَتِنَا أَخَاهُ هَارُونَ نَبِيًّا</def:en_qs_ontoinVerse_Text>
         <def:en_qs_ontonameRepeat rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20</def:en_qs_ontonameRepeat>
-        <rdfs:comment rdf:resource="https://w3id.org/def/en_qs_onto"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/def/en_qs_onto"/>
         <foaf:name>هارون</foaf:name>
     </owl:NamedIndividual>
     
@@ -2810,7 +2810,7 @@
         <def:en_qs_ontoinVerse_Nu. rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Al&apos;aneam84</def:en_qs_ontoinVerse_Nu.>
         <def:en_qs_ontoinVerse_Text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">وَوَهَبْنَا لَهُ إِسْحَاقَ وَيَعْقُوبَ كُلًّا هَدَيْنَا وَنُوحًا هَدَيْنَا مِنْ قَبْلُ وَمِنْ ذُرِّيَّتِهِ دَاوُودَ وَسُلَيْمَانَ وَأَيُّوبَ وَيُوسُفَ وَمُوسَى وَهَارُونَ وَكَذَلِكَ نَجْزِي الْمُحْسِنِينَ </def:en_qs_ontoinVerse_Text>
         <def:en_qs_ontonameRepeat rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16</def:en_qs_ontonameRepeat>
-        <rdfs:comment rdf:resource="https://w3id.org/def/en_qs_onto"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/def/en_qs_onto"/>
         <foaf:name>داوود</foaf:name>
     </owl:NamedIndividual>
     
@@ -2835,7 +2835,7 @@
         <def:en_qs_ontoinVerse_Nu. rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Al&apos;aneam84</def:en_qs_ontoinVerse_Nu.>
         <def:en_qs_ontoinVerse_Text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">وَوَهَبْنَا لَهُ إِسْحَاقَ وَيَعْقُوبَ كُلًّا هَدَيْنَا وَنُوحًا هَدَيْنَا مِنْ قَبْلُ وَمِنْ ذُرِّيَّتِهِ دَاوُودَ وَسُلَيْمَانَ وَأَيُّوبَ وَيُوسُفَ وَمُوسَى وَهَارُونَ وَكَذَلِكَ نَجْزِي الْمُحْسِنِينَ </def:en_qs_ontoinVerse_Text>
         <def:en_qs_ontonameRepeat rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17</def:en_qs_ontonameRepeat>
-        <rdfs:comment rdf:resource="https://w3id.org/def/en_qs_onto"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/def/en_qs_onto"/>
         <foaf:name>سليمان</foaf:name>
     </owl:NamedIndividual>
     
@@ -2860,7 +2860,7 @@
         <def:en_qs_ontoinVerse_Nu. rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Muriam56</def:en_qs_ontoinVerse_Nu.>
         <def:en_qs_ontoinVerse_Text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">وَاذْكُرْ فِي الْكِتَابِ إِدْرِيسَ إِنَّهُ كَانَ صِدِّيقًا نَبِيًّا</def:en_qs_ontoinVerse_Text>
         <def:en_qs_ontonameRepeat rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</def:en_qs_ontonameRepeat>
-        <rdfs:comment rdf:resource="https://w3id.org/def/en_qs_onto"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/def/en_qs_onto"/>
         <foaf:name>ادريس</foaf:name>
     </owl:NamedIndividual>
     
@@ -2886,7 +2886,7 @@
         <def:en_qs_ontoinVerse_Text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">وَزَكَرِيَّا وَيَحْيَى وَعِيسَى وَإِلْيَاسَ كُلٌّ مِنَ الصَّالِحِينَ</def:en_qs_ontoinVerse_Text>
         <def:en_qs_ontomessage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">call people to worship god alone</def:en_qs_ontomessage>
         <def:en_qs_ontonameRepeat rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</def:en_qs_ontonameRepeat>
-        <rdfs:comment rdf:resource="https://w3id.org/def/en_qs_onto"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/def/en_qs_onto"/>
         <foaf:name>الياس</foaf:name>
     </owl:NamedIndividual>
     
@@ -2910,7 +2910,7 @@
         <def:en_qs_ontoinVerse_Nu. rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Al&apos;aneam86</def:en_qs_ontoinVerse_Nu.>
         <def:en_qs_ontoinVerse_Text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">وَإِسْمَاعِيلَ وَالْيَسَعَ وَيُونُسَ وَلُوطًا وَكُلًّا فَضَّلْنَا عَلَى الْعَالَمِينَ</def:en_qs_ontoinVerse_Text>
         <def:en_qs_ontonameRepeat rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</def:en_qs_ontonameRepeat>
-        <rdfs:comment rdf:resource="https://w3id.org/def/en_qs_onto"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/def/en_qs_onto"/>
         <foaf:name>اليسع</foaf:name>
     </owl:NamedIndividual>
     
@@ -2934,7 +2934,7 @@
         <def:en_qs_ontoinVerse_Nu. rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aal Imran38</def:en_qs_ontoinVerse_Nu.>
         <def:en_qs_ontoinVerse_Text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">هُنَالِكَ دَعَا زَكَرِيَّا رَبَّهُ ۖ قَالَ رَبِّ هَبْ لِي مِن لَّدُنكَ ذُرِّيَّةً طَيِّبَةً ۖ إِنَّكَ سَمِيعُ الدُّعَاءِ</def:en_qs_ontoinVerse_Text>
         <def:en_qs_ontonameRepeat rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7</def:en_qs_ontonameRepeat>
-        <rdfs:comment rdf:resource="https://w3id.org/def/en_qs_onto"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/def/en_qs_onto"/>
         <foaf:name>زكريا</foaf:name>
     </owl:NamedIndividual>
     
@@ -2958,7 +2958,7 @@
         <def:en_qs_ontoinVerse_Nu. rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Al Imran39</def:en_qs_ontoinVerse_Nu.>
         <def:en_qs_ontoinVerse_Text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">فَنَادَتْهُ الْمَلَائِكَةُ وَهُوَ قَائِمٌ يُصَلِّي فِي الْمِحْرَابِ أَنَّ اللَّهَ يُبَشِّرُكَ بِيَحْيَىٰ مُصَدِّقًا بِكَلِمَةٍ مِّنَ اللَّهِ وَسَيِّدًا وَحَصُورًا وَنَبِيًّا مِّنَ الصَّالِحِينَ</def:en_qs_ontoinVerse_Text>
         <def:en_qs_ontonameRepeat rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5</def:en_qs_ontonameRepeat>
-        <rdfs:comment rdf:resource="https://w3id.org/def/en_qs_onto"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/def/en_qs_onto"/>
         <foaf:name>يحيى</foaf:name>
     </owl:NamedIndividual>
     
@@ -3123,7 +3123,7 @@
         <def:en_qs_ontoinVerse_Text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">وَقَوْمَ نُوحٍ لَمَّا كَذَّبُوا الرُّسُلَ أَغْرَقْنَاهُمْ وَجَعَلْنَاهُمْ لِلنَّاسِ آيَةً ۖ وَأَعْتَدْنَا لِلظَّالِمِينَ عَذَابًا أَلِيمًا </def:en_qs_ontoinVerse_Text>
         <def:en_qs_ontomessage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">call people to worship god alone</def:en_qs_ontomessage>
         <def:en_qs_ontonameRepeat rdf:datatype="http://www.w3.org/2001/XMLSchema#string">43</def:en_qs_ontonameRepeat>
-        <rdfs:comment rdf:resource="https://w3id.org/def/en_qs_onto"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/def/en_qs_onto"/>
         <foaf:name>نوح</foaf:name>
     </owl:NamedIndividual>
     
@@ -3190,7 +3190,7 @@
         <def:en_qs_ontoinVerse_Text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">وَإِلَى عَادٍ أَخَاهُمْ هُودًا قَالَ يَا قَوْمِ اعْبُدُوا اللَّهَ مَا لَكُمْ مِنْ إِلَهٍ غَيْرُهُ إِنْ أَنْتُمْ إِلَّا مُفْتَرُونَ</def:en_qs_ontoinVerse_Text>
         <def:en_qs_ontomessage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">call people to worship god alone</def:en_qs_ontomessage>
         <def:en_qs_ontonameRepeat rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7</def:en_qs_ontonameRepeat>
-        <rdfs:comment rdf:resource="https://w3id.org/def/en_qs_onto"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/def/en_qs_onto"/>
         <foaf:name>هود</foaf:name>
     </owl:NamedIndividual>
     
@@ -3216,7 +3216,7 @@
         <def:en_qs_ontoinVerse_Text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">فَعَقَرُوا النَّاقَةَ وَعَتَوْا عَنْ أَمْرِ رَبِّهِمْ وَقَالُوا يَاصَالِحُ ائْتِنَا بِمَا تَعِدُنَا إِنْ كُنْتَ مِنَ الْمُرْسَلِينَ </def:en_qs_ontoinVerse_Text>
         <def:en_qs_ontomessage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">call people to worship god alone</def:en_qs_ontomessage>
         <def:en_qs_ontonameRepeat rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9</def:en_qs_ontonameRepeat>
-        <rdfs:comment rdf:resource="https://w3id.org/def/en_qs_onto"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/def/en_qs_onto"/>
         <foaf:name>صالح</foaf:name>
     </owl:NamedIndividual>
     
@@ -3243,7 +3243,7 @@
         <def:en_qs_ontoinVerse_Text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">وَإِذِ ابْتَلَى إِبْرَاهِيمَ رَبُّهُ بِكَلِمَاتٍ فَأَتَمَّهُنَّ قَالَ إِنِّي جَاعِلُكَ لِلنَّاسِ إِمَامًا قَالَ وَمِنْ ذُرِّيَّتِي قَالَ لَا يَنَالُ عَهْدِي الظَّالِمِينَ</def:en_qs_ontoinVerse_Text>
         <def:en_qs_ontomessage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">call people to worship god alone</def:en_qs_ontomessage>
         <def:en_qs_ontonameRepeat rdf:datatype="http://www.w3.org/2001/XMLSchema#string">69</def:en_qs_ontonameRepeat>
-        <rdfs:comment rdf:resource="https://w3id.org/def/en_qs_onto"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/def/en_qs_onto"/>
         <foaf:name>أبراهيم</foaf:name>
     </owl:NamedIndividual>
     
@@ -3268,7 +3268,7 @@
         <def:en_qs_ontoinVerse_Text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">وَإِسْمَاعِيلَ وَالْيَسَعَ وَيُونُسَ وَلُوطًا وَكُلًّا فَضَّلْنَا عَلَى الْعَالَمِينَ</def:en_qs_ontoinVerse_Text>
         <def:en_qs_ontomessage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">call people to worship god alone</def:en_qs_ontomessage>
         <def:en_qs_ontonameRepeat rdf:datatype="http://www.w3.org/2001/XMLSchema#string">27</def:en_qs_ontonameRepeat>
-        <rdfs:comment rdf:resource="https://w3id.org/def/en_qs_onto"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/def/en_qs_onto"/>
         <foaf:name>لوط</foaf:name>
     </owl:NamedIndividual>
     
@@ -3293,7 +3293,7 @@
         <def:en_qs_ontoinVerse_Text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">وَإِسْمَاعِيلَ وَالْيَسَعَ وَيُونُسَ وَلُوطًا وَكُلًّا فَضَّلْنَا عَلَى الْعَالَمِينَ</def:en_qs_ontoinVerse_Text>
         <def:en_qs_ontomessage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">call people to worship god alone</def:en_qs_ontomessage>
         <def:en_qs_ontonameRepeat rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12</def:en_qs_ontonameRepeat>
-        <rdfs:comment rdf:resource="https://w3id.org/def/en_qs_onto"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/def/en_qs_onto"/>
         <foaf:name>اسماعيل</foaf:name>
     </owl:NamedIndividual>
     
@@ -3316,7 +3316,7 @@
         <def:en_qs_ontoinVerse_Nu. rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hūd71</def:en_qs_ontoinVerse_Nu.>
         <def:en_qs_ontoinVerse_Text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">وَامْرَأَتُهُ قَائِمَةٌ فَضَحِكَتْ فَبَشَّرْنَاهَا بِإِسْحَاقَ وَمِنْ وَرَاءِ إِسْحَاقَ يَعْقُوبَ</def:en_qs_ontoinVerse_Text>
         <def:en_qs_ontonameRepeat rdf:datatype="http://www.w3.org/2001/XMLSchema#string">17</def:en_qs_ontonameRepeat>
-        <rdfs:comment rdf:resource="https://w3id.org/def/en_qs_onto"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/def/en_qs_onto"/>
         <foaf:name>اسحاق</foaf:name>
     </owl:NamedIndividual>
     
@@ -4205,12 +4205,12 @@
     </rdf:Description>
     <rdf:Description rdf:about="https://w3id.org/def/en_qs_ontoReptile">
         <rdfs:label>Reptile</rdfs:label>
-        <rdfs:comment>الزواحف</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/def/en_qs_onto"/>
+        <rdfs:comment>الزواحف</rdfs:comment>
     </rdf:Description>
     <rdf:Description rdf:about="https://w3id.org/def/en_qs_ontoSurah">
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/def/en_qs_onto"/>
         <rdfs:comment>السورة القرانية</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/def/en_qs_onto"/>
         <rdfs:label>Surah</rdfs:label>
         <rdfs:comment>السورة</rdfs:comment>
     </rdf:Description>
