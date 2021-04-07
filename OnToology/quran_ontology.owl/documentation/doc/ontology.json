@@ -3304,8 +3304,8 @@
   "http://www.semanticweb.org/quran_s_ontology#don'tHave" : [ {
     "@value" : "Father and Mother"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@id" : "http://purl.org/net/QS-onto/"
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/def/en_qs_onto"
   } ],
   "http://www.w3.org/2002/07/owl#sameAs" : [ {
     "@id" : "https://www.wikidata.org/wiki/Q2001710"
@@ -3358,8 +3358,8 @@
 }, {
   "@id" : "https://w3id.org/def/en_qs_ontoper10",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/def/en_qs_ontoProphet" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@id" : "http://purl.org/net/QS-onto/"
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/def/en_qs_onto"
   } ],
   "http://www.w3.org/2002/07/owl#sameAs" : [ {
     "@id" : "https://www.wikidata.org/wiki/Q2513598"
@@ -3409,8 +3409,8 @@
 }, {
   "@id" : "https://w3id.org/def/en_qs_ontoper11",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/def/en_qs_ontoProphet" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@id" : "http://purl.org/net/QS-onto/"
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/def/en_qs_onto"
   } ],
   "http://www.w3.org/2002/07/owl#sameAs" : [ {
     "@id" : "https://www.wikidata.org/wiki/Q563644"
@@ -3460,8 +3460,8 @@
 }, {
   "@id" : "https://w3id.org/def/en_qs_ontoper12",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/def/en_qs_ontoProphet" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@id" : "http://purl.org/net/QS-onto/"
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/def/en_qs_onto"
   } ],
   "http://www.w3.org/2002/07/owl#sameAs" : [ {
     "@id" : "https://www.wikidata.org/wiki/Q2625307"
@@ -3553,8 +3553,8 @@
 }, {
   "@id" : "https://w3id.org/def/en_qs_ontoper14",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/def/en_qs_ontoMessenger", "https://w3id.org/def/en_qs_ontoProphet" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@id" : "http://purl.org/net/QS-onto/"
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/def/en_qs_onto"
   } ],
   "http://www.w3.org/2002/07/owl#sameAs" : [ {
     "@id" : "https://www.wikidata.org/wiki/Q18811437"
@@ -3610,8 +3610,8 @@
 }, {
   "@id" : "https://w3id.org/def/en_qs_ontoper15",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/def/en_qs_ontoMessenger" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@id" : "http://purl.org/net/QS-onto/"
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/def/en_qs_onto"
   } ],
   "http://www.w3.org/2002/07/owl#sameAs" : [ {
     "@id" : "https://www.wikidata.org/wiki/Q982867"
@@ -3667,8 +3667,8 @@
 }, {
   "@id" : "https://w3id.org/def/en_qs_ontoper16",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/def/en_qs_ontoMessenger", "https://w3id.org/def/en_qs_ontoProphet" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@id" : "http://purl.org/net/QS-onto/"
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/def/en_qs_onto"
   } ],
   "http://www.w3.org/2002/07/owl#sameAs" : [ {
     "@id" : "https://www.wikidata.org/wiki/Q1990155"
@@ -3731,8 +3731,8 @@
 }, {
   "@id" : "https://w3id.org/def/en_qs_ontoper17",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/def/en_qs_ontoProphet" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@id" : "http://purl.org/net/QS-onto/"
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/def/en_qs_onto"
   } ],
   "http://www.w3.org/2002/07/owl#sameAs" : [ {
     "@id" : "https://www.wikidata.org/wiki/Q380714"
@@ -3785,8 +3785,8 @@
 }, {
   "@id" : "https://w3id.org/def/en_qs_ontoper18",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/def/en_qs_ontoProphet" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@id" : "http://purl.org/net/QS-onto/"
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/def/en_qs_onto"
   } ],
   "http://www.w3.org/2002/07/owl#sameAs" : [ {
     "@id" : "https://www.wikidata.org/wiki/Q1257863"
@@ -3842,8 +3842,8 @@
 }, {
   "@id" : "https://w3id.org/def/en_qs_ontoper19",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/def/en_qs_ontoProphet" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@id" : "http://purl.org/net/QS-onto/"
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/def/en_qs_onto"
   } ],
   "http://www.w3.org/2002/07/owl#sameAs" : [ {
     "@id" : "https://www.wikidata.org/wiki/Q1768167"
@@ -3896,8 +3896,8 @@
 }, {
   "@id" : "https://w3id.org/def/en_qs_ontoper2",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/def/en_qs_ontoProphet" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@id" : "http://purl.org/net/QS-onto/"
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/def/en_qs_onto"
   } ],
   "http://www.w3.org/2002/07/owl#sameAs" : [ {
     "@id" : "https://www.wikidata.org/wiki/Q327375"
@@ -3950,8 +3950,8 @@
 }, {
   "@id" : "https://w3id.org/def/en_qs_ontoper20",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/def/en_qs_ontoMessenger", "https://w3id.org/def/en_qs_ontoProphet" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@id" : "http://purl.org/net/QS-onto/"
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/def/en_qs_onto"
   } ],
   "http://www.w3.org/2002/07/owl#sameAs" : [ {
     "@id" : "https://www.wikidata.org/wiki/Q2090543"
@@ -4004,8 +4004,8 @@
 }, {
   "@id" : "https://w3id.org/def/en_qs_ontoper21",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/def/en_qs_ontoProphet" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@id" : "http://purl.org/net/QS-onto/"
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/def/en_qs_onto"
   } ],
   "http://www.w3.org/2002/07/owl#sameAs" : [ {
     "@id" : "https://www.wikidata.org/wiki/Q15215483"
@@ -4055,8 +4055,8 @@
 }, {
   "@id" : "https://w3id.org/def/en_qs_ontoper22",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/def/en_qs_ontoProphet" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@id" : "http://purl.org/net/QS-onto/"
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/def/en_qs_onto"
   } ],
   "http://xmlns.com/foaf/0.1/age" : [ {
     "@value" : "150 year"
@@ -4106,8 +4106,8 @@
 }, {
   "@id" : "https://w3id.org/def/en_qs_ontoper23",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/def/en_qs_ontoProphet" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@id" : "http://purl.org/net/QS-onto/"
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/def/en_qs_onto"
   } ],
   "http://xmlns.com/foaf/0.1/age" : [ {
     "@value" : "null"
@@ -4161,7 +4161,7 @@
     "@value" : "Father"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "http://purl.org/net/QS-onto/"
+    "@id" : "https://w3id.org/def/en_qs_onto"
   } ],
   "http://www.w3.org/2002/07/owl#sameAs" : [ {
     "@id" : "https://www.wikidata.org/wiki/Q51664"
@@ -4224,7 +4224,7 @@
     "@value" : "خاتم الأنبياء والرسل وفقًا للمعتقد الإسلامي."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@id" : "http://purl.org/net/QS-onto/"
+    "@id" : "https://w3id.org/def/en_qs_onto"
   } ],
   "http://www.w3.org/2002/07/owl#sameAs" : [ {
     "@id" : "https://www.wikidata.org/wiki/Q9458"
@@ -4433,8 +4433,8 @@
 }, {
   "@id" : "https://w3id.org/def/en_qs_ontoper3",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/def/en_qs_ontoMessenger", "https://w3id.org/def/en_qs_ontoProphet" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@id" : "http://purl.org/net/QS-onto/"
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/def/en_qs_onto"
   } ],
   "http://www.w3.org/2002/07/owl#sameAs" : [ {
     "@id" : "https://www.wikidata.org/wiki/Q1782672"
@@ -4579,8 +4579,8 @@
 }, {
   "@id" : "https://w3id.org/def/en_qs_ontoper4",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/def/en_qs_ontoMessenger" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@id" : "http://purl.org/net/QS-onto/"
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/def/en_qs_onto"
   } ],
   "http://www.w3.org/2002/07/owl#sameAs" : [ {
     "@id" : "https://www.wikidata.org/wiki/Q193669"
@@ -4633,8 +4633,8 @@
 }, {
   "@id" : "https://w3id.org/def/en_qs_ontoper5",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/def/en_qs_ontoMessenger" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@id" : "http://purl.org/net/QS-onto/"
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/def/en_qs_onto"
   } ],
   "http://www.w3.org/2002/07/owl#sameAs" : [ {
     "@id" : "https://www.wikidata.org/wiki/Q326189"
@@ -4690,8 +4690,8 @@
 }, {
   "@id" : "https://w3id.org/def/en_qs_ontoper6",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/def/en_qs_ontoMessenger", "https://w3id.org/def/en_qs_ontoProphet" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@id" : "http://purl.org/net/QS-onto/"
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/def/en_qs_onto"
   } ],
   "http://www.w3.org/2002/07/owl#sameAs" : [ {
     "@id" : "https://www.wikidata.org/wiki/Q1768161"
@@ -4747,8 +4747,8 @@
 }, {
   "@id" : "https://w3id.org/def/en_qs_ontoper7",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/def/en_qs_ontoMessenger", "https://w3id.org/def/en_qs_ontoProphet" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@id" : "http://purl.org/net/QS-onto/"
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/def/en_qs_onto"
   } ],
   "http://www.w3.org/2002/07/owl#sameAs" : [ {
     "@id" : "https://www.wikidata.org/wiki/Q1918059"
@@ -4798,8 +4798,8 @@
 }, {
   "@id" : "https://w3id.org/def/en_qs_ontoper8",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/def/en_qs_ontoMessenger", "https://w3id.org/def/en_qs_ontoProphet" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@id" : "http://purl.org/net/QS-onto/"
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/def/en_qs_onto"
   } ],
   "http://www.w3.org/2002/07/owl#sameAs" : [ {
     "@id" : "https://www.wikidata.org/wiki/Q470988"
@@ -4849,8 +4849,8 @@
 }, {
   "@id" : "https://w3id.org/def/en_qs_ontoper9",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/def/en_qs_ontoProphet" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@id" : "http://purl.org/net/QS-onto/"
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/def/en_qs_onto"
   } ],
   "http://www.w3.org/2002/07/owl#sameAs" : [ {
     "@id" : "https://www.wikidata.org/wiki/Q1642480"

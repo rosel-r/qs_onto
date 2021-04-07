@@ -1892,7 +1892,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                                       <https://w3id.org/def/en_qs_ontoinVerse_Nu.> "Al-Baqarah33" ;
                                       <https://w3id.org/def/en_qs_ontoinVerse_Text> "قَالَ يَاآدَمُ أَنْبِئْهُمْ بِأَسْمَائِهِمْ ۖ فَلَمَّا أَنْبَأَهُمْ بِأَسْمَائِهِمْ قَالَ أَلَمْ أَقُلْ لَكُمْ إِنِّي أَعْلَمُ غَيْبَ السَّمَاوَاتِ وَالْأَرْضِ وَأَعْلَمُ مَا تُبْدُونَ وَمَا كُنْتُمْ تَكْتُمُونَ" ;
                                       <https://w3id.org/def/en_qs_ontonameRepeat> "25" ;
-                                      rdfs:comment <http://purl.org/net/QS-onto/> .
+                                      rdfs:isDefinedBy <https://w3id.org/def/en_qs_onto> .
 
 
 ###  https://w3id.org/def/en_qs_ontoper10
@@ -1913,7 +1913,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                                        <https://w3id.org/def/en_qs_ontoinVerse_Nu.> "Alnisa163" ;
                                        <https://w3id.org/def/en_qs_ontoinVerse_Text> "إِنَّا أَوْحَيْنَا إِلَيْكَ كَمَا أَوْحَيْنَا إِلَى نُوحٍ وَالنَّبِيِّينَ مِنْ بَعْدِهِ وَأَوْحَيْنَا إِلَى إِبْرَاهِيمَ وَإِسْمَاعِيلَ وَإِسْحَاقَ وَيَعْقُوبَ وَالْأَسْبَاطِ وَعِيسَى وَأَيُّوبَ وَيُونُسَ وَهَارُونَ وَسُلَيْمَانَ وَآتَيْنَا دَاوُودَ زَبُورًا" ;
                                        <https://w3id.org/def/en_qs_ontonameRepeat> "16" ;
-                                       rdfs:comment <http://purl.org/net/QS-onto/> .
+                                       rdfs:isDefinedBy <https://w3id.org/def/en_qs_onto> .
 
 
 ###  https://w3id.org/def/en_qs_ontoper11
@@ -1934,7 +1934,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                                        <https://w3id.org/def/en_qs_ontoinVerse_Nu.> "Al'aneam84" ;
                                        <https://w3id.org/def/en_qs_ontoinVerse_Text> "وَوَهَبْنَا لَهُ إِسْحَاقَ وَيَعْقُوبَ كُلًّا هَدَيْنَا وَنُوحًا هَدَيْنَا مِنْ قَبْلُ وَمِنْ ذُرِّيَّتِهِ دَاوُودَ وَسُلَيْمَانَ وَأَيُّوبَ وَيُوسُفَ وَمُوسَى وَهَارُونَ وَكَذَلِكَ نَجْزِي الْمُحْسِنِينَ " ;
                                        <https://w3id.org/def/en_qs_ontonameRepeat> "27" ;
-                                       rdfs:comment <http://purl.org/net/QS-onto/> .
+                                       rdfs:isDefinedBy <https://w3id.org/def/en_qs_onto> .
 
 
 ###  https://w3id.org/def/en_qs_ontoper12
@@ -1955,7 +1955,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                                        <https://w3id.org/def/en_qs_ontoinVerse_Nu.> "Al'aneam84" ;
                                        <https://w3id.org/def/en_qs_ontoinVerse_Text> "وَوَهَبْنَا لَهُ إِسْحَاقَ وَيَعْقُوبَ كُلًّا هَدَيْنَا وَنُوحًا هَدَيْنَا مِنْ قَبْلُ وَمِنْ ذُرِّيَّتِهِ دَاوُودَ وَسُلَيْمَانَ وَأَيُّوبَ وَيُوسُفَ وَمُوسَى وَهَارُونَ وَكَذَلِكَ نَجْزِي الْمُحْسِنِينَ " ;
                                        <https://w3id.org/def/en_qs_ontonameRepeat> "4" ;
-                                       rdfs:comment <http://purl.org/net/QS-onto/> .
+                                       rdfs:isDefinedBy <https://w3id.org/def/en_qs_onto> .
 
 
 ###  https://w3id.org/def/en_qs_ontoper13
@@ -1997,7 +1997,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                                        <https://w3id.org/def/en_qs_ontoinVerse_Text> "وَإِسْمَاعِيلَ وَالْيَسَعَ وَيُونُسَ وَلُوطًا وَكُلًّا فَضَّلْنَا عَلَى الْعَالَمِينَ" ;
                                        <https://w3id.org/def/en_qs_ontomessage> "call people to worship god alone" ;
                                        <https://w3id.org/def/en_qs_ontonameRepeat> "4" ;
-                                       rdfs:comment <http://purl.org/net/QS-onto/> .
+                                       rdfs:isDefinedBy <https://w3id.org/def/en_qs_onto> .
 
 
 ###  https://w3id.org/def/en_qs_ontoper15
@@ -2020,7 +2020,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                                        <https://w3id.org/def/en_qs_ontoinVerse_Text> "وَإِلَىٰ مَدْيَنَ أَخَاهُمْ شُعَيْبًا قَالَ يَا قَوْمِ اعْبُدُوا اللَّهَ مَا لَكُم مِّنْ إِلَٰه غَيْرُهُ قَدْ جَاءَتْكُم بَيِّنَةٌ مِّن رَّبِّكُمْ  فَأَوْفُوا الْكَيْلَ وَالْمِيزَانَ وَلَا تَبْخَسُوا النَّاسَ أَشْيَاءَهُمْ وَلَا تُفْسِدُوا فِي الْأَرْضِ بَعْدَ إِصْلَاحِهَا ذَٰلِكُمْ خَيْرٌ لَّكُمْ إِن كُنتُم مُّؤْمِنِينَ" ;
                                        <https://w3id.org/def/en_qs_ontomessage> "call people to worship god alone" ;
                                        <https://w3id.org/def/en_qs_ontonameRepeat> "11" ;
-                                       rdfs:comment <http://purl.org/net/QS-onto/> .
+                                       rdfs:isDefinedBy <https://w3id.org/def/en_qs_onto> .
 
 
 ###  https://w3id.org/def/en_qs_ontoper16
@@ -2047,7 +2047,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                                        <https://w3id.org/def/en_qs_ontoinVerse_Text> "وَإِذْ آتَيْنَا مُوسَى الْكِتَابَ وَالْفُرْقَانَ لَعَلَّكُمْ تَهْتَدُونَ" ;
                                        <https://w3id.org/def/en_qs_ontomessage> "call people to worship god alone" ;
                                        <https://w3id.org/def/en_qs_ontonameRepeat> "136" ;
-                                       rdfs:comment <http://purl.org/net/QS-onto/> .
+                                       rdfs:isDefinedBy <https://w3id.org/def/en_qs_onto> .
 
 
 ###  https://w3id.org/def/en_qs_ontoper17
@@ -2069,7 +2069,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                                        <https://w3id.org/def/en_qs_ontoinVerse_Nu.> "Muriam53" ;
                                        <https://w3id.org/def/en_qs_ontoinVerse_Text> "وَوَهَبْنَا لَهُ مِنْ رَحْمَتِنَا أَخَاهُ هَارُونَ نَبِيًّا" ;
                                        <https://w3id.org/def/en_qs_ontonameRepeat> "20" ;
-                                       rdfs:comment <http://purl.org/net/QS-onto/> .
+                                       rdfs:isDefinedBy <https://w3id.org/def/en_qs_onto> .
 
 
 ###  https://w3id.org/def/en_qs_ontoper18
@@ -2092,7 +2092,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                                        <https://w3id.org/def/en_qs_ontoinVerse_Nu.> "Al'aneam84" ;
                                        <https://w3id.org/def/en_qs_ontoinVerse_Text> "وَوَهَبْنَا لَهُ إِسْحَاقَ وَيَعْقُوبَ كُلًّا هَدَيْنَا وَنُوحًا هَدَيْنَا مِنْ قَبْلُ وَمِنْ ذُرِّيَّتِهِ دَاوُودَ وَسُلَيْمَانَ وَأَيُّوبَ وَيُوسُفَ وَمُوسَى وَهَارُونَ وَكَذَلِكَ نَجْزِي الْمُحْسِنِينَ " ;
                                        <https://w3id.org/def/en_qs_ontonameRepeat> "16" ;
-                                       rdfs:comment <http://purl.org/net/QS-onto/> .
+                                       rdfs:isDefinedBy <https://w3id.org/def/en_qs_onto> .
 
 
 ###  https://w3id.org/def/en_qs_ontoper19
@@ -2114,7 +2114,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                                        <https://w3id.org/def/en_qs_ontoinVerse_Nu.> "Al'aneam84" ;
                                        <https://w3id.org/def/en_qs_ontoinVerse_Text> "وَوَهَبْنَا لَهُ إِسْحَاقَ وَيَعْقُوبَ كُلًّا هَدَيْنَا وَنُوحًا هَدَيْنَا مِنْ قَبْلُ وَمِنْ ذُرِّيَّتِهِ دَاوُودَ وَسُلَيْمَانَ وَأَيُّوبَ وَيُوسُفَ وَمُوسَى وَهَارُونَ وَكَذَلِكَ نَجْزِي الْمُحْسِنِينَ " ;
                                        <https://w3id.org/def/en_qs_ontonameRepeat> "17" ;
-                                       rdfs:comment <http://purl.org/net/QS-onto/> .
+                                       rdfs:isDefinedBy <https://w3id.org/def/en_qs_onto> .
 
 
 ###  https://w3id.org/def/en_qs_ontoper2
@@ -2136,7 +2136,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                                       <https://w3id.org/def/en_qs_ontoinVerse_Nu.> "Muriam56" ;
                                       <https://w3id.org/def/en_qs_ontoinVerse_Text> "وَاذْكُرْ فِي الْكِتَابِ إِدْرِيسَ إِنَّهُ كَانَ صِدِّيقًا نَبِيًّا" ;
                                       <https://w3id.org/def/en_qs_ontonameRepeat> "2" ;
-                                      rdfs:comment <http://purl.org/net/QS-onto/> .
+                                      rdfs:isDefinedBy <https://w3id.org/def/en_qs_onto> .
 
 
 ###  https://w3id.org/def/en_qs_ontoper20
@@ -2159,7 +2159,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                                        <https://w3id.org/def/en_qs_ontoinVerse_Text> "وَزَكَرِيَّا وَيَحْيَى وَعِيسَى وَإِلْيَاسَ كُلٌّ مِنَ الصَّالِحِينَ" ;
                                        <https://w3id.org/def/en_qs_ontomessage> "call people to worship god alone" ;
                                        <https://w3id.org/def/en_qs_ontonameRepeat> "2" ;
-                                       rdfs:comment <http://purl.org/net/QS-onto/> .
+                                       rdfs:isDefinedBy <https://w3id.org/def/en_qs_onto> .
 
 
 ###  https://w3id.org/def/en_qs_ontoper21
@@ -2180,7 +2180,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                                        <https://w3id.org/def/en_qs_ontoinVerse_Nu.> "Al'aneam86" ;
                                        <https://w3id.org/def/en_qs_ontoinVerse_Text> "وَإِسْمَاعِيلَ وَالْيَسَعَ وَيُونُسَ وَلُوطًا وَكُلًّا فَضَّلْنَا عَلَى الْعَالَمِينَ" ;
                                        <https://w3id.org/def/en_qs_ontonameRepeat> "2" ;
-                                       rdfs:comment <http://purl.org/net/QS-onto/> .
+                                       rdfs:isDefinedBy <https://w3id.org/def/en_qs_onto> .
 
 
 ###  https://w3id.org/def/en_qs_ontoper22
@@ -2201,7 +2201,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                                        <https://w3id.org/def/en_qs_ontoinVerse_Nu.> "Aal Imran38" ;
                                        <https://w3id.org/def/en_qs_ontoinVerse_Text> "هُنَالِكَ دَعَا زَكَرِيَّا رَبَّهُ ۖ قَالَ رَبِّ هَبْ لِي مِن لَّدُنكَ ذُرِّيَّةً طَيِّبَةً ۖ إِنَّكَ سَمِيعُ الدُّعَاءِ" ;
                                        <https://w3id.org/def/en_qs_ontonameRepeat> "7" ;
-                                       rdfs:comment <http://purl.org/net/QS-onto/> .
+                                       rdfs:isDefinedBy <https://w3id.org/def/en_qs_onto> .
 
 
 ###  https://w3id.org/def/en_qs_ontoper23
@@ -2222,7 +2222,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                                        <https://w3id.org/def/en_qs_ontoinVerse_Nu.> "Al Imran39" ;
                                        <https://w3id.org/def/en_qs_ontoinVerse_Text> "فَنَادَتْهُ الْمَلَائِكَةُ وَهُوَ قَائِمٌ يُصَلِّي فِي الْمِحْرَابِ أَنَّ اللَّهَ يُبَشِّرُكَ بِيَحْيَىٰ مُصَدِّقًا بِكَلِمَةٍ مِّنَ اللَّهِ وَسَيِّدًا وَحَصُورًا وَنَبِيًّا مِّنَ الصَّالِحِينَ" ;
                                        <https://w3id.org/def/en_qs_ontonameRepeat> "5" ;
-                                       rdfs:comment <http://purl.org/net/QS-onto/> .
+                                       rdfs:isDefinedBy <https://w3id.org/def/en_qs_onto> .
 
 
 ###  https://w3id.org/def/en_qs_ontoper24
@@ -2248,7 +2248,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                                        <https://w3id.org/def/en_qs_ontoinVerse_Text> "وَقَوْلِهِمْ إِنَّا قَتَلْنَا الْمَسِيحَ عِيسَى ابْنَ مَرْيَمَ رَسُولَ اللّهِ وَمَا قَتَلُوهُ وَمَا صَلَبُوهُ وَلَـكِن شُبِّهَ لَهُمْ وَإِنَّ الَّذِينَ اخْتَلَفُواْ فِيهِ لَفِي شَكٍّ مِّنْهُ مَا لَهُم بِهِ مِنْ عِلْمٍ إِلاَّ اتِّبَاعَ الظَّنِّ وَمَا قَتَلُوهُ يَقِينًا" ;
                                        <https://w3id.org/def/en_qs_ontomessage> "call people to worship god alone" ;
                                        <https://w3id.org/def/en_qs_ontonameRepeat> "25" ;
-                                       rdfs:isDefinedBy <http://purl.org/net/QS-onto/> .
+                                       rdfs:isDefinedBy <https://w3id.org/def/en_qs_onto> .
 
 
 ###  https://w3id.org/def/en_qs_ontoper25
@@ -2274,7 +2274,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                                        <https://w3id.org/def/en_qs_ontomessage> "call people to worship god alone" ;
                                        <https://w3id.org/def/en_qs_ontonameRepeat> "5" ;
                                        <http://purl.org/dc/elements/1.1/description> "خاتم الأنبياء والرسل وفقًا للمعتقد الإسلامي." ;
-                                       rdfs:isDefinedBy <http://purl.org/net/QS-onto/> .
+                                       rdfs:isDefinedBy <https://w3id.org/def/en_qs_onto> .
 
 
 ###  https://w3id.org/def/en_qs_ontoper26
@@ -2366,7 +2366,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                                       <https://w3id.org/def/en_qs_ontoinVerse_Text> "وَقَوْمَ نُوحٍ لَمَّا كَذَّبُوا الرُّسُلَ أَغْرَقْنَاهُمْ وَجَعَلْنَاهُمْ لِلنَّاسِ آيَةً ۖ وَأَعْتَدْنَا لِلظَّالِمِينَ عَذَابًا أَلِيمًا " ;
                                       <https://w3id.org/def/en_qs_ontomessage> "call people to worship god alone" ;
                                       <https://w3id.org/def/en_qs_ontonameRepeat> "43" ;
-                                      rdfs:comment <http://purl.org/net/QS-onto/> .
+                                      rdfs:isDefinedBy <https://w3id.org/def/en_qs_onto> .
 
 
 ###  https://w3id.org/def/en_qs_ontoper30
@@ -2424,7 +2424,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                                       <https://w3id.org/def/en_qs_ontoinVerse_Text> "وَإِلَى عَادٍ أَخَاهُمْ هُودًا قَالَ يَا قَوْمِ اعْبُدُوا اللَّهَ مَا لَكُمْ مِنْ إِلَهٍ غَيْرُهُ إِنْ أَنْتُمْ إِلَّا مُفْتَرُونَ" ;
                                       <https://w3id.org/def/en_qs_ontomessage> "call people to worship god alone" ;
                                       <https://w3id.org/def/en_qs_ontonameRepeat> "7" ;
-                                      rdfs:comment <http://purl.org/net/QS-onto/> .
+                                      rdfs:isDefinedBy <https://w3id.org/def/en_qs_onto> .
 
 
 ###  https://w3id.org/def/en_qs_ontoper5
@@ -2447,7 +2447,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                                       <https://w3id.org/def/en_qs_ontoinVerse_Text> "فَعَقَرُوا النَّاقَةَ وَعَتَوْا عَنْ أَمْرِ رَبِّهِمْ وَقَالُوا يَاصَالِحُ ائْتِنَا بِمَا تَعِدُنَا إِنْ كُنْتَ مِنَ الْمُرْسَلِينَ " ;
                                       <https://w3id.org/def/en_qs_ontomessage> "call people to worship god alone" ;
                                       <https://w3id.org/def/en_qs_ontonameRepeat> "9" ;
-                                      rdfs:comment <http://purl.org/net/QS-onto/> .
+                                      rdfs:isDefinedBy <https://w3id.org/def/en_qs_onto> .
 
 
 ###  https://w3id.org/def/en_qs_ontoper6
@@ -2471,7 +2471,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                                       <https://w3id.org/def/en_qs_ontoinVerse_Text> "وَإِذِ ابْتَلَى إِبْرَاهِيمَ رَبُّهُ بِكَلِمَاتٍ فَأَتَمَّهُنَّ قَالَ إِنِّي جَاعِلُكَ لِلنَّاسِ إِمَامًا قَالَ وَمِنْ ذُرِّيَّتِي قَالَ لَا يَنَالُ عَهْدِي الظَّالِمِينَ" ;
                                       <https://w3id.org/def/en_qs_ontomessage> "call people to worship god alone" ;
                                       <https://w3id.org/def/en_qs_ontonameRepeat> "69" ;
-                                      rdfs:comment <http://purl.org/net/QS-onto/> .
+                                      rdfs:isDefinedBy <https://w3id.org/def/en_qs_onto> .
 
 
 ###  https://w3id.org/def/en_qs_ontoper7
@@ -2493,7 +2493,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                                       <https://w3id.org/def/en_qs_ontoinVerse_Text> "وَإِسْمَاعِيلَ وَالْيَسَعَ وَيُونُسَ وَلُوطًا وَكُلًّا فَضَّلْنَا عَلَى الْعَالَمِينَ" ;
                                       <https://w3id.org/def/en_qs_ontomessage> "call people to worship god alone" ;
                                       <https://w3id.org/def/en_qs_ontonameRepeat> "27" ;
-                                      rdfs:comment <http://purl.org/net/QS-onto/> .
+                                      rdfs:isDefinedBy <https://w3id.org/def/en_qs_onto> .
 
 
 ###  https://w3id.org/def/en_qs_ontoper8
@@ -2515,7 +2515,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                                       <https://w3id.org/def/en_qs_ontoinVerse_Text> "وَإِسْمَاعِيلَ وَالْيَسَعَ وَيُونُسَ وَلُوطًا وَكُلًّا فَضَّلْنَا عَلَى الْعَالَمِينَ" ;
                                       <https://w3id.org/def/en_qs_ontomessage> "call people to worship god alone" ;
                                       <https://w3id.org/def/en_qs_ontonameRepeat> "12" ;
-                                      rdfs:comment <http://purl.org/net/QS-onto/> .
+                                      rdfs:isDefinedBy <https://w3id.org/def/en_qs_onto> .
 
 
 ###  https://w3id.org/def/en_qs_ontoper9
@@ -2535,7 +2535,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                                       <https://w3id.org/def/en_qs_ontoinVerse_Nu.> "Hūd71" ;
                                       <https://w3id.org/def/en_qs_ontoinVerse_Text> "وَامْرَأَتُهُ قَائِمَةٌ فَضَحِكَتْ فَبَشَّرْنَاهَا بِإِسْحَاقَ وَمِنْ وَرَاءِ إِسْحَاقَ يَعْقُوبَ" ;
                                       <https://w3id.org/def/en_qs_ontonameRepeat> "17" ;
-                                      rdfs:comment <http://purl.org/net/QS-onto/> .
+                                      rdfs:isDefinedBy <https://w3id.org/def/en_qs_onto> .
 
 
 ###  https://w3id.org/def/en_qs_ontosurah1
