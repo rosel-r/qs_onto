@@ -1764,7 +1764,7 @@ _:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 <https://w3id.org/def/en_qs_ontoper1> <https://w3id.org/def/en_qs_ontoinVerse_Nu.> "Al-Baqarah33" .
 <https://w3id.org/def/en_qs_ontoper1> <https://w3id.org/def/en_qs_ontoinVerse_Text> "قَالَ يَاآدَمُ أَنْبِئْهُمْ بِأَسْمَائِهِمْ ۖ فَلَمَّا أَنْبَأَهُمْ بِأَسْمَائِهِمْ قَالَ أَلَمْ أَقُلْ لَكُمْ إِنِّي أَعْلَمُ غَيْبَ السَّمَاوَاتِ وَالْأَرْضِ وَأَعْلَمُ مَا تُبْدُونَ وَمَا كُنْتُمْ تَكْتُمُونَ" .
 <https://w3id.org/def/en_qs_ontoper1> <https://w3id.org/def/en_qs_ontonameRepeat> "25" .
-<https://w3id.org/def/en_qs_ontoper1> <http://www.w3.org/2000/01/rdf-schema#comment> <http://purl.org/net/QS-onto/> .
+<https://w3id.org/def/en_qs_ontoper1> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/def/en_qs_onto> .
 # 
 # https://w3id.org/def/en_qs_ontoper10
 <https://w3id.org/def/en_qs_ontoper10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -1784,7 +1784,7 @@ _:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 <https://w3id.org/def/en_qs_ontoper10> <https://w3id.org/def/en_qs_ontoinVerse_Nu.> "Alnisa163" .
 <https://w3id.org/def/en_qs_ontoper10> <https://w3id.org/def/en_qs_ontoinVerse_Text> "إِنَّا أَوْحَيْنَا إِلَيْكَ كَمَا أَوْحَيْنَا إِلَى نُوحٍ وَالنَّبِيِّينَ مِنْ بَعْدِهِ وَأَوْحَيْنَا إِلَى إِبْرَاهِيمَ وَإِسْمَاعِيلَ وَإِسْحَاقَ وَيَعْقُوبَ وَالْأَسْبَاطِ وَعِيسَى وَأَيُّوبَ وَيُونُسَ وَهَارُونَ وَسُلَيْمَانَ وَآتَيْنَا دَاوُودَ زَبُورًا" .
 <https://w3id.org/def/en_qs_ontoper10> <https://w3id.org/def/en_qs_ontonameRepeat> "16" .
-<https://w3id.org/def/en_qs_ontoper10> <http://www.w3.org/2000/01/rdf-schema#comment> <http://purl.org/net/QS-onto/> .
+<https://w3id.org/def/en_qs_ontoper10> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/def/en_qs_onto> .
 # 
 # https://w3id.org/def/en_qs_ontoper11
 <https://w3id.org/def/en_qs_ontoper11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -1804,7 +1804,7 @@ _:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 <https://w3id.org/def/en_qs_ontoper11> <https://w3id.org/def/en_qs_ontoinVerse_Nu.> "Al'aneam84" .
 <https://w3id.org/def/en_qs_ontoper11> <https://w3id.org/def/en_qs_ontoinVerse_Text> "وَوَهَبْنَا لَهُ إِسْحَاقَ وَيَعْقُوبَ كُلًّا هَدَيْنَا وَنُوحًا هَدَيْنَا مِنْ قَبْلُ وَمِنْ ذُرِّيَّتِهِ دَاوُودَ وَسُلَيْمَانَ وَأَيُّوبَ وَيُوسُفَ وَمُوسَى وَهَارُونَ وَكَذَلِكَ نَجْزِي الْمُحْسِنِينَ " .
 <https://w3id.org/def/en_qs_ontoper11> <https://w3id.org/def/en_qs_ontonameRepeat> "27" .
-<https://w3id.org/def/en_qs_ontoper11> <http://www.w3.org/2000/01/rdf-schema#comment> <http://purl.org/net/QS-onto/> .
+<https://w3id.org/def/en_qs_ontoper11> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/def/en_qs_onto> .
 # 
 # https://w3id.org/def/en_qs_ontoper12
 <https://w3id.org/def/en_qs_ontoper12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -1824,7 +1824,7 @@ _:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 <https://w3id.org/def/en_qs_ontoper12> <https://w3id.org/def/en_qs_ontoinVerse_Nu.> "Al'aneam84" .
 <https://w3id.org/def/en_qs_ontoper12> <https://w3id.org/def/en_qs_ontoinVerse_Text> "وَوَهَبْنَا لَهُ إِسْحَاقَ وَيَعْقُوبَ كُلًّا هَدَيْنَا وَنُوحًا هَدَيْنَا مِنْ قَبْلُ وَمِنْ ذُرِّيَّتِهِ دَاوُودَ وَسُلَيْمَانَ وَأَيُّوبَ وَيُوسُفَ وَمُوسَى وَهَارُونَ وَكَذَلِكَ نَجْزِي الْمُحْسِنِينَ " .
 <https://w3id.org/def/en_qs_ontoper12> <https://w3id.org/def/en_qs_ontonameRepeat> "4" .
-<https://w3id.org/def/en_qs_ontoper12> <http://www.w3.org/2000/01/rdf-schema#comment> <http://purl.org/net/QS-onto/> .
+<https://w3id.org/def/en_qs_ontoper12> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/def/en_qs_onto> .
 # 
 # https://w3id.org/def/en_qs_ontoper13
 <https://w3id.org/def/en_qs_ontoper13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -1864,7 +1864,7 @@ _:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 <https://w3id.org/def/en_qs_ontoper14> <https://w3id.org/def/en_qs_ontoinVerse_Text> "وَإِسْمَاعِيلَ وَالْيَسَعَ وَيُونُسَ وَلُوطًا وَكُلًّا فَضَّلْنَا عَلَى الْعَالَمِينَ" .
 <https://w3id.org/def/en_qs_ontoper14> <https://w3id.org/def/en_qs_ontomessage> "call people to worship god alone" .
 <https://w3id.org/def/en_qs_ontoper14> <https://w3id.org/def/en_qs_ontonameRepeat> "4" .
-<https://w3id.org/def/en_qs_ontoper14> <http://www.w3.org/2000/01/rdf-schema#comment> <http://purl.org/net/QS-onto/> .
+<https://w3id.org/def/en_qs_ontoper14> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/def/en_qs_onto> .
 # 
 # https://w3id.org/def/en_qs_ontoper15
 <https://w3id.org/def/en_qs_ontoper15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -1886,7 +1886,7 @@ _:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 <https://w3id.org/def/en_qs_ontoper15> <https://w3id.org/def/en_qs_ontoinVerse_Text> "وَإِلَىٰ مَدْيَنَ أَخَاهُمْ شُعَيْبًا قَالَ يَا قَوْمِ اعْبُدُوا اللَّهَ مَا لَكُم مِّنْ إِلَٰه غَيْرُهُ قَدْ جَاءَتْكُم بَيِّنَةٌ مِّن رَّبِّكُمْ  فَأَوْفُوا الْكَيْلَ وَالْمِيزَانَ وَلَا تَبْخَسُوا النَّاسَ أَشْيَاءَهُمْ وَلَا تُفْسِدُوا فِي الْأَرْضِ بَعْدَ إِصْلَاحِهَا ذَٰلِكُمْ خَيْرٌ لَّكُمْ إِن كُنتُم مُّؤْمِنِينَ" .
 <https://w3id.org/def/en_qs_ontoper15> <https://w3id.org/def/en_qs_ontomessage> "call people to worship god alone" .
 <https://w3id.org/def/en_qs_ontoper15> <https://w3id.org/def/en_qs_ontonameRepeat> "11" .
-<https://w3id.org/def/en_qs_ontoper15> <http://www.w3.org/2000/01/rdf-schema#comment> <http://purl.org/net/QS-onto/> .
+<https://w3id.org/def/en_qs_ontoper15> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/def/en_qs_onto> .
 # 
 # https://w3id.org/def/en_qs_ontoper16
 <https://w3id.org/def/en_qs_ontoper16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -1912,7 +1912,7 @@ _:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 <https://w3id.org/def/en_qs_ontoper16> <https://w3id.org/def/en_qs_ontoinVerse_Text> "وَإِذْ آتَيْنَا مُوسَى الْكِتَابَ وَالْفُرْقَانَ لَعَلَّكُمْ تَهْتَدُونَ" .
 <https://w3id.org/def/en_qs_ontoper16> <https://w3id.org/def/en_qs_ontomessage> "call people to worship god alone" .
 <https://w3id.org/def/en_qs_ontoper16> <https://w3id.org/def/en_qs_ontonameRepeat> "136" .
-<https://w3id.org/def/en_qs_ontoper16> <http://www.w3.org/2000/01/rdf-schema#comment> <http://purl.org/net/QS-onto/> .
+<https://w3id.org/def/en_qs_ontoper16> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/def/en_qs_onto> .
 # 
 # https://w3id.org/def/en_qs_ontoper17
 <https://w3id.org/def/en_qs_ontoper17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -1933,7 +1933,7 @@ _:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 <https://w3id.org/def/en_qs_ontoper17> <https://w3id.org/def/en_qs_ontoinVerse_Nu.> "Muriam53" .
 <https://w3id.org/def/en_qs_ontoper17> <https://w3id.org/def/en_qs_ontoinVerse_Text> "وَوَهَبْنَا لَهُ مِنْ رَحْمَتِنَا أَخَاهُ هَارُونَ نَبِيًّا" .
 <https://w3id.org/def/en_qs_ontoper17> <https://w3id.org/def/en_qs_ontonameRepeat> "20" .
-<https://w3id.org/def/en_qs_ontoper17> <http://www.w3.org/2000/01/rdf-schema#comment> <http://purl.org/net/QS-onto/> .
+<https://w3id.org/def/en_qs_ontoper17> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/def/en_qs_onto> .
 # 
 # https://w3id.org/def/en_qs_ontoper18
 <https://w3id.org/def/en_qs_ontoper18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -1955,7 +1955,7 @@ _:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 <https://w3id.org/def/en_qs_ontoper18> <https://w3id.org/def/en_qs_ontoinVerse_Nu.> "Al'aneam84" .
 <https://w3id.org/def/en_qs_ontoper18> <https://w3id.org/def/en_qs_ontoinVerse_Text> "وَوَهَبْنَا لَهُ إِسْحَاقَ وَيَعْقُوبَ كُلًّا هَدَيْنَا وَنُوحًا هَدَيْنَا مِنْ قَبْلُ وَمِنْ ذُرِّيَّتِهِ دَاوُودَ وَسُلَيْمَانَ وَأَيُّوبَ وَيُوسُفَ وَمُوسَى وَهَارُونَ وَكَذَلِكَ نَجْزِي الْمُحْسِنِينَ " .
 <https://w3id.org/def/en_qs_ontoper18> <https://w3id.org/def/en_qs_ontonameRepeat> "16" .
-<https://w3id.org/def/en_qs_ontoper18> <http://www.w3.org/2000/01/rdf-schema#comment> <http://purl.org/net/QS-onto/> .
+<https://w3id.org/def/en_qs_ontoper18> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/def/en_qs_onto> .
 # 
 # https://w3id.org/def/en_qs_ontoper19
 <https://w3id.org/def/en_qs_ontoper19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -1976,7 +1976,7 @@ _:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 <https://w3id.org/def/en_qs_ontoper19> <https://w3id.org/def/en_qs_ontoinVerse_Nu.> "Al'aneam84" .
 <https://w3id.org/def/en_qs_ontoper19> <https://w3id.org/def/en_qs_ontoinVerse_Text> "وَوَهَبْنَا لَهُ إِسْحَاقَ وَيَعْقُوبَ كُلًّا هَدَيْنَا وَنُوحًا هَدَيْنَا مِنْ قَبْلُ وَمِنْ ذُرِّيَّتِهِ دَاوُودَ وَسُلَيْمَانَ وَأَيُّوبَ وَيُوسُفَ وَمُوسَى وَهَارُونَ وَكَذَلِكَ نَجْزِي الْمُحْسِنِينَ " .
 <https://w3id.org/def/en_qs_ontoper19> <https://w3id.org/def/en_qs_ontonameRepeat> "17" .
-<https://w3id.org/def/en_qs_ontoper19> <http://www.w3.org/2000/01/rdf-schema#comment> <http://purl.org/net/QS-onto/> .
+<https://w3id.org/def/en_qs_ontoper19> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/def/en_qs_onto> .
 # 
 # https://w3id.org/def/en_qs_ontoper2
 <https://w3id.org/def/en_qs_ontoper2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -1997,7 +1997,7 @@ _:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 <https://w3id.org/def/en_qs_ontoper2> <https://w3id.org/def/en_qs_ontoinVerse_Nu.> "Muriam56" .
 <https://w3id.org/def/en_qs_ontoper2> <https://w3id.org/def/en_qs_ontoinVerse_Text> "وَاذْكُرْ فِي الْكِتَابِ إِدْرِيسَ إِنَّهُ كَانَ صِدِّيقًا نَبِيًّا" .
 <https://w3id.org/def/en_qs_ontoper2> <https://w3id.org/def/en_qs_ontonameRepeat> "2" .
-<https://w3id.org/def/en_qs_ontoper2> <http://www.w3.org/2000/01/rdf-schema#comment> <http://purl.org/net/QS-onto/> .
+<https://w3id.org/def/en_qs_ontoper2> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/def/en_qs_onto> .
 # 
 # https://w3id.org/def/en_qs_ontoper20
 <https://w3id.org/def/en_qs_ontoper20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -2019,7 +2019,7 @@ _:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 <https://w3id.org/def/en_qs_ontoper20> <https://w3id.org/def/en_qs_ontoinVerse_Text> "وَزَكَرِيَّا وَيَحْيَى وَعِيسَى وَإِلْيَاسَ كُلٌّ مِنَ الصَّالِحِينَ" .
 <https://w3id.org/def/en_qs_ontoper20> <https://w3id.org/def/en_qs_ontomessage> "call people to worship god alone" .
 <https://w3id.org/def/en_qs_ontoper20> <https://w3id.org/def/en_qs_ontonameRepeat> "2" .
-<https://w3id.org/def/en_qs_ontoper20> <http://www.w3.org/2000/01/rdf-schema#comment> <http://purl.org/net/QS-onto/> .
+<https://w3id.org/def/en_qs_ontoper20> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/def/en_qs_onto> .
 # 
 # https://w3id.org/def/en_qs_ontoper21
 <https://w3id.org/def/en_qs_ontoper21> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -2039,7 +2039,7 @@ _:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 <https://w3id.org/def/en_qs_ontoper21> <https://w3id.org/def/en_qs_ontoinVerse_Nu.> "Al'aneam86" .
 <https://w3id.org/def/en_qs_ontoper21> <https://w3id.org/def/en_qs_ontoinVerse_Text> "وَإِسْمَاعِيلَ وَالْيَسَعَ وَيُونُسَ وَلُوطًا وَكُلًّا فَضَّلْنَا عَلَى الْعَالَمِينَ" .
 <https://w3id.org/def/en_qs_ontoper21> <https://w3id.org/def/en_qs_ontonameRepeat> "2" .
-<https://w3id.org/def/en_qs_ontoper21> <http://www.w3.org/2000/01/rdf-schema#comment> <http://purl.org/net/QS-onto/> .
+<https://w3id.org/def/en_qs_ontoper21> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/def/en_qs_onto> .
 # 
 # https://w3id.org/def/en_qs_ontoper22
 <https://w3id.org/def/en_qs_ontoper22> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -2059,7 +2059,7 @@ _:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 <https://w3id.org/def/en_qs_ontoper22> <https://w3id.org/def/en_qs_ontoinVerse_Nu.> "Aal Imran38" .
 <https://w3id.org/def/en_qs_ontoper22> <https://w3id.org/def/en_qs_ontoinVerse_Text> "هُنَالِكَ دَعَا زَكَرِيَّا رَبَّهُ ۖ قَالَ رَبِّ هَبْ لِي مِن لَّدُنكَ ذُرِّيَّةً طَيِّبَةً ۖ إِنَّكَ سَمِيعُ الدُّعَاءِ" .
 <https://w3id.org/def/en_qs_ontoper22> <https://w3id.org/def/en_qs_ontonameRepeat> "7" .
-<https://w3id.org/def/en_qs_ontoper22> <http://www.w3.org/2000/01/rdf-schema#comment> <http://purl.org/net/QS-onto/> .
+<https://w3id.org/def/en_qs_ontoper22> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/def/en_qs_onto> .
 # 
 # https://w3id.org/def/en_qs_ontoper23
 <https://w3id.org/def/en_qs_ontoper23> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -2079,7 +2079,7 @@ _:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 <https://w3id.org/def/en_qs_ontoper23> <https://w3id.org/def/en_qs_ontoinVerse_Nu.> "Al Imran39" .
 <https://w3id.org/def/en_qs_ontoper23> <https://w3id.org/def/en_qs_ontoinVerse_Text> "فَنَادَتْهُ الْمَلَائِكَةُ وَهُوَ قَائِمٌ يُصَلِّي فِي الْمِحْرَابِ أَنَّ اللَّهَ يُبَشِّرُكَ بِيَحْيَىٰ مُصَدِّقًا بِكَلِمَةٍ مِّنَ اللَّهِ وَسَيِّدًا وَحَصُورًا وَنَبِيًّا مِّنَ الصَّالِحِينَ" .
 <https://w3id.org/def/en_qs_ontoper23> <https://w3id.org/def/en_qs_ontonameRepeat> "5" .
-<https://w3id.org/def/en_qs_ontoper23> <http://www.w3.org/2000/01/rdf-schema#comment> <http://purl.org/net/QS-onto/> .
+<https://w3id.org/def/en_qs_ontoper23> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/def/en_qs_onto> .
 # 
 # https://w3id.org/def/en_qs_ontoper24
 <https://w3id.org/def/en_qs_ontoper24> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -2104,7 +2104,7 @@ _:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 <https://w3id.org/def/en_qs_ontoper24> <https://w3id.org/def/en_qs_ontoinVerse_Text> "وَقَوْلِهِمْ إِنَّا قَتَلْنَا الْمَسِيحَ عِيسَى ابْنَ مَرْيَمَ رَسُولَ اللّهِ وَمَا قَتَلُوهُ وَمَا صَلَبُوهُ وَلَـكِن شُبِّهَ لَهُمْ وَإِنَّ الَّذِينَ اخْتَلَفُواْ فِيهِ لَفِي شَكٍّ مِّنْهُ مَا لَهُم بِهِ مِنْ عِلْمٍ إِلاَّ اتِّبَاعَ الظَّنِّ وَمَا قَتَلُوهُ يَقِينًا" .
 <https://w3id.org/def/en_qs_ontoper24> <https://w3id.org/def/en_qs_ontomessage> "call people to worship god alone" .
 <https://w3id.org/def/en_qs_ontoper24> <https://w3id.org/def/en_qs_ontonameRepeat> "25" .
-<https://w3id.org/def/en_qs_ontoper24> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/net/QS-onto/> .
+<https://w3id.org/def/en_qs_ontoper24> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/def/en_qs_onto> .
 # 
 # https://w3id.org/def/en_qs_ontoper25
 <https://w3id.org/def/en_qs_ontoper25> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -2129,7 +2129,7 @@ _:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 <https://w3id.org/def/en_qs_ontoper25> <https://w3id.org/def/en_qs_ontomessage> "call people to worship god alone" .
 <https://w3id.org/def/en_qs_ontoper25> <https://w3id.org/def/en_qs_ontonameRepeat> "5" .
 <https://w3id.org/def/en_qs_ontoper25> <http://purl.org/dc/elements/1.1/description> "خاتم الأنبياء والرسل وفقًا للمعتقد الإسلامي." .
-<https://w3id.org/def/en_qs_ontoper25> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/net/QS-onto/> .
+<https://w3id.org/def/en_qs_ontoper25> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/def/en_qs_onto> .
 # 
 # https://w3id.org/def/en_qs_ontoper26
 <https://w3id.org/def/en_qs_ontoper26> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -2216,7 +2216,7 @@ _:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 <https://w3id.org/def/en_qs_ontoper3> <https://w3id.org/def/en_qs_ontoinVerse_Text> "وَقَوْمَ نُوحٍ لَمَّا كَذَّبُوا الرُّسُلَ أَغْرَقْنَاهُمْ وَجَعَلْنَاهُمْ لِلنَّاسِ آيَةً ۖ وَأَعْتَدْنَا لِلظَّالِمِينَ عَذَابًا أَلِيمًا " .
 <https://w3id.org/def/en_qs_ontoper3> <https://w3id.org/def/en_qs_ontomessage> "call people to worship god alone" .
 <https://w3id.org/def/en_qs_ontoper3> <https://w3id.org/def/en_qs_ontonameRepeat> "43" .
-<https://w3id.org/def/en_qs_ontoper3> <http://www.w3.org/2000/01/rdf-schema#comment> <http://purl.org/net/QS-onto/> .
+<https://w3id.org/def/en_qs_ontoper3> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/def/en_qs_onto> .
 # 
 # https://w3id.org/def/en_qs_ontoper30
 <https://w3id.org/def/en_qs_ontoper30> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -2271,7 +2271,7 @@ _:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 <https://w3id.org/def/en_qs_ontoper4> <https://w3id.org/def/en_qs_ontoinVerse_Text> "وَإِلَى عَادٍ أَخَاهُمْ هُودًا قَالَ يَا قَوْمِ اعْبُدُوا اللَّهَ مَا لَكُمْ مِنْ إِلَهٍ غَيْرُهُ إِنْ أَنْتُمْ إِلَّا مُفْتَرُونَ" .
 <https://w3id.org/def/en_qs_ontoper4> <https://w3id.org/def/en_qs_ontomessage> "call people to worship god alone" .
 <https://w3id.org/def/en_qs_ontoper4> <https://w3id.org/def/en_qs_ontonameRepeat> "7" .
-<https://w3id.org/def/en_qs_ontoper4> <http://www.w3.org/2000/01/rdf-schema#comment> <http://purl.org/net/QS-onto/> .
+<https://w3id.org/def/en_qs_ontoper4> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/def/en_qs_onto> .
 # 
 # https://w3id.org/def/en_qs_ontoper5
 <https://w3id.org/def/en_qs_ontoper5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -2293,7 +2293,7 @@ _:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 <https://w3id.org/def/en_qs_ontoper5> <https://w3id.org/def/en_qs_ontoinVerse_Text> "فَعَقَرُوا النَّاقَةَ وَعَتَوْا عَنْ أَمْرِ رَبِّهِمْ وَقَالُوا يَاصَالِحُ ائْتِنَا بِمَا تَعِدُنَا إِنْ كُنْتَ مِنَ الْمُرْسَلِينَ " .
 <https://w3id.org/def/en_qs_ontoper5> <https://w3id.org/def/en_qs_ontomessage> "call people to worship god alone" .
 <https://w3id.org/def/en_qs_ontoper5> <https://w3id.org/def/en_qs_ontonameRepeat> "9" .
-<https://w3id.org/def/en_qs_ontoper5> <http://www.w3.org/2000/01/rdf-schema#comment> <http://purl.org/net/QS-onto/> .
+<https://w3id.org/def/en_qs_ontoper5> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/def/en_qs_onto> .
 # 
 # https://w3id.org/def/en_qs_ontoper6
 <https://w3id.org/def/en_qs_ontoper6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -2316,7 +2316,7 @@ _:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 <https://w3id.org/def/en_qs_ontoper6> <https://w3id.org/def/en_qs_ontoinVerse_Text> "وَإِذِ ابْتَلَى إِبْرَاهِيمَ رَبُّهُ بِكَلِمَاتٍ فَأَتَمَّهُنَّ قَالَ إِنِّي جَاعِلُكَ لِلنَّاسِ إِمَامًا قَالَ وَمِنْ ذُرِّيَّتِي قَالَ لَا يَنَالُ عَهْدِي الظَّالِمِينَ" .
 <https://w3id.org/def/en_qs_ontoper6> <https://w3id.org/def/en_qs_ontomessage> "call people to worship god alone" .
 <https://w3id.org/def/en_qs_ontoper6> <https://w3id.org/def/en_qs_ontonameRepeat> "69" .
-<https://w3id.org/def/en_qs_ontoper6> <http://www.w3.org/2000/01/rdf-schema#comment> <http://purl.org/net/QS-onto/> .
+<https://w3id.org/def/en_qs_ontoper6> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/def/en_qs_onto> .
 # 
 # https://w3id.org/def/en_qs_ontoper7
 <https://w3id.org/def/en_qs_ontoper7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -2337,7 +2337,7 @@ _:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 <https://w3id.org/def/en_qs_ontoper7> <https://w3id.org/def/en_qs_ontoinVerse_Text> "وَإِسْمَاعِيلَ وَالْيَسَعَ وَيُونُسَ وَلُوطًا وَكُلًّا فَضَّلْنَا عَلَى الْعَالَمِينَ" .
 <https://w3id.org/def/en_qs_ontoper7> <https://w3id.org/def/en_qs_ontomessage> "call people to worship god alone" .
 <https://w3id.org/def/en_qs_ontoper7> <https://w3id.org/def/en_qs_ontonameRepeat> "27" .
-<https://w3id.org/def/en_qs_ontoper7> <http://www.w3.org/2000/01/rdf-schema#comment> <http://purl.org/net/QS-onto/> .
+<https://w3id.org/def/en_qs_ontoper7> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/def/en_qs_onto> .
 # 
 # https://w3id.org/def/en_qs_ontoper8
 <https://w3id.org/def/en_qs_ontoper8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -2358,7 +2358,7 @@ _:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 <https://w3id.org/def/en_qs_ontoper8> <https://w3id.org/def/en_qs_ontoinVerse_Text> "وَإِسْمَاعِيلَ وَالْيَسَعَ وَيُونُسَ وَلُوطًا وَكُلًّا فَضَّلْنَا عَلَى الْعَالَمِينَ" .
 <https://w3id.org/def/en_qs_ontoper8> <https://w3id.org/def/en_qs_ontomessage> "call people to worship god alone" .
 <https://w3id.org/def/en_qs_ontoper8> <https://w3id.org/def/en_qs_ontonameRepeat> "12" .
-<https://w3id.org/def/en_qs_ontoper8> <http://www.w3.org/2000/01/rdf-schema#comment> <http://purl.org/net/QS-onto/> .
+<https://w3id.org/def/en_qs_ontoper8> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/def/en_qs_onto> .
 # 
 # https://w3id.org/def/en_qs_ontoper9
 <https://w3id.org/def/en_qs_ontoper9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -2377,7 +2377,7 @@ _:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 <https://w3id.org/def/en_qs_ontoper9> <https://w3id.org/def/en_qs_ontoinVerse_Nu.> "Hūd71" .
 <https://w3id.org/def/en_qs_ontoper9> <https://w3id.org/def/en_qs_ontoinVerse_Text> "وَامْرَأَتُهُ قَائِمَةٌ فَضَحِكَتْ فَبَشَّرْنَاهَا بِإِسْحَاقَ وَمِنْ وَرَاءِ إِسْحَاقَ يَعْقُوبَ" .
 <https://w3id.org/def/en_qs_ontoper9> <https://w3id.org/def/en_qs_ontonameRepeat> "17" .
-<https://w3id.org/def/en_qs_ontoper9> <http://www.w3.org/2000/01/rdf-schema#comment> <http://purl.org/net/QS-onto/> .
+<https://w3id.org/def/en_qs_ontoper9> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/def/en_qs_onto> .
 # 
 # https://w3id.org/def/en_qs_ontosurah1
 <https://w3id.org/def/en_qs_ontosurah1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
