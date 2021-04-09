@@ -3156,15 +3156,13 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                                         rdfs:label "Animal" .
 
 
-<https://w3id.org/def/en_qs_ontoBird> rdfs:comment "الطير" ,
-                                                   "الطير." ;
+<https://w3id.org/def/en_qs_ontoBird> rdfs:comment "الطير." ;
                                       rdfs:isDefinedBy <https://w3id.org/def/en_qs_onto> ;
                                       rdfs:label "Bird" .
 
 
 <https://w3id.org/def/en_qs_ontoBook> <http://purl.org/dc/elements/1.1/description> "مجموعة من الأوراق بأنواع مختلفة (ورقية، إلكترونية، إلخ.) تحتوي على كلمات وجمل لهدف أساسي وهو الحفظ (ضد الضياع)." ;
-                                      rdfs:comment "الكتاب" ,
-                                                   "الكتاب." ;
+                                      rdfs:comment "الكتاب." ;
                                       rdfs:isDefinedBy <https://w3id.org/def/en_qs_onto> ;
                                       rdfs:label "Book" .
 
@@ -3174,8 +3172,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                                          rdfs:label "Chapter" .
 
 
-<https://w3id.org/def/en_qs_ontoInsect> rdfs:comment "الحشرات" ,
-                                                     "الحشرة." ;
+<https://w3id.org/def/en_qs_ontoInsect> rdfs:comment "الحشرة." ;
                                         rdfs:isDefinedBy <https://w3id.org/def/en_qs_onto> ;
                                         rdfs:label "Insect" .
 
@@ -3185,20 +3182,17 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                                         rdfs:label "Mammal" .
 
 
-<https://w3id.org/def/en_qs_ontoMessenger> rdfs:comment "الرسول" ,
-                                                        "الرسول." ;
+<https://w3id.org/def/en_qs_ontoMessenger> rdfs:comment "الرسول" ;
                                            rdfs:isDefinedBy <https://w3id.org/def/en_qs_onto> ;
                                            rdfs:label "Messenger" .
 
 
-<https://w3id.org/def/en_qs_ontoPlace> rdfs:comment "المكان" ,
-                                                    "المكان." ;
+<https://w3id.org/def/en_qs_ontoPlace> rdfs:comment "المكان" ;
                                        rdfs:isDefinedBy <https://w3id.org/def/en_qs_onto> ;
                                        rdfs:label "Place" .
 
 
-<https://w3id.org/def/en_qs_ontoProphet> rdfs:comment "النبي" ,
-                                                      "النبي." ;
+<https://w3id.org/def/en_qs_ontoProphet> rdfs:comment "النبي" ;
                                          rdfs:isDefinedBy <https://w3id.org/def/en_qs_onto> ;
                                          rdfs:label "Prophet" .
 
@@ -3208,8 +3202,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                                          rdfs:label "Reptile" .
 
 
-<https://w3id.org/def/en_qs_ontoSurah> rdfs:comment "السورة" ,
-                                                    "السورة القرانية" ;
+<https://w3id.org/def/en_qs_ontoSurah> rdfs:comment "السورة القرانية" ;
                                        rdfs:isDefinedBy <https://w3id.org/def/en_qs_onto> ;
                                        rdfs:label "Surah" .
 
