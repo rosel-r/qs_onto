@@ -2908,13 +2908,11 @@ _:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 <https://w3id.org/def/en_qs_ontoAnimal> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/def/en_qs_onto> .
 <https://w3id.org/def/en_qs_ontoAnimal> <http://www.w3.org/2000/01/rdf-schema#label> "Animal" .
 # 
-<https://w3id.org/def/en_qs_ontoBird> <http://www.w3.org/2000/01/rdf-schema#comment> "الطير" .
 <https://w3id.org/def/en_qs_ontoBird> <http://www.w3.org/2000/01/rdf-schema#comment> "الطير." .
 <https://w3id.org/def/en_qs_ontoBird> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/def/en_qs_onto> .
 <https://w3id.org/def/en_qs_ontoBird> <http://www.w3.org/2000/01/rdf-schema#label> "Bird" .
 # 
 <https://w3id.org/def/en_qs_ontoBook> <http://purl.org/dc/elements/1.1/description> "مجموعة من الأوراق بأنواع مختلفة (ورقية، إلكترونية، إلخ.) تحتوي على كلمات وجمل لهدف أساسي وهو الحفظ (ضد الضياع)." .
-<https://w3id.org/def/en_qs_ontoBook> <http://www.w3.org/2000/01/rdf-schema#comment> "الكتاب" .
 <https://w3id.org/def/en_qs_ontoBook> <http://www.w3.org/2000/01/rdf-schema#comment> "الكتاب." .
 <https://w3id.org/def/en_qs_ontoBook> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/def/en_qs_onto> .
 <https://w3id.org/def/en_qs_ontoBook> <http://www.w3.org/2000/01/rdf-schema#label> "Book" .
@@ -2923,7 +2921,6 @@ _:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 <https://w3id.org/def/en_qs_ontoChapter> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/def/en_qs_onto> .
 <https://w3id.org/def/en_qs_ontoChapter> <http://www.w3.org/2000/01/rdf-schema#label> "Chapter" .
 # 
-<https://w3id.org/def/en_qs_ontoInsect> <http://www.w3.org/2000/01/rdf-schema#comment> "الحشرات" .
 <https://w3id.org/def/en_qs_ontoInsect> <http://www.w3.org/2000/01/rdf-schema#comment> "الحشرة." .
 <https://w3id.org/def/en_qs_ontoInsect> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/def/en_qs_onto> .
 <https://w3id.org/def/en_qs_ontoInsect> <http://www.w3.org/2000/01/rdf-schema#label> "Insect" .
@@ -2933,17 +2930,14 @@ _:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 <https://w3id.org/def/en_qs_ontoMammal> <http://www.w3.org/2000/01/rdf-schema#label> "Mammal" .
 # 
 <https://w3id.org/def/en_qs_ontoMessenger> <http://www.w3.org/2000/01/rdf-schema#comment> "الرسول" .
-<https://w3id.org/def/en_qs_ontoMessenger> <http://www.w3.org/2000/01/rdf-schema#comment> "الرسول." .
 <https://w3id.org/def/en_qs_ontoMessenger> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/def/en_qs_onto> .
 <https://w3id.org/def/en_qs_ontoMessenger> <http://www.w3.org/2000/01/rdf-schema#label> "Messenger" .
 # 
 <https://w3id.org/def/en_qs_ontoPlace> <http://www.w3.org/2000/01/rdf-schema#comment> "المكان" .
-<https://w3id.org/def/en_qs_ontoPlace> <http://www.w3.org/2000/01/rdf-schema#comment> "المكان." .
 <https://w3id.org/def/en_qs_ontoPlace> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/def/en_qs_onto> .
 <https://w3id.org/def/en_qs_ontoPlace> <http://www.w3.org/2000/01/rdf-schema#label> "Place" .
 # 
 <https://w3id.org/def/en_qs_ontoProphet> <http://www.w3.org/2000/01/rdf-schema#comment> "النبي" .
-<https://w3id.org/def/en_qs_ontoProphet> <http://www.w3.org/2000/01/rdf-schema#comment> "النبي." .
 <https://w3id.org/def/en_qs_ontoProphet> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/def/en_qs_onto> .
 <https://w3id.org/def/en_qs_ontoProphet> <http://www.w3.org/2000/01/rdf-schema#label> "Prophet" .
 # 
@@ -2951,7 +2945,6 @@ _:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 <https://w3id.org/def/en_qs_ontoReptile> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/def/en_qs_onto> .
 <https://w3id.org/def/en_qs_ontoReptile> <http://www.w3.org/2000/01/rdf-schema#label> "Reptile" .
 # 
-<https://w3id.org/def/en_qs_ontoSurah> <http://www.w3.org/2000/01/rdf-schema#comment> "السورة" .
 <https://w3id.org/def/en_qs_ontoSurah> <http://www.w3.org/2000/01/rdf-schema#comment> "السورة القرانية" .
 <https://w3id.org/def/en_qs_ontoSurah> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/def/en_qs_onto> .
 <https://w3id.org/def/en_qs_ontoSurah> <http://www.w3.org/2000/01/rdf-schema#label> "Surah" .
