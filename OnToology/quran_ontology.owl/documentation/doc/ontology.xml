@@ -4487,14 +4487,12 @@
         <rdfs:label>Animal</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="https://w3id.org/def/en_qs_ontoBird">
-        <rdfs:comment>الطير</rdfs:comment>
         <rdfs:comment>الطير.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/def/en_qs_onto"/>
         <rdfs:label>Bird</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="https://w3id.org/def/en_qs_ontoBook">
         <dc:description>مجموعة من الأوراق بأنواع مختلفة (ورقية، إلكترونية، إلخ.) تحتوي على كلمات وجمل لهدف أساسي وهو الحفظ (ضد الضياع).</dc:description>
-        <rdfs:comment>الكتاب</rdfs:comment>
         <rdfs:comment>الكتاب.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/def/en_qs_onto"/>
         <rdfs:label>Book</rdfs:label>
@@ -4505,7 +4503,6 @@
         <rdfs:label>Chapter</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="https://w3id.org/def/en_qs_ontoInsect">
-        <rdfs:comment>الحشرات</rdfs:comment>
         <rdfs:comment>الحشرة.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/def/en_qs_onto"/>
         <rdfs:label>Insect</rdfs:label>
@@ -4517,19 +4514,16 @@
     </rdf:Description>
     <rdf:Description rdf:about="https://w3id.org/def/en_qs_ontoMessenger">
         <rdfs:comment>الرسول</rdfs:comment>
-        <rdfs:comment>الرسول.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/def/en_qs_onto"/>
         <rdfs:label>Messenger</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="https://w3id.org/def/en_qs_ontoPlace">
         <rdfs:comment>المكان</rdfs:comment>
-        <rdfs:comment>المكان.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/def/en_qs_onto"/>
         <rdfs:label>Place</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="https://w3id.org/def/en_qs_ontoProphet">
         <rdfs:comment>النبي</rdfs:comment>
-        <rdfs:comment>النبي.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/def/en_qs_onto"/>
         <rdfs:label>Prophet</rdfs:label>
     </rdf:Description>
@@ -4539,7 +4533,6 @@
         <rdfs:label>Reptile</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="https://w3id.org/def/en_qs_ontoSurah">
-        <rdfs:comment>السورة</rdfs:comment>
         <rdfs:comment>السورة القرانية</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/def/en_qs_onto"/>
         <rdfs:label>Surah</rdfs:label>
