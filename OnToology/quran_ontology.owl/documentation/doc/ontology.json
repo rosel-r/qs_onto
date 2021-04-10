@@ -1810,6 +1810,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "https://w3id.org/def/en_qs_ontoEvent"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/def/en_qs_ontoledTo"
   } ]
 }, {
   "@id" : "https://w3id.org/def/en_qs_ontoendowedTo",
@@ -2376,6 +2379,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "_:genid20"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/def/en_qs_ontohasBook"
   } ]
 }, {
   "@id" : "https://w3id.org/def/en_qs_ontogenerate",
