@@ -168,18 +168,10 @@ This section provides details for each class and property defined by [Ontology N
          <dt>is in domain of</dt>
          <dd>
             <a href="#https://w3id.org/def/en_qs_ontoappearedWith" title="https://w3id.org/def/en_qs_ontoappearedWith">appearedWith</a>
-            <sup class="type-op" title="object property">op</sup>, <a href="#https://w3id.org/def/en_qs_ontobelongTo" title="https://w3id.org/def/en_qs_ontobelongTo">belongTo</a>
-            <sup class="type-op" title="object property">op</sup>, <a href="#https://w3id.org/def/en_qs_ontolivedIn" title="https://w3id.org/def/en_qs_ontolivedIn">livedIn</a>
             <sup class="type-op" title="object property">op</sup>, <a href="#https://w3id.org/def/en_qs_ontooverturnedFrom" title="https://w3id.org/def/en_qs_ontooverturnedFrom">overturnedFrom</a>
             <sup class="type-dp" title="data property">dp</sup>, <a href="#https://w3id.org/def/en_qs_ontoreasonFor_Mention"
                title="https://w3id.org/def/en_qs_ontoreasonFor_Mention">reasonFor_Mention</a>
             <sup class="type-dp" title="data property">dp</sup>, <a href="#https://w3id.org/def/en_qs_ontoswallow" title="https://w3id.org/def/en_qs_ontoswallow">swallow</a>
-            <sup class="type-op" title="object property">op</sup>
-         </dd>
-         <dt>is in range of</dt>
-         <dd>
-            <a href="#https://w3id.org/def/en_qs_ontoinclude" title="https://w3id.org/def/en_qs_ontoinclude">include</a>
-            <sup class="type-op" title="object property">op</sup>, <a href="#https://w3id.org/def/en_qs_ontolivePlace_Of" title="https://w3id.org/def/en_qs_ontolivePlace_Of">livePlace_Of</a>
             <sup class="type-op" title="object property">op</sup>
          </dd>
          <dt>is same as</dt>
@@ -1652,9 +1644,8 @@ This section provides details for each class and property defined by [Ontology N
             <dd>
                <a href="http://xmlns.com/foaf/0.1/Person"
                   target="_blank"
-                  title="http://xmlns.com/foaf/0.1/Person">person</a>
-            </dd>
-            <dd>
+                  title="http://xmlns.com/foaf/0.1/Person">person</a> 
+               <span class="logic">or</span> 
                <a href="#https://w3id.org/def/en_qs_ontoAnimal" title="https://w3id.org/def/en_qs_ontoAnimal">Animal</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
@@ -2215,9 +2206,8 @@ This section provides details for each class and property defined by [Ontology N
             <dd>
                <a href="http://xmlns.com/foaf/0.1/Person"
                   target="_blank"
-                  title="http://xmlns.com/foaf/0.1/Person">person</a>
-            </dd>
-            <dd>
+                  title="http://xmlns.com/foaf/0.1/Person">person</a> 
+               <span class="logic">or</span> 
                <a href="#https://w3id.org/def/en_qs_ontoAnimal" title="https://w3id.org/def/en_qs_ontoAnimal">Animal</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
@@ -2327,9 +2317,8 @@ This section provides details for each class and property defined by [Ontology N
             <dd>
                <a href="http://xmlns.com/foaf/0.1/Person"
                   target="_blank"
-                  title="http://xmlns.com/foaf/0.1/Person">person</a>
-            </dd>
-            <dd>
+                  title="http://xmlns.com/foaf/0.1/Person">person</a> 
+               <span class="logic">or</span> 
                <a href="#https://w3id.org/def/en_qs_ontoAnimal" title="https://w3id.org/def/en_qs_ontoAnimal">Animal</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
@@ -2376,9 +2365,8 @@ This section provides details for each class and property defined by [Ontology N
             <dd>
                <a href="http://xmlns.com/foaf/0.1/Person"
                   target="_blank"
-                  title="http://xmlns.com/foaf/0.1/Person">person</a>
-            </dd>
-            <dd>
+                  title="http://xmlns.com/foaf/0.1/Person">person</a> 
+               <span class="logic">or</span> 
                <a href="#https://w3id.org/def/en_qs_ontoAnimal" title="https://w3id.org/def/en_qs_ontoAnimal">Animal</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
@@ -2736,6 +2724,12 @@ This section provides details for each class and property defined by [Ontology N
             <dd>
                <a href="#https://w3id.org/def/en_qs_ontoAnimal" title="https://w3id.org/def/en_qs_ontoAnimal">Animal</a>
                <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://xmlns.com/foaf/0.1/Person"
+                  target="_blank"
+                  title="http://xmlns.com/foaf/0.1/Person">person</a>
             </dd>
          </dl>
       </div>
@@ -4323,7 +4317,7 @@ This section provides details for each class and property defined by [Ontology N
       <dl class="description">
          <dt>is same as</dt>
          <dd>
-            <a href="#https://w3id.org/def/en_qs_ontoAnimal" title="https://w3id.org/def/en_qs_ontoAnimal">Animal</a>
+            <a href="#https://en.wikipedia.org/wiki/Animal" title="https://en.wikipedia.org/wiki/Animal">animal</a>, <a href="#https://w3id.org/def/en_qs_ontoAnimal" title="https://w3id.org/def/en_qs_ontoAnimal">Animal</a>
          </dd>
       </dl>
    </div>
@@ -4337,7 +4331,9 @@ This section provides details for each class and property defined by [Ontology N
       <dl class="description">
          <dt>is same as</dt>
          <dd>
-            <a href="#https://w3id.org/def/en_qs_ontoAnimal" title="https://w3id.org/def/en_qs_ontoAnimal">Animal</a>
+            <a href="#http://dbpedia.org/ontology/Animal" title="http://dbpedia.org/ontology/Animal">animal</a>, <a href="#https://w3id.org/def/en_qs_ontoAnimal" title="https://w3id.org/def/en_qs_ontoAnimal">Animal</a>, <a href="https://www.wikidata.org/wiki/Q729"
+               target="_blank"
+               title="https://www.wikidata.org/wiki/Q729">q729</a>
          </dd>
       </dl>
    </div>
@@ -4371,7 +4367,7 @@ This section provides details for each class and property defined by [Ontology N
       <dl class="description">
          <dt>is same as</dt>
          <dd>
-            <a href="#https://w3id.org/def/en_qs_ontoBird" title="https://w3id.org/def/en_qs_ontoBird">Bird</a>
+            <a href="#https://en.wikipedia.org/wiki/Bird" title="https://en.wikipedia.org/wiki/Bird">bird</a>, <a href="#https://w3id.org/def/en_qs_ontoBird" title="https://w3id.org/def/en_qs_ontoBird">Bird</a>
          </dd>
       </dl>
    </div>
@@ -4385,7 +4381,7 @@ This section provides details for each class and property defined by [Ontology N
       <dl class="description">
          <dt>is same as</dt>
          <dd>
-            <a href="#https://w3id.org/def/en_qs_ontoBird" title="https://w3id.org/def/en_qs_ontoBird">Bird</a>
+            <a href="#https://dbpedia.org/ontology/Bird" title="https://dbpedia.org/ontology/Bird">bird</a>, <a href="#https://w3id.org/def/en_qs_ontoBird" title="https://w3id.org/def/en_qs_ontoBird">Bird</a>
          </dd>
       </dl>
    </div>
@@ -11636,7 +11632,7 @@ This section provides details for each class and property defined by [Ontology N
       <dl class="description">
          <dt>is same as</dt>
          <dd>
-            <a href="#d4e1361" title="http://xmlns.com/foaf/0.1/Person">person</a>
+            <a href="#d4e1400" title="http://xmlns.com/foaf/0.1/Person">person</a>
          </dd>
       </dl>
    </div>

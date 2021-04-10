@@ -9,13 +9,15 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid11",
+  "@id" : "_:genid10",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#unionOf" : [ {
     "@list" : [ {
-      "@id" : "https://w3id.org/def/en_qs_ontoSurah"
+      "@id" : "https://w3id.org/def/en_qs_ontoBook"
     }, {
-      "@id" : "https://w3id.org/def/en_qs_ontoVerse"
+      "@id" : "https://w3id.org/def/en_qs_ontoChapter"
+    }, {
+      "@id" : "https://w3id.org/def/en_qs_ontoSurah"
     } ]
   } ]
 }, {
@@ -23,9 +25,9 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#unionOf" : [ {
     "@list" : [ {
-      "@id" : "https://w3id.org/def/en_qs_ontoMessenger"
+      "@id" : "https://w3id.org/def/en_qs_ontoSurah"
     }, {
-      "@id" : "https://w3id.org/def/en_qs_ontoProphet"
+      "@id" : "https://w3id.org/def/en_qs_ontoVerse"
     } ]
   } ]
 }, {
@@ -93,9 +95,9 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#unionOf" : [ {
     "@list" : [ {
-      "@id" : "https://w3id.org/def/en_qs_ontoMessenger"
+      "@id" : "http://xmlns.com/foaf/0.1/Person"
     }, {
-      "@id" : "https://w3id.org/def/en_qs_ontoProphet"
+      "@id" : "https://w3id.org/def/en_qs_ontoAnimal"
     } ]
   } ]
 }, {
@@ -103,9 +105,9 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#unionOf" : [ {
     "@list" : [ {
-      "@id" : "https://w3id.org/def/en_qs_ontoBook"
+      "@id" : "http://xmlns.com/foaf/0.1/Person"
     }, {
-      "@id" : "https://w3id.org/def/en_qs_ontoChapter"
+      "@id" : "https://w3id.org/def/en_qs_ontoAnimal"
     } ]
   } ]
 }, {
@@ -123,6 +125,46 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#unionOf" : [ {
     "@list" : [ {
+      "@id" : "http://xmlns.com/foaf/0.1/Person"
+    }, {
+      "@id" : "https://w3id.org/def/en_qs_ontoAnimal"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid44",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/def/en_qs_ontoMessenger"
+    }, {
+      "@id" : "https://w3id.org/def/en_qs_ontoProphet"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid47",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/def/en_qs_ontoMessenger"
+    }, {
+      "@id" : "https://w3id.org/def/en_qs_ontoProphet"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid50",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/def/en_qs_ontoBook"
+    }, {
+      "@id" : "https://w3id.org/def/en_qs_ontoChapter"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid53",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
       "@id" : "https://w3id.org/def/en_qs_ontoMessenger"
     }, {
       "@id" : "https://w3id.org/def/en_qs_ontoProphet"
@@ -133,17 +175,17 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#unionOf" : [ {
     "@list" : [ {
-      "@id" : "https://w3id.org/def/en_qs_ontoBook"
+      "@id" : "http://xmlns.com/foaf/0.1/Person"
     }, {
-      "@id" : "https://w3id.org/def/en_qs_ontoChapter"
-    }, {
-      "@id" : "https://w3id.org/def/en_qs_ontoSurah"
+      "@id" : "https://w3id.org/def/en_qs_ontoAnimal"
     } ]
   } ]
 }, {
   "@id" : "http://dbpedia.org/ontology/Animal",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2002/07/owl#sameAs" : [ {
+    "@id" : "https://en.wikipedia.org/wiki/Animal"
+  }, {
     "@id" : "https://w3id.org/def/en_qs_ontoAnimal"
   } ]
 }, {
@@ -301,6 +343,8 @@
   "@id" : "https://dbpedia.org/ontology/Bird",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2002/07/owl#sameAs" : [ {
+    "@id" : "https://en.wikipedia.org/wiki/Bird"
+  }, {
     "@id" : "https://w3id.org/def/en_qs_ontoBird"
   } ]
 }, {
@@ -332,6 +376,8 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2002/07/owl#sameAs" : [ {
     "@id" : "https://w3id.org/def/en_qs_ontoAnimal"
+  }, {
+    "@id" : "https://www.wikidata.org/wiki/Q729"
   } ]
 }, {
   "@id" : "https://en.wikipedia.org/wiki/Bird",
@@ -1132,7 +1178,7 @@
     "@value" : "كُلف من قبل."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "_:genid41"
+    "@id" : "_:genid53"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://w3id.org/def/en_qs_onto"
@@ -1174,9 +1220,7 @@
     "@value" : "ينتمي الى ."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://xmlns.com/foaf/0.1/Person"
-  }, {
-    "@id" : "https://w3id.org/def/en_qs_ontoAnimal"
+    "@id" : "_:genid7"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://w3id.org/def/en_qs_onto"
@@ -1708,7 +1752,7 @@
     "@value" : "يتكون من ,يتألف من."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "_:genid7"
+    "@id" : "_:genid10"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://w3id.org/def/en_qs_onto"
@@ -1717,7 +1761,7 @@
     "@value" : "consistOf"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "_:genid11"
+    "@id" : "_:genid14"
   } ],
   "http://www.w3.org/2002/07/owl#inverseOf" : [ {
     "@id" : "https://w3id.org/def/en_qs_ontopartOf"
@@ -1786,7 +1830,7 @@
     "@value" : "endowedTo"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "_:genid14"
+    "@id" : "_:genid17"
   } ],
   "http://www.w3.org/2002/07/owl#inverseOf" : [ {
     "@id" : "https://w3id.org/def/en_qs_ontohasMiracle"
@@ -2331,7 +2375,7 @@
     "@value" : "gaveTo"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "_:genid17"
+    "@id" : "_:genid20"
   } ]
 }, {
   "@id" : "https://w3id.org/def/en_qs_ontogenerate",
@@ -2385,7 +2429,7 @@
     "@value" : "امتلك كتاب"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "_:genid20"
+    "@id" : "_:genid23"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://w3id.org/def/en_qs_onto"
@@ -2430,7 +2474,7 @@
     "@value" : "لديه معجزة ."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "_:genid23"
+    "@id" : "_:genid26"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://w3id.org/def/en_qs_onto"
@@ -2517,7 +2561,7 @@
     "@value" : "كُرم ب ."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "_:genid26"
+    "@id" : "_:genid29"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://w3id.org/def/en_qs_onto"
@@ -2550,7 +2594,7 @@
     "@value" : "honoringTo"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "_:genid29"
+    "@id" : "_:genid32"
   } ]
 }, {
   "@id" : "https://w3id.org/def/en_qs_ontoinVerse_Nu.",
@@ -2616,9 +2660,7 @@
     "@value" : "include"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://xmlns.com/foaf/0.1/Person"
-  }, {
-    "@id" : "https://w3id.org/def/en_qs_ontoAnimal"
+    "@id" : "_:genid35"
   } ]
 }, {
   "@id" : "https://w3id.org/def/en_qs_ontoisPlaceOccurance",
@@ -2702,9 +2744,7 @@
     "@value" : "livePlace_Of"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://xmlns.com/foaf/0.1/Person"
-  }, {
-    "@id" : "https://w3id.org/def/en_qs_ontoAnimal"
+    "@id" : "_:genid38"
   } ],
   "http://www.w3.org/2002/07/owl#inverseOf" : [ {
     "@id" : "https://w3id.org/def/en_qs_ontolivedIn"
@@ -2719,9 +2759,7 @@
     "@value" : "عاش في"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://xmlns.com/foaf/0.1/Person"
-  }, {
-    "@id" : "https://w3id.org/def/en_qs_ontoAnimal"
+    "@id" : "_:genid41"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://w3id.org/def/en_qs_onto"
@@ -2796,7 +2834,7 @@
     "@value" : "missionedPlace_Of"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "_:genid32"
+    "@id" : "_:genid44"
   } ],
   "http://www.w3.org/2002/07/owl#inverseOf" : [ {
     "@id" : "https://w3id.org/def/en_qs_ontomissionedTo"
@@ -2811,7 +2849,7 @@
     "@value" : "بُعث الى"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "_:genid35"
+    "@id" : "_:genid47"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://w3id.org/def/en_qs_onto"
@@ -3056,7 +3094,7 @@
     "@value" : "partOf"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "_:genid38"
+    "@id" : "_:genid50"
   } ]
 }, {
   "@id" : "https://w3id.org/def/en_qs_ontopc1",
@@ -5632,6 +5670,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "swallow"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Person"
   } ]
 }, {
   "@id" : "https://w3id.org/def/en_qs_ontotargeted",
