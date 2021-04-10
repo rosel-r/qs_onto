@@ -154,8 +154,14 @@
 
     <owl:ObjectProperty rdf:about="https://w3id.org/def/en_qs_ontobelongTo">
         <owl:inverseOf rdf:resource="https://w3id.org/def/en_qs_ontoinclude"/>
-        <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
-        <rdfs:domain rdf:resource="https://w3id.org/def/en_qs_ontoAnimal"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Person"/>
+                    <rdf:Description rdf:about="https://w3id.org/def/en_qs_ontoAnimal"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
         <rdfs:range rdf:resource="https://w3id.org/def/en_qs_ontoPlace"/>
         <dc:description>انتماء الشخص او الحيوان الى مكان معين.</dc:description>
         <rdfs:comment>ينتمي الى .</rdfs:comment>
@@ -400,8 +406,14 @@
 
     <owl:ObjectProperty rdf:about="https://w3id.org/def/en_qs_ontoinclude">
         <rdfs:domain rdf:resource="https://w3id.org/def/en_qs_ontoPlace"/>
-        <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
-        <rdfs:range rdf:resource="https://w3id.org/def/en_qs_ontoAnimal"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Person"/>
+                    <rdf:Description rdf:about="https://w3id.org/def/en_qs_ontoAnimal"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
         <dc:description>يحتوي المكان على اشياء.</dc:description>
         <rdfs:comment>يشمل , يحتوي .</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/def/en_qs_onto"/>
@@ -442,8 +454,14 @@
     <owl:ObjectProperty rdf:about="https://w3id.org/def/en_qs_ontolivePlace_Of">
         <owl:inverseOf rdf:resource="https://w3id.org/def/en_qs_ontolivedIn"/>
         <rdfs:domain rdf:resource="https://w3id.org/def/en_qs_ontoPlace"/>
-        <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
-        <rdfs:range rdf:resource="https://w3id.org/def/en_qs_ontoAnimal"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Person"/>
+                    <rdf:Description rdf:about="https://w3id.org/def/en_qs_ontoAnimal"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
         <dc:description>مكان عيش شخص ما.</dc:description>
         <rdfs:comment>مكان عيش .</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/def/en_qs_onto"/>
@@ -455,8 +473,14 @@
     <!-- https://w3id.org/def/en_qs_ontolivedIn -->
 
     <owl:ObjectProperty rdf:about="https://w3id.org/def/en_qs_ontolivedIn">
-        <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
-        <rdfs:domain rdf:resource="https://w3id.org/def/en_qs_ontoAnimal"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Person"/>
+                    <rdf:Description rdf:about="https://w3id.org/def/en_qs_ontoAnimal"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
         <rdfs:range rdf:resource="https://w3id.org/def/en_qs_ontoPlace"/>
         <dc:description>عاش شخص ما في مكان معين.</dc:description>
         <rdfs:comment>عاش في</rdfs:comment>
@@ -594,6 +618,7 @@
 
     <owl:ObjectProperty rdf:about="https://w3id.org/def/en_qs_ontoswallow">
         <rdfs:domain rdf:resource="https://w3id.org/def/en_qs_ontoAnimal"/>
+        <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
         <dc:description>ابتلاع الحيوان لشيء ما .</dc:description>
         <rdfs:comment>ابتلع</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/def/en_qs_onto"/>
@@ -693,6 +718,15 @@
 
     <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/gender">
         <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/name -->
+
+    <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/name">
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
     </rdf:Description>
     
 
@@ -1228,6 +1262,7 @@
     <!-- http://dbpedia.org/ontology/Animal -->
 
     <owl:NamedIndividual rdf:about="http://dbpedia.org/ontology/Animal">
+        <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Animal"/>
         <owl:sameAs rdf:resource="https://w3id.org/def/en_qs_ontoAnimal"/>
     </owl:NamedIndividual>
     
@@ -1295,6 +1330,7 @@
     <!-- https://dbpedia.org/ontology/Bird -->
 
     <owl:NamedIndividual rdf:about="https://dbpedia.org/ontology/Bird">
+        <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Bird"/>
         <owl:sameAs rdf:resource="https://w3id.org/def/en_qs_ontoBird"/>
     </owl:NamedIndividual>
     
@@ -1336,6 +1372,7 @@
 
     <owl:NamedIndividual rdf:about="https://en.wikipedia.org/wiki/Animal">
         <owl:sameAs rdf:resource="https://w3id.org/def/en_qs_ontoAnimal"/>
+        <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q729"/>
     </owl:NamedIndividual>
     
 
@@ -4199,18 +4236,18 @@
     </rdf:Description>
     <rdf:Description rdf:about="https://w3id.org/def/en_qs_ontoReptile">
         <rdfs:label>Reptile</rdfs:label>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/def/en_qs_onto"/>
         <rdfs:comment>الزواحف</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/def/en_qs_onto"/>
     </rdf:Description>
     <rdf:Description rdf:about="https://w3id.org/def/en_qs_ontoSurah">
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/def/en_qs_onto"/>
         <rdfs:comment>السورة القرانية</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/def/en_qs_onto"/>
         <rdfs:label>Surah</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="https://w3id.org/def/en_qs_ontoVerse">
         <rdfs:comment>الأية.</rdfs:comment>
-        <rdfs:label>Verse</rdfs:label>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/def/en_qs_onto"/>
+        <rdfs:label>Verse</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="https://w3id.org/def/en_qs_ontopartOf">
         <rdfs:label>partOf</rdfs:label>
