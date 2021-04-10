@@ -94,8 +94,11 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 ###  https://w3id.org/def/en_qs_ontobelongTo
 <https://w3id.org/def/en_qs_ontobelongTo> rdf:type owl:ObjectProperty ;
                                           owl:inverseOf <https://w3id.org/def/en_qs_ontoinclude> ;
-                                          rdfs:domain <http://xmlns.com/foaf/0.1/Person> ,
-                                                      <https://w3id.org/def/en_qs_ontoAnimal> ;
+                                          rdfs:domain [ rdf:type owl:Class ;
+                                                        owl:unionOf ( <http://xmlns.com/foaf/0.1/Person>
+                                                                      <https://w3id.org/def/en_qs_ontoAnimal>
+                                                                    )
+                                                      ] ;
                                           rdfs:range <https://w3id.org/def/en_qs_ontoPlace> ;
                                           <http://purl.org/dc/elements/1.1/description> "انتماء الشخص او الحيوان الى مكان معين." ;
                                           rdfs:comment "ينتمي الى ." ;
@@ -274,8 +277,11 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 ###  https://w3id.org/def/en_qs_ontoinclude
 <https://w3id.org/def/en_qs_ontoinclude> rdf:type owl:ObjectProperty ;
                                          rdfs:domain <https://w3id.org/def/en_qs_ontoPlace> ;
-                                         rdfs:range <http://xmlns.com/foaf/0.1/Person> ,
-                                                    <https://w3id.org/def/en_qs_ontoAnimal> ;
+                                         rdfs:range [ rdf:type owl:Class ;
+                                                      owl:unionOf ( <http://xmlns.com/foaf/0.1/Person>
+                                                                    <https://w3id.org/def/en_qs_ontoAnimal>
+                                                                  )
+                                                    ] ;
                                          <http://purl.org/dc/elements/1.1/description> "يحتوي المكان على اشياء." ;
                                          rdfs:comment "يشمل , يحتوي ." ;
                                          rdfs:isDefinedBy <https://w3id.org/def/en_qs_onto> ;
@@ -307,8 +313,11 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 <https://w3id.org/def/en_qs_ontolivePlace_Of> rdf:type owl:ObjectProperty ;
                                               owl:inverseOf <https://w3id.org/def/en_qs_ontolivedIn> ;
                                               rdfs:domain <https://w3id.org/def/en_qs_ontoPlace> ;
-                                              rdfs:range <http://xmlns.com/foaf/0.1/Person> ,
-                                                         <https://w3id.org/def/en_qs_ontoAnimal> ;
+                                              rdfs:range [ rdf:type owl:Class ;
+                                                           owl:unionOf ( <http://xmlns.com/foaf/0.1/Person>
+                                                                         <https://w3id.org/def/en_qs_ontoAnimal>
+                                                                       )
+                                                         ] ;
                                               <http://purl.org/dc/elements/1.1/description> "مكان عيش شخص ما." ;
                                               rdfs:comment "مكان عيش ." ;
                                               rdfs:isDefinedBy <https://w3id.org/def/en_qs_onto> ;
@@ -317,8 +326,11 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 
 ###  https://w3id.org/def/en_qs_ontolivedIn
 <https://w3id.org/def/en_qs_ontolivedIn> rdf:type owl:ObjectProperty ;
-                                         rdfs:domain <http://xmlns.com/foaf/0.1/Person> ,
-                                                     <https://w3id.org/def/en_qs_ontoAnimal> ;
+                                         rdfs:domain [ rdf:type owl:Class ;
+                                                       owl:unionOf ( <http://xmlns.com/foaf/0.1/Person>
+                                                                     <https://w3id.org/def/en_qs_ontoAnimal>
+                                                                   )
+                                                     ] ;
                                          rdfs:range <https://w3id.org/def/en_qs_ontoPlace> ;
                                          <http://purl.org/dc/elements/1.1/description> "عاش شخص ما في مكان معين." ;
                                          rdfs:comment "عاش في" ;
@@ -420,6 +432,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 ###  https://w3id.org/def/en_qs_ontoswallow
 <https://w3id.org/def/en_qs_ontoswallow> rdf:type owl:ObjectProperty ;
                                          rdfs:domain <https://w3id.org/def/en_qs_ontoAnimal> ;
+                                         rdfs:range <http://xmlns.com/foaf/0.1/Person> ;
                                          <http://purl.org/dc/elements/1.1/description> "ابتلاع الحيوان لشيء ما ." ;
                                          rdfs:comment "ابتلع" ;
                                          rdfs:isDefinedBy <https://w3id.org/def/en_qs_onto> ;
@@ -864,7 +877,8 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 
 ###  http://dbpedia.org/ontology/Animal
 <http://dbpedia.org/ontology/Animal> rdf:type owl:NamedIndividual ;
-                                     owl:sameAs <https://w3id.org/def/en_qs_ontoAnimal> .
+                                     owl:sameAs <https://en.wikipedia.org/wiki/Animal> ,
+                                                <https://w3id.org/def/en_qs_ontoAnimal> .
 
 
 ###  http://dbpedia.org/ontology/Book
@@ -910,7 +924,8 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 
 ###  https://dbpedia.org/ontology/Bird
 <https://dbpedia.org/ontology/Bird> rdf:type owl:NamedIndividual ;
-                                    owl:sameAs <https://w3id.org/def/en_qs_ontoBird> .
+                                    owl:sameAs <https://en.wikipedia.org/wiki/Bird> ,
+                                               <https://w3id.org/def/en_qs_ontoBird> .
 
 
 ###  https://dbpedia.org/ontology/Insect
@@ -935,7 +950,8 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 
 ###  https://en.wikipedia.org/wiki/Animal
 <https://en.wikipedia.org/wiki/Animal> rdf:type owl:NamedIndividual ;
-                                       owl:sameAs <https://w3id.org/def/en_qs_ontoAnimal> .
+                                       owl:sameAs <https://w3id.org/def/en_qs_ontoAnimal> ,
+                                                  <https://www.wikidata.org/wiki/Q729> .
 
 
 ###  https://en.wikipedia.org/wiki/Bird
