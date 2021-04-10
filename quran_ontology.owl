@@ -257,6 +257,7 @@
     <!-- https://w3id.org/def/en_qs_ontodueTo -->
 
     <owl:ObjectProperty rdf:about="https://w3id.org/def/en_qs_ontodueTo">
+        <owl:inverseOf rdf:resource="https://w3id.org/def/en_qs_ontoledTo"/>
         <rdfs:domain rdf:resource="https://w3id.org/def/en_qs_ontoEvent"/>
         <rdfs:range rdf:resource="https://w3id.org/def/en_qs_ontoEvent"/>
         <dc:description>حدوث حدث بسبب اداة الحدث.</dc:description>
@@ -291,6 +292,7 @@
     <!-- https://w3id.org/def/en_qs_ontogaveTo -->
 
     <owl:ObjectProperty rdf:about="https://w3id.org/def/en_qs_ontogaveTo">
+        <owl:inverseOf rdf:resource="https://w3id.org/def/en_qs_ontohasBook"/>
         <rdfs:domain rdf:resource="https://w3id.org/def/en_qs_ontoBook"/>
         <rdfs:range>
             <owl:Class>
@@ -718,15 +720,6 @@
 
     <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/gender">
         <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://xmlns.com/foaf/0.1/name -->
-
-    <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/name">
-        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
     </rdf:Description>
     
 
@@ -4246,8 +4239,8 @@
     </rdf:Description>
     <rdf:Description rdf:about="https://w3id.org/def/en_qs_ontoVerse">
         <rdfs:comment>الأية.</rdfs:comment>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/def/en_qs_onto"/>
         <rdfs:label>Verse</rdfs:label>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/def/en_qs_onto"/>
     </rdf:Description>
     <rdf:Description rdf:about="https://w3id.org/def/en_qs_ontopartOf">
         <rdfs:label>partOf</rdfs:label>
