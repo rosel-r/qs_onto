@@ -263,6 +263,7 @@
 
 
     <owl:ObjectProperty rdf:about="https://w3id.org/def/en_qs_ontodueTo">
+        <owl:inverseOf rdf:resource="https://w3id.org/def/en_qs_ontoledTo"/>
         <rdfs:domain rdf:resource="https://w3id.org/def/en_qs_ontoEvent"/>
         <rdfs:range rdf:resource="https://w3id.org/def/en_qs_ontoEvent"/>
         <dc:description>حدوث حدث بسبب اداة الحدث.</dc:description>
@@ -299,6 +300,7 @@
 
 
     <owl:ObjectProperty rdf:about="https://w3id.org/def/en_qs_ontogaveTo">
+        <owl:inverseOf rdf:resource="https://w3id.org/def/en_qs_ontohasBook"/>
         <rdfs:domain rdf:resource="https://w3id.org/def/en_qs_ontoBook"/>
         <rdfs:range>
             <owl:Class>

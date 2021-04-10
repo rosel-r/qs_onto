@@ -180,6 +180,7 @@ _:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 # 
 # https://w3id.org/def/en_qs_ontodueTo
 <https://w3id.org/def/en_qs_ontodueTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/def/en_qs_ontodueTo> <http://www.w3.org/2002/07/owl#inverseOf> <https://w3id.org/def/en_qs_ontoledTo> .
 <https://w3id.org/def/en_qs_ontodueTo> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/en_qs_ontoEvent> .
 <https://w3id.org/def/en_qs_ontodueTo> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/en_qs_ontoEvent> .
 <https://w3id.org/def/en_qs_ontodueTo> <http://purl.org/dc/elements/1.1/description> "حدوث حدث بسبب اداة الحدث." .
@@ -207,6 +208,7 @@ _:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 # 
 # https://w3id.org/def/en_qs_ontogaveTo
 <https://w3id.org/def/en_qs_ontogaveTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/def/en_qs_ontogaveTo> <http://www.w3.org/2002/07/owl#inverseOf> <https://w3id.org/def/en_qs_ontohasBook> .
 <https://w3id.org/def/en_qs_ontogaveTo> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/en_qs_ontoBook> .
 <https://w3id.org/def/en_qs_ontogaveTo> <http://www.w3.org/2000/01/rdf-schema#range> _:genid20 .
 _:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .

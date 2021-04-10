@@ -170,6 +170,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 
 ###  https://w3id.org/def/en_qs_ontodueTo
 <https://w3id.org/def/en_qs_ontodueTo> rdf:type owl:ObjectProperty ;
+                                       owl:inverseOf <https://w3id.org/def/en_qs_ontoledTo> ;
                                        rdfs:domain <https://w3id.org/def/en_qs_ontoEvent> ;
                                        rdfs:range <https://w3id.org/def/en_qs_ontoEvent> ;
                                        <http://purl.org/dc/elements/1.1/description> "حدوث حدث بسبب اداة الحدث." ;
@@ -195,6 +196,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 
 ###  https://w3id.org/def/en_qs_ontogaveTo
 <https://w3id.org/def/en_qs_ontogaveTo> rdf:type owl:ObjectProperty ;
+                                        owl:inverseOf <https://w3id.org/def/en_qs_ontohasBook> ;
                                         rdfs:domain <https://w3id.org/def/en_qs_ontoBook> ;
                                         rdfs:range [ rdf:type owl:Class ;
                                                      owl:unionOf ( <https://w3id.org/def/en_qs_ontoMessenger>
