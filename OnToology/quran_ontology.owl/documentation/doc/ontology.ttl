@@ -10,8 +10,8 @@
                                    owl:versionIRI <https://w3id.org/def/en_qs_onto> ;
                                    owl:imports <http://xmlns.com/foaf/0.1/> ;
                                    <http://purl.org/dc/elements/1.1/abstract> "This Ontology for Quran Stories" ;
-                                   <http://purl.org/dc/elements/1.1/date> "" ,
-                                                                          "25/3/2021" ;
+                                   <http://purl.org/dc/elements/1.1/author> "Rusul Y. Raghep" ;
+                                   <http://purl.org/dc/elements/1.1/date> "25/3/2021" ;
                                    <http://purl.org/dc/elements/1.1/title> "Quran Stories Ontology" ;
                                    rdfs:label "QURAN STORIES ONTOLOGY" .
 
@@ -21,6 +21,10 @@
 
 ###  http://purl.org/dc/elements/1.1/abstract
 <http://purl.org/dc/elements/1.1/abstract> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/elements/1.1/author
+<http://purl.org/dc/elements/1.1/author> rdf:type owl:AnnotationProperty .
 
 
 ###  http://www.w3.org/2002/07/owl#sameAs
@@ -664,8 +668,31 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 #    Classes
 #################################################################
 
+###  http://www.w3.org/2002/07/owl#Thing
+owl:Thing rdfs:subClassOf [ rdf:type owl:Restriction ;
+                            owl:onProperty <https://w3id.org/def/en_qs_ontomentionedIn> ;
+                            owl:allValuesFrom <https://w3id.org/def/en_qs_ontoSurah>
+                          ] .
+
+
 ###  http://xmlns.com/foaf/0.1/Person
-<http://xmlns.com/foaf/0.1/Person> rdfs:subClassOf owl:Thing .
+<http://xmlns.com/foaf/0.1/Person> rdfs:subClassOf owl:Thing ,
+                                                   [ rdf:type owl:Restriction ;
+                                                     owl:onProperty <https://w3id.org/def/en_qs_ontomentionedIn> ;
+                                                     owl:someValuesFrom <https://w3id.org/def/en_qs_ontoSurah>
+                                                   ] ,
+                                                   [ rdf:type owl:Restriction ;
+                                                     owl:onProperty <https://w3id.org/def/en_qs_ontolivedIn> ;
+                                                     owl:allValuesFrom <https://w3id.org/def/en_qs_ontoPlace>
+                                                   ] ,
+                                                   [ rdf:type owl:Restriction ;
+                                                     owl:onProperty <https://w3id.org/def/en_qs_ontomentionedIn> ;
+                                                     owl:allValuesFrom [ rdf:type owl:Class ;
+                                                                         owl:unionOf ( <https://w3id.org/def/en_qs_ontoCivilian_Surah>
+                                                                                       <https://w3id.org/def/en_qs_ontoMeccan_Surah>
+                                                                                     )
+                                                                       ]
+                                                   ] .
 
 
 ###  https://w3id.org/def/en_qs_ontoAfterLive_Event
@@ -731,7 +758,11 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 
 ###  https://w3id.org/def/en_qs_ontoEvent
 <https://w3id.org/def/en_qs_ontoEvent> rdf:type owl:Class ;
-                                       rdfs:subClassOf owl:Thing ;
+                                       rdfs:subClassOf owl:Thing ,
+                                                       [ rdf:type owl:Restriction ;
+                                                         owl:onProperty <https://w3id.org/def/en_qs_ontodoneBy> ;
+                                                         owl:someValuesFrom <https://w3id.org/def/en_qs_ontoEvent_Tool>
+                                                       ] ;
                                        rdfs:comment "الحدث." ;
                                        rdfs:isDefinedBy <https://w3id.org/def/en_qs_onto> ;
                                        rdfs:label "Event" .
@@ -813,7 +844,17 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 
 ###  https://w3id.org/def/en_qs_ontoMessenger
 <https://w3id.org/def/en_qs_ontoMessenger> rdf:type owl:Class ;
-                                           rdfs:subClassOf <http://xmlns.com/foaf/0.1/Person> .
+                                           rdfs:subClassOf <http://xmlns.com/foaf/0.1/Person> ,
+                                                           [ rdf:type owl:Restriction ;
+                                                             owl:onProperty <https://w3id.org/def/en_qs_ontohasBook> ;
+                                                             owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                             owl:onClass <https://w3id.org/def/en_qs_ontoBook>
+                                                           ] ,
+                                                           [ rdf:type owl:Restriction ;
+                                                             owl:onProperty <https://w3id.org/def/en_qs_ontomissionedTo> ;
+                                                             owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                             owl:onClass <https://w3id.org/def/en_qs_ontoMissionPlace>
+                                                           ] .
 
 
 ###  https://w3id.org/def/en_qs_ontoMiracles
@@ -865,7 +906,14 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 
 ###  https://w3id.org/def/en_qs_ontoSurah
 <https://w3id.org/def/en_qs_ontoSurah> rdf:type owl:Class ;
-                                       rdfs:subClassOf owl:Thing .
+                                       rdfs:subClassOf owl:Thing ,
+                                                       [ rdf:type owl:Restriction ;
+                                                         owl:onProperty <https://w3id.org/def/en_qs_ontoreported> ;
+                                                         owl:allValuesFrom owl:Thing
+                                                       ] ;
+                                       owl:disjointUnionOf ( <https://w3id.org/def/en_qs_ontoCivilian_Surah>
+                                                             <https://w3id.org/def/en_qs_ontoMeccan_Surah>
+                                                           ) .
 
 
 ###  https://w3id.org/def/en_qs_ontoVerse
@@ -959,6 +1007,11 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 ###  https://en.wikipedia.org/wiki/Bird
 <https://en.wikipedia.org/wiki/Bird> rdf:type owl:NamedIndividual ;
                                      owl:sameAs <https://w3id.org/def/en_qs_ontoBird> .
+
+
+###  https://en.wikipedia.org/wiki/Egypt
+<https://en.wikipedia.org/wiki/Egypt> rdf:type owl:NamedIndividual ;
+                                      owl:sameAs <https://w3id.org/def/en_qs_ontopc3> .
 
 
 ###  https://en.wikipedia.org/wiki/Insect
@@ -2038,6 +2091,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                                        <https://w3id.org/def/en_qs_ontoinVerse_Text> "وَإِلَىٰ مَدْيَنَ أَخَاهُمْ شُعَيْبًا قَالَ يَا قَوْمِ اعْبُدُوا اللَّهَ مَا لَكُم مِّنْ إِلَٰه غَيْرُهُ قَدْ جَاءَتْكُم بَيِّنَةٌ مِّن رَّبِّكُمْ  فَأَوْفُوا الْكَيْلَ وَالْمِيزَانَ وَلَا تَبْخَسُوا النَّاسَ أَشْيَاءَهُمْ وَلَا تُفْسِدُوا فِي الْأَرْضِ بَعْدَ إِصْلَاحِهَا ذَٰلِكُمْ خَيْرٌ لَّكُمْ إِن كُنتُم مُّؤْمِنِينَ" ;
                                        <https://w3id.org/def/en_qs_ontomessage> "call people to worship god alone" ;
                                        <https://w3id.org/def/en_qs_ontonameRepeat> "11" ;
+                                       <http://purl.org/dc/elements/1.1/description> "الرسول شعيب هو احد الرسل الذين تم ذكرهم في القران الكريم في سورة الاعراف في الاية رقم 85" ;
                                        rdfs:isDefinedBy <https://w3id.org/def/en_qs_onto> .
 
 
@@ -2442,6 +2496,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                                       <https://w3id.org/def/en_qs_ontoinVerse_Text> "وَإِلَى عَادٍ أَخَاهُمْ هُودًا قَالَ يَا قَوْمِ اعْبُدُوا اللَّهَ مَا لَكُمْ مِنْ إِلَهٍ غَيْرُهُ إِنْ أَنْتُمْ إِلَّا مُفْتَرُونَ" ;
                                       <https://w3id.org/def/en_qs_ontomessage> "call people to worship god alone" ;
                                       <https://w3id.org/def/en_qs_ontonameRepeat> "7" ;
+                                      <http://purl.org/dc/elements/1.1/description> "الرسول هود هو احد الرسل الذين تم ذكرهم في القران الكريم في سورة هود  في الاية رقم 50." ;
                                       rdfs:isDefinedBy <https://w3id.org/def/en_qs_onto> .
 
 
@@ -3169,7 +3224,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 <http://xmlns.com/foaf/0.1/Person> rdfs:comment "الشخص" .
 
 
-<https://w3id.org/def/en_qs_ontoAnimal> rdfs:comment "الحيوان." ;
+<https://w3id.org/def/en_qs_ontoAnimal> rdfs:comment "الحيوان" ;
                                         rdfs:isDefinedBy <https://w3id.org/def/en_qs_onto> ;
                                         rdfs:label "Animal" .
 

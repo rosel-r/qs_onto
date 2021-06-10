@@ -91,6 +91,9 @@
     "label" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
+    "author" : {
+      "@id" : "http://purl.org/dc/elements/1.1/author"
+    },
     "familyName" : {
       "@id" : "http://xmlns.com/foaf/0.1/familyName",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
