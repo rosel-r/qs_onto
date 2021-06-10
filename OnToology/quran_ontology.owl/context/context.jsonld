@@ -3,99 +3,86 @@
     "abstract" : {
       "@id" : "http://purl.org/dc/elements/1.1/abstract"
     },
-    "en_qs_ontoen_qs_ontoassignedBy" : {
-      "@id" : "https://w3id.org/def/en_qs_ontoen_qs_ontoassignedBy",
+    "en_qs_ontolivedIn" : {
+      "@id" : "https://w3id.org/def/en_qs_onto#en_qs_ontolivedIn",
+      "@type" : "@id"
+    },
+    "en_qs_ontobornPlaceOf" : {
+      "@id" : "https://w3id.org/def/en_qs_onto#en_qs_ontobornPlaceOf",
+      "@type" : "@id"
+    },
+    "en_qs_ontoBird" : {
+      "@id" : "https://w3id.org/def/en_qs_onto#en_qs_ontoBird"
+    },
+    "en_qs_ontoappearedWith" : {
+      "@id" : "https://w3id.org/def/en_qs_onto#en_qs_ontoappearedWith",
+      "@type" : "@id"
+    },
+    "en_qs_ontoGod_Punishment" : {
+      "@id" : "https://w3id.org/def/en_qs_onto#en_qs_ontoGod_Punishment"
+    },
+    "en_qs_ontohasMother" : {
+      "@id" : "https://w3id.org/def/en_qs_onto#en_qs_ontohasMother",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
-    "en_qs_ontoen_qs_ontoDate" : {
-      "@id" : "https://w3id.org/def/en_qs_ontoen_qs_ontoDate"
-    },
-    "en_qs_ontoen_qs_ontoendowedTo" : {
-      "@id" : "https://w3id.org/def/en_qs_ontoen_qs_ontoendowedTo",
+    "en_qs_ontomissionPlace_Of" : {
+      "@id" : "https://w3id.org/def/en_qs_onto#en_qs_ontomissionPlace_Of",
       "@type" : "@id"
     },
-    "en_qs_ontoen_qs_ontosendTo" : {
-      "@id" : "https://w3id.org/def/en_qs_ontoen_qs_ontosendTo",
+    "en_qs_ontoadvised" : {
+      "@id" : "https://w3id.org/def/en_qs_onto#en_qs_ontoadvised",
       "@type" : "@id"
     },
-    "en_qs_ontoen_qs_ontoinVerse_Text" : {
-      "@id" : "https://w3id.org/def/en_qs_ontoen_qs_ontoinVerse_Text",
-      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    "en_qs_ontoMissionPlace" : {
+      "@id" : "https://w3id.org/def/en_qs_onto#en_qs_ontoMissionPlace"
     },
-    "en_qs_ontoen_qs_ontoreceived" : {
-      "@id" : "https://w3id.org/def/en_qs_ontoen_qs_ontoreceived",
-      "@type" : "@id"
+    "en_qs_ontoMeccan_Surah" : {
+      "@id" : "https://w3id.org/def/en_qs_onto#en_qs_ontoMeccan_Surah"
     },
-    "en_qs_ontoen_qs_ontoMiracles" : {
-      "@id" : "https://w3id.org/def/en_qs_ontoen_qs_ontoMiracles"
+    "en_qs_ontoDate" : {
+      "@id" : "https://w3id.org/def/en_qs_onto#en_qs_ontoDate"
     },
-    "en_qs_ontoen_qs_ontoPlace" : {
-      "@id" : "https://w3id.org/def/en_qs_ontoen_qs_ontoPlace"
-    },
-    "en_qs_ontoen_qs_ontoInsect" : {
-      "@id" : "https://w3id.org/def/en_qs_ontoen_qs_ontoInsect"
-    },
-    "en_qs_ontoen_qs_ontoEvent_Tool" : {
-      "@id" : "https://w3id.org/def/en_qs_ontoen_qs_ontoEvent_Tool"
+    "en_qs_ontoInsect" : {
+      "@id" : "https://w3id.org/def/en_qs_onto#en_qs_ontoInsect"
     },
     "Thing" : {
       "@id" : "http://www.w3.org/2002/07/owl#Thing"
     },
-    "en_qs_ontoen_qs_ontomissionedTo" : {
-      "@id" : "https://w3id.org/def/en_qs_ontoen_qs_ontomissionedTo",
-      "@type" : "@id"
-    },
-    "en_qs_ontoen_qs_ontohonoringTo" : {
-      "@id" : "https://w3id.org/def/en_qs_ontoen_qs_ontohonoringTo",
+    "en_qs_ontoaccomplishedBy" : {
+      "@id" : "https://w3id.org/def/en_qs_onto#en_qs_ontoaccomplishedBy",
       "@type" : "@id"
     },
     "age" : {
       "@id" : "http://xmlns.com/foaf/0.1/age",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
-    "en_qs_ontoen_qs_ontoaccomplishedBy" : {
-      "@id" : "https://w3id.org/def/en_qs_ontoen_qs_ontoaccomplishedBy",
-      "@type" : "@id"
+    "en_qs_ontoInfidel" : {
+      "@id" : "https://w3id.org/def/en_qs_onto#en_qs_ontoInfidel"
     },
-    "en_qs_ontoen_qs_ontoinVerse_Nu." : {
-      "@id" : "https://w3id.org/def/en_qs_ontoen_qs_ontoinVerse_Nu.",
+    "en_qs_ontoHistoricEvent" : {
+      "@id" : "https://w3id.org/def/en_qs_onto#en_qs_ontoHistoricEvent"
+    },
+    "en_qs_ontoCity" : {
+      "@id" : "https://w3id.org/def/en_qs_onto#en_qs_ontoCity"
+    },
+    "en_qs_ontoinVerse_Text" : {
+      "@id" : "https://w3id.org/def/en_qs_onto#en_qs_ontoinVerse_Text",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
-    },
-    "en_qs_ontoen_qs_ontoBirthPlace" : {
-      "@id" : "https://w3id.org/def/en_qs_ontoen_qs_ontoBirthPlace"
-    },
-    "en_qs_ontoen_qs_ontohonoredWith" : {
-      "@id" : "https://w3id.org/def/en_qs_ontoen_qs_ontohonoredWith",
-      "@type" : "@id"
-    },
-    "en_qs_ontoen_qs_ontobornedIn" : {
-      "@id" : "https://w3id.org/def/en_qs_ontoen_qs_ontobornedIn",
-      "@type" : "@id"
-    },
-    "en_qs_ontoen_qs_ontoMessenger" : {
-      "@id" : "https://w3id.org/def/en_qs_ontoen_qs_ontoMessenger"
-    },
-    "en_qs_ontoen_qs_ontoHonoring" : {
-      "@id" : "https://w3id.org/def/en_qs_ontoen_qs_ontoHonoring"
     },
     "birthday" : {
       "@id" : "http://xmlns.com/foaf/0.1/birthday",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
-    "en_qs_ontoen_qs_ontoCity" : {
-      "@id" : "https://w3id.org/def/en_qs_ontoen_qs_ontoCity"
+    "en_qs_ontoVerse" : {
+      "@id" : "https://w3id.org/def/en_qs_onto#en_qs_ontoVerse"
     },
-    "en_qs_ontoen_qs_ontodoneBy" : {
-      "@id" : "https://w3id.org/def/en_qs_ontoen_qs_ontodoneBy",
+    "en_qs_ontohasMiracle" : {
+      "@id" : "https://w3id.org/def/en_qs_onto#en_qs_ontohasMiracle",
       "@type" : "@id"
     },
-    "en_qs_ontoen_qs_ontolesson" : {
-      "@id" : "https://w3id.org/def/en_qs_ontoen_qs_ontolesson",
-      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
-    },
-    "en_qs_ontoen_qs_ontonameRepeat" : {
-      "@id" : "https://w3id.org/def/en_qs_ontoen_qs_ontonameRepeat",
-      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    "en_qs_ontodoneBy" : {
+      "@id" : "https://w3id.org/def/en_qs_onto#en_qs_ontodoneBy",
+      "@type" : "@id"
     },
     "label" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
@@ -103,252 +90,265 @@
     "author" : {
       "@id" : "http://purl.org/dc/elements/1.1/author"
     },
-    "en_qs_ontoen_qs_ontoMeccan_Surah" : {
-      "@id" : "https://w3id.org/def/en_qs_ontoen_qs_ontoMeccan_Surah"
-    },
     "familyName" : {
       "@id" : "http://xmlns.com/foaf/0.1/familyName",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
-    "en_qs_ontoen_qs_ontoreported" : {
-      "@id" : "https://w3id.org/def/en_qs_ontoen_qs_ontoreported",
-      "@type" : "@id"
+    "en_qs_ontoPlace" : {
+      "@id" : "https://w3id.org/def/en_qs_onto#en_qs_ontoPlace"
     },
-    "en_qs_ontoen_qs_ontoReptile" : {
-      "@id" : "https://w3id.org/def/en_qs_ontoen_qs_ontoReptile"
+    "en_qs_ontoCivilian_Surah" : {
+      "@id" : "https://w3id.org/def/en_qs_onto#en_qs_ontoCivilian_Surah"
+    },
+    "en_qs_ontoreceived" : {
+      "@id" : "https://w3id.org/def/en_qs_onto#en_qs_ontoreceived",
+      "@type" : "@id"
     },
     "en_qs_ontotHave" : {
-      "@id" : "https://w3id.org/def/en_qs_ontotHave",
+      "@id" : "https://w3id.org/def/en_qs_onto#en_qs_ontotHave",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
-    "en_qs_ontoen_qs_ontotargeted" : {
-      "@id" : "https://w3id.org/def/en_qs_ontoen_qs_ontotargeted",
+    "en_qs_ontoassignedBy" : {
+      "@id" : "https://w3id.org/def/en_qs_onto#en_qs_ontoassignedBy",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "en_qs_ontoadvise" : {
+      "@id" : "https://w3id.org/def/en_qs_onto#en_qs_ontoadvise",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "en_qs_ontooverturnedFrom" : {
+      "@id" : "https://w3id.org/def/en_qs_onto#en_qs_ontooverturnedFrom",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "en_qs_ontohonoredWith" : {
+      "@id" : "https://w3id.org/def/en_qs_onto#en_qs_ontohonoredWith",
       "@type" : "@id"
     },
-    "en_qs_ontoen_qs_ontoswallow" : {
-      "@id" : "https://w3id.org/def/en_qs_ontoen_qs_ontoswallow",
-      "@type" : "@id"
+    "en_qs_ontoGod_Comanded" : {
+      "@id" : "https://w3id.org/def/en_qs_onto#en_qs_ontoGod_Comanded"
+    },
+    "en_qs_ontoMessenger" : {
+      "@id" : "https://w3id.org/def/en_qs_onto#en_qs_ontoMessenger"
     },
     "gender" : {
       "@id" : "http://xmlns.com/foaf/0.1/gender",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
+    "en_qs_ontoconsisitOf" : {
+      "@id" : "https://w3id.org/def/en_qs_onto#en_qs_ontoconsisitOf",
+      "@type" : "@id"
+    },
+    "en_qs_ontoswallow" : {
+      "@id" : "https://w3id.org/def/en_qs_onto#en_qs_ontoswallow",
+      "@type" : "@id"
+    },
     "Person" : {
       "@id" : "http://xmlns.com/foaf/0.1/Person"
     },
-    "en_qs_ontoen_qs_ontoreasonFor_Mention" : {
-      "@id" : "https://w3id.org/def/en_qs_ontoen_qs_ontoreasonFor_Mention",
-      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
-    },
-    "en_qs_ontoen_qs_ontopartOf" : {
-      "@id" : "https://w3id.org/def/en_qs_ontoen_qs_ontopartOf",
+    "en_qs_ontoinclude" : {
+      "@id" : "https://w3id.org/def/en_qs_onto#en_qs_ontoinclude",
       "@type" : "@id"
     },
-    "en_qs_ontoen_qs_ontomentionedIn" : {
-      "@id" : "https://w3id.org/def/en_qs_ontoen_qs_ontomentionedIn",
-      "@type" : "@id"
-    },
-    "en_qs_ontoen_qs_ontoGod_Punishment" : {
-      "@id" : "https://w3id.org/def/en_qs_ontoen_qs_ontoGod_Punishment"
+    "en_qs_ontoChapter" : {
+      "@id" : "https://w3id.org/def/en_qs_onto#en_qs_ontoChapter"
     },
     "name" : {
       "@id" : "http://xmlns.com/foaf/0.1/name",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
-    "en_qs_ontoen_qs_ontohasParents" : {
-      "@id" : "https://w3id.org/def/en_qs_ontoen_qs_ontohasParents",
+    "en_qs_ontotargetedBy" : {
+      "@id" : "https://w3id.org/def/en_qs_onto#en_qs_ontotargetedBy",
+      "@type" : "@id"
+    },
+    "en_qs_ontooccuredIn" : {
+      "@id" : "https://w3id.org/def/en_qs_onto#en_qs_ontooccuredIn",
+      "@type" : "@id"
+    },
+    "en_qs_ontohasFather" : {
+      "@id" : "https://w3id.org/def/en_qs_onto#en_qs_ontohasFather",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
-    "en_qs_ontoen_qs_ontoChapter" : {
-      "@id" : "https://w3id.org/def/en_qs_ontoen_qs_ontoChapter"
+    "en_qs_ontoadvisedBy" : {
+      "@id" : "https://w3id.org/def/en_qs_onto#en_qs_ontoadvisedBy",
+      "@type" : "@id"
     },
-    "en_qs_ontoen_qs_ontoProphet" : {
-      "@id" : "https://w3id.org/def/en_qs_ontoen_qs_ontoProphet"
+    "en_qs_ontoMammal" : {
+      "@id" : "https://w3id.org/def/en_qs_onto#en_qs_ontoMammal"
     },
-    "en_qs_ontoen_qs_ontoAfterLive_Event" : {
-      "@id" : "https://w3id.org/def/en_qs_ontoen_qs_ontoAfterLive_Event"
+    "en_qs_ontoEvent" : {
+      "@id" : "https://w3id.org/def/en_qs_onto#en_qs_ontoEvent"
     },
-    "en_qs_ontoen_qs_ontoLivePlace" : {
-      "@id" : "https://w3id.org/def/en_qs_ontoen_qs_ontoLivePlace"
-    },
-    "en_qs_ontoen_qs_ontohasFather" : {
-      "@id" : "https://w3id.org/def/en_qs_ontoen_qs_ontohasFather",
-      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    "en_qs_ontohonoringTo" : {
+      "@id" : "https://w3id.org/def/en_qs_onto#en_qs_ontohonoringTo",
+      "@type" : "@id"
     },
     "nick" : {
       "@id" : "http://xmlns.com/foaf/0.1/nick",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
-    "en_qs_ontoen_qs_ontohasBook" : {
-      "@id" : "https://w3id.org/def/en_qs_ontoen_qs_ontohasBook",
+    "en_qs_ontomentionedIn" : {
+      "@id" : "https://w3id.org/def/en_qs_onto#en_qs_ontomentionedIn",
       "@type" : "@id"
     },
-    "en_qs_ontoen_qs_ontoadvised" : {
-      "@id" : "https://w3id.org/def/en_qs_ontoen_qs_ontoadvised",
+    "en_qs_ontobelongTo" : {
+      "@id" : "https://w3id.org/def/en_qs_onto#en_qs_ontobelongTo",
       "@type" : "@id"
     },
-    "en_qs_ontoen_qs_ontoappearedWith" : {
-      "@id" : "https://w3id.org/def/en_qs_ontoen_qs_ontoappearedWith",
-      "@type" : "@id"
-    },
-    "en_qs_ontoen_qs_ontoBird" : {
-      "@id" : "https://w3id.org/def/en_qs_ontoen_qs_ontoBird"
-    },
-    "en_qs_ontoen_qs_ontoMammal" : {
-      "@id" : "https://w3id.org/def/en_qs_ontoen_qs_ontoMammal"
-    },
-    "en_qs_ontoen_qs_ontohasName" : {
-      "@id" : "https://w3id.org/def/en_qs_ontoen_qs_ontohasName",
+    "en_qs_ontonameRepeat" : {
+      "@id" : "https://w3id.org/def/en_qs_onto#en_qs_ontonameRepeat",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
-    "en_qs_ontoen_qs_ontohappenedBy" : {
-      "@id" : "https://w3id.org/def/en_qs_ontoen_qs_ontohappenedBy",
-      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    "en_qs_ontoMiracles" : {
+      "@id" : "https://w3id.org/def/en_qs_onto#en_qs_ontoMiracles"
     },
-    "en_qs_ontoen_qs_ontoinclude" : {
-      "@id" : "https://w3id.org/def/en_qs_ontoen_qs_ontoinclude",
+    "en_qs_ontoBirthPlace" : {
+      "@id" : "https://w3id.org/def/en_qs_onto#en_qs_ontoBirthPlace"
+    },
+    "en_qs_ontoreported" : {
+      "@id" : "https://w3id.org/def/en_qs_onto#en_qs_ontoreported",
+      "@type" : "@id"
+    },
+    "en_qs_ontoEvent_Tool" : {
+      "@id" : "https://w3id.org/def/en_qs_onto#en_qs_ontoEvent_Tool"
+    },
+    "en_qs_ontocommandeIn" : {
+      "@id" : "https://w3id.org/def/en_qs_onto#en_qs_ontocommandeIn",
       "@type" : "@id"
     },
     "isDefinedBy" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy"
     },
-    "en_qs_ontoen_qs_ontogenerate" : {
-      "@id" : "https://w3id.org/def/en_qs_ontoen_qs_ontogenerate",
+    "en_qs_ontomissionedTo" : {
+      "@id" : "https://w3id.org/def/en_qs_onto#en_qs_ontomissionedTo",
       "@type" : "@id"
     },
-    "en_qs_ontoen_qs_ontolivePlace_Of" : {
-      "@id" : "https://w3id.org/def/en_qs_ontoen_qs_ontolivePlace_Of",
+    "en_qs_ontoLivePlace" : {
+      "@id" : "https://w3id.org/def/en_qs_onto#en_qs_ontoLivePlace"
+    },
+    "en_qs_ontodueTo" : {
+      "@id" : "https://w3id.org/def/en_qs_onto#en_qs_ontodueTo",
       "@type" : "@id"
     },
-    "en_qs_ontoen_qs_ontooccuredIn" : {
-      "@id" : "https://w3id.org/def/en_qs_ontoen_qs_ontooccuredIn",
+    "en_qs_ontoAfterLive_Event" : {
+      "@id" : "https://w3id.org/def/en_qs_onto#en_qs_ontoAfterLive_Event"
+    },
+    "en_qs_ontopartOf" : {
+      "@id" : "https://w3id.org/def/en_qs_onto#en_qs_ontopartOf",
       "@type" : "@id"
     },
-    "en_qs_ontoen_qs_ontoInfidel" : {
-      "@id" : "https://w3id.org/def/en_qs_ontoen_qs_ontoInfidel"
-    },
-    "en_qs_ontoen_qs_ontoadvisedBy" : {
-      "@id" : "https://w3id.org/def/en_qs_ontoen_qs_ontoadvisedBy",
-      "@type" : "@id"
+    "en_qs_ontoSurah" : {
+      "@id" : "https://w3id.org/def/en_qs_onto#en_qs_ontoSurah"
     },
     "title" : {
       "@id" : "http://purl.org/dc/elements/1.1/title"
     },
-    "en_qs_ontoen_qs_ontomissionPlace_Of" : {
-      "@id" : "https://w3id.org/def/en_qs_ontoen_qs_ontomissionPlace_Of",
-      "@type" : "@id"
+    "en_qs_ontoReptile" : {
+      "@id" : "https://w3id.org/def/en_qs_onto#en_qs_ontoReptile"
     },
-    "en_qs_ontoen_qs_ontoRighteou" : {
-      "@id" : "https://w3id.org/def/en_qs_ontoen_qs_ontoRighteou"
+    "en_qs_ontoBook" : {
+      "@id" : "https://w3id.org/def/en_qs_onto#en_qs_ontoBook"
     },
-    "en_qs_ontoen_qs_ontoCivilian_Surah" : {
-      "@id" : "https://w3id.org/def/en_qs_ontoen_qs_ontoCivilian_Surah"
-    },
-    "en_qs_ontoen_qs_ontobelongTo" : {
-      "@id" : "https://w3id.org/def/en_qs_ontoen_qs_ontobelongTo",
-      "@type" : "@id"
-    },
-    "en_qs_ontoen_qs_ontoBook" : {
-      "@id" : "https://w3id.org/def/en_qs_ontoen_qs_ontoBook"
-    },
-    "en_qs_ontoen_qs_ontobornPlaceOf" : {
-      "@id" : "https://w3id.org/def/en_qs_ontoen_qs_ontobornPlaceOf",
-      "@type" : "@id"
-    },
-    "en_qs_ontoen_qs_ontogaveTo" : {
-      "@id" : "https://w3id.org/def/en_qs_ontoen_qs_ontogaveTo",
-      "@type" : "@id"
-    },
-    "en_qs_ontoen_qs_ontoEvent" : {
-      "@id" : "https://w3id.org/def/en_qs_ontoen_qs_ontoEvent"
-    },
-    "en_qs_ontoen_qs_ontoHistoricEvent" : {
-      "@id" : "https://w3id.org/def/en_qs_ontoen_qs_ontoHistoricEvent"
-    },
-    "en_qs_ontoen_qs_ontoSurah" : {
-      "@id" : "https://w3id.org/def/en_qs_ontoen_qs_ontoSurah"
-    },
-    "en_qs_ontoen_qs_ontoledTo" : {
-      "@id" : "https://w3id.org/def/en_qs_ontoen_qs_ontoledTo",
-      "@type" : "@id"
-    },
-    "en_qs_ontoen_qs_ontomessage" : {
-      "@id" : "https://w3id.org/def/en_qs_ontoen_qs_ontomessage",
+    "en_qs_ontolesson" : {
+      "@id" : "https://w3id.org/def/en_qs_onto#en_qs_ontolesson",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "en_qs_ontoisPlaceOccurance" : {
+      "@id" : "https://w3id.org/def/en_qs_onto#en_qs_ontoisPlaceOccurance",
+      "@type" : "@id"
+    },
+    "en_qs_ontoassignedIn" : {
+      "@id" : "https://w3id.org/def/en_qs_onto#en_qs_ontoassignedIn",
+      "@type" : "@id"
+    },
+    "en_qs_ontogenerate" : {
+      "@id" : "https://w3id.org/def/en_qs_onto#en_qs_ontogenerate",
+      "@type" : "@id"
     },
     "date" : {
       "@id" : "http://purl.org/dc/elements/1.1/date"
     },
-    "en_qs_ontoen_qs_ontocommandeIn" : {
-      "@id" : "https://w3id.org/def/en_qs_ontoen_qs_ontocommandeIn",
+    "en_qs_ontoHonoring" : {
+      "@id" : "https://w3id.org/def/en_qs_onto#en_qs_ontoHonoring"
+    },
+    "en_qs_ontohasBook" : {
+      "@id" : "https://w3id.org/def/en_qs_onto#en_qs_ontohasBook",
       "@type" : "@id"
     },
-    "en_qs_ontoen_qs_ontoMissionPlace" : {
-      "@id" : "https://w3id.org/def/en_qs_ontoen_qs_ontoMissionPlace"
+    "en_qs_ontoledTo" : {
+      "@id" : "https://w3id.org/def/en_qs_onto#en_qs_ontoledTo",
+      "@type" : "@id"
     },
-    "en_qs_ontoen_qs_ontoAnimal" : {
-      "@id" : "https://w3id.org/def/en_qs_ontoen_qs_ontoAnimal"
+    "en_qs_ontobornedIn" : {
+      "@id" : "https://w3id.org/def/en_qs_onto#en_qs_ontobornedIn",
+      "@type" : "@id"
     },
-    "en_qs_ontoen_qs_ontodueTo" : {
-      "@id" : "https://w3id.org/def/en_qs_ontoen_qs_ontodueTo",
+    "en_qs_ontomessage" : {
+      "@id" : "https://w3id.org/def/en_qs_onto#en_qs_ontomessage",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "en_qs_ontoendowedTo" : {
+      "@id" : "https://w3id.org/def/en_qs_onto#en_qs_ontoendowedTo",
       "@type" : "@id"
     },
     "sameAs" : {
       "@id" : "http://www.w3.org/2002/07/owl#sameAs"
     },
-    "en_qs_ontoen_qs_ontooverturnedFrom" : {
-      "@id" : "https://w3id.org/def/en_qs_ontoen_qs_ontooverturnedFrom",
-      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
-    },
     "comment" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
     },
-    "en_qs_ontoen_qs_ontoNation" : {
-      "@id" : "https://w3id.org/def/en_qs_ontoen_qs_ontoNation"
-    },
-    "en_qs_ontoen_qs_ontoGod_Comanded" : {
-      "@id" : "https://w3id.org/def/en_qs_ontoen_qs_ontoGod_Comanded"
+    "en_qs_ontohasName" : {
+      "@id" : "https://w3id.org/def/en_qs_onto#en_qs_ontohasName",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
     "en_qs_ontosEnd" : {
-      "@id" : "https://w3id.org/def/en_qs_ontosEnd",
+      "@id" : "https://w3id.org/def/en_qs_onto#en_qs_ontosEnd",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
-    "en_qs_ontoen_qs_ontoadvise" : {
-      "@id" : "https://w3id.org/def/en_qs_ontoen_qs_ontoadvise",
+    "en_qs_ontotargeted" : {
+      "@id" : "https://w3id.org/def/en_qs_onto#en_qs_ontotargeted",
+      "@type" : "@id"
+    },
+    "en_qs_ontoProphet" : {
+      "@id" : "https://w3id.org/def/en_qs_onto#en_qs_ontoProphet"
+    },
+    "en_qs_ontoreasonFor_Mention" : {
+      "@id" : "https://w3id.org/def/en_qs_onto#en_qs_ontoreasonFor_Mention",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
-    "en_qs_ontoen_qs_ontotargetedBy" : {
-      "@id" : "https://w3id.org/def/en_qs_ontoen_qs_ontotargetedBy",
+    "en_qs_ontoAnimal" : {
+      "@id" : "https://w3id.org/def/en_qs_onto#en_qs_ontoAnimal"
+    },
+    "en_qs_ontohappenedBy" : {
+      "@id" : "https://w3id.org/def/en_qs_onto#en_qs_ontohappenedBy",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "en_qs_ontoinVerse_Nu." : {
+      "@id" : "https://w3id.org/def/en_qs_onto#en_qs_ontoinVerse_Nu.",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "en_qs_ontogaveTo" : {
+      "@id" : "https://w3id.org/def/en_qs_onto#en_qs_ontogaveTo",
       "@type" : "@id"
     },
-    "en_qs_ontoen_qs_ontoVerse" : {
-      "@id" : "https://w3id.org/def/en_qs_ontoen_qs_ontoVerse"
+    "en_qs_ontoRighteou" : {
+      "@id" : "https://w3id.org/def/en_qs_onto#en_qs_ontoRighteou"
     },
-    "en_qs_ontoen_qs_ontoisPlaceOccurance" : {
-      "@id" : "https://w3id.org/def/en_qs_ontoen_qs_ontoisPlaceOccurance",
-      "@type" : "@id"
-    },
-    "en_qs_ontoen_qs_ontolivedIn" : {
-      "@id" : "https://w3id.org/def/en_qs_ontoen_qs_ontolivedIn",
-      "@type" : "@id"
-    },
-    "en_qs_ontoen_qs_ontoassignedIn" : {
-      "@id" : "https://w3id.org/def/en_qs_ontoen_qs_ontoassignedIn",
-      "@type" : "@id"
+    "en_qs_ontohasParents" : {
+      "@id" : "https://w3id.org/def/en_qs_onto#en_qs_ontohasParents",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
     "description" : {
       "@id" : "http://purl.org/dc/elements/1.1/description"
     },
-    "en_qs_ontoen_qs_ontohasMother" : {
-      "@id" : "https://w3id.org/def/en_qs_ontoen_qs_ontohasMother",
-      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
-    },
-    "en_qs_ontoen_qs_ontoconsisitOf" : {
-      "@id" : "https://w3id.org/def/en_qs_ontoen_qs_ontoconsisitOf",
+    "en_qs_ontosendTo" : {
+      "@id" : "https://w3id.org/def/en_qs_onto#en_qs_ontosendTo",
       "@type" : "@id"
     },
-    "en_qs_ontoen_qs_ontohasMiracle" : {
-      "@id" : "https://w3id.org/def/en_qs_ontoen_qs_ontohasMiracle",
+    "en_qs_ontoNation" : {
+      "@id" : "https://w3id.org/def/en_qs_onto#en_qs_ontoNation"
+    },
+    "en_qs_ontolivePlace_Of" : {
+      "@id" : "https://w3id.org/def/en_qs_onto#en_qs_ontolivePlace_Of",
       "@type" : "@id"
     }
   }
