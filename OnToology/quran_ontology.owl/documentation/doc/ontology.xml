@@ -72,14 +72,7 @@
     <owl:ObjectProperty rdf:about="https://w3id.org/def/en_qs_onto#en_qs_ontoaccomplishedBy">
         <owl:inverseOf rdf:resource="https://w3id.org/def/en_qs_onto#en_qs_ontocommandeIn"/>
         <rdfs:domain rdf:resource="https://w3id.org/def/en_qs_onto#en_qs_ontoGod_Comanded"/>
-        <rdfs:range>
-            <owl:Class>
-                <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://w3id.org/def/en_qs_onto#en_qs_ontoMessenger"/>
-                    <rdf:Description rdf:about="https://w3id.org/def/en_qs_onto#en_qs_ontoProphet"/>
-                </owl:unionOf>
-            </owl:Class>
-        </rdfs:range>
+        <rdfs:range rdf:resource="https://w3id.org/def/en_qs_onto#en_qs_ontoMessenger"/>
         <dc:description>انجاز الأمر الألهي من قبل النبي او الرسول</dc:description>
         <rdfs:comment>انجز من قبل</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/def/en_qs_onto"/>
@@ -178,6 +171,7 @@
 
 
     <owl:ObjectProperty rdf:about="https://w3id.org/def/en_qs_onto#en_qs_ontobornPlaceOf">
+        <owl:inverseOf rdf:resource="https://w3id.org/def/en_qs_onto#en_qs_ontobornedIn"/>
         <rdfs:domain rdf:resource="https://w3id.org/def/en_qs_onto#en_qs_ontoPlace"/>
         <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
         <dc:description>مكان الولادة لشخص ما.</dc:description>
@@ -234,6 +228,7 @@
         <rdfs:range>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/def/en_qs_onto#en_qs_ontoChapter"/>
                     <rdf:Description rdf:about="https://w3id.org/def/en_qs_onto#en_qs_ontoSurah"/>
                     <rdf:Description rdf:about="https://w3id.org/def/en_qs_onto#en_qs_ontoVerse"/>
                 </owl:unionOf>
@@ -267,6 +262,7 @@
 
     <owl:ObjectProperty rdf:about="https://w3id.org/def/en_qs_onto#en_qs_ontodueTo">
         <owl:inverseOf rdf:resource="https://w3id.org/def/en_qs_onto#en_qs_ontoledTo"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
         <rdfs:domain rdf:resource="https://w3id.org/def/en_qs_onto#en_qs_ontoEvent"/>
         <rdfs:range rdf:resource="https://w3id.org/def/en_qs_onto#en_qs_ontoEvent"/>
         <dc:description>حدوث حدث بسبب اداة الحدث.</dc:description>
@@ -305,14 +301,7 @@
     <owl:ObjectProperty rdf:about="https://w3id.org/def/en_qs_onto#en_qs_ontogaveTo">
         <owl:inverseOf rdf:resource="https://w3id.org/def/en_qs_onto#en_qs_ontohasBook"/>
         <rdfs:domain rdf:resource="https://w3id.org/def/en_qs_onto#en_qs_ontoBook"/>
-        <rdfs:range>
-            <owl:Class>
-                <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://w3id.org/def/en_qs_onto#en_qs_ontoMessenger"/>
-                    <rdf:Description rdf:about="https://w3id.org/def/en_qs_onto#en_qs_ontoProphet"/>
-                </owl:unionOf>
-            </owl:Class>
-        </rdfs:range>
+        <rdfs:range rdf:resource="https://w3id.org/def/en_qs_onto#en_qs_ontoMessenger"/>
         <dc:description>الكتاب اعطي الى نبي او رسول.</dc:description>
         <rdfs:comment>اعطي الى .</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/def/en_qs_onto"/>
@@ -339,14 +328,7 @@
 
 
     <owl:ObjectProperty rdf:about="https://w3id.org/def/en_qs_onto#en_qs_ontohasBook">
-        <rdfs:domain>
-            <owl:Class>
-                <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://w3id.org/def/en_qs_onto#en_qs_ontoMessenger"/>
-                    <rdf:Description rdf:about="https://w3id.org/def/en_qs_onto#en_qs_ontoProphet"/>
-                </owl:unionOf>
-            </owl:Class>
-        </rdfs:domain>
+        <rdfs:domain rdf:resource="https://w3id.org/def/en_qs_onto#en_qs_ontoMessenger"/>
         <rdfs:range rdf:resource="https://w3id.org/def/en_qs_onto#en_qs_ontoBook"/>
         <dc:description>امتلاك النبي او الرسول للكتاب الذي انوله عليه الله تعالى .</dc:description>
         <rdfs:comment>امتلك كتاب</rdfs:comment>
@@ -460,6 +442,7 @@
 
 
     <owl:ObjectProperty rdf:about="https://w3id.org/def/en_qs_onto#en_qs_ontoledTo">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
         <rdfs:domain rdf:resource="https://w3id.org/def/en_qs_onto#en_qs_ontoEvent"/>
         <rdfs:range rdf:resource="https://w3id.org/def/en_qs_onto#en_qs_ontoEvent"/>
         <dc:description>ادى الحدث الى حدث معين.</dc:description>
@@ -589,12 +572,21 @@
 
 
     <owl:ObjectProperty rdf:about="https://w3id.org/def/en_qs_onto#en_qs_ontopartOf">
-        <rdfs:domain rdf:resource="https://w3id.org/def/en_qs_onto#en_qs_ontoSurah"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/def/en_qs_onto#en_qs_ontoChapter"/>
+                    <rdf:Description rdf:about="https://w3id.org/def/en_qs_onto#en_qs_ontoSurah"/>
+                    <rdf:Description rdf:about="https://w3id.org/def/en_qs_onto#en_qs_ontoVerse"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
         <rdfs:range>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="https://w3id.org/def/en_qs_onto#en_qs_ontoBook"/>
                     <rdf:Description rdf:about="https://w3id.org/def/en_qs_onto#en_qs_ontoChapter"/>
+                    <rdf:Description rdf:about="https://w3id.org/def/en_qs_onto#en_qs_ontoSurah"/>
                 </owl:unionOf>
             </owl:Class>
         </rdfs:range>
