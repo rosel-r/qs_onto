@@ -2,7 +2,7 @@
 <https://w3id.org/def/en_qs_onto> <http://www.w3.org/2002/07/owl#versionIRI> <https://w3id.org/def/en_qs_onto> .
 <https://w3id.org/def/en_qs_onto> <http://www.w3.org/2002/07/owl#imports> <http://xmlns.com/foaf/0.1/> .
 <https://w3id.org/def/en_qs_onto> <http://purl.org/dc/elements/1.1/abstract> "This Ontology for Quran Stories" .
-<https://w3id.org/def/en_qs_onto> <http://purl.org/dc/elements/1.1/date> "" .
+<https://w3id.org/def/en_qs_onto> <http://purl.org/dc/elements/1.1/author> "Rusul Y. Raghep" .
 <https://w3id.org/def/en_qs_onto> <http://purl.org/dc/elements/1.1/date> "25/3/2021" .
 <https://w3id.org/def/en_qs_onto> <http://purl.org/dc/elements/1.1/title> "Quran Stories Ontology" .
 <https://w3id.org/def/en_qs_onto> <http://www.w3.org/2000/01/rdf-schema#label> "QURAN STORIES ONTOLOGY" .
@@ -17,6 +17,9 @@
 # 
 # http://purl.org/dc/elements/1.1/abstract
 <http://purl.org/dc/elements/1.1/abstract> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/elements/1.1/author
+<http://purl.org/dc/elements/1.1/author> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
 # http://www.w3.org/2002/07/owl#sameAs
 <http://www.w3.org/2002/07/owl#sameAs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
@@ -690,8 +693,34 @@ _:genid54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 # #################################################################
 # 
 # 
+# http://www.w3.org/2002/07/owl#Thing
+<http://www.w3.org/2002/07/owl#Thing> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid56 .
+_:genid56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid56 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/def/en_qs_ontomentionedIn> .
+_:genid56 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://w3id.org/def/en_qs_ontoSurah> .
+# 
 # http://xmlns.com/foaf/0.1/Person
 <http://xmlns.com/foaf/0.1/Person> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> .
+<http://xmlns.com/foaf/0.1/Person> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid57 .
+_:genid57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid57 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/def/en_qs_ontomentionedIn> .
+_:genid57 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://w3id.org/def/en_qs_ontoSurah> .
+<http://xmlns.com/foaf/0.1/Person> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid58 .
+_:genid58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid58 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/def/en_qs_ontolivedIn> .
+_:genid58 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://w3id.org/def/en_qs_ontoPlace> .
+<http://xmlns.com/foaf/0.1/Person> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid59 .
+_:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid59 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/def/en_qs_ontomentionedIn> .
+_:genid59 <http://www.w3.org/2002/07/owl#allValuesFrom> _:genid60 .
+_:genid60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid60 <http://www.w3.org/2002/07/owl#unionOf> _:genid62 .
+_:genid62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/en_qs_ontoCivilian_Surah> .
+_:genid62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid61 .
+_:genid61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/en_qs_ontoMeccan_Surah> .
+_:genid61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
 # 
 # https://w3id.org/def/en_qs_ontoAfterLive_Event
 <https://w3id.org/def/en_qs_ontoAfterLive_Event> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -748,6 +777,10 @@ _:genid54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 # https://w3id.org/def/en_qs_ontoEvent
 <https://w3id.org/def/en_qs_ontoEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/def/en_qs_ontoEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> .
+<https://w3id.org/def/en_qs_ontoEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid63 .
+_:genid63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid63 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/def/en_qs_ontodoneBy> .
+_:genid63 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://w3id.org/def/en_qs_ontoEvent_Tool> .
 <https://w3id.org/def/en_qs_ontoEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "الحدث." .
 <https://w3id.org/def/en_qs_ontoEvent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/def/en_qs_onto> .
 <https://w3id.org/def/en_qs_ontoEvent> <http://www.w3.org/2000/01/rdf-schema#label> "Event" .
@@ -819,6 +852,16 @@ _:genid54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 # https://w3id.org/def/en_qs_ontoMessenger
 <https://w3id.org/def/en_qs_ontoMessenger> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/def/en_qs_ontoMessenger> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://xmlns.com/foaf/0.1/Person> .
+<https://w3id.org/def/en_qs_ontoMessenger> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid64 .
+_:genid64 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid64 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/def/en_qs_ontohasBook> .
+_:genid64 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid64 <http://www.w3.org/2002/07/owl#onClass> <https://w3id.org/def/en_qs_ontoBook> .
+<https://w3id.org/def/en_qs_ontoMessenger> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid65 .
+_:genid65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid65 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/def/en_qs_ontomissionedTo> .
+_:genid65 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid65 <http://www.w3.org/2002/07/owl#onClass> <https://w3id.org/def/en_qs_ontoMissionPlace> .
 # 
 # https://w3id.org/def/en_qs_ontoMiracles
 <https://w3id.org/def/en_qs_ontoMiracles> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -863,6 +906,17 @@ _:genid54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 # https://w3id.org/def/en_qs_ontoSurah
 <https://w3id.org/def/en_qs_ontoSurah> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/def/en_qs_ontoSurah> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> .
+<https://w3id.org/def/en_qs_ontoSurah> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid66 .
+_:genid66 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid66 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/def/en_qs_ontoreported> .
+_:genid66 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2002/07/owl#Thing> .
+<https://w3id.org/def/en_qs_ontoSurah> <http://www.w3.org/2002/07/owl#disjointUnionOf> _:genid68 .
+_:genid68 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid68 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/en_qs_ontoCivilian_Surah> .
+_:genid68 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid67 .
+_:genid67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/en_qs_ontoMeccan_Surah> .
+_:genid67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
 # 
 # https://w3id.org/def/en_qs_ontoVerse
 <https://w3id.org/def/en_qs_ontoVerse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -946,6 +1000,10 @@ _:genid54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 # https://en.wikipedia.org/wiki/Bird
 <https://en.wikipedia.org/wiki/Bird> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://en.wikipedia.org/wiki/Bird> <http://www.w3.org/2002/07/owl#sameAs> <https://w3id.org/def/en_qs_ontoBird> .
+# 
+# https://en.wikipedia.org/wiki/Egypt
+<https://en.wikipedia.org/wiki/Egypt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://en.wikipedia.org/wiki/Egypt> <http://www.w3.org/2002/07/owl#sameAs> <https://w3id.org/def/en_qs_ontopc3> .
 # 
 # https://en.wikipedia.org/wiki/Insect
 <https://en.wikipedia.org/wiki/Insect> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -1920,6 +1978,7 @@ _:genid54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 <https://w3id.org/def/en_qs_ontoper15> <https://w3id.org/def/en_qs_ontoinVerse_Text> "وَإِلَىٰ مَدْيَنَ أَخَاهُمْ شُعَيْبًا قَالَ يَا قَوْمِ اعْبُدُوا اللَّهَ مَا لَكُم مِّنْ إِلَٰه غَيْرُهُ قَدْ جَاءَتْكُم بَيِّنَةٌ مِّن رَّبِّكُمْ  فَأَوْفُوا الْكَيْلَ وَالْمِيزَانَ وَلَا تَبْخَسُوا النَّاسَ أَشْيَاءَهُمْ وَلَا تُفْسِدُوا فِي الْأَرْضِ بَعْدَ إِصْلَاحِهَا ذَٰلِكُمْ خَيْرٌ لَّكُمْ إِن كُنتُم مُّؤْمِنِينَ" .
 <https://w3id.org/def/en_qs_ontoper15> <https://w3id.org/def/en_qs_ontomessage> "call people to worship god alone" .
 <https://w3id.org/def/en_qs_ontoper15> <https://w3id.org/def/en_qs_ontonameRepeat> "11" .
+<https://w3id.org/def/en_qs_ontoper15> <http://purl.org/dc/elements/1.1/description> "الرسول شعيب هو احد الرسل الذين تم ذكرهم في القران الكريم في سورة الاعراف في الاية رقم 85" .
 <https://w3id.org/def/en_qs_ontoper15> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/def/en_qs_onto> .
 # 
 # https://w3id.org/def/en_qs_ontoper16
@@ -2305,6 +2364,7 @@ _:genid54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 <https://w3id.org/def/en_qs_ontoper4> <https://w3id.org/def/en_qs_ontoinVerse_Text> "وَإِلَى عَادٍ أَخَاهُمْ هُودًا قَالَ يَا قَوْمِ اعْبُدُوا اللَّهَ مَا لَكُمْ مِنْ إِلَهٍ غَيْرُهُ إِنْ أَنْتُمْ إِلَّا مُفْتَرُونَ" .
 <https://w3id.org/def/en_qs_ontoper4> <https://w3id.org/def/en_qs_ontomessage> "call people to worship god alone" .
 <https://w3id.org/def/en_qs_ontoper4> <https://w3id.org/def/en_qs_ontonameRepeat> "7" .
+<https://w3id.org/def/en_qs_ontoper4> <http://purl.org/dc/elements/1.1/description> "الرسول هود هو احد الرسل الذين تم ذكرهم في القران الكريم في سورة هود  في الاية رقم 50." .
 <https://w3id.org/def/en_qs_ontoper4> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/def/en_qs_onto> .
 # 
 # https://w3id.org/def/en_qs_ontoper5
@@ -2938,7 +2998,7 @@ _:genid54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 # 
 <http://xmlns.com/foaf/0.1/Person> <http://www.w3.org/2000/01/rdf-schema#comment> "الشخص" .
 # 
-<https://w3id.org/def/en_qs_ontoAnimal> <http://www.w3.org/2000/01/rdf-schema#comment> "الحيوان." .
+<https://w3id.org/def/en_qs_ontoAnimal> <http://www.w3.org/2000/01/rdf-schema#comment> "الحيوان" .
 <https://w3id.org/def/en_qs_ontoAnimal> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/def/en_qs_onto> .
 <https://w3id.org/def/en_qs_ontoAnimal> <http://www.w3.org/2000/01/rdf-schema#label> "Animal" .
 # 

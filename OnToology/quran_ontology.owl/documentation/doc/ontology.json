@@ -171,6 +171,96 @@
     } ]
   } ]
 }, {
+  "@id" : "_:genid56",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "https://w3id.org/def/en_qs_ontoSurah"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/def/en_qs_ontomentionedIn"
+  } ]
+}, {
+  "@id" : "_:genid57",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/def/en_qs_ontomentionedIn"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://w3id.org/def/en_qs_ontoSurah"
+  } ]
+}, {
+  "@id" : "_:genid58",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "https://w3id.org/def/en_qs_ontoPlace"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/def/en_qs_ontolivedIn"
+  } ]
+}, {
+  "@id" : "_:genid59",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "_:genid60"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/def/en_qs_ontomentionedIn"
+  } ]
+}, {
+  "@id" : "_:genid60",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/def/en_qs_ontoCivilian_Surah"
+    }, {
+      "@id" : "https://w3id.org/def/en_qs_ontoMeccan_Surah"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid63",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/def/en_qs_ontodoneBy"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://w3id.org/def/en_qs_ontoEvent_Tool"
+  } ]
+}, {
+  "@id" : "_:genid64",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "https://w3id.org/def/en_qs_ontoBook"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/def/en_qs_ontohasBook"
+  } ]
+}, {
+  "@id" : "_:genid65",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "https://w3id.org/def/en_qs_ontoMissionPlace"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/def/en_qs_ontomissionedTo"
+  } ]
+}, {
+  "@id" : "_:genid66",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/def/en_qs_ontoreported"
+  } ]
+}, {
   "@id" : "_:genid7",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#unionOf" : [ {
@@ -202,6 +292,9 @@
   } ]
 }, {
   "@id" : "http://purl.org/dc/elements/1.1/abstract",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/author",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
   "@id" : "http://purl.org/dc/terms/isPartOf",
@@ -285,6 +378,11 @@
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
   } ]
 }, {
+  "@id" : "http://www.w3.org/2002/07/owl#Thing",
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid56"
+  } ]
+}, {
   "@id" : "http://www.w3.org/2002/07/owl#sameAs",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
@@ -295,6 +393,12 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  }, {
+    "@id" : "_:genid57"
+  }, {
+    "@id" : "_:genid58"
+  }, {
+    "@id" : "_:genid59"
   } ],
   "http://www.w3.org/2002/07/owl#sameAs" : [ {
     "@id" : "https://www.wikidata.org/wiki/Q215627"
@@ -386,6 +490,12 @@
     "@id" : "https://w3id.org/def/en_qs_ontoBird"
   } ]
 }, {
+  "@id" : "https://en.wikipedia.org/wiki/Egypt",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2002/07/owl#sameAs" : [ {
+    "@id" : "https://w3id.org/def/en_qs_ontopc3"
+  } ]
+}, {
   "@id" : "https://en.wikipedia.org/wiki/Insect",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2002/07/owl#sameAs" : [ {
@@ -417,9 +527,10 @@
   "http://purl.org/dc/elements/1.1/abstract" : [ {
     "@value" : "This Ontology for Quran Stories"
   } ],
+  "http://purl.org/dc/elements/1.1/author" : [ {
+    "@value" : "Rusul Y. Raghep"
+  } ],
   "http://purl.org/dc/elements/1.1/date" : [ {
-    "@value" : ""
-  }, {
     "@value" : "25/3/2021"
   } ],
   "http://purl.org/dc/elements/1.1/title" : [ {
@@ -453,7 +564,7 @@
   "@id" : "https://w3id.org/def/en_qs_ontoAnimal",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "الحيوان."
+    "@value" : "الحيوان"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://w3id.org/def/en_qs_onto"
@@ -598,6 +709,8 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  }, {
+    "@id" : "_:genid63"
   } ]
 }, {
   "@id" : "https://w3id.org/def/en_qs_ontoEvent_Tool",
@@ -763,6 +876,10 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://xmlns.com/foaf/0.1/Person"
+  }, {
+    "@id" : "_:genid64"
+  }, {
+    "@id" : "_:genid65"
   } ]
 }, {
   "@id" : "https://w3id.org/def/en_qs_ontoMiracles",
@@ -883,6 +1000,15 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  }, {
+    "@id" : "_:genid66"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointUnionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/def/en_qs_ontoCivilian_Surah"
+    }, {
+      "@id" : "https://w3id.org/def/en_qs_ontoMeccan_Surah"
+    } ]
   } ],
   "http://www.w3.org/2002/07/owl#sameAs" : [ {
     "@id" : "https://www.wikidata.org/wiki/Q234262"
@@ -3640,6 +3766,9 @@
 }, {
   "@id" : "https://w3id.org/def/en_qs_ontoper15",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/def/en_qs_ontoMessenger" ],
+  "http://purl.org/dc/elements/1.1/description" : [ {
+    "@value" : "الرسول شعيب هو احد الرسل الذين تم ذكرهم في القران الكريم في سورة الاعراف في الاية رقم 85"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://w3id.org/def/en_qs_onto"
   } ],
@@ -4609,6 +4738,9 @@
 }, {
   "@id" : "https://w3id.org/def/en_qs_ontoper4",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/def/en_qs_ontoMessenger" ],
+  "http://purl.org/dc/elements/1.1/description" : [ {
+    "@value" : "الرسول هود هو احد الرسل الذين تم ذكرهم في القران الكريم في سورة هود  في الاية رقم 50."
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://w3id.org/def/en_qs_onto"
   } ],
