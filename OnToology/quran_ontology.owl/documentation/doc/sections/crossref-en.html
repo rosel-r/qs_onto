@@ -990,6 +990,8 @@ This section provides details for each class and property defined by [Ontology N
          <dd>
             <a href="#https://w3id.org/def/en_qs_onto#en_qs_ontocommandeIn"
                title="https://w3id.org/def/en_qs_onto#en_qs_ontocommandeIn">commandeIn</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#https://w3id.org/def/en_qs_onto#en_qs_ontohasBook"
+               title="https://w3id.org/def/en_qs_onto#en_qs_ontohasBook">hasBook</a>
             <sup class="type-op" title="object property">op</sup>, <a href="#https://w3id.org/def/en_qs_onto#en_qs_ontomessage"
                title="https://w3id.org/def/en_qs_onto#en_qs_ontomessage">message</a>
             <sup class="type-dp" title="data property">dp</sup>, <a href="#https://w3id.org/def/en_qs_onto#en_qs_ontosendTo" title="https://w3id.org/def/en_qs_onto#en_qs_ontosendTo">sendTo</a>
@@ -997,7 +999,10 @@ This section provides details for each class and property defined by [Ontology N
          </dd>
          <dt>is in range of</dt>
          <dd>
-            <a href="#https://w3id.org/def/en_qs_onto#en_qs_ontoreceived"
+            <a href="#https://w3id.org/def/en_qs_onto#en_qs_ontoaccomplishedBy"
+               title="https://w3id.org/def/en_qs_onto#en_qs_ontoaccomplishedBy">accomplishedBy</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#https://w3id.org/def/en_qs_onto#en_qs_ontogaveTo" title="https://w3id.org/def/en_qs_onto#en_qs_ontogaveTo">gaveTo</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#https://w3id.org/def/en_qs_onto#en_qs_ontoreceived"
                title="https://w3id.org/def/en_qs_onto#en_qs_ontoreceived">received</a>
             <sup class="type-op" title="object property">op</sup>
          </dd>
@@ -1380,8 +1385,7 @@ This section provides details for each class and property defined by [Ontology N
          </dd>
          <dt>is in domain of</dt>
          <dd>
-            <a href="#https://w3id.org/def/en_qs_onto#en_qs_ontopartOf" title="https://w3id.org/def/en_qs_onto#en_qs_ontopartOf">partOf</a>
-            <sup class="type-op" title="object property">op</sup>, <a href="#https://w3id.org/def/en_qs_onto#en_qs_ontoreported"
+            <a href="#https://w3id.org/def/en_qs_onto#en_qs_ontoreported"
                title="https://w3id.org/def/en_qs_onto#en_qs_ontoreported">reported</a>
             <sup class="type-op" title="object property">op</sup>
          </dd>
@@ -1600,10 +1604,6 @@ This section provides details for each class and property defined by [Ontology N
             <dd>
                <a href="#https://w3id.org/def/en_qs_onto#en_qs_ontoMessenger"
                   title="https://w3id.org/def/en_qs_onto#en_qs_ontoMessenger">Messenger</a>
-               <sup class="type-c" title="class">c</sup> 
-               <span class="logic">or</span> 
-               <a href="#https://w3id.org/def/en_qs_onto#en_qs_ontoProphet"
-                  title="https://w3id.org/def/en_qs_onto#en_qs_ontoProphet">Prophet</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
             <dt>is inverse of</dt>
@@ -1854,6 +1854,12 @@ This section provides details for each class and property defined by [Ontology N
                <a href="#https://w3id.org/def/en_qs_onto#en_qs_ontoPlace" title="https://w3id.org/def/en_qs_onto#en_qs_ontoPlace">Place</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#https://w3id.org/def/en_qs_onto#en_qs_ontobornPlaceOf"
+                  title="https://w3id.org/def/en_qs_onto#en_qs_ontobornPlaceOf">bornedPlaceOf</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
          </dl>
       </div>
    </div>
@@ -1888,6 +1894,12 @@ This section provides details for each class and property defined by [Ontology N
                <a href="http://xmlns.com/foaf/0.1/Person"
                   target="_blank"
                   title="http://xmlns.com/foaf/0.1/Person">person</a>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#https://w3id.org/def/en_qs_onto#en_qs_ontobornedIn"
+                  title="https://w3id.org/def/en_qs_onto#en_qs_ontobornedIn">bornedIn</a>
+               <sup class="type-op" title="object property">op</sup>
             </dd>
          </dl>
       </div>
@@ -1969,6 +1981,10 @@ This section provides details for each class and property defined by [Ontology N
             </dd>
             <dt>has range</dt>
             <dd>
+               <a href="#https://w3id.org/def/en_qs_onto#en_qs_ontoChapter"
+                  title="https://w3id.org/def/en_qs_onto#en_qs_ontoChapter">Chapter</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
                <a href="#https://w3id.org/def/en_qs_onto#en_qs_ontoSurah" title="https://w3id.org/def/en_qs_onto#en_qs_ontoSurah">Surah</a>
                <sup class="type-c" title="class">c</sup> 
                <span class="logic">or</span> 
@@ -2044,6 +2060,9 @@ This section provides details for each class and property defined by [Ontology N
          </dd>
       </dl>
       <div class="description">
+         <p>
+            <strong>has characteristics:
+                </strong> transitive</p>
          <dl>
             <dt>has domain</dt>
             <dd>
@@ -2139,10 +2158,6 @@ This section provides details for each class and property defined by [Ontology N
             <dd>
                <a href="#https://w3id.org/def/en_qs_onto#en_qs_ontoMessenger"
                   title="https://w3id.org/def/en_qs_onto#en_qs_ontoMessenger">Messenger</a>
-               <sup class="type-c" title="class">c</sup> 
-               <span class="logic">or</span> 
-               <a href="#https://w3id.org/def/en_qs_onto#en_qs_ontoProphet"
-                  title="https://w3id.org/def/en_qs_onto#en_qs_ontoProphet">Prophet</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
             <dt>is inverse of</dt>
@@ -2219,10 +2234,6 @@ This section provides details for each class and property defined by [Ontology N
             <dd>
                <a href="#https://w3id.org/def/en_qs_onto#en_qs_ontoMessenger"
                   title="https://w3id.org/def/en_qs_onto#en_qs_ontoMessenger">Messenger</a>
-               <sup class="type-c" title="class">c</sup> 
-               <span class="logic">or</span> 
-               <a href="#https://w3id.org/def/en_qs_onto#en_qs_ontoProphet"
-                  title="https://w3id.org/def/en_qs_onto#en_qs_ontoProphet">Prophet</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
             <dt>has range</dt>
@@ -2481,6 +2492,9 @@ This section provides details for each class and property defined by [Ontology N
          </dd>
       </dl>
       <div class="description">
+         <p>
+            <strong>has characteristics:
+                </strong> transitive</p>
          <dl>
             <dt>has domain</dt>
             <dd>
@@ -2773,7 +2787,14 @@ This section provides details for each class and property defined by [Ontology N
          <dl>
             <dt>has domain</dt>
             <dd>
+               <a href="#https://w3id.org/def/en_qs_onto#en_qs_ontoChapter"
+                  title="https://w3id.org/def/en_qs_onto#en_qs_ontoChapter">Chapter</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
                <a href="#https://w3id.org/def/en_qs_onto#en_qs_ontoSurah" title="https://w3id.org/def/en_qs_onto#en_qs_ontoSurah">Surah</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#https://w3id.org/def/en_qs_onto#en_qs_ontoVerse" title="https://w3id.org/def/en_qs_onto#en_qs_ontoVerse">Verse</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
             <dt>has range</dt>
@@ -2783,6 +2804,9 @@ This section provides details for each class and property defined by [Ontology N
                <span class="logic">or</span> 
                <a href="#https://w3id.org/def/en_qs_onto#en_qs_ontoChapter"
                   title="https://w3id.org/def/en_qs_onto#en_qs_ontoChapter">Chapter</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#https://w3id.org/def/en_qs_onto#en_qs_ontoSurah" title="https://w3id.org/def/en_qs_onto#en_qs_ontoSurah">Surah</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
             <dt>is inverse of</dt>
@@ -12969,7 +12993,7 @@ This section provides details for each class and property defined by [Ontology N
       <dl class="description">
          <dt>is same as</dt>
          <dd>
-            <a href="#d4e1418" title="http://xmlns.com/foaf/0.1/Person">person</a>
+            <a href="#d4e1408" title="http://xmlns.com/foaf/0.1/Person">person</a>
          </dd>
       </dl>
    </div>

@@ -37,11 +37,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 :en_qs_ontoaccomplishedBy rdf:type owl:ObjectProperty ;
                           owl:inverseOf :en_qs_ontocommandeIn ;
                           rdfs:domain :en_qs_ontoGod_Comanded ;
-                          rdfs:range [ rdf:type owl:Class ;
-                                       owl:unionOf ( :en_qs_ontoMessenger
-                                                     :en_qs_ontoProphet
-                                                   )
-                                     ] ;
+                          rdfs:range :en_qs_ontoMessenger ;
                           <http://purl.org/dc/elements/1.1/description> "انجاز الأمر الألهي من قبل النبي او الرسول" ;
                           rdfs:comment "انجز من قبل" ;
                           rdfs:isDefinedBy <https://w3id.org/def/en_qs_onto> ;
@@ -110,6 +106,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 
 ###  https://w3id.org/def/en_qs_onto#en_qs_ontobornPlaceOf
 :en_qs_ontobornPlaceOf rdf:type owl:ObjectProperty ;
+                       owl:inverseOf :en_qs_ontobornedIn ;
                        rdfs:domain :en_qs_ontoPlace ;
                        rdfs:range <http://xmlns.com/foaf/0.1/Person> ;
                        <http://purl.org/dc/elements/1.1/description> "مكان الولادة لشخص ما." ;
@@ -149,7 +146,8 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                                                 )
                                   ] ;
                       rdfs:range [ rdf:type owl:Class ;
-                                   owl:unionOf ( :en_qs_ontoSurah
+                                   owl:unionOf ( :en_qs_ontoChapter
+                                                 :en_qs_ontoSurah
                                                  :en_qs_ontoVerse
                                                )
                                  ] ;
@@ -173,6 +171,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 ###  https://w3id.org/def/en_qs_onto#en_qs_ontodueTo
 :en_qs_ontodueTo rdf:type owl:ObjectProperty ;
                  owl:inverseOf :en_qs_ontoledTo ;
+                 rdf:type owl:TransitiveProperty ;
                  rdfs:domain :en_qs_ontoEvent ;
                  rdfs:range :en_qs_ontoEvent ;
                  <http://purl.org/dc/elements/1.1/description> "حدوث حدث بسبب اداة الحدث." ;
@@ -200,11 +199,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 :en_qs_ontogaveTo rdf:type owl:ObjectProperty ;
                   owl:inverseOf :en_qs_ontohasBook ;
                   rdfs:domain :en_qs_ontoBook ;
-                  rdfs:range [ rdf:type owl:Class ;
-                               owl:unionOf ( :en_qs_ontoMessenger
-                                             :en_qs_ontoProphet
-                                           )
-                             ] ;
+                  rdfs:range :en_qs_ontoMessenger ;
                   <http://purl.org/dc/elements/1.1/description> "الكتاب اعطي الى نبي او رسول." ;
                   rdfs:comment "اعطي الى ." ;
                   rdfs:isDefinedBy <https://w3id.org/def/en_qs_onto> ;
@@ -223,11 +218,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 
 ###  https://w3id.org/def/en_qs_onto#en_qs_ontohasBook
 :en_qs_ontohasBook rdf:type owl:ObjectProperty ;
-                   rdfs:domain [ rdf:type owl:Class ;
-                                 owl:unionOf ( :en_qs_ontoMessenger
-                                               :en_qs_ontoProphet
-                                             )
-                               ] ;
+                   rdfs:domain :en_qs_ontoMessenger ;
                    rdfs:range :en_qs_ontoBook ;
                    <http://purl.org/dc/elements/1.1/description> "امتلاك النبي او الرسول للكتاب الذي انوله عليه الله تعالى ." ;
                    rdfs:comment "امتلك كتاب" ;
@@ -304,7 +295,8 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 
 
 ###  https://w3id.org/def/en_qs_onto#en_qs_ontoledTo
-:en_qs_ontoledTo rdf:type owl:ObjectProperty ;
+:en_qs_ontoledTo rdf:type owl:ObjectProperty ,
+                          owl:TransitiveProperty ;
                  rdfs:domain :en_qs_ontoEvent ;
                  rdfs:range :en_qs_ontoEvent ;
                  <http://purl.org/dc/elements/1.1/description> "ادى الحدث الى حدث معين." ;
@@ -394,10 +386,16 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 
 ###  https://w3id.org/def/en_qs_onto#en_qs_ontopartOf
 :en_qs_ontopartOf rdf:type owl:ObjectProperty ;
-                  rdfs:domain :en_qs_ontoSurah ;
+                  rdfs:domain [ rdf:type owl:Class ;
+                                owl:unionOf ( :en_qs_ontoChapter
+                                              :en_qs_ontoSurah
+                                              :en_qs_ontoVerse
+                                            )
+                              ] ;
                   rdfs:range [ rdf:type owl:Class ;
                                owl:unionOf ( :en_qs_ontoBook
                                              :en_qs_ontoChapter
+                                             :en_qs_ontoSurah
                                            )
                              ] .
 
