@@ -201,7 +201,7 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid60",
+  "@id" : "_:genid64",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
     "@id" : "https://w3id.org/def/en_qs_onto#en_qs_ontodoneBy"
@@ -210,7 +210,7 @@
     "@id" : "https://w3id.org/def/en_qs_onto#en_qs_ontoEvent_Tool"
   } ]
 }, {
-  "@id" : "_:genid61",
+  "@id" : "_:genid65",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -223,7 +223,7 @@
     "@id" : "https://w3id.org/def/en_qs_onto#en_qs_ontohasBook"
   } ]
 }, {
-  "@id" : "_:genid62",
+  "@id" : "_:genid66",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
@@ -236,7 +236,7 @@
     "@id" : "https://w3id.org/def/en_qs_onto#en_qs_ontomissionedTo"
   } ]
 }, {
-  "@id" : "_:genid63",
+  "@id" : "_:genid67",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#Thing"
@@ -525,6 +525,17 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#Thing"
   } ],
+  "http://www.w3.org/2002/07/owl#disjointUnionOf" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/def/en_qs_onto#en_qs_ontoBird"
+    }, {
+      "@id" : "https://w3id.org/def/en_qs_onto#en_qs_ontoInsect"
+    }, {
+      "@id" : "https://w3id.org/def/en_qs_onto#en_qs_ontoMammal"
+    }, {
+      "@id" : "https://w3id.org/def/en_qs_onto#en_qs_ontoReptile"
+    } ]
+  } ],
   "http://www.w3.org/2002/07/owl#sameAs" : [ {
     "@id" : "https://www.wikidata.org/wiki/Q729"
   } ]
@@ -660,7 +671,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#Thing"
   }, {
-    "@id" : "_:genid60"
+    "@id" : "_:genid64"
   } ]
 }, {
   "@id" : "https://w3id.org/def/en_qs_onto#en_qs_ontoEvent_Tool",
@@ -827,9 +838,9 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://xmlns.com/foaf/0.1/Person"
   }, {
-    "@id" : "_:genid61"
+    "@id" : "_:genid65"
   }, {
-    "@id" : "_:genid62"
+    "@id" : "_:genid66"
   } ]
 }, {
   "@id" : "https://w3id.org/def/en_qs_onto#en_qs_ontoMiracles",
@@ -951,7 +962,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#Thing"
   }, {
-    "@id" : "_:genid63"
+    "@id" : "_:genid67"
   } ],
   "http://www.w3.org/2002/07/owl#disjointUnionOf" : [ {
     "@list" : [ {

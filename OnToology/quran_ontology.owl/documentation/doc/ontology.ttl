@@ -704,7 +704,12 @@ owl:Thing rdfs:subClassOf [ rdf:type owl:Restriction ;
 
 ###  https://w3id.org/def/en_qs_onto#en_qs_ontoAnimal
 :en_qs_ontoAnimal rdf:type owl:Class ;
-                  rdfs:subClassOf owl:Thing .
+                  rdfs:subClassOf owl:Thing ;
+                  owl:disjointUnionOf ( :en_qs_ontoBird
+                                        :en_qs_ontoInsect
+                                        :en_qs_ontoMammal
+                                        :en_qs_ontoReptile
+                                      ) .
 
 
 ###  https://w3id.org/def/en_qs_onto#en_qs_ontoBird

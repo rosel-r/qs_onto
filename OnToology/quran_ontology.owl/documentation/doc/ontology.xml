@@ -1063,6 +1063,12 @@
 
     <owl:Class rdf:about="https://w3id.org/def/en_qs_onto#en_qs_ontoAnimal">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <owl:disjointUnionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://w3id.org/def/en_qs_onto#en_qs_ontoBird"/>
+            <rdf:Description rdf:about="https://w3id.org/def/en_qs_onto#en_qs_ontoInsect"/>
+            <rdf:Description rdf:about="https://w3id.org/def/en_qs_onto#en_qs_ontoMammal"/>
+            <rdf:Description rdf:about="https://w3id.org/def/en_qs_onto#en_qs_ontoReptile"/>
+        </owl:disjointUnionOf>
     </owl:Class>
     
 
