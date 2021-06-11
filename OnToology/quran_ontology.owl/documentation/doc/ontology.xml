@@ -14,8 +14,11 @@
     <owl:Ontology rdf:about="https://w3id.org/def/en_qs_onto">
         <owl:versionIRI rdf:resource="https://w3id.org/def/en_qs_onto"/>
         <owl:imports rdf:resource="http://xmlns.com/foaf/0.1/"/>
-        <dc:date>25/3/2021</dc:date>
+        <dc:abstract>This ontology focuses on the field of Qur&apos;anic stories that included many of the stories that were mentioned in the Holy Qur&apos;an and interpreted in history books such as stories of the prophets, messengers, righteous people, infidels, nations to which the messengers were sent and advised by the prophets, animals that had a role in these stories, The events that actually occurred during these stories, such as miracles, divine punishment and divine honors to some of the messengers or prophets, and others.</dc:abstract>
+        <dc:author>Rusul Y. Raghib</dc:author>
+        <dc:date>25/2/2021</dc:date>
         <dc:title>Quran Stories Ontology</dc:title>
+        <rdfs:comment>أنطولوجيا القصص القرانية</rdfs:comment>
         <rdfs:label>QURAN STORIES ONTOLOGY</rdfs:label>
     </owl:Ontology>
     
