@@ -3,7 +3,6 @@
      xml:base="https://w3id.org/def/en_qs_onto"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:ns="http://www.w3.org/2003/06/sw-vocab-status/ns#"
-     xmlns:def="https://w3id.org/def/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:wot="http://xmlns.com/wot/0.1/"
@@ -4299,8 +4298,8 @@
         <rdfs:comment>الرسول</rdfs:comment>
     </rdf:Description>
     <rdf:Description rdf:about="https://w3id.org/def/en_qs_onto#en_qs_ontoPlace">
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/def/en_qs_onto"/>
         <rdfs:label>Place</rdfs:label>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/def/en_qs_onto"/>
         <rdfs:comment>المكان</rdfs:comment>
     </rdf:Description>
     <rdf:Description rdf:about="https://w3id.org/def/en_qs_onto#en_qs_ontoProphet">
@@ -4314,8 +4313,8 @@
         <rdfs:label>Reptile</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="https://w3id.org/def/en_qs_onto#en_qs_ontoSurah">
-        <rdfs:comment>السورة القرانية</rdfs:comment>
         <rdfs:label>Surah</rdfs:label>
+        <rdfs:comment>السورة القرانية</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/def/en_qs_onto"/>
     </rdf:Description>
     <rdf:Description rdf:about="https://w3id.org/def/en_qs_onto#en_qs_ontoVerse">
