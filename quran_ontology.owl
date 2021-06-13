@@ -4299,8 +4299,8 @@
         <rdfs:comment>الرسول</rdfs:comment>
     </rdf:Description>
     <rdf:Description rdf:about="https://w3id.org/def/en_qs_onto#en_qs_ontoPlace">
-        <rdfs:label>Place</rdfs:label>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/def/en_qs_onto"/>
+        <rdfs:label>Place</rdfs:label>
         <rdfs:comment>المكان</rdfs:comment>
     </rdf:Description>
     <rdf:Description rdf:about="https://w3id.org/def/en_qs_onto#en_qs_ontoProphet">
