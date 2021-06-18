@@ -19,28 +19,8 @@ It is obvious that not all the pitfalls are equally important; their impact in t
 
 
 
-#### SUGGESTION: symmetric or transitive object properties.. symmetric or transitive object properties. <img src="https://raw.githubusercontent.com/OnToology/oops-report/master/sample/minor.png" height="15px"> (6 cases detected).
-*The domain and range axioms are equal for each of the following object properties. Could they be symmetric or transitive?*
-
-    
-
-#### P12. Equivalent properties not explicitly declared <img src="https://raw.githubusercontent.com/OnToology/oops-report/master/sample/important.png" height="15px"> (2 cases detected).
-*The ontology lacks information about equivalent properties (owl:equivalentProperty) in the cases of duplicated relationships and/or attributes.*
-
-    
-
-#### P08. Missing annotations <img src="https://raw.githubusercontent.com/OnToology/oops-report/master/sample/minor.png" height="15px"> (2 cases detected).
-*This pitfall consists in creating an ontology element and failing to provide human readable annotations attached to it. Consequently, ontology elements lack annotation properties that label them (e.g. rdfs:label, lemon:LexicalEntry, skos:prefLabel or skos:altLabel) or that define them (e.g. rdfs:comment or dc:description). This pitfall is related to the guidelines provided in [5].*
-
-    
-
-#### P19. Defining multiple domains or ranges in properties <img src="https://raw.githubusercontent.com/OnToology/oops-report/master/sample/critical.png" height="15px"> (3 cases detected).
-*The domain or range (or both) of a property (relationships and attributes) is defined by stating more than one rdfs:domain or rdfs:range statements. In OWL multiple rdfs:domain or rdfs:range axioms are allowed, but they are interpreted as conjunction, being, therefore, equivalent to the construct owl:intersectionOf. This pitfall is related to the common error that appears when defining domains and ranges described in [7].*
-
-    
-
-#### P04. Creating unconnected ontology elements <img src="https://raw.githubusercontent.com/OnToology/oops-report/master/sample/minor.png" height="15px"> (3 cases detected).
-*Ontology elements (classes, object properties and datatype properties) are created isolated, with no relation to the rest of the ontology.*
+#### P13. Inverse relationships not explicitly declared <img src="https://raw.githubusercontent.com/OnToology/oops-report/master/sample/minor.png" height="15px"> (30 cases detected).
+*This pitfall appears when any relationship (except for those that are defined as symmetric properties using owl:SymmetricProperty) does not have an inverse relationship (owl:inverseOf) defined within the ontology.*
 
     
 
@@ -49,18 +29,38 @@ It is obvious that not all the pitfalls are equally important; their impact in t
 
     
 
-#### P02. Creating synonyms as classes <img src="https://raw.githubusercontent.com/OnToology/oops-report/master/sample/minor.png" height="15px"> (1 cases detected).
-*Several classes whose identifiers are synonyms are created and defined as equivalent (owl:equivalentClass) in the same namespace. This pitfall is related to the guidelines presented in [2], which explain that synonyms for the same concept do not represent different classes.*
-
-    
-
-#### P13. Inverse relationships not explicitly declared <img src="https://raw.githubusercontent.com/OnToology/oops-report/master/sample/minor.png" height="15px"> (30 cases detected).
-*This pitfall appears when any relationship (except for those that are defined as symmetric properties using owl:SymmetricProperty) does not have an inverse relationship (owl:inverseOf) defined within the ontology.*
-
-    
-
 #### P11. Missing domain or range in properties <img src="https://raw.githubusercontent.com/OnToology/oops-report/master/sample/important.png" height="15px"> (6 cases detected).
 *Object and/or datatype properties without domain or range (or none of them) are included in the ontology.*
+
+    
+
+#### P04. Creating unconnected ontology elements <img src="https://raw.githubusercontent.com/OnToology/oops-report/master/sample/minor.png" height="15px"> (3 cases detected).
+*Ontology elements (classes, object properties and datatype properties) are created isolated, with no relation to the rest of the ontology.*
+
+    
+
+#### P08. Missing annotations <img src="https://raw.githubusercontent.com/OnToology/oops-report/master/sample/minor.png" height="15px"> (2 cases detected).
+*This pitfall consists in creating an ontology element and failing to provide human readable annotations attached to it. Consequently, ontology elements lack annotation properties that label them (e.g. rdfs:label, lemon:LexicalEntry, skos:prefLabel or skos:altLabel) or that define them (e.g. rdfs:comment or dc:description). This pitfall is related to the guidelines provided in [5].*
+
+    
+
+#### P12. Equivalent properties not explicitly declared <img src="https://raw.githubusercontent.com/OnToology/oops-report/master/sample/important.png" height="15px"> (2 cases detected).
+*The ontology lacks information about equivalent properties (owl:equivalentProperty) in the cases of duplicated relationships and/or attributes.*
+
+    
+
+#### P19. Defining multiple domains or ranges in properties <img src="https://raw.githubusercontent.com/OnToology/oops-report/master/sample/critical.png" height="15px"> (3 cases detected).
+*The domain or range (or both) of a property (relationships and attributes) is defined by stating more than one rdfs:domain or rdfs:range statements. In OWL multiple rdfs:domain or rdfs:range axioms are allowed, but they are interpreted as conjunction, being, therefore, equivalent to the construct owl:intersectionOf. This pitfall is related to the common error that appears when defining domains and ranges described in [7].*
+
+    
+
+#### SUGGESTION: symmetric or transitive object properties.. symmetric or transitive object properties. <img src="https://raw.githubusercontent.com/OnToology/oops-report/master/sample/minor.png" height="15px"> (6 cases detected).
+*The domain and range axioms are equal for each of the following object properties. Could they be symmetric or transitive?*
+
+    
+
+#### P02. Creating synonyms as classes <img src="https://raw.githubusercontent.com/OnToology/oops-report/master/sample/minor.png" height="15px"> (1 cases detected).
+*Several classes whose identifiers are synonyms are created and defined as equivalent (owl:equivalentClass) in the same namespace. This pitfall is related to the guidelines presented in [2], which explain that synonyms for the same concept do not represent different classes.*
 
     
 
