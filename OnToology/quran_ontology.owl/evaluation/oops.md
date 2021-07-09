@@ -19,18 +19,8 @@ It is obvious that not all the pitfalls are equally important; their impact in t
 
 
 
-#### P08. Missing annotations <img src="https://raw.githubusercontent.com/OnToology/oops-report/master/sample/minor.png" height="15px"> (2 cases detected).
-*This pitfall consists in creating an ontology element and failing to provide human readable annotations attached to it. Consequently, ontology elements lack annotation properties that label them (e.g. rdfs:label, lemon:LexicalEntry, skos:prefLabel or skos:altLabel) or that define them (e.g. rdfs:comment or dc:description). This pitfall is related to the guidelines provided in [5].*
-
-    
-
 #### P04. Creating unconnected ontology elements <img src="https://raw.githubusercontent.com/OnToology/oops-report/master/sample/minor.png" height="15px"> (3 cases detected).
 *Ontology elements (classes, object properties and datatype properties) are created isolated, with no relation to the rest of the ontology.*
-
-    
-
-#### SUGGESTION: symmetric or transitive object properties.. symmetric or transitive object properties. <img src="https://raw.githubusercontent.com/OnToology/oops-report/master/sample/minor.png" height="15px"> (6 cases detected).
-*The domain and range axioms are equal for each of the following object properties. Could they be symmetric or transitive?*
 
     
 
@@ -39,13 +29,28 @@ It is obvious that not all the pitfalls are equally important; their impact in t
 
     
 
-#### P13. Inverse relationships not explicitly declared <img src="https://raw.githubusercontent.com/OnToology/oops-report/master/sample/minor.png" height="15px"> (30 cases detected).
-*This pitfall appears when any relationship (except for those that are defined as symmetric properties using owl:SymmetricProperty) does not have an inverse relationship (owl:inverseOf) defined within the ontology.*
+#### SUGGESTION: symmetric or transitive object properties.. symmetric or transitive object properties. <img src="https://raw.githubusercontent.com/OnToology/oops-report/master/sample/minor.png" height="15px"> (6 cases detected).
+*The domain and range axioms are equal for each of the following object properties. Could they be symmetric or transitive?*
 
     
 
 #### P12. Equivalent properties not explicitly declared <img src="https://raw.githubusercontent.com/OnToology/oops-report/master/sample/important.png" height="15px"> (2 cases detected).
 *The ontology lacks information about equivalent properties (owl:equivalentProperty) in the cases of duplicated relationships and/or attributes.*
+
+    
+
+#### P13. Inverse relationships not explicitly declared <img src="https://raw.githubusercontent.com/OnToology/oops-report/master/sample/minor.png" height="15px"> (30 cases detected).
+*This pitfall appears when any relationship (except for those that are defined as symmetric properties using owl:SymmetricProperty) does not have an inverse relationship (owl:inverseOf) defined within the ontology.*
+
+    
+
+#### P08. Missing annotations <img src="https://raw.githubusercontent.com/OnToology/oops-report/master/sample/minor.png" height="15px"> (2 cases detected).
+*This pitfall consists in creating an ontology element and failing to provide human readable annotations attached to it. Consequently, ontology elements lack annotation properties that label them (e.g. rdfs:label, lemon:LexicalEntry, skos:prefLabel or skos:altLabel) or that define them (e.g. rdfs:comment or dc:description). This pitfall is related to the guidelines provided in [5].*
+
+    
+
+#### P22. Using different naming conventions in the ontology <img src="https://raw.githubusercontent.com/OnToology/oops-report/master/sample/minor.png" height="15px"> (1 cases detected).
+*The ontology elements are not named following the same convention (for example CamelCase or use of delimiters as &quot;-&quot; or &quot;_&quot;) . Some notions about naming conventions are provided in [2].*
 
     
 
@@ -56,11 +61,6 @@ It is obvious that not all the pitfalls are equally important; their impact in t
 
 #### P11. Missing domain or range in properties <img src="https://raw.githubusercontent.com/OnToology/oops-report/master/sample/important.png" height="15px"> (6 cases detected).
 *Object and/or datatype properties without domain or range (or none of them) are included in the ontology.*
-
-    
-
-#### P22. Using different naming conventions in the ontology <img src="https://raw.githubusercontent.com/OnToology/oops-report/master/sample/minor.png" height="15px"> (1 cases detected).
-*The ontology elements are not named following the same convention (for example CamelCase or use of delimiters as &quot;-&quot; or &quot;_&quot;) . Some notions about naming conventions are provided in [2].*
 
     
 
