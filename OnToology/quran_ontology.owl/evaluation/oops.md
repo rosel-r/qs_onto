@@ -19,13 +19,7 @@ It is obvious that not all the pitfalls are equally important; their impact in t
 
 
 
-#### P02. Creating synonyms as classes <img src="https://raw.githubusercontent.com/OnToology/oops-report/master/sample/minor.png" height="15px"> (1 cases detected).
-*Several classes whose identifiers are synonyms are created and defined as equivalent (owl:equivalentClass) in the same namespace. This pitfall is related to the guidelines presented in [2], which explain that synonyms for the same concept do not represent different classes.*
 
-    
-
-#### P13. Inverse relationships not explicitly declared <img src="https://raw.githubusercontent.com/OnToology/oops-report/master/sample/minor.png" height="15px"> (30 cases detected).
-*This pitfall appears when any relationship (except for those that are defined as symmetric properties using owl:SymmetricProperty) does not have an inverse relationship (owl:inverseOf) defined within the ontology.*
 
     
 
@@ -34,8 +28,8 @@ It is obvious that not all the pitfalls are equally important; their impact in t
 
     
 
-#### P19. Defining multiple domains or ranges in properties <img src="https://raw.githubusercontent.com/OnToology/oops-report/master/sample/critical.png" height="15px"> (3 cases detected).
-*The domain or range (or both) of a property (relationships and attributes) is defined by stating more than one rdfs:domain or rdfs:range statements. In OWL multiple rdfs:domain or rdfs:range axioms are allowed, but they are interpreted as conjunction, being, therefore, equivalent to the construct owl:intersectionOf. This pitfall is related to the common error that appears when defining domains and ranges described in [7].*
+#### P12. Equivalent properties not explicitly declared <img src="https://raw.githubusercontent.com/OnToology/oops-report/master/sample/important.png" height="15px"> (2 cases detected).
+*The ontology lacks information about equivalent properties (owl:equivalentProperty) in the cases of duplicated relationships and/or attributes.*
 
     
 
@@ -59,10 +53,6 @@ It is obvious that not all the pitfalls are equally important; their impact in t
 
     
 
-#### P12. Equivalent properties not explicitly declared <img src="https://raw.githubusercontent.com/OnToology/oops-report/master/sample/important.png" height="15px"> (2 cases detected).
-*The ontology lacks information about equivalent properties (owl:equivalentProperty) in the cases of duplicated relationships and/or attributes.*
-
-    
 
 
 
