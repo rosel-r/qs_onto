@@ -14,8 +14,8 @@
     <owl:Ontology rdf:about="https://w3id.org/def/en_qs_onto/">
         <owl:versionIRI rdf:resource="https://w3id.org/def/en_qs_onto/"/>
         <owl:imports rdf:resource="http://xmlns.com/foaf/0.1/"/>
-        <dc:abstract>This ontology focuses on the field of Qur&apos;anic stories that included many of the stories that were mentioned in the Holy Qur&apos;an and interpreted in history books such as stories of the prophets, messengers, righteous people, infidels, nations , animals that had a role in these stories, The events that actually occurred during these stories, such as miracles, divine punishment and divine honors to some of the messengers or prophets, and others.</dc:abstract>
-        <dc:author>Rusul Y. Raghib</dc:author>
+        <dc:abstract xml:lang="en">This ontology focuses on the field of Qur&apos;anic stories that included many of the stories that were mentioned in the Holy Qur&apos;an and interpreted in history books such as stories of the prophets, messengers, righteous people, infidels, nations , animals that had a role in these stories, The events that actually occurred during these stories, such as miracles, divine punishment and divine honors to some of the messengers or prophets, and others.</dc:abstract>
+        <dc:author xml:lang="en">Rusul Y. Raghib</dc:author>
         <dc:date>25/2/2021</dc:date>
         <dc:title>Quran Stories Ontology</dc:title>
         <rdfs:comment>أنطولوجيا القصص القرانية</rdfs:comment>
@@ -1360,6 +1360,7 @@
     <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#per32">
         <rdf:type rdf:resource="https://w3id.org/def/en_qs_onto/en_qs_ontoInfidel"/>
         <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q192785"/>
+        <en_qs_ontomentionedIn rdf:resource="https://w3id.org/def/en_qs_onto/en_qs_ontosurah1"/>
         <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</foaf:age>
         <foaf:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Male</foaf:gender>
         <foaf:nick rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</foaf:nick>
@@ -2481,7 +2482,7 @@
         <rdf:type rdf:resource="https://w3id.org/def/en_qs_onto/en_qs_ontoNation"/>
         <en_qs_ontoreceived rdf:resource="https://w3id.org/def/en_qs_onto/en_qs_ontoper15"/>
         <en_qs_ontotargetedBy rdf:resource="https://w3id.org/def/en_qs_onto/en_qs_ontoev9"/>
-        <en_qs_ontohasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">madyan</en_qs_ontohasName>
+        <en_qs_ontohasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the people of the woods</en_qs_ontohasName>
         <foaf:name>مدين</foaf:name>
     </owl:NamedIndividual>
     
@@ -3006,6 +3007,7 @@
     <owl:NamedIndividual rdf:about="https://w3id.org/def/en_qs_onto/en_qs_ontoper21">
         <rdf:type rdf:resource="https://w3id.org/def/en_qs_onto/en_qs_ontoProphet"/>
         <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q15215483"/>
+        <en_qs_ontoadvised rdf:resource="https://w3id.org/def/en_qs_onto/en_qs_ontonat9"/>
         <en_qs_ontomentionedIn rdf:resource="https://w3id.org/def/en_qs_onto/en_qs_ontosurah6"/>
         <en_qs_ontomissionedTo rdf:resource="https://w3id.org/def/en_qs_onto/en_qs_ontopc10"/>
         <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</foaf:age>
