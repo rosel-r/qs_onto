@@ -321,6 +321,9 @@
   "https://w3id.org/def/en_qs_onto/en_qs_ontoinVerse_Text" : [ {
     "@value" : "فَهَزَمُوهُمْ بِإِذْنِ اللَّهِ وَقَتَلَ دَاوُودُ جَالُوتَ وَآتَاهُ اللَّهُ الْمُلْكَ وَالْحِكْمَةَ وَعَلَّمَهُ مِمَّا يَشَاءُ ۗ وَلَوْلَا دَفْعُ اللَّهِ النَّاسَ بَعْضَهُمْ بِبَعْضٍ لَفَسَدَتِ الْأَرْضُ وَلَكِنَّ اللَّهَ ذُو فَضْلٍ عَلَى الْعَالَمِينَ"
   } ],
+  "https://w3id.org/def/en_qs_onto/en_qs_ontomentionedIn" : [ {
+    "@id" : "https://w3id.org/def/en_qs_onto/en_qs_ontosurah1"
+  } ],
   "https://w3id.org/def/en_qs_onto/en_qs_ontonameRepeat" : [ {
     "@value" : "3"
   } ]
@@ -472,9 +475,11 @@
   "@id" : "https://w3id.org/def/en_qs_onto/",
   "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
   "http://purl.org/dc/elements/1.1/abstract" : [ {
+    "@language" : "en",
     "@value" : "This ontology focuses on the field of Qur'anic stories that included many of the stories that were mentioned in the Holy Qur'an and interpreted in history books such as stories of the prophets, messengers, righteous people, infidels, nations , animals that had a role in these stories, The events that actually occurred during these stories, such as miracles, divine punishment and divine honors to some of the messengers or prophets, and others."
   } ],
   "http://purl.org/dc/elements/1.1/author" : [ {
+    "@language" : "en",
     "@value" : "Rusul Y. Raghib"
   } ],
   "http://purl.org/dc/elements/1.1/date" : [ {
@@ -3094,7 +3099,7 @@
     "@value" : "مدين"
   } ],
   "https://w3id.org/def/en_qs_onto/en_qs_ontohasName" : [ {
-    "@value" : "madyan"
+    "@value" : "the people of the woods"
   } ],
   "https://w3id.org/def/en_qs_onto/en_qs_ontoreceived" : [ {
     "@id" : "https://w3id.org/def/en_qs_onto/en_qs_ontoper15"
@@ -4147,6 +4152,9 @@
   } ],
   "https://w3id.org/def/en_qs_onto/en_qs_ontoadvise" : [ {
     "@value" : "Worship God alone and apply the commands of his religion"
+  } ],
+  "https://w3id.org/def/en_qs_onto/en_qs_ontoadvised" : [ {
+    "@id" : "https://w3id.org/def/en_qs_onto/en_qs_ontonat9"
   } ],
   "https://w3id.org/def/en_qs_onto/en_qs_ontoassignedBy" : [ {
     "@value" : "God"
