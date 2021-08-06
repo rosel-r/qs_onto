@@ -1,8 +1,8 @@
 <https://w3id.org/def/en_qs_onto/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
 <https://w3id.org/def/en_qs_onto/> <http://www.w3.org/2002/07/owl#versionIRI> <https://w3id.org/def/en_qs_onto/> .
 <https://w3id.org/def/en_qs_onto/> <http://www.w3.org/2002/07/owl#imports> <http://xmlns.com/foaf/0.1/> .
-<https://w3id.org/def/en_qs_onto/> <http://purl.org/dc/elements/1.1/abstract> "This ontology focuses on the field of Qur'anic stories that included many of the stories that were mentioned in the Holy Qur'an and interpreted in history books such as stories of the prophets, messengers, righteous people, infidels, nations , animals that had a role in these stories, The events that actually occurred during these stories, such as miracles, divine punishment and divine honors to some of the messengers or prophets, and others." .
-<https://w3id.org/def/en_qs_onto/> <http://purl.org/dc/elements/1.1/author> "Rusul Y. Raghib" .
+<https://w3id.org/def/en_qs_onto/> <http://purl.org/dc/elements/1.1/abstract> "This ontology focuses on the field of Qur'anic stories that included many of the stories that were mentioned in the Holy Qur'an and interpreted in history books such as stories of the prophets, messengers, righteous people, infidels, nations , animals that had a role in these stories, The events that actually occurred during these stories, such as miracles, divine punishment and divine honors to some of the messengers or prophets, and others."@en .
+<https://w3id.org/def/en_qs_onto/> <http://purl.org/dc/elements/1.1/author> "Rusul Y. Raghib"@en .
 <https://w3id.org/def/en_qs_onto/> <http://purl.org/dc/elements/1.1/date> "25/2/2021" .
 <https://w3id.org/def/en_qs_onto/> <http://purl.org/dc/elements/1.1/title> "Quran Stories Ontology" .
 <https://w3id.org/def/en_qs_onto/> <http://www.w3.org/2000/01/rdf-schema#comment> "أنطولوجيا القصص القرانية" .
@@ -962,6 +962,7 @@ _:genid68 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 <http://www.co-ode.org/ontologies/ont.owl#per32> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://www.co-ode.org/ontologies/ont.owl#per32> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/en_qs_onto/en_qs_ontoInfidel> .
 <http://www.co-ode.org/ontologies/ont.owl#per32> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q192785> .
+<http://www.co-ode.org/ontologies/ont.owl#per32> <https://w3id.org/def/en_qs_onto/en_qs_ontomentionedIn> <https://w3id.org/def/en_qs_onto/en_qs_ontosurah1> .
 <http://www.co-ode.org/ontologies/ont.owl#per32> <http://xmlns.com/foaf/0.1/age> "null" .
 <http://www.co-ode.org/ontologies/ont.owl#per32> <http://xmlns.com/foaf/0.1/gender> "Male" .
 <http://www.co-ode.org/ontologies/ont.owl#per32> <http://xmlns.com/foaf/0.1/name> "جالوت" .
@@ -1707,7 +1708,7 @@ _:genid68 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 <https://w3id.org/def/en_qs_onto/en_qs_ontonat8> <https://w3id.org/def/en_qs_onto/en_qs_ontoreceived> <https://w3id.org/def/en_qs_onto/en_qs_ontoper15> .
 <https://w3id.org/def/en_qs_onto/en_qs_ontonat8> <https://w3id.org/def/en_qs_onto/en_qs_ontotargetedBy> <https://w3id.org/def/en_qs_onto/en_qs_ontoev9> .
 <https://w3id.org/def/en_qs_onto/en_qs_ontonat8> <http://xmlns.com/foaf/0.1/name> "مدين" .
-<https://w3id.org/def/en_qs_onto/en_qs_ontonat8> <https://w3id.org/def/en_qs_onto/en_qs_ontohasName> "madyan" .
+<https://w3id.org/def/en_qs_onto/en_qs_ontonat8> <https://w3id.org/def/en_qs_onto/en_qs_ontohasName> "the people of the woods" .
 # 
 # https://w3id.org/def/en_qs_onto/en_qs_ontonat9
 <https://w3id.org/def/en_qs_onto/en_qs_ontonat9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -2128,6 +2129,7 @@ _:genid68 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 <https://w3id.org/def/en_qs_onto/en_qs_ontoper21> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/def/en_qs_onto/en_qs_ontoper21> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/en_qs_onto/en_qs_ontoProphet> .
 <https://w3id.org/def/en_qs_onto/en_qs_ontoper21> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q15215483> .
+<https://w3id.org/def/en_qs_onto/en_qs_ontoper21> <https://w3id.org/def/en_qs_onto/en_qs_ontoadvised> <https://w3id.org/def/en_qs_onto/en_qs_ontonat9> .
 <https://w3id.org/def/en_qs_onto/en_qs_ontoper21> <https://w3id.org/def/en_qs_onto/en_qs_ontomentionedIn> <https://w3id.org/def/en_qs_onto/en_qs_ontosurah6> .
 <https://w3id.org/def/en_qs_onto/en_qs_ontoper21> <https://w3id.org/def/en_qs_onto/en_qs_ontomissionedTo> <https://w3id.org/def/en_qs_onto/en_qs_ontopc10> .
 <https://w3id.org/def/en_qs_onto/en_qs_ontoper21> <http://xmlns.com/foaf/0.1/age> "null" .
