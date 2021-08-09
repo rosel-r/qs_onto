@@ -201,8 +201,13 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 ###  https://w3id.org/def/en_qs_onto/en_qs_ontogaveTo
 :en_qs_ontogaveTo rdf:type owl:ObjectProperty ;
                   owl:inverseOf :en_qs_ontohasBook ;
+                  rdf:type owl:FunctionalProperty ;
                   rdfs:domain :en_qs_ontoBook ;
-                  rdfs:range :en_qs_ontoMessenger ;
+                  rdfs:range [ rdf:type owl:Class ;
+                               owl:unionOf ( :en_qs_ontoMessenger
+                                             :en_qs_ontoProphet
+                                           )
+                             ] ;
                   <http://purl.org/dc/elements/1.1/description> "الكتاب اعطي الى نبي او رسول." ;
                   rdfs:comment "اعطي الى ." ;
                   rdfs:isDefinedBy <https://w3id.org/def/en_qs_onto> ;
@@ -220,8 +225,13 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 
 
 ###  https://w3id.org/def/en_qs_onto/en_qs_ontohasBook
-:en_qs_ontohasBook rdf:type owl:ObjectProperty ;
-                   rdfs:domain :en_qs_ontoMessenger ;
+:en_qs_ontohasBook rdf:type owl:ObjectProperty ,
+                            owl:FunctionalProperty ;
+                   rdfs:domain [ rdf:type owl:Class ;
+                                 owl:unionOf ( :en_qs_ontoMessenger
+                                               :en_qs_ontoProphet
+                                             )
+                               ] ;
                    rdfs:range :en_qs_ontoBook ;
                    <http://purl.org/dc/elements/1.1/description> "امتلاك النبي او الرسول للكتاب الذي انوله عليه الله تعالى ." ;
                    rdfs:comment "امتلك كتاب" ;
@@ -425,7 +435,8 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 
 
 ###  https://w3id.org/def/en_qs_onto/en_qs_ontosendTo
-:en_qs_ontosendTo rdf:type owl:ObjectProperty ;
+:en_qs_ontosendTo rdf:type owl:ObjectProperty ,
+                           owl:FunctionalProperty ;
                   rdfs:domain :en_qs_ontoMessenger ;
                   rdfs:range :en_qs_ontoNation ;
                   <http://purl.org/dc/elements/1.1/description> "ارسال النبي او الرسول الى قوما ما." ;
@@ -491,7 +502,8 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 
 
 ###  http://xmlns.com/foaf/0.1/nick
-<http://xmlns.com/foaf/0.1/nick> rdfs:domain <http://xmlns.com/foaf/0.1/Person> ;
+<http://xmlns.com/foaf/0.1/nick> rdf:type owl:FunctionalProperty ;
+                                 rdfs:domain <http://xmlns.com/foaf/0.1/Person> ;
                                  rdfs:range rdfs:Literal .
 
 
@@ -605,7 +617,8 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 
 
 ###  https://w3id.org/def/en_qs_onto/en_qs_ontomessage
-:en_qs_ontomessage rdf:type owl:DatatypeProperty ;
+:en_qs_ontomessage rdf:type owl:DatatypeProperty ,
+                            owl:FunctionalProperty ;
                    rdfs:domain :en_qs_ontoMessenger ;
                    rdfs:range rdfs:Literal ;
                    <http://purl.org/dc/elements/1.1/description> "الرسالة التي حملها الرسول لقومه." ;
@@ -666,13 +679,6 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 #################################################################
 #    Classes
 #################################################################
-
-###  http://www.w3.org/2002/07/owl#Thing
-owl:Thing rdfs:subClassOf [ rdf:type owl:Restriction ;
-                            owl:onProperty :en_qs_ontomentionedIn ;
-                            owl:allValuesFrom :en_qs_ontoSurah
-                          ] .
-
 
 ###  http://xmlns.com/foaf/0.1/Person
 <http://xmlns.com/foaf/0.1/Person> rdfs:subClassOf owl:Thing ,
@@ -766,6 +772,10 @@ owl:Thing rdfs:subClassOf [ rdf:type owl:Restriction ;
                                  [ rdf:type owl:Restriction ;
                                    owl:onProperty :en_qs_ontodoneBy ;
                                    owl:someValuesFrom :en_qs_ontoEvent_Tool
+                                 ] ,
+                                 [ rdf:type owl:Restriction ;
+                                   owl:onProperty :en_qs_ontoledTo ;
+                                   owl:someValuesFrom :en_qs_ontoEvent
                                  ] ;
                  rdfs:comment "الحدث." ;
                  rdfs:isDefinedBy <https://w3id.org/def/en_qs_onto> ;
@@ -887,6 +897,13 @@ owl:Thing rdfs:subClassOf [ rdf:type owl:Restriction ;
 
 ###  https://w3id.org/def/en_qs_onto/en_qs_ontoPlace
 :en_qs_ontoPlace rdf:type owl:Class ;
+                 owl:equivalentClass [ rdf:type owl:Class ;
+                                       owl:unionOf ( :en_qs_ontoBirthPlace
+                                                     :en_qs_ontoCity
+                                                     :en_qs_ontoLivePlace
+                                                     :en_qs_ontoMissionPlace
+                                                   )
+                                     ] ;
                  rdfs:subClassOf owl:Thing .
 
 
@@ -943,6 +960,11 @@ owl:Thing rdfs:subClassOf [ rdf:type owl:Restriction ;
 ###  http://dbpedia.org/ontology/Person
 <http://dbpedia.org/ontology/Person> rdf:type owl:NamedIndividual ;
                                      owl:sameAs <http://xmlns.com/foaf/0.1/Person> .
+
+
+###  http://mappings.dbpedia.org/index.php/OntologyClass:Place
+<http://mappings.dbpedia.org/index.php/OntologyClass:Place> rdf:type owl:NamedIndividual ;
+                                                            owl:sameAs :en_qs_ontoPlace .
 
 
 ###  http://purl.org/dc/terms/isPartOf
@@ -2073,7 +2095,10 @@ owl:Thing rdfs:subClassOf [ rdf:type owl:Restriction ;
                  :en_qs_ontoinVerse_Text "وَإِسْمَاعِيلَ وَالْيَسَعَ وَيُونُسَ وَلُوطًا وَكُلًّا فَضَّلْنَا عَلَى الْعَالَمِينَ" ;
                  :en_qs_ontomessage "call people to worship god alone" ;
                  :en_qs_ontonameRepeat "4" ;
-                 rdfs:isDefinedBy <https://w3id.org/def/en_qs_onto> .
+                 rdfs:isDefinedBy <https://w3id.org/def/en_qs_onto> ;
+                 owl:sameAs "Dhun-Nûn" ,
+                            "Jonah" ,
+                            "the man of the fish" .
 
 
 ###  https://w3id.org/def/en_qs_onto/en_qs_ontoper15
