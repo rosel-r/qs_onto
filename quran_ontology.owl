@@ -293,8 +293,16 @@
 
     <owl:ObjectProperty rdf:about="https://w3id.org/def/en_qs_onto/en_qs_ontogaveTo">
         <owl:inverseOf rdf:resource="https://w3id.org/def/en_qs_onto/en_qs_ontohasBook"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="https://w3id.org/def/en_qs_onto/en_qs_ontoBook"/>
-        <rdfs:range rdf:resource="https://w3id.org/def/en_qs_onto/en_qs_ontoMessenger"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/def/en_qs_onto/en_qs_ontoMessenger"/>
+                    <rdf:Description rdf:about="https://w3id.org/def/en_qs_onto/en_qs_ontoProphet"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
         <dc:description>الكتاب اعطي الى نبي او رسول.</dc:description>
         <rdfs:comment>اعطي الى .</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/def/en_qs_onto"/>
@@ -319,7 +327,15 @@
     <!-- https://w3id.org/def/en_qs_onto/en_qs_ontohasBook -->
 
     <owl:ObjectProperty rdf:about="https://w3id.org/def/en_qs_onto/en_qs_ontohasBook">
-        <rdfs:domain rdf:resource="https://w3id.org/def/en_qs_onto/en_qs_ontoMessenger"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/def/en_qs_onto/en_qs_ontoMessenger"/>
+                    <rdf:Description rdf:about="https://w3id.org/def/en_qs_onto/en_qs_ontoProphet"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
         <rdfs:range rdf:resource="https://w3id.org/def/en_qs_onto/en_qs_ontoBook"/>
         <dc:description>امتلاك النبي او الرسول للكتاب الذي انوله عليه الله تعالى .</dc:description>
         <rdfs:comment>امتلك كتاب</rdfs:comment>
@@ -602,6 +618,7 @@
     <!-- https://w3id.org/def/en_qs_onto/en_qs_ontosendTo -->
 
     <owl:ObjectProperty rdf:about="https://w3id.org/def/en_qs_onto/en_qs_ontosendTo">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="https://w3id.org/def/en_qs_onto/en_qs_ontoMessenger"/>
         <rdfs:range rdf:resource="https://w3id.org/def/en_qs_onto/en_qs_ontoNation"/>
         <dc:description>ارسال النبي او الرسول الى قوما ما.</dc:description>
@@ -698,6 +715,7 @@
     <!-- http://xmlns.com/foaf/0.1/nick -->
 
     <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/nick">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
         <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
     </rdf:Description>
@@ -849,6 +867,7 @@
     <!-- https://w3id.org/def/en_qs_onto/en_qs_ontomessage -->
 
     <owl:DatatypeProperty rdf:about="https://w3id.org/def/en_qs_onto/en_qs_ontomessage">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="https://w3id.org/def/en_qs_onto/en_qs_ontoMessenger"/>
         <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
         <dc:description>الرسالة التي حملها الرسول لقومه.</dc:description>
@@ -931,19 +950,6 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    
-
-
-    <!-- http://www.w3.org/2002/07/owl#Thing -->
-
-    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/def/en_qs_onto/en_qs_ontomentionedIn"/>
-                <owl:allValuesFrom rdf:resource="https://w3id.org/def/en_qs_onto/en_qs_ontoSurah"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-    </rdf:Description>
     
 
 
@@ -1082,6 +1088,12 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://w3id.org/def/en_qs_onto/en_qs_ontodoneBy"/>
                 <owl:someValuesFrom rdf:resource="https://w3id.org/def/en_qs_onto/en_qs_ontoEvent_Tool"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/def/en_qs_onto/en_qs_ontoledTo"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/def/en_qs_onto/en_qs_ontoEvent"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment>الحدث.</rdfs:comment>
@@ -1253,6 +1265,16 @@
     <!-- https://w3id.org/def/en_qs_onto/en_qs_ontoPlace -->
 
     <owl:Class rdf:about="https://w3id.org/def/en_qs_onto/en_qs_ontoPlace">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/def/en_qs_onto/en_qs_ontoBirthPlace"/>
+                    <rdf:Description rdf:about="https://w3id.org/def/en_qs_onto/en_qs_ontoCity"/>
+                    <rdf:Description rdf:about="https://w3id.org/def/en_qs_onto/en_qs_ontoLivePlace"/>
+                    <rdf:Description rdf:about="https://w3id.org/def/en_qs_onto/en_qs_ontoMissionPlace"/>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
     </owl:Class>
     
@@ -2813,6 +2835,9 @@
         <en_qs_ontomessage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">call people to worship god alone</en_qs_ontomessage>
         <en_qs_ontonameRepeat rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4</en_qs_ontonameRepeat>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/def/en_qs_onto"/>
+        <owl:sameAs>Dhun-Nûn</owl:sameAs>
+        <owl:sameAs>Jonah</owl:sameAs>
+        <owl:sameAs>the man of the fish</owl:sameAs>
         <foaf:name>يونس</foaf:name>
     </owl:NamedIndividual>
     
@@ -4301,6 +4326,7 @@
     </rdf:Description>
     <rdf:Description rdf:about="https://w3id.org/def/en_qs_onto/en_qs_ontoPlace">
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/def/en_qs_onto"/>
+        <owl:sameAs rdf:resource="http://mappings.dbpedia.org/index.php/OntologyClass:Place"/>
         <rdfs:label>Place</rdfs:label>
         <rdfs:comment>المكان</rdfs:comment>
     </rdf:Description>
