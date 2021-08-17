@@ -2261,7 +2261,8 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                  :en_qs_ontoinVerse_Text "وَزَكَرِيَّا وَيَحْيَى وَعِيسَى وَإِلْيَاسَ كُلٌّ مِنَ الصَّالِحِينَ" ;
                  :en_qs_ontomessage "call people to worship god alone" ;
                  :en_qs_ontonameRepeat "2" ;
-                 rdfs:isDefinedBy <https://w3id.org/def/en_qs_onto> .
+                 rdfs:isDefinedBy <https://w3id.org/def/en_qs_onto> ;
+                 owl:sameAs "Elijah" .
 
 
 ###  https://w3id.org/def/en_qs_onto/en_qs_ontoper21
@@ -2289,6 +2290,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 ###  https://w3id.org/def/en_qs_onto/en_qs_ontoper22
 :en_qs_ontoper22 rdf:type owl:NamedIndividual ,
                           :en_qs_ontoProphet ;
+                 owl:sameAs <https://www.wikidata.org/wiki/Q2420409> ;
                  :en_qs_ontoadvised :en_qs_ontonat9 ;
                  :en_qs_ontomentionedIn :en_qs_ontosurah10 ;
                  :en_qs_ontomissionedTo :en_qs_ontopc10 ;
@@ -2310,6 +2312,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 ###  https://w3id.org/def/en_qs_onto/en_qs_ontoper23
 :en_qs_ontoper23 rdf:type owl:NamedIndividual ,
                           :en_qs_ontoProphet ;
+                 owl:sameAs <https://www.wikidata.org/wiki/Q2422313> ;
                  :en_qs_ontoadvised :en_qs_ontonat9 ;
                  :en_qs_ontomentionedIn :en_qs_ontosurah10 ;
                  :en_qs_ontomissionedTo :en_qs_ontopc10 ;
@@ -2426,7 +2429,8 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                  :en_qs_ontohasName "Eiash" ;
                  <https://w3id.org/def/en_qs_onto/en_qs_ontoinVerse_Nu.> "Alkahf83" ;
                  :en_qs_ontoinVerse_Text "وَيَسْئَلُونَكَ عَنْ ذِي الْقَرْنَيْنِ قُلْ سَأَتْلُوا عَلَيْكُمْ مِنْهُ ذِكْرًا" ;
-                 :en_qs_ontonameRepeat "1" .
+                 :en_qs_ontonameRepeat "1" ;
+                 rdfs:comment "ملك صالح ذكر في القرآن، بنى ردمًا يدفع به أذى يأجوج ومأجوج" .
 
 
 ###  https://w3id.org/def/en_qs_onto/en_qs_ontoper29
@@ -3186,6 +3190,14 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 
 ###  https://www.wikidata.org/wiki/Q235785
 <https://www.wikidata.org/wiki/Q235785> rdf:type owl:NamedIndividual .
+
+
+###  https://www.wikidata.org/wiki/Q2420409
+<https://www.wikidata.org/wiki/Q2420409> rdf:type owl:NamedIndividual .
+
+
+###  https://www.wikidata.org/wiki/Q2422313
+<https://www.wikidata.org/wiki/Q2422313> rdf:type owl:NamedIndividual .
 
 
 ###  https://www.wikidata.org/wiki/Q2513598

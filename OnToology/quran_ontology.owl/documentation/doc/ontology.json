@@ -4130,6 +4130,8 @@
   } ],
   "http://www.w3.org/2002/07/owl#sameAs" : [ {
     "@id" : "https://www.wikidata.org/wiki/Q2090543"
+  }, {
+    "@value" : "Elijah"
   } ],
   "http://xmlns.com/foaf/0.1/age" : [ {
     "@value" : "null"
@@ -4236,6 +4238,9 @@
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://w3id.org/def/en_qs_onto"
   } ],
+  "http://www.w3.org/2002/07/owl#sameAs" : [ {
+    "@id" : "https://www.wikidata.org/wiki/Q2420409"
+  } ],
   "http://xmlns.com/foaf/0.1/age" : [ {
     "@value" : "150 year"
   } ],
@@ -4286,6 +4291,9 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/def/en_qs_onto/en_qs_ontoProphet" ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://w3id.org/def/en_qs_onto"
+  } ],
+  "http://www.w3.org/2002/07/owl#sameAs" : [ {
+    "@id" : "https://www.wikidata.org/wiki/Q2422313"
   } ],
   "http://xmlns.com/foaf/0.1/age" : [ {
     "@value" : "null"
@@ -4533,6 +4541,9 @@
 }, {
   "@id" : "https://w3id.org/def/en_qs_onto/en_qs_ontoper28",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/def/en_qs_onto/en_qs_ontoRighteou" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "ملك صالح ذكر في القرآن، بنى ردمًا يدفع به أذى يأجوج ومأجوج"
+  } ],
   "http://www.w3.org/2002/07/owl#sameAs" : [ {
     "@id" : "https://www.wikidata.org/wiki/Q1207846"
   } ],
@@ -6064,6 +6075,12 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://www.wikidata.org/wiki/Q235785",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "https://www.wikidata.org/wiki/Q2420409",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "https://www.wikidata.org/wiki/Q2422313",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://www.wikidata.org/wiki/Q2513598",

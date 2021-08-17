@@ -2165,6 +2165,7 @@ _:genid79 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 <https://w3id.org/def/en_qs_onto/en_qs_ontoper20> <https://w3id.org/def/en_qs_onto/en_qs_ontomessage> "call people to worship god alone" .
 <https://w3id.org/def/en_qs_onto/en_qs_ontoper20> <https://w3id.org/def/en_qs_onto/en_qs_ontonameRepeat> "2" .
 <https://w3id.org/def/en_qs_onto/en_qs_ontoper20> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/def/en_qs_onto> .
+<https://w3id.org/def/en_qs_onto/en_qs_ontoper20> <http://www.w3.org/2002/07/owl#sameAs> "Elijah" .
 # 
 # https://w3id.org/def/en_qs_onto/en_qs_ontoper21
 <https://w3id.org/def/en_qs_onto/en_qs_ontoper21> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -2190,6 +2191,7 @@ _:genid79 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 # https://w3id.org/def/en_qs_onto/en_qs_ontoper22
 <https://w3id.org/def/en_qs_onto/en_qs_ontoper22> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/def/en_qs_onto/en_qs_ontoper22> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/en_qs_onto/en_qs_ontoProphet> .
+<https://w3id.org/def/en_qs_onto/en_qs_ontoper22> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q2420409> .
 <https://w3id.org/def/en_qs_onto/en_qs_ontoper22> <https://w3id.org/def/en_qs_onto/en_qs_ontoadvised> <https://w3id.org/def/en_qs_onto/en_qs_ontonat9> .
 <https://w3id.org/def/en_qs_onto/en_qs_ontoper22> <https://w3id.org/def/en_qs_onto/en_qs_ontomentionedIn> <https://w3id.org/def/en_qs_onto/en_qs_ontosurah10> .
 <https://w3id.org/def/en_qs_onto/en_qs_ontoper22> <https://w3id.org/def/en_qs_onto/en_qs_ontomissionedTo> <https://w3id.org/def/en_qs_onto/en_qs_ontopc10> .
@@ -2210,6 +2212,7 @@ _:genid79 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 # https://w3id.org/def/en_qs_onto/en_qs_ontoper23
 <https://w3id.org/def/en_qs_onto/en_qs_ontoper23> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/def/en_qs_onto/en_qs_ontoper23> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/en_qs_onto/en_qs_ontoProphet> .
+<https://w3id.org/def/en_qs_onto/en_qs_ontoper23> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q2422313> .
 <https://w3id.org/def/en_qs_onto/en_qs_ontoper23> <https://w3id.org/def/en_qs_onto/en_qs_ontoadvised> <https://w3id.org/def/en_qs_onto/en_qs_ontonat9> .
 <https://w3id.org/def/en_qs_onto/en_qs_ontoper23> <https://w3id.org/def/en_qs_onto/en_qs_ontomentionedIn> <https://w3id.org/def/en_qs_onto/en_qs_ontosurah10> .
 <https://w3id.org/def/en_qs_onto/en_qs_ontoper23> <https://w3id.org/def/en_qs_onto/en_qs_ontomissionedTo> <https://w3id.org/def/en_qs_onto/en_qs_ontopc10> .
@@ -2322,6 +2325,7 @@ _:genid79 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 <https://w3id.org/def/en_qs_onto/en_qs_ontoper28> <https://w3id.org/def/en_qs_onto/en_qs_ontoinVerse_Nu.> "Alkahf83" .
 <https://w3id.org/def/en_qs_onto/en_qs_ontoper28> <https://w3id.org/def/en_qs_onto/en_qs_ontoinVerse_Text> "وَيَسْئَلُونَكَ عَنْ ذِي الْقَرْنَيْنِ قُلْ سَأَتْلُوا عَلَيْكُمْ مِنْهُ ذِكْرًا" .
 <https://w3id.org/def/en_qs_onto/en_qs_ontoper28> <https://w3id.org/def/en_qs_onto/en_qs_ontonameRepeat> "1" .
+<https://w3id.org/def/en_qs_onto/en_qs_ontoper28> <http://www.w3.org/2000/01/rdf-schema#comment> "ملك صالح ذكر في القرآن، بنى ردمًا يدفع به أذى يأجوج ومأجوج" .
 # 
 # https://w3id.org/def/en_qs_onto/en_qs_ontoper29
 <https://w3id.org/def/en_qs_onto/en_qs_ontoper29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -2994,6 +2998,12 @@ _:genid79 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 # 
 # https://www.wikidata.org/wiki/Q235785
 <https://www.wikidata.org/wiki/Q235785> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# https://www.wikidata.org/wiki/Q2420409
+<https://www.wikidata.org/wiki/Q2420409> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# https://www.wikidata.org/wiki/Q2422313
+<https://www.wikidata.org/wiki/Q2422313> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 # 
 # https://www.wikidata.org/wiki/Q2513598
 <https://www.wikidata.org/wiki/Q2513598> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
