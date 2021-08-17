@@ -1369,6 +1369,14 @@
     
 
 
+    <!-- http://mappings.dbpedia.org/index.php/OntologyClass:Place -->
+
+    <owl:NamedIndividual rdf:about="http://mappings.dbpedia.org/index.php/OntologyClass:Place">
+        <owl:sameAs rdf:resource="https://w3id.org/def/en_qs_onto/en_qs_ontoPlace"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://purl.org/dc/terms/isPartOf -->
 
     <owl:NamedIndividual rdf:about="http://purl.org/dc/terms/isPartOf">
@@ -3022,6 +3030,7 @@
         <en_qs_ontomessage rdf:datatype="http://www.w3.org/2001/XMLSchema#string">call people to worship god alone</en_qs_ontomessage>
         <en_qs_ontonameRepeat rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</en_qs_ontonameRepeat>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/def/en_qs_onto"/>
+        <owl:sameAs>Elijah</owl:sameAs>
         <foaf:name>الياس</foaf:name>
     </owl:NamedIndividual>
     
@@ -3056,6 +3065,7 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/def/en_qs_onto/en_qs_ontoper22">
         <rdf:type rdf:resource="https://w3id.org/def/en_qs_onto/en_qs_ontoProphet"/>
+        <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q2420409"/>
         <en_qs_ontoadvised rdf:resource="https://w3id.org/def/en_qs_onto/en_qs_ontonat9"/>
         <en_qs_ontomentionedIn rdf:resource="https://w3id.org/def/en_qs_onto/en_qs_ontosurah10"/>
         <en_qs_ontomissionedTo rdf:resource="https://w3id.org/def/en_qs_onto/en_qs_ontopc10"/>
@@ -3080,6 +3090,7 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/def/en_qs_onto/en_qs_ontoper23">
         <rdf:type rdf:resource="https://w3id.org/def/en_qs_onto/en_qs_ontoProphet"/>
+        <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q2422313"/>
         <en_qs_ontoadvised rdf:resource="https://w3id.org/def/en_qs_onto/en_qs_ontonat9"/>
         <en_qs_ontomentionedIn rdf:resource="https://w3id.org/def/en_qs_onto/en_qs_ontosurah10"/>
         <en_qs_ontomissionedTo rdf:resource="https://w3id.org/def/en_qs_onto/en_qs_ontopc10"/>
@@ -3211,6 +3222,7 @@
         <en_qs_ontoinVerse_Nu. rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alkahf83</en_qs_ontoinVerse_Nu.>
         <en_qs_ontoinVerse_Text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">وَيَسْئَلُونَكَ عَنْ ذِي الْقَرْنَيْنِ قُلْ سَأَتْلُوا عَلَيْكُمْ مِنْهُ ذِكْرًا</en_qs_ontoinVerse_Text>
         <en_qs_ontonameRepeat rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</en_qs_ontonameRepeat>
+        <rdfs:comment>ملك صالح ذكر في القرآن، بنى ردمًا يدفع به أذى يأجوج ومأجوج</rdfs:comment>
         <foaf:name>ذي القرنين</foaf:name>
     </owl:NamedIndividual>
     
@@ -4187,6 +4199,18 @@
     
 
 
+    <!-- https://www.wikidata.org/wiki/Q2420409 -->
+
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q2420409"/>
+    
+
+
+    <!-- https://www.wikidata.org/wiki/Q2422313 -->
+
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q2422313"/>
+    
+
+
     <!-- https://www.wikidata.org/wiki/Q2513598 -->
 
     <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q2513598"/>
@@ -4326,7 +4350,6 @@
     </rdf:Description>
     <rdf:Description rdf:about="https://w3id.org/def/en_qs_onto/en_qs_ontoPlace">
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/def/en_qs_onto"/>
-        <owl:sameAs rdf:resource="http://mappings.dbpedia.org/index.php/OntologyClass:Place"/>
         <rdfs:label>Place</rdfs:label>
         <rdfs:comment>المكان</rdfs:comment>
     </rdf:Description>
