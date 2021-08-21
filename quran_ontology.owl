@@ -10,16 +10,17 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:terms="https://www.geonames.org/countries/EG/egypt.html#terms:"
      xmlns:en_qs_onto="https://w3id.org/def/en_qs_onto/">
     <owl:Ontology rdf:about="https://w3id.org/def/en_qs_onto/">
         <owl:versionIRI rdf:resource="https://w3id.org/def/en_qs_onto/"/>
         <owl:imports rdf:resource="http://xmlns.com/foaf/0.1/"/>
         <dc:abstract xml:lang="en">This ontology focuses on the field of Qur&apos;anic stories that included many of the stories that were mentioned in the Holy Qur&apos;an and interpreted in history books such as stories of the prophets, messengers, righteous people, infidels, nations , animals that had a role in these stories, The events that actually occurred during these stories, such as miracles, divine punishment and divine honors to some of the messengers or prophets, and others.</dc:abstract>
-        <dc:author xml:lang="en">Rusul Y. Raghib</dc:author>
         <dc:date>25/2/2021</dc:date>
         <dc:title>Quran Stories Ontology</dc:title>
         <rdfs:comment>أنطولوجيا القصص القرانية</rdfs:comment>
         <rdfs:label>QURAN STORIES ONTOLOGY</rdfs:label>
+        <terms:creater xml:lang="en">Rusul Y. Raghib</terms:creater>
     </owl:Ontology>
     
 
@@ -59,6 +60,12 @@
         <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
         <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
     </rdf:Description>
+    
+
+
+    <!-- https://www.geonames.org/countries/EG/egypt.html#terms:creater -->
+
+    <owl:AnnotationProperty rdf:about="https://www.geonames.org/countries/EG/egypt.html#terms:creater"/>
     
 
 
@@ -1673,7 +1680,7 @@
         <en_qs_ontohasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ant</en_qs_ontohasName>
         <en_qs_ontoinVerse_Nu. rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Al-Naml18</en_qs_ontoinVerse_Nu.>
         <en_qs_ontoinVerse_Text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">حَتَّىٰ إِذَا أَتَوْا عَلَىٰ وَادِ النَّمْلِ قَالَتْ نَمْلَةٌ يَا أَيُّهَا النَّمْلُ ادْخُلُوا مَسَاكِنَكُمْ لَا يَحْطِمَنَّكُمْ سُلَيْمَانُ وَجُنُودُهُ وَهُمْ لَا يَشْعُرُونَ</en_qs_ontoinVerse_Text>
-        <rdfs:comment rdf:resource="https://w3id.org/def/en_qs_onto"/>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/def/en_qs_onto"/>
         <foaf:name>النملة</foaf:name>
     </owl:NamedIndividual>
     
