@@ -2,15 +2,14 @@
 <rdf:RDF xmlns="https://w3id.org/def/en_qs_onto/"
      xml:base="https://w3id.org/def/en_qs_onto/"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
-     xmlns:ns="http://www.w3.org/2003/06/sw-vocab-status/ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-     xmlns:wot="http://xmlns.com/wot/0.1/"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:en_qs_onto="https://w3id.org/def/en_qs_onto/">
+
     <owl:Ontology rdf:about="https://w3id.org/def/en_qs_onto/">
         <owl:versionIRI rdf:resource="https://w3id.org/def/en_qs_onto/"/>
         <owl:imports rdf:resource="http://xmlns.com/foaf/0.1/"/>
