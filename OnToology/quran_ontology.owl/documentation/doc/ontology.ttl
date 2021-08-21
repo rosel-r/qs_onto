@@ -10,11 +10,11 @@
                                     owl:versionIRI <https://w3id.org/def/en_qs_onto/> ;
                                     owl:imports <http://xmlns.com/foaf/0.1/> ;
                                     <http://purl.org/dc/elements/1.1/abstract> "This ontology focuses on the field of Qur'anic stories that included many of the stories that were mentioned in the Holy Qur'an and interpreted in history books such as stories of the prophets, messengers, righteous people, infidels, nations , animals that had a role in these stories, The events that actually occurred during these stories, such as miracles, divine punishment and divine honors to some of the messengers or prophets, and others."@en ;
-                                    <http://purl.org/dc/elements/1.1/author> "Rusul Y. Raghib"@en ;
                                     <http://purl.org/dc/elements/1.1/date> "25/2/2021" ;
                                     <http://purl.org/dc/elements/1.1/title> "Quran Stories Ontology" ;
                                     rdfs:comment "أنطولوجيا القصص القرانية" ;
-                                    rdfs:label "QURAN STORIES ONTOLOGY" .
+                                    rdfs:label "QURAN STORIES ONTOLOGY" ;
+                                    <https://www.geonames.org/countries/EG/egypt.html#terms:creater> "Rusul Y. Raghib"@en .
 
 #################################################################
 #    Annotation properties
@@ -30,6 +30,10 @@
 
 ###  http://www.w3.org/2002/07/owl#sameAs
 owl:sameAs rdf:type owl:AnnotationProperty .
+
+
+###  https://www.geonames.org/countries/EG/egypt.html#terms:creater
+<https://www.geonames.org/countries/EG/egypt.html#terms:creater> rdf:type owl:AnnotationProperty .
 
 
 #################################################################
@@ -1174,7 +1178,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                  :en_qs_ontohasName "ant" ;
                  <https://w3id.org/def/en_qs_onto/en_qs_ontoinVerse_Nu.> "Al-Naml18" ;
                  :en_qs_ontoinVerse_Text "حَتَّىٰ إِذَا أَتَوْا عَلَىٰ وَادِ النَّمْلِ قَالَتْ نَمْلَةٌ يَا أَيُّهَا النَّمْلُ ادْخُلُوا مَسَاكِنَكُمْ لَا يَحْطِمَنَّكُمْ سُلَيْمَانُ وَجُنُودُهُ وَهُمْ لَا يَشْعُرُونَ" ;
-                 rdfs:comment <https://w3id.org/def/en_qs_onto> .
+                 rdfs:isDefinedBy <https://w3id.org/def/en_qs_onto> .
 
 
 ###  https://w3id.org/def/en_qs_onto/en_qs_ontoanim6

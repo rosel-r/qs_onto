@@ -514,10 +514,6 @@
     "@language" : "en",
     "@value" : "This ontology focuses on the field of Qur'anic stories that included many of the stories that were mentioned in the Holy Qur'an and interpreted in history books such as stories of the prophets, messengers, righteous people, infidels, nations , animals that had a role in these stories, The events that actually occurred during these stories, such as miracles, divine punishment and divine honors to some of the messengers or prophets, and others."
   } ],
-  "http://purl.org/dc/elements/1.1/author" : [ {
-    "@language" : "en",
-    "@value" : "Rusul Y. Raghib"
-  } ],
   "http://purl.org/dc/elements/1.1/date" : [ {
     "@value" : "25/2/2021"
   } ],
@@ -535,6 +531,10 @@
   } ],
   "http://www.w3.org/2002/07/owl#versionIRI" : [ {
     "@id" : "https://w3id.org/def/en_qs_onto/"
+  } ],
+  "https://www.geonames.org/countries/EG/egypt.html#terms:creater" : [ {
+    "@language" : "en",
+    "@value" : "Rusul Y. Raghib"
   } ]
 }, {
   "@id" : "https://w3id.org/def/en_qs_onto/en_qs_ontoAfterLive_Event",
@@ -1232,7 +1232,7 @@
 }, {
   "@id" : "https://w3id.org/def/en_qs_onto/en_qs_ontoanim5",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/def/en_qs_onto/en_qs_ontoInsect" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@id" : "https://w3id.org/def/en_qs_onto"
   } ],
   "http://xmlns.com/foaf/0.1/name" : [ {
@@ -5926,6 +5926,9 @@
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "https://w3id.org/def/en_qs_onto/en_qs_ontoGod_Punishment"
   } ]
+}, {
+  "@id" : "https://www.geonames.org/countries/EG/egypt.html#terms:creater",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
   "@id" : "https://www.wikidata.org/wiki/Property:P21",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
