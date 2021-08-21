@@ -2,11 +2,11 @@
 <https://w3id.org/def/en_qs_onto/> <http://www.w3.org/2002/07/owl#versionIRI> <https://w3id.org/def/en_qs_onto/> .
 <https://w3id.org/def/en_qs_onto/> <http://www.w3.org/2002/07/owl#imports> <http://xmlns.com/foaf/0.1/> .
 <https://w3id.org/def/en_qs_onto/> <http://purl.org/dc/elements/1.1/abstract> "This ontology focuses on the field of Qur'anic stories that included many of the stories that were mentioned in the Holy Qur'an and interpreted in history books such as stories of the prophets, messengers, righteous people, infidels, nations , animals that had a role in these stories, The events that actually occurred during these stories, such as miracles, divine punishment and divine honors to some of the messengers or prophets, and others."@en .
-<https://w3id.org/def/en_qs_onto/> <http://purl.org/dc/elements/1.1/author> "Rusul Y. Raghib"@en .
 <https://w3id.org/def/en_qs_onto/> <http://purl.org/dc/elements/1.1/date> "25/2/2021" .
 <https://w3id.org/def/en_qs_onto/> <http://purl.org/dc/elements/1.1/title> "Quran Stories Ontology" .
 <https://w3id.org/def/en_qs_onto/> <http://www.w3.org/2000/01/rdf-schema#comment> "أنطولوجيا القصص القرانية" .
 <https://w3id.org/def/en_qs_onto/> <http://www.w3.org/2000/01/rdf-schema#label> "QURAN STORIES ONTOLOGY" .
+<https://w3id.org/def/en_qs_onto/> <https://www.geonames.org/countries/EG/egypt.html#terms:creater> "Rusul Y. Raghib"@en .
 # 
 # 
 # #################################################################
@@ -24,6 +24,9 @@
 # 
 # http://www.w3.org/2002/07/owl#sameAs
 <http://www.w3.org/2002/07/owl#sameAs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://www.geonames.org/countries/EG/egypt.html#terms:creater
+<https://www.geonames.org/countries/EG/egypt.html#terms:creater> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
 # 
 # 
@@ -1167,7 +1170,7 @@ _:genid79 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 <https://w3id.org/def/en_qs_onto/en_qs_ontoanim5> <https://w3id.org/def/en_qs_onto/en_qs_ontohasName> "ant" .
 <https://w3id.org/def/en_qs_onto/en_qs_ontoanim5> <https://w3id.org/def/en_qs_onto/en_qs_ontoinVerse_Nu.> "Al-Naml18" .
 <https://w3id.org/def/en_qs_onto/en_qs_ontoanim5> <https://w3id.org/def/en_qs_onto/en_qs_ontoinVerse_Text> "حَتَّىٰ إِذَا أَتَوْا عَلَىٰ وَادِ النَّمْلِ قَالَتْ نَمْلَةٌ يَا أَيُّهَا النَّمْلُ ادْخُلُوا مَسَاكِنَكُمْ لَا يَحْطِمَنَّكُمْ سُلَيْمَانُ وَجُنُودُهُ وَهُمْ لَا يَشْعُرُونَ" .
-<https://w3id.org/def/en_qs_onto/en_qs_ontoanim5> <http://www.w3.org/2000/01/rdf-schema#comment> <https://w3id.org/def/en_qs_onto> .
+<https://w3id.org/def/en_qs_onto/en_qs_ontoanim5> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/def/en_qs_onto> .
 # 
 # https://w3id.org/def/en_qs_onto/en_qs_ontoanim6
 <https://w3id.org/def/en_qs_onto/en_qs_ontoanim6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

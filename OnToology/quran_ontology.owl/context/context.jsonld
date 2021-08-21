@@ -84,6 +84,9 @@
       "@id" : "https://w3id.org/def/en_qs_onto/en_qs_ontodoneBy",
       "@type" : "@id"
     },
+    "creater" : {
+      "@id" : "https://www.geonames.org/countries/EG/egypt.html#terms:creater"
+    },
     "label" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
