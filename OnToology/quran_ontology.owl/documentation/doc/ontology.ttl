@@ -1,20 +1,20 @@
-@prefix : <https://w3id.org/def/en_qs_onto/> .
+@prefix : <https://w3id.org/def/en_qs_onto#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@base <https://w3id.org/def/en_qs_onto/> .
+@base <https://w3id.org/def/en_qs_onto> .
 
-<https://w3id.org/def/en_qs_onto/> rdf:type owl:Ontology ;
-                                    owl:versionIRI <https://w3id.org/def/en_qs_onto/> ;
-                                    owl:imports <http://xmlns.com/foaf/0.1/> ;
-                                    <http://purl.org/dc/elements/1.1/abstract> "This ontology focuses on the field of Qur'anic stories that included many of the stories that were mentioned in the Holy Qur'an and interpreted in history books such as stories of the prophets, messengers, righteous people, infidels, nations , animals that had a role in these stories, The events that actually occurred during these stories, such as miracles, divine punishment and divine honors to some of the messengers or prophets, and others."@en ;
-                                    <http://purl.org/dc/elements/1.1/date> "25/2/2021" ;
-                                    <http://purl.org/dc/elements/1.1/title> "Quran Stories Ontology" ;
-                                    rdfs:comment "أنطولوجيا القصص القرانية" ;
-                                    rdfs:label "QURAN STORIES ONTOLOGY" ;
-                                    <https://www.geonames.org/countries/EG/egypt.html#terms:creater> "Rusul Y. Raghib"@en .
+<https://w3id.org/def/en_qs_onto> rdf:type owl:Ontology ;
+                                   owl:versionIRI <https://w3id.org/def/en_qs_onto> ;
+                                   owl:imports <http://xmlns.com/foaf/0.1/> ;
+                                   <http://purl.org/dc/elements/1.1/abstract> "This ontology focuses on the field of Qur'anic stories that included many of the stories that were mentioned in the Holy Qur'an and interpreted in history books such as stories of the prophets, messengers, righteous people, infidels, nations , animals that had a role in these stories, The events that actually occurred during these stories, such as miracles, divine punishment and divine honors to some of the messengers or prophets, and others."@en ;
+                                   <http://purl.org/dc/elements/1.1/date> "25/2/2021" ;
+                                   <http://purl.org/dc/elements/1.1/title> "Quran Stories Ontology" ;
+                                   rdfs:comment "أنطولوجيا القصص القرانية" ;
+                                   rdfs:label "QURAN STORIES ONTOLOGY" ;
+                                   <https://www.geonames.org/countries/EG/egypt.html#terms:creater> "Rusul Y. Raghib"@en .
 
 #################################################################
 #    Annotation properties
@@ -40,7 +40,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 #    Object Properties
 #################################################################
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoaccomplishedBy
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoaccomplishedBy
 :en_qs_ontoaccomplishedBy rdf:type owl:ObjectProperty ;
                           owl:inverseOf :en_qs_ontocommandeIn ;
                           rdfs:domain :en_qs_ontoGod_Comanded ;
@@ -51,7 +51,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                           rdfs:label "accomplishedBy" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoadvised
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoadvised
 :en_qs_ontoadvised rdf:type owl:ObjectProperty ;
                    owl:inverseOf :en_qs_ontoadvisedBy ;
                    rdfs:domain :en_qs_ontoProphet ;
@@ -62,7 +62,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                    rdfs:label "advised" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoadvisedBy
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoadvisedBy
 :en_qs_ontoadvisedBy rdf:type owl:ObjectProperty ;
                      rdfs:domain :en_qs_ontoNation ;
                      rdfs:range :en_qs_ontoProphet ;
@@ -72,7 +72,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                      rdfs:label "advisedBy" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoappearedWith
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoappearedWith
 :en_qs_ontoappearedWith rdf:type owl:ObjectProperty ;
                         rdfs:domain :en_qs_ontoAnimal ;
                         rdfs:range [ rdf:type owl:Class ;
@@ -86,7 +86,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                         rdfs:label "appearedWith" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoassignedIn
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoassignedIn
 :en_qs_ontoassignedIn rdf:type owl:ObjectProperty ;
                       rdfs:domain :en_qs_ontoProphet ;
                       rdfs:range :en_qs_ontoGod_Comanded ;
@@ -96,7 +96,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                       rdfs:label "assignedIn" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontobelongTo
+###  https://w3id.org/def/en_qs_onto#en_qs_ontobelongTo
 :en_qs_ontobelongTo rdf:type owl:ObjectProperty ;
                     owl:inverseOf :en_qs_ontoinclude ;
                     rdfs:domain [ rdf:type owl:Class ;
@@ -111,7 +111,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                     rdfs:label "belongTo" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontobornPlaceOf
+###  https://w3id.org/def/en_qs_onto#en_qs_ontobornPlaceOf
 :en_qs_ontobornPlaceOf rdf:type owl:ObjectProperty ;
                        owl:inverseOf :en_qs_ontobornedIn ;
                        rdfs:domain :en_qs_ontoPlace ;
@@ -122,7 +122,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                        rdfs:label "bornedPlaceOf" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontobornedIn
+###  https://w3id.org/def/en_qs_onto#en_qs_ontobornedIn
 :en_qs_ontobornedIn rdf:type owl:ObjectProperty ,
                              owl:FunctionalProperty ;
                     rdfs:domain <http://xmlns.com/foaf/0.1/Person> ;
@@ -133,7 +133,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                     rdfs:label "bornedIn" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontocommandeIn
+###  https://w3id.org/def/en_qs_onto#en_qs_ontocommandeIn
 :en_qs_ontocommandeIn rdf:type owl:ObjectProperty ;
                       rdfs:domain :en_qs_ontoMessenger ;
                       rdfs:range :en_qs_ontoGod_Comanded ;
@@ -143,7 +143,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                       rdfs:label "commandeIn" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoconsisitOf
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoconsisitOf
 :en_qs_ontoconsisitOf rdf:type owl:ObjectProperty ;
                       owl:inverseOf :en_qs_ontopartOf ;
                       rdfs:domain [ rdf:type owl:Class ;
@@ -164,7 +164,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                       rdfs:label "consistOf" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontodoneBy
+###  https://w3id.org/def/en_qs_onto#en_qs_ontodoneBy
 :en_qs_ontodoneBy rdf:type owl:ObjectProperty ;
                   owl:inverseOf :en_qs_ontogenerate ;
                   rdfs:domain :en_qs_ontoEvent ;
@@ -175,7 +175,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                   rdfs:label "doneBy" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontodueTo
+###  https://w3id.org/def/en_qs_onto#en_qs_ontodueTo
 :en_qs_ontodueTo rdf:type owl:ObjectProperty ;
                  owl:inverseOf :en_qs_ontoledTo ;
                  rdf:type owl:TransitiveProperty ;
@@ -187,7 +187,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                  rdfs:label "dueTo" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoendowedTo
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoendowedTo
 :en_qs_ontoendowedTo rdf:type owl:ObjectProperty ;
                      owl:inverseOf :en_qs_ontohasMiracle ;
                      rdfs:domain :en_qs_ontoMiracles ;
@@ -202,7 +202,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                      rdfs:label "endowedTo" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontogaveTo
+###  https://w3id.org/def/en_qs_onto#en_qs_ontogaveTo
 :en_qs_ontogaveTo rdf:type owl:ObjectProperty ;
                   owl:inverseOf :en_qs_ontohasBook ;
                   rdf:type owl:FunctionalProperty ;
@@ -218,7 +218,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                   rdfs:label "gaveTo" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontogenerate
+###  https://w3id.org/def/en_qs_onto#en_qs_ontogenerate
 :en_qs_ontogenerate rdf:type owl:ObjectProperty ;
                     rdfs:domain :en_qs_ontoEvent_Tool ;
                     rdfs:range :en_qs_ontoEvent ;
@@ -228,7 +228,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                     rdfs:label "generate" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontohasBook
+###  https://w3id.org/def/en_qs_onto#en_qs_ontohasBook
 :en_qs_ontohasBook rdf:type owl:ObjectProperty ,
                             owl:FunctionalProperty ;
                    rdfs:domain [ rdf:type owl:Class ;
@@ -243,7 +243,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                    rdfs:label "hasBook" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontohasMiracle
+###  https://w3id.org/def/en_qs_onto#en_qs_ontohasMiracle
 :en_qs_ontohasMiracle rdf:type owl:ObjectProperty ;
                       rdfs:domain [ rdf:type owl:Class ;
                                     owl:unionOf ( :en_qs_ontoMessenger
@@ -257,7 +257,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                       rdfs:label "hasMiracle" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontohonoredWith
+###  https://w3id.org/def/en_qs_onto#en_qs_ontohonoredWith
 :en_qs_ontohonoredWith rdf:type owl:ObjectProperty ;
                        owl:inverseOf :en_qs_ontohonoringTo ;
                        rdfs:domain [ rdf:type owl:Class ;
@@ -272,7 +272,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                        rdfs:label "honoredWith" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontohonoringTo
+###  https://w3id.org/def/en_qs_onto#en_qs_ontohonoringTo
 :en_qs_ontohonoringTo rdf:type owl:ObjectProperty ;
                       rdfs:domain :en_qs_ontoHonoring ;
                       rdfs:range [ rdf:type owl:Class ;
@@ -286,7 +286,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                       rdfs:label "honoringTo" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoinclude
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoinclude
 :en_qs_ontoinclude rdf:type owl:ObjectProperty ;
                    rdfs:domain :en_qs_ontoPlace ;
                    rdfs:range [ rdf:type owl:Class ;
@@ -300,7 +300,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                    rdfs:label "include" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoisPlaceOccurance
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoisPlaceOccurance
 :en_qs_ontoisPlaceOccurance rdf:type owl:ObjectProperty ;
                             owl:inverseOf :en_qs_ontooccuredIn ;
                             rdfs:domain :en_qs_ontoPlace ;
@@ -311,7 +311,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                             rdfs:label "isPlaceOccurance" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoledTo
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoledTo
 :en_qs_ontoledTo rdf:type owl:ObjectProperty ,
                           owl:TransitiveProperty ;
                  rdfs:domain :en_qs_ontoEvent ;
@@ -322,7 +322,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                  rdfs:label "ledTo" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontolivePlace_Of
+###  https://w3id.org/def/en_qs_onto#en_qs_ontolivePlace_Of
 :en_qs_ontolivePlace_Of rdf:type owl:ObjectProperty ;
                         owl:inverseOf :en_qs_ontolivedIn ;
                         rdfs:domain :en_qs_ontoPlace ;
@@ -337,7 +337,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                         rdfs:label "livePlace_Of" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontolivedIn
+###  https://w3id.org/def/en_qs_onto#en_qs_ontolivedIn
 :en_qs_ontolivedIn rdf:type owl:ObjectProperty ;
                    rdfs:domain [ rdf:type owl:Class ;
                                  owl:unionOf ( <http://xmlns.com/foaf/0.1/Person>
@@ -351,7 +351,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                    rdfs:label "livedIn" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontomentionedIn
+###  https://w3id.org/def/en_qs_onto#en_qs_ontomentionedIn
 :en_qs_ontomentionedIn rdf:type owl:ObjectProperty ;
                        owl:inverseOf :en_qs_ontoreported ;
                        rdfs:domain owl:Thing ;
@@ -362,7 +362,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                        rdfs:label "mentionedIn" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontomissionPlace_Of
+###  https://w3id.org/def/en_qs_onto#en_qs_ontomissionPlace_Of
 :en_qs_ontomissionPlace_Of rdf:type owl:ObjectProperty ;
                            owl:inverseOf :en_qs_ontomissionedTo ;
                            rdfs:domain :en_qs_ontoPlace ;
@@ -377,7 +377,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                            rdfs:label "missionedPlace_Of" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontomissionedTo
+###  https://w3id.org/def/en_qs_onto#en_qs_ontomissionedTo
 :en_qs_ontomissionedTo rdf:type owl:ObjectProperty ;
                        rdfs:domain [ rdf:type owl:Class ;
                                      owl:unionOf ( :en_qs_ontoMessenger
@@ -391,7 +391,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                        rdfs:label "missionedTo" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontooccuredIn
+###  https://w3id.org/def/en_qs_onto#en_qs_ontooccuredIn
 :en_qs_ontooccuredIn rdf:type owl:ObjectProperty ;
                      rdfs:domain :en_qs_ontoEvent ;
                      rdfs:range :en_qs_ontoPlace ;
@@ -401,7 +401,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                      rdfs:label "occuredIn" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontopartOf
+###  https://w3id.org/def/en_qs_onto#en_qs_ontopartOf
 :en_qs_ontopartOf rdf:type owl:ObjectProperty ;
                   rdfs:domain [ rdf:type owl:Class ;
                                 owl:unionOf ( :en_qs_ontoChapter
@@ -417,7 +417,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                              ] .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoreceived
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoreceived
 :en_qs_ontoreceived rdf:type owl:ObjectProperty ;
                     owl:inverseOf :en_qs_ontosendTo ;
                     rdfs:domain :en_qs_ontoNation ;
@@ -428,7 +428,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                     rdfs:label "received" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoreported
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoreported
 :en_qs_ontoreported rdf:type owl:ObjectProperty ;
                     rdfs:domain :en_qs_ontoSurah ;
                     rdfs:range owl:Thing ;
@@ -438,7 +438,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                     rdfs:label "reported" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontosendTo
+###  https://w3id.org/def/en_qs_onto#en_qs_ontosendTo
 :en_qs_ontosendTo rdf:type owl:ObjectProperty ,
                            owl:FunctionalProperty ;
                   rdfs:domain :en_qs_ontoMessenger ;
@@ -449,7 +449,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                   rdfs:label "sendTo" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoswallow
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoswallow
 :en_qs_ontoswallow rdf:type owl:ObjectProperty ;
                    rdfs:domain :en_qs_ontoAnimal ;
                    rdfs:range <http://xmlns.com/foaf/0.1/Person> ;
@@ -459,7 +459,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                    rdfs:label "swallow" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontotargeted
+###  https://w3id.org/def/en_qs_onto#en_qs_ontotargeted
 :en_qs_ontotargeted rdf:type owl:ObjectProperty ;
                     owl:inverseOf :en_qs_ontotargetedBy ;
                     rdfs:domain :en_qs_ontoGod_Punishment ;
@@ -470,7 +470,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                     rdfs:label "targeted" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontotargetedBy
+###  https://w3id.org/def/en_qs_onto#en_qs_ontotargetedBy
 :en_qs_ontotargetedBy rdf:type owl:ObjectProperty ;
                       rdfs:domain :en_qs_ontoNation ;
                       rdfs:range :en_qs_ontoGod_Punishment ;
@@ -511,7 +511,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                                  rdfs:range rdfs:Literal .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoadvise
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoadvise
 :en_qs_ontoadvise rdf:type owl:DatatypeProperty ;
                   rdfs:domain :en_qs_ontoProphet ;
                   rdfs:range rdfs:Literal ;
@@ -521,7 +521,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                   rdfs:label "advise" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoassignedBy
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoassignedBy
 :en_qs_ontoassignedBy rdf:type owl:DatatypeProperty ;
                       rdfs:domain [ rdf:type owl:Class ;
                                     owl:unionOf ( :en_qs_ontoMessenger
@@ -535,7 +535,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                       rdfs:label "assignedBy" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontohappenedBy
+###  https://w3id.org/def/en_qs_onto#en_qs_ontohappenedBy
 :en_qs_ontohappenedBy rdf:type owl:DatatypeProperty ;
                       rdfs:domain :en_qs_ontoEvent ;
                       rdfs:range rdfs:Literal ;
@@ -545,7 +545,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                       rdfs:label "happendBy" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontohasFather
+###  https://w3id.org/def/en_qs_onto#en_qs_ontohasFather
 :en_qs_ontohasFather rdf:type owl:DatatypeProperty ;
                      rdfs:subPropertyOf :en_qs_ontohasParents ;
                      rdf:type owl:FunctionalProperty ;
@@ -557,7 +557,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                      rdfs:label "hasFather" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontohasMother
+###  https://w3id.org/def/en_qs_onto#en_qs_ontohasMother
 :en_qs_ontohasMother rdf:type owl:DatatypeProperty ;
                      rdfs:subPropertyOf :en_qs_ontohasParents ;
                      rdf:type owl:FunctionalProperty ;
@@ -569,7 +569,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                      rdfs:label "hasMother" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontohasName
+###  https://w3id.org/def/en_qs_onto#en_qs_ontohasName
 :en_qs_ontohasName rdf:type owl:DatatypeProperty ,
                             owl:FunctionalProperty ;
                    rdfs:domain owl:Thing ;
@@ -580,7 +580,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                    rdfs:label "hasName" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontohasParents
+###  https://w3id.org/def/en_qs_onto#en_qs_ontohasParents
 :en_qs_ontohasParents rdf:type owl:DatatypeProperty ;
                       rdfs:domain <http://xmlns.com/foaf/0.1/Person> ;
                       rdfs:range rdfs:Literal ;
@@ -590,8 +590,8 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                       rdfs:label "hasParents" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoinVerse_Nu.
-<https://w3id.org/def/en_qs_onto/en_qs_ontoinVerse_Nu.> rdf:type owl:DatatypeProperty ;
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoinVerse_Nu.
+<https://w3id.org/def/en_qs_onto#en_qs_ontoinVerse_Nu.> rdf:type owl:DatatypeProperty ;
                                                         rdfs:domain owl:Thing ;
                                                         rdfs:range rdfs:Literal ;
                                                         <http://purl.org/dc/elements/1.1/description> "رقم الأية التي ذكر فيها شيء ما." ;
@@ -600,9 +600,9 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                                                         rdfs:label "inVerse_Nu." .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoinVerse_Text
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoinVerse_Text
 :en_qs_ontoinVerse_Text rdf:type owl:DatatypeProperty ;
-                        rdfs:subPropertyOf <https://w3id.org/def/en_qs_onto/en_qs_ontoinVerse_Nu.> ;
+                        rdfs:subPropertyOf <https://w3id.org/def/en_qs_onto#en_qs_ontoinVerse_Nu.> ;
                         rdfs:domain owl:Thing ;
                         rdfs:range rdfs:Literal ;
                         <http://purl.org/dc/elements/1.1/description> "نص الأية التي ذكرت الشيء." ;
@@ -611,7 +611,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                         rdfs:label "inVerse_Text" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontolesson
+###  https://w3id.org/def/en_qs_onto#en_qs_ontolesson
 :en_qs_ontolesson rdf:type owl:DatatypeProperty ;
                   rdfs:domain :en_qs_ontoEvent ;
                   rdfs:range rdfs:Literal ;
@@ -620,7 +620,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                   rdfs:label "lesson" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontomessage
+###  https://w3id.org/def/en_qs_onto#en_qs_ontomessage
 :en_qs_ontomessage rdf:type owl:DatatypeProperty ,
                             owl:FunctionalProperty ;
                    rdfs:domain :en_qs_ontoMessenger ;
@@ -631,7 +631,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                    rdfs:label "message" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontonameRepeat
+###  https://w3id.org/def/en_qs_onto#en_qs_ontonameRepeat
 :en_qs_ontonameRepeat rdf:type owl:DatatypeProperty ;
                       rdfs:domain owl:Thing ;
                       rdfs:range rdfs:Literal ;
@@ -641,7 +641,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                       rdfs:label "nameRepeat" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontooverturnedFrom
+###  https://w3id.org/def/en_qs_onto#en_qs_ontooverturnedFrom
 :en_qs_ontooverturnedFrom rdf:type owl:DatatypeProperty ;
                           rdfs:domain :en_qs_ontoAnimal ;
                           rdfs:range rdfs:Literal ;
@@ -651,7 +651,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                           rdfs:label "overturnedFrom" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoreasonFor_Mention
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoreasonFor_Mention
 :en_qs_ontoreasonFor_Mention rdf:type owl:DatatypeProperty ;
                              rdfs:domain :en_qs_ontoAnimal ;
                              rdfs:range rdfs:Literal ;
@@ -661,7 +661,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                              rdfs:label "reasonFor_Mention" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontosEnd
+###  https://w3id.org/def/en_qs_onto#en_qs_ontosEnd
 :en_qs_ontosEnd rdf:type owl:DatatypeProperty ;
                 rdfs:domain :en_qs_ontoInfidel ;
                 rdfs:range rdfs:Literal ;
@@ -670,7 +670,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                 rdfs:label "it'sEnd" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontotHave
+###  https://w3id.org/def/en_qs_onto#en_qs_ontotHave
 :en_qs_ontotHave rdf:type owl:DatatypeProperty ;
                  rdfs:domain <http://xmlns.com/foaf/0.1/Person> ;
                  rdfs:range rdfs:Literal ;
@@ -704,7 +704,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                                                    ] .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoAfterLive_Event
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoAfterLive_Event
 :en_qs_ontoAfterLive_Event rdf:type owl:Class ;
                            rdfs:subClassOf :en_qs_ontoEvent ;
                            rdfs:comment "احداث ما بعد الحياة" ;
@@ -712,7 +712,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                            rdfs:label "AfterLive_Event" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoAnimal
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoAnimal
 :en_qs_ontoAnimal rdf:type owl:Class ;
                   rdfs:subClassOf owl:Thing ;
                   owl:disjointUnionOf ( :en_qs_ontoBird
@@ -722,12 +722,12 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                                       ) .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoBird
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoBird
 :en_qs_ontoBird rdf:type owl:Class ;
                 rdfs:subClassOf :en_qs_ontoAnimal .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoBirthPlace
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoBirthPlace
 :en_qs_ontoBirthPlace rdf:type owl:Class ;
                       rdfs:subClassOf :en_qs_ontoPlace ;
                       rdfs:comment "مكان ولاده" ;
@@ -735,17 +735,17 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                       rdfs:label "BirthPlace" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoBook
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoBook
 :en_qs_ontoBook rdf:type owl:Class ;
                 rdfs:subClassOf owl:Thing .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoChapter
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoChapter
 :en_qs_ontoChapter rdf:type owl:Class ;
                    rdfs:subClassOf owl:Thing .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoCity
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoCity
 :en_qs_ontoCity rdf:type owl:Class ;
                 owl:equivalentClass :en_qs_ontoLivePlace ;
                 rdfs:subClassOf :en_qs_ontoPlace ;
@@ -754,7 +754,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                 rdfs:label "City" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoCivilian_Surah
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoCivilian_Surah
 :en_qs_ontoCivilian_Surah rdf:type owl:Class ;
                           rdfs:subClassOf :en_qs_ontoSurah ;
                           rdfs:comment "السورة المدنية" ;
@@ -762,7 +762,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                           rdfs:label "Civilian_Surah" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoDate
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoDate
 :en_qs_ontoDate rdf:type owl:Class ;
                 rdfs:subClassOf owl:Thing ;
                 rdfs:comment "التاريخ." ;
@@ -770,7 +770,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                 rdfs:label "Date" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoEvent
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoEvent
 :en_qs_ontoEvent rdf:type owl:Class ;
                  rdfs:subClassOf owl:Thing ,
                                  [ rdf:type owl:Restriction ;
@@ -786,7 +786,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                  rdfs:label "Event" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoEvent_Tool
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoEvent_Tool
 :en_qs_ontoEvent_Tool rdf:type owl:Class ;
                       rdfs:subClassOf owl:Thing ;
                       rdfs:comment "أداة الحدث." ;
@@ -794,7 +794,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                       rdfs:label "Event_Tool" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoGod_Comanded
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoGod_Comanded
 :en_qs_ontoGod_Comanded rdf:type owl:Class ;
                         rdfs:subClassOf :en_qs_ontoHistoricEvent ;
                         rdfs:comment "الأمر الألهي." ;
@@ -802,7 +802,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                         rdfs:label "God_Comanded" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoGod_Punishment
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoGod_Punishment
 :en_qs_ontoGod_Punishment rdf:type owl:Class ;
                           rdfs:subClassOf :en_qs_ontoHistoricEvent ;
                           rdfs:comment "العقاب الألهي" ;
@@ -810,7 +810,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                           rdfs:label "God_punishment" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoHistoricEvent
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoHistoricEvent
 :en_qs_ontoHistoricEvent rdf:type owl:Class ;
                          rdfs:subClassOf :en_qs_ontoEvent ;
                          rdfs:comment "الاحداث التاريخية" ;
@@ -818,7 +818,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                          rdfs:label "HistoricEvent" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoHonoring
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoHonoring
 :en_qs_ontoHonoring rdf:type owl:Class ;
                     rdfs:subClassOf :en_qs_ontoHistoricEvent ;
                     rdfs:comment "التكريم الألهي" ;
@@ -826,7 +826,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                     rdfs:label "Honoring" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoInfidel
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoInfidel
 :en_qs_ontoInfidel rdf:type owl:Class ;
                    rdfs:subClassOf <http://xmlns.com/foaf/0.1/Person> ;
                    rdfs:comment "الكافر." ;
@@ -834,12 +834,12 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                    rdfs:label "Infidel" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoInsect
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoInsect
 :en_qs_ontoInsect rdf:type owl:Class ;
                   rdfs:subClassOf :en_qs_ontoAnimal .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoLivePlace
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoLivePlace
 :en_qs_ontoLivePlace rdf:type owl:Class ;
                      rdfs:subClassOf :en_qs_ontoPlace ;
                      rdfs:comment "مكان العيش." ;
@@ -847,12 +847,12 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                      rdfs:label "LivePlace" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoMammal
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoMammal
 :en_qs_ontoMammal rdf:type owl:Class ;
                   rdfs:subClassOf :en_qs_ontoAnimal .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoMeccan_Surah
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoMeccan_Surah
 :en_qs_ontoMeccan_Surah rdf:type owl:Class ;
                         rdfs:subClassOf :en_qs_ontoSurah ;
                         rdfs:comment "السورة المكية" ;
@@ -860,7 +860,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                         rdfs:label "Meccan_Surah" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoMessenger
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoMessenger
 :en_qs_ontoMessenger rdf:type owl:Class ;
                      rdfs:subClassOf <http://xmlns.com/foaf/0.1/Person> ,
                                      [ rdf:type owl:Restriction ;
@@ -875,7 +875,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                                      ] .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoMiracles
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoMiracles
 :en_qs_ontoMiracles rdf:type owl:Class ;
                     rdfs:subClassOf :en_qs_ontoHistoricEvent ;
                     rdfs:comment "المعجزات" ;
@@ -883,7 +883,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                     rdfs:label "Miracles" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoMissionPlace
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoMissionPlace
 :en_qs_ontoMissionPlace rdf:type owl:Class ;
                         rdfs:subClassOf :en_qs_ontoPlace ;
                         rdfs:comment "مكان البعثه." ;
@@ -891,7 +891,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                         rdfs:label "MissionPlace" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoNation
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoNation
 :en_qs_ontoNation rdf:type owl:Class ;
                   rdfs:subClassOf <http://xmlns.com/foaf/0.1/Person> ;
                   rdfs:comment "القوم." ;
@@ -899,7 +899,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                   rdfs:label "Nation" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoPlace
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoPlace
 :en_qs_ontoPlace rdf:type owl:Class ;
                  owl:equivalentClass [ rdf:type owl:Class ;
                                        owl:unionOf ( :en_qs_ontoBirthPlace
@@ -911,17 +911,17 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                  rdfs:subClassOf owl:Thing .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoProphet
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoProphet
 :en_qs_ontoProphet rdf:type owl:Class ;
                    rdfs:subClassOf <http://xmlns.com/foaf/0.1/Person> .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoReptile
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoReptile
 :en_qs_ontoReptile rdf:type owl:Class ;
                    rdfs:subClassOf :en_qs_ontoAnimal .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoRighteou
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoRighteou
 :en_qs_ontoRighteou rdf:type owl:Class ;
                     rdfs:subClassOf <http://xmlns.com/foaf/0.1/Person> ;
                     rdfs:comment "الصالح." ;
@@ -929,7 +929,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                     rdfs:label "Righteou" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoSurah
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoSurah
 :en_qs_ontoSurah rdf:type owl:Class ;
                  rdfs:subClassOf owl:Thing ,
                                  [ rdf:type owl:Restriction ;
@@ -941,7 +941,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                                      ) .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoVerse
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoVerse
 :en_qs_ontoVerse rdf:type owl:Class ;
                  rdfs:subClassOf owl:Thing .
 
@@ -980,7 +980,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 <http://www.co-ode.org/ontologies/ont.owl#per32> rdf:type owl:NamedIndividual ,
                                                           :en_qs_ontoInfidel ;
                                                  owl:sameAs <https://www.wikidata.org/wiki/Q192785> ;
-                                                 :en_qs_ontomentionedIn :en_qs_ontosurah1 ;
+                                                 :en_qs_ontomentionedIn <https://w3id.org/def/en_qs_onto/en_qs_ontosurah1> ;
                                                  <http://xmlns.com/foaf/0.1/age> "null" ;
                                                  <http://xmlns.com/foaf/0.1/gender> "Male" ;
                                                  <http://xmlns.com/foaf/0.1/name> "جالوت" ;
@@ -988,7 +988,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                                                  :en_qs_ontohasFather "null" ;
                                                  :en_qs_ontohasMother "null" ;
                                                  :en_qs_ontohasName "Goliath" ;
-                                                 <https://w3id.org/def/en_qs_onto/en_qs_ontoinVerse_Nu.> "Al-Baqarah251" ;
+                                                 <https://w3id.org/def/en_qs_onto#en_qs_ontoinVerse_Nu.> "Al-Baqarah251" ;
                                                  :en_qs_ontoinVerse_Text "فَهَزَمُوهُمْ بِإِذْنِ اللَّهِ وَقَتَلَ دَاوُودُ جَالُوتَ وَآتَاهُ اللَّهُ الْمُلْكَ وَالْحِكْمَةَ وَعَلَّمَهُ مِمَّا يَشَاءُ ۗ وَلَوْلَا دَفْعُ اللَّهِ النَّاسَ بَعْضَهُمْ بِبَعْضٍ لَفَسَدَتِ الْأَرْضُ وَلَكِنَّ اللَّهَ ذُو فَضْلٍ عَلَى الْعَالَمِينَ" ;
                                                  :en_qs_ontonameRepeat "3" .
 
@@ -1066,85 +1066,85 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                                         owl:sameAs :en_qs_ontoReptile .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoAnimal
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoAnimal
 :en_qs_ontoAnimal rdf:type owl:NamedIndividual ;
                   owl:sameAs <https://www.wikidata.org/wiki/Q729> .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoBird
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoBird
 :en_qs_ontoBird rdf:type owl:NamedIndividual .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoBook
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoBook
 :en_qs_ontoBook rdf:type owl:NamedIndividual ;
                 owl:sameAs <https://www.wikidata.org/wiki/Q571> .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoChapter
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoChapter
 :en_qs_ontoChapter rdf:type owl:NamedIndividual ;
                    owl:sameAs <https://www.wikidata.org/wiki/Q1980247> .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoInsect
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoInsect
 :en_qs_ontoInsect rdf:type owl:NamedIndividual .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoMammal
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoMammal
 :en_qs_ontoMammal rdf:type owl:NamedIndividual .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoMessenger
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoMessenger
 :en_qs_ontoMessenger rdf:type owl:NamedIndividual .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoPlace
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoPlace
 :en_qs_ontoPlace rdf:type owl:NamedIndividual .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoProphet
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoProphet
 :en_qs_ontoProphet rdf:type owl:NamedIndividual .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoReptile
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoReptile
 :en_qs_ontoReptile rdf:type owl:NamedIndividual .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoSurah
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoSurah
 :en_qs_ontoSurah rdf:type owl:NamedIndividual ;
                  owl:sameAs <https://www.wikidata.org/wiki/Q234262> .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoVerse
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoVerse
 :en_qs_ontoVerse rdf:type owl:NamedIndividual ;
                  owl:sameAs <https://www.wikidata.org/wiki/Q188219> .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoanim1
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoanim1
 :en_qs_ontoanim1 rdf:type owl:NamedIndividual ,
                           :en_qs_ontoBird ;
                  :en_qs_ontoappearedWith :en_qs_ontoper1 ;
                  :en_qs_ontomentionedIn :en_qs_ontosurah20 ;
                  <http://xmlns.com/foaf/0.1/name> "غراب ابني ادم" ;
                  :en_qs_ontohasName "Crow" ;
-                 <https://w3id.org/def/en_qs_onto/en_qs_ontoinVerse_Nu.> "Al-Mā’idah31" ;
+                 <https://w3id.org/def/en_qs_onto#en_qs_ontoinVerse_Nu.> "Al-Mā’idah31" ;
                  :en_qs_ontoinVerse_Text "فَبَعَثَ اللَّهُ غُرَابًا يَبْحَثُ فِي الْأَرْضِ لِيُرِيَهُ كَيْفَ يُوَارِي سَوْءَةَ أَخِيهِ قَالَ يَا وَيْلَتَا أَعَجَزْتُ أَنْ أَكُونَ مِثْلَ هَٰذَا الْغُرَابِ فَأُوَارِيَ سَوْءَةَ أَخِي فَأَصْبَحَ مِنَ النَّادِمِينَ" ;
                  :en_qs_ontoreasonFor_Mention "To show the son of Adam how to hide the body of his brother who killed him" ;
                  rdfs:isDefinedBy <https://w3id.org/def/en_qs_onto> .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoanim2
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoanim2
 :en_qs_ontoanim2 rdf:type owl:NamedIndividual ,
                           :en_qs_ontoMammal ;
                  :en_qs_ontoappearedWith :en_qs_ontoper15 ;
                  :en_qs_ontomentionedIn :en_qs_ontosurah14 ;
                  <http://xmlns.com/foaf/0.1/name> "الناقة" ;
                  :en_qs_ontohasName "Camel" ;
-                 <https://w3id.org/def/en_qs_onto/en_qs_ontoinVerse_Nu.> "Al_qamar 27" ;
+                 <https://w3id.org/def/en_qs_onto#en_qs_ontoinVerse_Nu.> "Al_qamar 27" ;
                  :en_qs_ontoinVerse_Text "إِنَّا مُرْسِلُو النَّاقَةِ فِتْنَةً لَهُمْ فَارْتَقِبْهُمْ وَاصْطَبِرْ" ;
                  :en_qs_ontoreasonFor_Mention "trial for Salih's nation " .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoanim3
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoanim3
 :en_qs_ontoanim3 rdf:type owl:NamedIndividual ,
                           :en_qs_ontoMammal ;
                  :en_qs_ontoappearedWith :en_qs_ontoper14 ;
@@ -1152,83 +1152,83 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                  :en_qs_ontoswallow :en_qs_ontoper14 ;
                  <http://xmlns.com/foaf/0.1/name> "الحوت" ;
                  :en_qs_ontohasName "Whale" ;
-                 <https://w3id.org/def/en_qs_onto/en_qs_ontoinVerse_Nu.> "Alsaafaat142" ;
+                 <https://w3id.org/def/en_qs_onto#en_qs_ontoinVerse_Nu.> "Alsaafaat142" ;
                  :en_qs_ontoinVerse_Text "فَالْتَقَمَهُ الْحُوتُ وَهُوَ مُلِيمٌ" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoanim4
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoanim4
 :en_qs_ontoanim4 rdf:type owl:NamedIndividual ,
                           :en_qs_ontoBird ;
                  :en_qs_ontoappearedWith :en_qs_ontoper19 ;
                  :en_qs_ontomentionedIn :en_qs_ontosurah16 ;
                  :en_qs_ontohasName "Hoopoe" ;
-                 <https://w3id.org/def/en_qs_onto/en_qs_ontoinVerse_Nu.> "Alnaml20" ;
+                 <https://w3id.org/def/en_qs_onto#en_qs_ontoinVerse_Nu.> "Alnaml20" ;
                  :en_qs_ontoinVerse_Text "وَتَفَقَّدَ الطَّيْرَ فَقَالَ مَا لِيَ لَا أَرَى الْهُدْهُدَ أَمْ كَانَ مِنَ الْغَائِبِينَ" ;
                  :en_qs_ontoreasonFor_Mention "the hoopoe have come to Sulaiman from Sheba with certain news" ;
                  rdfs:comment <https://w3id.org/def/en_qs_onto> ,
                               "هدهد سليمان" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoanim5
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoanim5
 :en_qs_ontoanim5 rdf:type owl:NamedIndividual ,
                           :en_qs_ontoInsect ;
                  :en_qs_ontoappearedWith :en_qs_ontoper19 ;
                  :en_qs_ontomentionedIn :en_qs_ontosurah16 ;
                  <http://xmlns.com/foaf/0.1/name> "النملة" ;
                  :en_qs_ontohasName "ant" ;
-                 <https://w3id.org/def/en_qs_onto/en_qs_ontoinVerse_Nu.> "Al-Naml18" ;
+                 <https://w3id.org/def/en_qs_onto#en_qs_ontoinVerse_Nu.> "Al-Naml18" ;
                  :en_qs_ontoinVerse_Text "حَتَّىٰ إِذَا أَتَوْا عَلَىٰ وَادِ النَّمْلِ قَالَتْ نَمْلَةٌ يَا أَيُّهَا النَّمْلُ ادْخُلُوا مَسَاكِنَكُمْ لَا يَحْطِمَنَّكُمْ سُلَيْمَانُ وَجُنُودُهُ وَهُمْ لَا يَشْعُرُونَ" ;
                  rdfs:isDefinedBy <https://w3id.org/def/en_qs_onto> .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoanim6
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoanim6
 :en_qs_ontoanim6 rdf:type owl:NamedIndividual ,
                           :en_qs_ontoReptile ;
                  :en_qs_ontoappearedWith :en_qs_ontoper16 ;
                  :en_qs_ontomentionedIn :en_qs_ontosurah5 ;
                  <http://xmlns.com/foaf/0.1/name> "الثعبان" ;
                  :en_qs_ontohasName "snack" ;
-                 <https://w3id.org/def/en_qs_onto/en_qs_ontoinVerse_Nu.> "Al-A‘rāf107" ;
+                 <https://w3id.org/def/en_qs_onto#en_qs_ontoinVerse_Nu.> "Al-A‘rāf107" ;
                  :en_qs_ontoinVerse_Text "فَأَلْقَىٰ عَصَاهُ فَإِذَا هِيَ ثُعْبَانٌ مُّبِينٌ" ;
                  :en_qs_ontooverturnedFrom "Stick" ;
                  :en_qs_ontoreasonFor_Mention "God made it sign to Pharaoh and his people" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontobook1
+###  https://w3id.org/def/en_qs_onto#en_qs_ontobook1
 :en_qs_ontobook1 rdf:type owl:NamedIndividual ,
                           :en_qs_ontoBook ;
                  :en_qs_ontogaveTo :en_qs_ontoper18 ;
                  :en_qs_ontomentionedIn :en_qs_ontosurah26 ;
                  <http://xmlns.com/foaf/0.1/name> "الزبور" ;
                  :en_qs_ontohasName "Zabur" ;
-                 <https://w3id.org/def/en_qs_onto/en_qs_ontoinVerse_Nu.> "Al-Isrā55" ;
+                 <https://w3id.org/def/en_qs_onto#en_qs_ontoinVerse_Nu.> "Al-Isrā55" ;
                  :en_qs_ontoinVerse_Text "وَرَبُّكَ أَعۡلَمُ بِمَن فِي ٱلسَّمَٰوَٰتِ وَٱلۡأَرۡضِۗ وَلَقَدۡ فَضَّلۡنَا بَعۡضَ ٱلنَّبِيِّـۧنَ عَلَىٰ بَعۡضٖۖ وَءَاتَيۡنَا دَاوُۥدَ زَبُورٗا" ;
                  rdfs:comment "هو الكتاب الذي اعطاه الله سبحانه وتعالى الى النبي داوود (عليه السلام) والذي يتضمن تعاليم الدين الاسلامي انذاك." .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontobook2
+###  https://w3id.org/def/en_qs_onto#en_qs_ontobook2
 :en_qs_ontobook2 rdf:type owl:NamedIndividual ,
                           :en_qs_ontoBook ;
                  :en_qs_ontogaveTo :en_qs_ontoper16 ;
                  :en_qs_ontomentionedIn :en_qs_ontosurah20 ;
                  <http://xmlns.com/foaf/0.1/name> "التوراة" ;
                  :en_qs_ontohasName "Torah" ;
-                 <https://w3id.org/def/en_qs_onto/en_qs_ontoinVerse_Nu.> "Al-Mā’idah46" ;
+                 <https://w3id.org/def/en_qs_onto#en_qs_ontoinVerse_Nu.> "Al-Mā’idah46" ;
                  :en_qs_ontoinVerse_Text "وَقَفَّيۡنَا عَلَىٰٓ ءَاثَٰرِهِم بِعِيسَى ٱبۡنِ مَرۡيَمَ مُصَدِّقٗا لِّمَا بَيۡنَ يَدَيۡهِ مِنَ ٱلتَّوۡرَىٰةِۖ وَءَاتَيۡنَٰهُ ٱلۡإِنجِيلَ فِيهِ هُدٗى وَنُورٞ وَمُصَدِّقٗا لِّمَا بَيۡنَ يَدَيۡهِ مِنَ ٱلتَّوۡرَىٰةِ وَهُدٗى وَمَوۡعِظَةٗ لِّلۡمُتَّقِينَ" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontobook3
+###  https://w3id.org/def/en_qs_onto#en_qs_ontobook3
 :en_qs_ontobook3 rdf:type owl:NamedIndividual ,
                           :en_qs_ontoBook ;
                  :en_qs_ontogaveTo :en_qs_ontoper24 ;
                  :en_qs_ontomentionedIn :en_qs_ontosurah20 ;
                  <http://xmlns.com/foaf/0.1/name> "الانجيل" ;
                  :en_qs_ontohasName "Gospel" ;
-                 <https://w3id.org/def/en_qs_onto/en_qs_ontoinVerse_Nu.> "Al-Mā’idah46" ;
+                 <https://w3id.org/def/en_qs_onto#en_qs_ontoinVerse_Nu.> "Al-Mā’idah46" ;
                  :en_qs_ontoinVerse_Text "وَقَفَّيۡنَا عَلَىٰٓ ءَاثَٰرِهِم بِعِيسَى ٱبۡنِ مَرۡيَمَ مُصَدِّقٗا لِّمَا بَيۡنَ يَدَيۡهِ مِنَ ٱلتَّوۡرَىٰةِۖ وَءَاتَيۡنَٰهُ ٱلۡإِنجِيلَ فِيهِ هُدٗى وَنُورٞ وَمُصَدِّقٗا لِّمَا بَيۡنَ يَدَيۡهِ مِنَ ٱلتَّوۡرَىٰةِ وَهُدٗى وَمَوۡعِظَةٗ لِّلۡمُتَّقِينَ" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontobook4
+###  https://w3id.org/def/en_qs_onto#en_qs_ontobook4
 :en_qs_ontobook4 rdf:type owl:NamedIndividual ,
                           :en_qs_ontoBook ;
                  :en_qs_ontoconsisitOf :en_qs_ontosurah1 ,
@@ -1263,12 +1263,12 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                  :en_qs_ontomentionedIn :en_qs_ontosurah1 ;
                  <http://xmlns.com/foaf/0.1/name> "القران الكريم" ;
                  :en_qs_ontohasName "Quran" ;
-                 <https://w3id.org/def/en_qs_onto/en_qs_ontoinVerse_Nu.> "Al-Baqarah185" ;
+                 <https://w3id.org/def/en_qs_onto#en_qs_ontoinVerse_Nu.> "Al-Baqarah185" ;
                  :en_qs_ontoinVerse_Text "شَهۡرُ رَمَضَانَ ٱلَّذِيٓ أُنزِلَ فِيهِ ٱلۡقُرۡءَانُ هُدٗى لِّلنَّاسِ وَبَيِّنَٰتٖ مِّنَ ٱلۡهُدَىٰ وَٱلۡفُرۡقَانِۚ فَمَن شَهِدَ مِنكُمُ ٱلشَّهۡرَ فَلۡيَصُمۡهُۖ وَمَن كَانَ مَرِيضًا أَوۡ عَلَىٰ سَفَرٖ فَعِدَّةٞ مِّنۡ أَيَّامٍ أُخَرَۗ يُرِيدُ ٱللَّهُ بِكُمُ ٱلۡيُسۡرَ وَلَا يُرِيدُ بِكُمُ ٱلۡعُسۡرَ وَلِتُكۡمِلُواْ ٱلۡعِدَّةَ وَلِتُكَبِّرُواْ ٱللَّهَ عَلَىٰ مَا هَدَىٰكُمۡ وَلَعَلَّكُمۡ تَشۡكُرُونَ" ;
                  <http://purl.org/dc/elements/1.1/description> "الكتاب المقدّس عند المسلمين" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoch1
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoch1
 :en_qs_ontoch1 rdf:type owl:NamedIndividual ,
                         :en_qs_ontoChapter ;
                :en_qs_ontoconsisitOf :en_qs_ontosurah1 ;
@@ -1276,7 +1276,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                :en_qs_ontohasName "Juz1" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoch10
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoch10
 :en_qs_ontoch10 rdf:type owl:NamedIndividual ,
                          :en_qs_ontoChapter ;
                 :en_qs_ontoconsisitOf :en_qs_ontosurah27 ;
@@ -1284,7 +1284,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                 :en_qs_ontohasName "Juz10" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoch11
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoch11
 :en_qs_ontoch11 rdf:type owl:NamedIndividual ,
                          :en_qs_ontoChapter ;
                 :en_qs_ontoconsisitOf :en_qs_ontosurah4 ;
@@ -1292,7 +1292,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                 :en_qs_ontohasName "Juz11" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoch12
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoch12
 :en_qs_ontoch12 rdf:type owl:NamedIndividual ,
                          :en_qs_ontoChapter ;
                 :en_qs_ontoconsisitOf :en_qs_ontosurah22 ;
@@ -1300,14 +1300,14 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                 :en_qs_ontohasName "Juz12" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoch13
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoch13
 :en_qs_ontoch13 rdf:type owl:NamedIndividual ,
                          :en_qs_ontoChapter ;
                 <http://xmlns.com/foaf/0.1/name> "الجزء الثالث عشر" ;
                 :en_qs_ontohasName "Juz13" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoch14
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoch14
 :en_qs_ontoch14 rdf:type owl:NamedIndividual ,
                          :en_qs_ontoChapter ;
                 :en_qs_ontoconsisitOf :en_qs_ontosurah25 ;
@@ -1315,7 +1315,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                 :en_qs_ontohasName "Juz14" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoch15
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoch15
 :en_qs_ontoch15 rdf:type owl:NamedIndividual ,
                          :en_qs_ontoChapter ;
                 :en_qs_ontoconsisitOf :en_qs_ontosurah12 ,
@@ -1324,7 +1324,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                 :en_qs_ontohasName "Juz15" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoch16
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoch16
 :en_qs_ontoch16 rdf:type owl:NamedIndividual ,
                          :en_qs_ontoChapter ;
                 :en_qs_ontoconsisitOf :en_qs_ontosurah2 ;
@@ -1332,7 +1332,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                 :en_qs_ontohasName "Juz16" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoch17
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoch17
 :en_qs_ontoch17 rdf:type owl:NamedIndividual ,
                          :en_qs_ontoChapter ;
                 :en_qs_ontoconsisitOf :en_qs_ontosurah7 ;
@@ -1340,7 +1340,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                 :en_qs_ontohasName "Juz17" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoch18
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoch18
 :en_qs_ontoch18 rdf:type owl:NamedIndividual ,
                          :en_qs_ontoChapter ;
                 :en_qs_ontoconsisitOf :en_qs_ontosurah19 ,
@@ -1349,7 +1349,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                 :en_qs_ontohasName "Juz18" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoch19
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoch19
 :en_qs_ontoch19 rdf:type owl:NamedIndividual ,
                          :en_qs_ontoChapter ;
                 :en_qs_ontoconsisitOf :en_qs_ontosurah16 ,
@@ -1358,7 +1358,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                 :en_qs_ontohasName "Juz19" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoch2
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoch2
 :en_qs_ontoch2 rdf:type owl:NamedIndividual ,
                         :en_qs_ontoChapter ;
                :en_qs_ontoconsisitOf :en_qs_ontosurah1 ;
@@ -1366,46 +1366,46 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                rdfs:comment "الجزء الثاني" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoch20
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoch20
 :en_qs_ontoch20 rdf:type owl:NamedIndividual ,
                          :en_qs_ontoChapter ;
                 :en_qs_ontoconsisitOf :en_qs_ontosurah23 ;
                 :en_qs_ontohasName "Juz20" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoch21
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoch21
 :en_qs_ontoch21 rdf:type owl:NamedIndividual ,
                          :en_qs_ontoChapter ;
                 :en_qs_ontoconsisitOf :en_qs_ontosurah11 ;
                 :en_qs_ontohasName "Juz21" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoch22
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoch22
 :en_qs_ontoch22 rdf:type owl:NamedIndividual ,
                          :en_qs_ontoChapter ;
                 :en_qs_ontohasName "Juz22" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoch23
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoch23
 :en_qs_ontoch23 rdf:type owl:NamedIndividual ,
                          :en_qs_ontoChapter ;
                 :en_qs_ontoconsisitOf :en_qs_ontosurah15 ;
                 :en_qs_ontohasName "Juz23" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoch24
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoch24
 :en_qs_ontoch24 rdf:type owl:NamedIndividual ,
                          :en_qs_ontoChapter ;
                 :en_qs_ontohasName "Juz24" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoch25
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoch25
 :en_qs_ontoch25 rdf:type owl:NamedIndividual ,
                          :en_qs_ontoChapter ;
                 :en_qs_ontohasName "Juz25" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoch26
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoch26
 :en_qs_ontoch26 rdf:type owl:NamedIndividual ,
                          :en_qs_ontoChapter ;
                 :en_qs_ontoconsisitOf :en_qs_ontosurah28 ,
@@ -1413,35 +1413,35 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                 :en_qs_ontohasName "Juz26" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoch27
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoch27
 :en_qs_ontoch27 rdf:type owl:NamedIndividual ,
                          :en_qs_ontoChapter ;
                 :en_qs_ontoconsisitOf :en_qs_ontosurah14 ;
                 :en_qs_ontohasName "Juz27" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoch28
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoch28
 :en_qs_ontoch28 rdf:type owl:NamedIndividual ,
                          :en_qs_ontoChapter ;
                 :en_qs_ontoconsisitOf :en_qs_ontosurah13 ;
                 :en_qs_ontohasName "Juz28" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoch29
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoch29
 :en_qs_ontoch29 rdf:type owl:NamedIndividual ,
                          :en_qs_ontoChapter ;
                 :en_qs_ontoconsisitOf :en_qs_ontosurah18 ;
                 :en_qs_ontohasName "Juz29" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoch3
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoch3
 :en_qs_ontoch3 rdf:type owl:NamedIndividual ,
                         :en_qs_ontoChapter ;
                :en_qs_ontoconsisitOf :en_qs_ontosurah10 ;
                :en_qs_ontohasName "Juz3" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoch30
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoch30
 :en_qs_ontoch30 rdf:type owl:NamedIndividual ,
                          :en_qs_ontoChapter ;
                 :en_qs_ontoconsisitOf :en_qs_ontosurah21 ,
@@ -1449,47 +1449,47 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                 :en_qs_ontohasName "Juz30" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoch4
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoch4
 :en_qs_ontoch4 rdf:type owl:NamedIndividual ,
                         :en_qs_ontoChapter ;
                :en_qs_ontoconsisitOf :en_qs_ontosurah8 ;
                :en_qs_ontohasName "Juz4" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoch5
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoch5
 :en_qs_ontoch5 rdf:type owl:NamedIndividual ,
                         :en_qs_ontoChapter ;
                :en_qs_ontohasName "Juz5" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoch6
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoch6
 :en_qs_ontoch6 rdf:type owl:NamedIndividual ,
                         :en_qs_ontoChapter ;
                :en_qs_ontoconsisitOf :en_qs_ontosurah20 ;
                :en_qs_ontohasName "Juz6" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoch7
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoch7
 :en_qs_ontoch7 rdf:type owl:NamedIndividual ,
                         :en_qs_ontoChapter ;
                :en_qs_ontoconsisitOf :en_qs_ontosurah6 ;
                :en_qs_ontohasName "Juz7" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoch8
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoch8
 :en_qs_ontoch8 rdf:type owl:NamedIndividual ,
                         :en_qs_ontoChapter ;
                :en_qs_ontoconsisitOf :en_qs_ontosurah5 ;
                :en_qs_ontohasName "Juz8" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoch9
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoch9
 :en_qs_ontoch9 rdf:type owl:NamedIndividual ,
                         :en_qs_ontoChapter ;
                :en_qs_ontohasName "Juz9" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoev1
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoev1
 :en_qs_ontoev1 rdf:type owl:NamedIndividual ,
                         :en_qs_ontoHonoring ;
                :en_qs_ontohonoringTo :en_qs_ontoper1 ;
@@ -1497,12 +1497,12 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                <http://xmlns.com/foaf/0.1/name> "سجود الملائكة" ;
                :en_qs_ontohappenedBy "God" ;
                :en_qs_ontohasName "Prostration of angels" ;
-               <https://w3id.org/def/en_qs_onto/en_qs_ontoinVerse_Nu.> "Al-Baqarah34" ;
+               <https://w3id.org/def/en_qs_onto#en_qs_ontoinVerse_Nu.> "Al-Baqarah34" ;
                :en_qs_ontoinVerse_Text "وَإِذْ قُلْنَا لِلْمَلَائِكَةِ اسْجُدُوا لِآدَمَ فَسَجَدُوا إِلَّا إِبْلِيسَ أَبَى وَاسْتَكْبَرَ وَكَانَ مِنَ الْكَافِرِينَ " ;
                :en_qs_ontolesson "Honorable and honor him" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoev10
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoev10
 :en_qs_ontoev10 rdf:type owl:NamedIndividual ,
                          :en_qs_ontoMiracles ;
                 :en_qs_ontoendowedTo :en_qs_ontoper6 ;
@@ -1510,12 +1510,12 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                 <http://xmlns.com/foaf/0.1/name> "انطفاء النار" ;
                 :en_qs_ontohappenedBy "God" ;
                 :en_qs_ontohasName "fire goes out" ;
-                <https://w3id.org/def/en_qs_onto/en_qs_ontoinVerse_Nu.> "Al-Anbiyā69" ;
+                <https://w3id.org/def/en_qs_onto#en_qs_ontoinVerse_Nu.> "Al-Anbiyā69" ;
                 :en_qs_ontoinVerse_Text "قُلْنَا يَا نَارُ كُونِي بَرْدًا وَسَلَامًا عَلَىٰ إِبْرَاهِيمَ" ;
                 :en_qs_ontolesson "God made it for mankind a sign" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoev11
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoev11
 :en_qs_ontoev11 rdf:type owl:NamedIndividual ,
                          :en_qs_ontoMiracles ;
                 :en_qs_ontoendowedTo :en_qs_ontoper3 ;
@@ -1523,12 +1523,12 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                 <http://xmlns.com/foaf/0.1/name> "السفينة" ;
                 :en_qs_ontohappenedBy "God" ;
                 :en_qs_ontohasName "ship" ;
-                <https://w3id.org/def/en_qs_onto/en_qs_ontoinVerse_Nu.> "Al-‘Ankabūt15" ;
+                <https://w3id.org/def/en_qs_onto#en_qs_ontoinVerse_Nu.> "Al-‘Ankabūt15" ;
                 :en_qs_ontoinVerse_Text "فَأَنجَيۡنَٰهُ وَأَصۡحَٰبَ ٱلسَّفِينَةِ وَجَعَلۡنَٰهَآ ءَايَةٗ لِّلۡعَٰلَمِينَ" ;
                 :en_qs_ontolesson "God made it for mankind a sign" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoev12
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoev12
 :en_qs_ontoev12 rdf:type owl:NamedIndividual ,
                          :en_qs_ontoMiracles ;
                 :en_qs_ontoendowedTo :en_qs_ontoper5 ;
@@ -1536,12 +1536,12 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                 <http://xmlns.com/foaf/0.1/name> "ناقة صالح" ;
                 :en_qs_ontohappenedBy "God" ;
                 :en_qs_ontohasName "camel of Allāh" ;
-                <https://w3id.org/def/en_qs_onto/en_qs_ontoinVerse_Nu.> "Al-A‘rāf73" ;
+                <https://w3id.org/def/en_qs_onto#en_qs_ontoinVerse_Nu.> "Al-A‘rāf73" ;
                 :en_qs_ontoinVerse_Text "وَإِلَى ثَمُودَ أَخَاهُمْ صَالِحًا قَالَ يَا قَوْمِ اعْبُدُوا اللَّهَ مَا لَكُمْ مِنْ إِلَهٍ غَيْرُهُ قَدْ جَاءَتْكُمْ بَيِّنَةٌ مِنْ رَبِّكُمْ هَذِهِ نَاقَةُ اللَّهِ لَكُمْ آيَةً فَذَرُوهَا تَأْكُلْ فِي أَرْضِ اللَّهِ وَلَا تَمَسُّوهَا بِسُوءٍ فَيَأْخُذَكُمْ عَذَابٌ أَلِيمٌ" ;
                 :en_qs_ontolesson "God made it for mankind a sign" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoev13
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoev13
 :en_qs_ontoev13 rdf:type owl:NamedIndividual ,
                          :en_qs_ontoMiracles ;
                 :en_qs_ontoendowedTo :en_qs_ontoper16 ;
@@ -1549,12 +1549,12 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                 <http://xmlns.com/foaf/0.1/name> "اليد البيضاء" ;
                 :en_qs_ontohappenedBy "God" ;
                 :en_qs_ontohasName "White hand" ;
-                <https://w3id.org/def/en_qs_onto/en_qs_ontoinVerse_Nu.> "Al-Naml12" ;
+                <https://w3id.org/def/en_qs_onto#en_qs_ontoinVerse_Nu.> "Al-Naml12" ;
                 :en_qs_ontoinVerse_Text "وَأَدۡخِلۡ يَدَكَ فِي جَيۡبِكَ تَخۡرُجۡ بَيۡضَآءَ مِنۡ غَيۡرِ سُوٓءٖۖ فِي تِسۡعِ ءَايَٰتٍ إِلَىٰ فِرۡعَوۡنَ وَقَوۡمِهِۦٓۚ إِنَّهُمۡ كَانُواْ قَوۡمٗا فَٰسِقِينَ" ;
                 :en_qs_ontolesson "God made it sign to Pharaoh and his people" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoev14
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoev14
 :en_qs_ontoev14 rdf:type owl:NamedIndividual ,
                          :en_qs_ontoMiracles ;
                 :en_qs_ontoendowedTo :en_qs_ontoper16 ;
@@ -1562,12 +1562,12 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                 <http://xmlns.com/foaf/0.1/name> "العصا المنقلبة الى ثعبان" ;
                 :en_qs_ontohappenedBy "God" ;
                 :en_qs_ontohasName "the staff become serpent " ;
-                <https://w3id.org/def/en_qs_onto/en_qs_ontoinVerse_Nu.> "Al-A‘rāf107" ;
+                <https://w3id.org/def/en_qs_onto#en_qs_ontoinVerse_Nu.> "Al-A‘rāf107" ;
                 :en_qs_ontoinVerse_Text "فَأَلۡقَىٰ عَصَاهُ فَإِذَا هِيَ ثُعۡبَانٞ مُّبِينٞ" ;
                 :en_qs_ontolesson "God made it sign to Pharaoh and his people" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoev15
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoev15
 :en_qs_ontoev15 rdf:type owl:NamedIndividual ,
                          :en_qs_ontoMiracles ;
                 :en_qs_ontoendowedTo :en_qs_ontoper16 ;
@@ -1575,12 +1575,12 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                 <http://xmlns.com/foaf/0.1/name> "انشقاق البحر" ;
                 :en_qs_ontohappenedBy "God" ;
                 :en_qs_ontohasName "Sea slit" ;
-                <https://w3id.org/def/en_qs_onto/en_qs_ontoinVerse_Nu.> "Al-Shu‘arā63" ;
+                <https://w3id.org/def/en_qs_onto#en_qs_ontoinVerse_Nu.> "Al-Shu‘arā63" ;
                 :en_qs_ontoinVerse_Text "فَأَوْحَيْنَا إِلَى مُوسَى أَنِ اضْرِبْ بِعَصَاكَ الْبَحْرَ ۖ فَانْفَلَقَ فَكَانَ كُلُّ فِرْقٍ كَالطَّوْدِ الْعَظِيمِ" ;
                 :en_qs_ontolesson "God made it sign to Pharaoh and his people" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoev16
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoev16
 :en_qs_ontoev16 rdf:type owl:NamedIndividual ,
                          :en_qs_ontoGod_Punishment ;
                 <http://xmlns.com/foaf/0.1/name> "الهلاك" ;
@@ -1588,7 +1588,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                 :en_qs_ontohasName "Their perdition" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoev17
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoev17
 :en_qs_ontoev17 rdf:type owl:NamedIndividual ,
                          :en_qs_ontoMiracles ;
                 :en_qs_ontoendowedTo :en_qs_ontoper24 ;
@@ -1596,11 +1596,11 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                 <http://xmlns.com/foaf/0.1/name> "ابراء الأكمئ والابرص" ;
                 :en_qs_ontohappenedBy "God" ;
                 :en_qs_ontohasName "cure the blind and the leper" ;
-                <https://w3id.org/def/en_qs_onto/en_qs_ontoinVerse_Nu.> "Aal Imran49" ;
+                <https://w3id.org/def/en_qs_onto#en_qs_ontoinVerse_Nu.> "Aal Imran49" ;
                 :en_qs_ontoinVerse_Text "وَرَسُولًا إِلَىٰ بَنِيٓ إِسۡرَـٰٓءِيلَ أَنِّي قَدۡ جِئۡتُكُم بِـَٔايَةٖ مِّن رَّبِّكُمۡ أَنِّيٓ أَخۡلُقُ لَكُم مِّنَ ٱلطِّينِ كَهَيۡـَٔةِ ٱلطَّيۡرِ فَأَنفُخُ فِيهِ فَيَكُونُ طَيۡرَۢا بِإِذۡنِ ٱللَّهِۖ وَأُبۡرِئُ ٱلۡأَكۡمَهَ وَٱلۡأَبۡرَصَ وَأُحۡيِ ٱلۡمَوۡتَىٰ بِإِذۡنِ ٱللَّهِۖ وَأُنَبِّئُكُم بِمَا تَأۡكُلُونَ وَمَا تَدَّخِرُونَ فِي بُيُوتِكُمۡۚ إِنَّ فِي ذَٰلِكَ لَأٓيَةٗ لَّكُمۡ إِن كُنتُم مُّؤۡمِنِينَ" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoev2
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoev2
 :en_qs_ontoev2 rdf:type owl:NamedIndividual ,
                         :en_qs_ontoGod_Comanded ;
                :en_qs_ontoaccomplishedBy :en_qs_ontoper3 ;
@@ -1608,11 +1608,11 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                <http://xmlns.com/foaf/0.1/name> "بناء السفينة" ;
                :en_qs_ontohappenedBy "God" ;
                :en_qs_ontohasName "Building a ship and carrying out the command to board it" ;
-               <https://w3id.org/def/en_qs_onto/en_qs_ontoinVerse_Nu.> "Almuminun27" ;
+               <https://w3id.org/def/en_qs_onto#en_qs_ontoinVerse_Nu.> "Almuminun27" ;
                :en_qs_ontoinVerse_Text "فَأَوْحَيْنَا إِلَيْهِ أَنِ اصْنَعِ الْفُلْكَ بِأَعْيُنِنَا وَوَحْيِنَا فَإِذَا جَاءَ أَمْرُنَا وَفَارَ التَّنُّورُ فَاسْلُكْ فِيهَا مِنْ كُلٍّ زَوْجَيْنِ اثْنَيْنِ وَأَهْلَكَ إِلَّا مَنْ سَبَقَ عَلَيْهِ الْقَوْلُ مِنْهُمْ وَلَا تُخَاطِبْنِي فِي الَّذِينَ ظَلَمُوا ۖ إِنَّهُمْ مُغْرَقُونَ" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoev3
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoev3
 :en_qs_ontoev3 rdf:type owl:NamedIndividual ,
                         :en_qs_ontoMiracles ;
                :en_qs_ontoendowedTo :en_qs_ontoper3 ;
@@ -1620,12 +1620,12 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                <http://xmlns.com/foaf/0.1/name> "فوران التنور" ;
                :en_qs_ontohappenedBy "God" ;
                :en_qs_ontohasName "oven overflowed" ;
-               <https://w3id.org/def/en_qs_onto/en_qs_ontoinVerse_Nu.> "Hūd40" ;
+               <https://w3id.org/def/en_qs_onto#en_qs_ontoinVerse_Nu.> "Hūd40" ;
                :en_qs_ontoinVerse_Text "حَتَّىٰ إِذَا جَاءَ أَمْرُنَا وَفَارَ التَّنُّورُ قُلْنَا احْمِلْ فِيهَا مِن كُلٍّ زَوْجَيْنِ اثْنَيْنِ وَأَهْلَكَ إِلَّا مَن سَبَقَ عَلَيْهِ الْقَوْلُ وَمَنْ آمَنَ وَمَا آمَنَ مَعَهُ إِلَّا قَلِيلٌ" ;
                :en_qs_ontolesson "God made it for mankind a sign" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoev4
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoev4
 :en_qs_ontoev4 rdf:type owl:NamedIndividual ,
                         :en_qs_ontoGod_Punishment ;
                :en_qs_ontodoneBy :en_qs_ontoevT1 ;
@@ -1635,12 +1635,12 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                <http://xmlns.com/foaf/0.1/name> "الطوفان" ;
                :en_qs_ontohappenedBy "God" ;
                :en_qs_ontohasName "flood" ;
-               <https://w3id.org/def/en_qs_onto/en_qs_ontoinVerse_Nu.> "Al-Furqān37" ;
+               <https://w3id.org/def/en_qs_onto#en_qs_ontoinVerse_Nu.> "Al-Furqān37" ;
                :en_qs_ontoinVerse_Text "وَقَوْمَ نُوحٍ لَّمَّا كَذَّبُوا الرُّسُلَ أَغْرَقْنَاهُمْ وَجَعَلْنَاهُمْ لِلنَّاسِ آيَةً ۖ وَأَعْتَدْنَا لِلظَّالِمِينَ عَذَابًا أَلِيمًا" ;
                :en_qs_ontolesson "God made them for mankind a sign when they denied the messengers" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoev5
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoev5
 :en_qs_ontoev5 rdf:type owl:NamedIndividual ,
                         :en_qs_ontoGod_Punishment ;
                :en_qs_ontodoneBy :en_qs_ontoevT2 ;
@@ -1650,12 +1650,12 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                <http://xmlns.com/foaf/0.1/name> "الصيحة" ;
                :en_qs_ontohappenedBy "God" ;
                :en_qs_ontohasName "shriek" ;
-               <https://w3id.org/def/en_qs_onto/en_qs_ontoinVerse_Nu.> "Al-Hijr73" ;
+               <https://w3id.org/def/en_qs_onto#en_qs_ontoinVerse_Nu.> "Al-Hijr73" ;
                :en_qs_ontoinVerse_Text " فَأَخَذَتْهُمُ الصَّيْحَةُ مُشْرِقِينَ " ;
                :en_qs_ontolesson "God made them for mankind a sign when they denied the messengers" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoev6
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoev6
 :en_qs_ontoev6 rdf:type owl:NamedIndividual ,
                         :en_qs_ontoGod_Punishment ;
                :en_qs_ontodoneBy :en_qs_ontoevT3 ;
@@ -1665,12 +1665,12 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                <http://xmlns.com/foaf/0.1/name> "مطر السوء" ;
                :en_qs_ontohappenedBy "God" ;
                :en_qs_ontohasName "Bad rain" ;
-               <https://w3id.org/def/en_qs_onto/en_qs_ontoinVerse_Nu.> "Hūd82" ;
+               <https://w3id.org/def/en_qs_onto#en_qs_ontoinVerse_Nu.> "Hūd82" ;
                :en_qs_ontoinVerse_Text " فَلَمَّا جَاءَ أَمْرُنَا جَعَلْنَا عَالِيَهَا سَافِلَهَا وَأَمْطَرْنَا عَلَيْهَا حِجَارَةً مِنْ سِجِّيلٍ مَنْضُودٍ " ;
                :en_qs_ontolesson "God made them for mankind a sign when they denied the messengers" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoev7
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoev7
 :en_qs_ontoev7 rdf:type owl:NamedIndividual ,
                         :en_qs_ontoGod_Punishment ;
                :en_qs_ontodoneBy :en_qs_ontoevT4 ;
@@ -1680,12 +1680,12 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                <http://xmlns.com/foaf/0.1/name> "الريح العاتية" ;
                :en_qs_ontohappenedBy "God" ;
                :en_qs_ontohasName "violent wind" ;
-               <https://w3id.org/def/en_qs_onto/en_qs_ontoinVerse_Nu.> "Alhaka6" ;
+               <https://w3id.org/def/en_qs_onto#en_qs_ontoinVerse_Nu.> "Alhaka6" ;
                :en_qs_ontoinVerse_Text "وَأَمَّا عَادٌ فَأُهْلِكُوا بِرِيحٍ صَرْصَرٍ عَاتِيَةٍ " ;
                :en_qs_ontolesson "God made them for mankind a sign when they denied the messengers" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoev8
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoev8
 :en_qs_ontoev8 rdf:type owl:NamedIndividual ,
                         :en_qs_ontoGod_Punishment ;
                :en_qs_ontodoneBy :en_qs_ontoevT4 ;
@@ -1695,12 +1695,12 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                <http://xmlns.com/foaf/0.1/name> "الطاغية" ;
                :en_qs_ontohappenedBy "God" ;
                :en_qs_ontohasName "overpowering" ;
-               <https://w3id.org/def/en_qs_onto/en_qs_ontoinVerse_Nu.> "Alhaka5" ;
+               <https://w3id.org/def/en_qs_onto#en_qs_ontoinVerse_Nu.> "Alhaka5" ;
                :en_qs_ontoinVerse_Text "فَأَمَّا ثَمُودُ فَأُهْلِكُوا بِالطَّاغِيَةِ " ;
                :en_qs_ontolesson "God made them for mankind a sign when they denied the messengers" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoev9
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoev9
 :en_qs_ontoev9 rdf:type owl:NamedIndividual ,
                         :en_qs_ontoGod_Punishment ;
                :en_qs_ontoledTo :en_qs_ontoev16 ;
@@ -1709,12 +1709,12 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                <http://xmlns.com/foaf/0.1/name> "الرجفة" ;
                :en_qs_ontohappenedBy "God" ;
                :en_qs_ontohasName "earthquake" ;
-               <https://w3id.org/def/en_qs_onto/en_qs_ontoinVerse_Nu.> "Al-‘Ankabūt37" ;
+               <https://w3id.org/def/en_qs_onto#en_qs_ontoinVerse_Nu.> "Al-‘Ankabūt37" ;
                :en_qs_ontoinVerse_Text "فَكَذَّبُوهُ فَأَخَذَتۡهُمُ ٱلرَّجۡفَةُ فَأَصۡبَحُواْ فِي دَارِهِمۡ جَٰثِمِينَ" ;
                :en_qs_ontolesson "God made them for mankind a sign when they denied the messengers" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoevT1
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoevT1
 :en_qs_ontoevT1 rdf:type owl:NamedIndividual ,
                          :en_qs_ontoEvent_Tool ;
                 :en_qs_ontogenerate :en_qs_ontoev4 ;
@@ -1722,7 +1722,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                 :en_qs_ontohasName "water" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoevT2
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoevT2
 :en_qs_ontoevT2 rdf:type owl:NamedIndividual ,
                          :en_qs_ontoEvent_Tool ;
                 :en_qs_ontogenerate :en_qs_ontoev5 ;
@@ -1730,7 +1730,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                 :en_qs_ontohasName "sound" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoevT3
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoevT3
 :en_qs_ontoevT3 rdf:type owl:NamedIndividual ,
                          :en_qs_ontoEvent_Tool ;
                 :en_qs_ontogenerate :en_qs_ontoev6 ;
@@ -1738,7 +1738,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                 :en_qs_ontohasName "Stones from shale" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoevT4
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoevT4
 :en_qs_ontoevT4 rdf:type owl:NamedIndividual ,
                          :en_qs_ontoEvent_Tool ;
                 :en_qs_ontogenerate :en_qs_ontoev7 ,
@@ -1747,7 +1747,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                 :en_qs_ontohasName "blunt wind " .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontonat1
+###  https://w3id.org/def/en_qs_onto#en_qs_ontonat1
 :en_qs_ontonat1 rdf:type owl:NamedIndividual ,
                          :en_qs_ontoNation ;
                 :en_qs_ontoadvisedBy :en_qs_ontoper2 ;
@@ -1755,7 +1755,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                 :en_qs_ontohasName "Bani adam" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontonat10
+###  https://w3id.org/def/en_qs_onto#en_qs_ontonat10
 :en_qs_ontonat10 rdf:type owl:NamedIndividual ,
                           :en_qs_ontoNation ;
                  :en_qs_ontoreceived :en_qs_ontoper25 ;
@@ -1763,7 +1763,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                  :en_qs_ontohasName "Qurish" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontonat2
+###  https://w3id.org/def/en_qs_onto#en_qs_ontonat2
 :en_qs_ontonat2 rdf:type owl:NamedIndividual ,
                          :en_qs_ontoNation ;
                 :en_qs_ontoreceived :en_qs_ontoper3 ;
@@ -1772,7 +1772,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                 :en_qs_ontohasName "Naoh's nation" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontonat3
+###  https://w3id.org/def/en_qs_onto#en_qs_ontonat3
 :en_qs_ontonat3 rdf:type owl:NamedIndividual ,
                          :en_qs_ontoNation ;
                 :en_qs_ontoreceived :en_qs_ontoper4 ;
@@ -1781,7 +1781,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                 :en_qs_ontohasName "Aad" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontonat4
+###  https://w3id.org/def/en_qs_onto#en_qs_ontonat4
 :en_qs_ontonat4 rdf:type owl:NamedIndividual ,
                          :en_qs_ontoNation ;
                 :en_qs_ontoreceived :en_qs_ontoper5 ;
@@ -1790,7 +1790,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                 :en_qs_ontohasName "Thamūd" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontonat5
+###  https://w3id.org/def/en_qs_onto#en_qs_ontonat5
 :en_qs_ontonat5 rdf:type owl:NamedIndividual ,
                          :en_qs_ontoNation ;
                 :en_qs_ontoreceived :en_qs_ontoper6 ;
@@ -1798,7 +1798,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                 :en_qs_ontohasName "Ibrahim's nation" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontonat6
+###  https://w3id.org/def/en_qs_onto#en_qs_ontonat6
 :en_qs_ontonat6 rdf:type owl:NamedIndividual ,
                          :en_qs_ontoNation ;
                 :en_qs_ontoreceived :en_qs_ontoper7 ;
@@ -1808,7 +1808,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                 :en_qs_ontohasName "Lut's nation" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontonat7
+###  https://w3id.org/def/en_qs_onto#en_qs_ontonat7
 :en_qs_ontonat7 rdf:type owl:NamedIndividual ,
                          :en_qs_ontoNation ;
                 :en_qs_ontoreceived :en_qs_ontoper14 ;
@@ -1816,7 +1816,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                 :en_qs_ontohasName "Yunus's nation" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontonat8
+###  https://w3id.org/def/en_qs_onto#en_qs_ontonat8
 :en_qs_ontonat8 rdf:type owl:NamedIndividual ,
                          :en_qs_ontoNation ;
                 :en_qs_ontoreceived :en_qs_ontoper15 ;
@@ -1825,7 +1825,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                 :en_qs_ontohasName "the people of the woods" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontonat9
+###  https://w3id.org/def/en_qs_onto#en_qs_ontonat9
 :en_qs_ontonat9 rdf:type owl:NamedIndividual ,
                          :en_qs_ontoNation ;
                 :en_qs_ontoadvisedBy :en_qs_ontoper17 ,
@@ -1840,11 +1840,11 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                 :en_qs_ontohasName "Israelis" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontopartOf
+###  https://w3id.org/def/en_qs_onto#en_qs_ontopartOf
 :en_qs_ontopartOf rdf:type owl:NamedIndividual .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontopc1
+###  https://w3id.org/def/en_qs_onto#en_qs_ontopc1
 :en_qs_ontopc1 rdf:type owl:NamedIndividual ,
                         :en_qs_ontoCity ,
                         :en_qs_ontoLivePlace ;
@@ -1852,11 +1852,11 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                :en_qs_ontomentionedIn :en_qs_ontosurah28 ;
                <http://xmlns.com/foaf/0.1/name> "مكة" ;
                :en_qs_ontohasName "Mecca" ;
-               <https://w3id.org/def/en_qs_onto/en_qs_ontoinVerse_Nu.> "Alfateh24" ;
+               <https://w3id.org/def/en_qs_onto#en_qs_ontoinVerse_Nu.> "Alfateh24" ;
                :en_qs_ontoinVerse_Text "وَهُوَ الَّذِي كَفَّ أَيْدِيَهُمْ عَنْكُمْ وَأَيْدِيَكُمْ عَنْهُمْ بِبَطْنِ مَكَّةَ مِنْ بَعْدِ أَنْ أَظْفَرَكُمْ عَلَيْهِمْ ۚ وَكَانَ اللَّهُ بِمَا تَعْمَلُونَ بَصِيرًا" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontopc10
+###  https://w3id.org/def/en_qs_onto#en_qs_ontopc10
 :en_qs_ontopc10 rdf:type owl:NamedIndividual ,
                          :en_qs_ontoCity ,
                          :en_qs_ontoLivePlace ;
@@ -1874,22 +1874,22 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                                            :en_qs_ontoper7 ;
                 <http://xmlns.com/foaf/0.1/name> "بلاد الشام" ;
                 :en_qs_ontohasName "Levant" ;
-                <https://w3id.org/def/en_qs_onto/en_qs_ontoinVerse_Nu.> "null" ;
+                <https://w3id.org/def/en_qs_onto#en_qs_ontoinVerse_Nu.> "null" ;
                 :en_qs_ontoinVerse_Text "null" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontopc2
+###  https://w3id.org/def/en_qs_onto#en_qs_ontopc2
 :en_qs_ontopc2 rdf:type owl:NamedIndividual ,
                         :en_qs_ontoCity ,
                         :en_qs_ontoLivePlace ;
                :en_qs_ontomentionedIn :en_qs_ontosurah27 ;
                <http://xmlns.com/foaf/0.1/name> "المدينة المنورة" ;
                :en_qs_ontohasName "Medina" ;
-               <https://w3id.org/def/en_qs_onto/en_qs_ontoinVerse_Nu.> "Al-Tawbah101" ;
+               <https://w3id.org/def/en_qs_onto#en_qs_ontoinVerse_Nu.> "Al-Tawbah101" ;
                :en_qs_ontoinVerse_Text "وَمِمَّنْ حَوْلَكُم مِّنَ الْأَعْرَابِ مُنَافِقُونَ ۖ وَمِنْ أَهْلِ الْمَدِينَةِ ۖ مَرَدُوا عَلَى النِّفَاقِ لَا تَعْلَمُهُمْ ۖ نَحْنُ نَعْلَمُهُمْ ۚ سَنُعَذِّبُهُم مَّرَّتَيْنِ ثُمَّ يُرَدُّونَ إِلَىٰ عَذَابٍ عَظِيمٍ" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontopc3
+###  https://w3id.org/def/en_qs_onto#en_qs_ontopc3
 :en_qs_ontopc3 rdf:type owl:NamedIndividual ,
                         :en_qs_ontoCity ,
                         :en_qs_ontoLivePlace ;
@@ -1898,53 +1898,53 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                                           :en_qs_ontoper16 ;
                <http://xmlns.com/foaf/0.1/name> "مصر" ;
                :en_qs_ontohasName "Egypt" ;
-               <https://w3id.org/def/en_qs_onto/en_qs_ontoinVerse_Nu.> "Yūsuf99" ;
+               <https://w3id.org/def/en_qs_onto#en_qs_ontoinVerse_Nu.> "Yūsuf99" ;
                :en_qs_ontoinVerse_Text "فَلَمَّا دَخَلُوا عَلَىٰ يُوسُفَ آوَىٰ إِلَيْهِ أَبَوَيْهِ وَقَالَ ادْخُلُوا مِصْرَ إِن شَاءَ اللَّهُ آمِنِينَ" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontopc4
+###  https://w3id.org/def/en_qs_onto#en_qs_ontopc4
 :en_qs_ontopc4 rdf:type owl:NamedIndividual ,
                         :en_qs_ontoCity ,
                         :en_qs_ontoLivePlace ;
                :en_qs_ontomentionedIn :en_qs_ontosurah20 ;
                <http://xmlns.com/foaf/0.1/name> "الارض المقدسة" ;
                :en_qs_ontohasName "Holy Land" ;
-               <https://w3id.org/def/en_qs_onto/en_qs_ontoinVerse_Nu.> "Al-Mā’idah21" ;
+               <https://w3id.org/def/en_qs_onto#en_qs_ontoinVerse_Nu.> "Al-Mā’idah21" ;
                :en_qs_ontoinVerse_Text "يَا قَوْمِ ادْخُلُوا الْأَرْضَ الْمُقَدَّسَةَ الَّتِي كَتَبَ اللَّهُ لَكُمْ وَلَا تَرْتَدُّوا عَلَىٰ أَدْبَارِكُمْ فَتَنقَلِبُوا خَاسِرِينَ" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontopc5
+###  https://w3id.org/def/en_qs_onto#en_qs_ontopc5
 :en_qs_ontopc5 rdf:type owl:NamedIndividual ,
                         :en_qs_ontoCity ,
                         :en_qs_ontoLivePlace ;
                :en_qs_ontomentionedIn :en_qs_ontosurah1 ;
                <http://xmlns.com/foaf/0.1/name> "بابل" ;
                :en_qs_ontohasName "Babylon" ;
-               <https://w3id.org/def/en_qs_onto/en_qs_ontoinVerse_Nu.> "Al-Baqarah102" ;
+               <https://w3id.org/def/en_qs_onto#en_qs_ontoinVerse_Nu.> "Al-Baqarah102" ;
                :en_qs_ontoinVerse_Text "وَاتَّبَعُواْ مَا تَتْلُواْ الشَّيَاطِينُ عَلَى مُلْكِ سُلَيْمَانَ وَمَا كَفَرَ سُلَيْمَانُ وَلَـكِنَّ الشَّيْاطِينَ كَفَرُواْ يُعَلِّمُونَ النَّاسَ السِّحْرَ وَمَا أُنزِلَ عَلَى الْمَلَكَيْنِ بِبَابِلَ هَارُوتَ وَمَارُوتَ وَمَا يُعَلِّمَانِ مِنْ أَحَدٍ حَتَّى يَقُولاَ إِنَّمَا نَحْنُ فِتْنَةٌ فَلاَ تَكْفُرْ فَيَتَعَلَّمُونَ مِنْهُمَا مَا يُفَرِّقُونَ بِهِ بَيْنَ الْمَرْءِ وَزَوْجِهِ وَمَا هُم بِضَآرِّينَ بِهِ مِنْ أَحَدٍ إِلاَّ بِإِذْنِ اللّهِ وَيَتَعَلَّمُونَ مَا يَضُرُّهُمْ وَلاَ يَنفَعُهُمْ وَلَقَدْ عَلِمُواْ لَمَنِ اشْتَرَاهُ مَا لَهُ فِي الآخِرَةِ مِنْ خَلاَقٍ وَلَبِئْسَ مَا شَرَوْاْ بِهِ أَنفُسَهُمْ لَوْ كَانُواْ يَعْلَمُونَ" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontopc6
+###  https://w3id.org/def/en_qs_onto#en_qs_ontopc6
 :en_qs_ontopc6 rdf:type owl:NamedIndividual ,
                         :en_qs_ontoMissionPlace ;
                :en_qs_ontomentionedIn :en_qs_ontosurah24 ;
                <http://xmlns.com/foaf/0.1/name> "ارم" ;
                :en_qs_ontohasName "ARM" ;
-               <https://w3id.org/def/en_qs_onto/en_qs_ontoinVerse_Nu.> "Alfajr7" ;
+               <https://w3id.org/def/en_qs_onto#en_qs_ontoinVerse_Nu.> "Alfajr7" ;
                :en_qs_ontoinVerse_Text "إِرَمَ ذَاتِ الْعِمَادِ" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontopc7
+###  https://w3id.org/def/en_qs_onto#en_qs_ontopc7
 :en_qs_ontopc7 rdf:type owl:NamedIndividual ,
                         :en_qs_ontoMissionPlace ;
                :en_qs_ontomentionedIn :en_qs_ontosurah25 ;
                <http://xmlns.com/foaf/0.1/name> "الحجر" ;
                :en_qs_ontohasName "Al-Hijr" ;
-               <https://w3id.org/def/en_qs_onto/en_qs_ontoinVerse_Nu.> "Al-Hijr80" ;
+               <https://w3id.org/def/en_qs_onto#en_qs_ontoinVerse_Nu.> "Al-Hijr80" ;
                :en_qs_ontoinVerse_Text "وَلَقَدْ كَذَّبَ أَصْحَابُ الْحِجْرِ الْمُرْسَلِينَ" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontopc8
+###  https://w3id.org/def/en_qs_onto#en_qs_ontopc8
 :en_qs_ontopc8 rdf:type owl:NamedIndividual ,
                         :en_qs_ontoCity ,
                         :en_qs_ontoLivePlace ;
@@ -1956,11 +1956,11 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                                           :en_qs_ontoper8 ;
                <http://xmlns.com/foaf/0.1/name> "الجزيرة العربية" ;
                :en_qs_ontohasName "Arabian island" ;
-               <https://w3id.org/def/en_qs_onto/en_qs_ontoinVerse_Nu.> "null" ;
+               <https://w3id.org/def/en_qs_onto#en_qs_ontoinVerse_Nu.> "null" ;
                :en_qs_ontoinVerse_Text "null" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontopc9
+###  https://w3id.org/def/en_qs_onto#en_qs_ontopc9
 :en_qs_ontopc9 rdf:type owl:NamedIndividual ,
                         :en_qs_ontoCity ,
                         :en_qs_ontoLivePlace ;
@@ -1970,11 +1970,11 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                                           :en_qs_ontoper6 ;
                <http://xmlns.com/foaf/0.1/name> "العراق" ;
                :en_qs_ontohasName "Iraq" ;
-               <https://w3id.org/def/en_qs_onto/en_qs_ontoinVerse_Nu.> "null" ;
+               <https://w3id.org/def/en_qs_onto#en_qs_ontoinVerse_Nu.> "null" ;
                :en_qs_ontoinVerse_Text "null" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoper1
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoper1
 :en_qs_ontoper1 rdf:type owl:NamedIndividual ,
                          :en_qs_ontoProphet ;
                 owl:sameAs <https://www.wikidata.org/wiki/Q2001710> ;
@@ -1990,14 +1990,14 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                 :en_qs_ontohasFather "null" ;
                 :en_qs_ontohasMother "null" ;
                 :en_qs_ontohasName "Adam" ;
-                <https://w3id.org/def/en_qs_onto/en_qs_ontoinVerse_Nu.> "Al-Baqarah33" ;
+                <https://w3id.org/def/en_qs_onto#en_qs_ontoinVerse_Nu.> "Al-Baqarah33" ;
                 :en_qs_ontoinVerse_Text "قَالَ يَاآدَمُ أَنْبِئْهُمْ بِأَسْمَائِهِمْ ۖ فَلَمَّا أَنْبَأَهُمْ بِأَسْمَائِهِمْ قَالَ أَلَمْ أَقُلْ لَكُمْ إِنِّي أَعْلَمُ غَيْبَ السَّمَاوَاتِ وَالْأَرْضِ وَأَعْلَمُ مَا تُبْدُونَ وَمَا كُنْتُمْ تَكْتُمُونَ" ;
                 :en_qs_ontonameRepeat "25" ;
                 :en_qs_ontotHave "Father and Mother" ;
                 rdfs:isDefinedBy <https://w3id.org/def/en_qs_onto> .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoper10
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoper10
 :en_qs_ontoper10 rdf:type owl:NamedIndividual ,
                           :en_qs_ontoProphet ;
                  owl:sameAs <https://www.wikidata.org/wiki/Q2513598> ;
@@ -2012,13 +2012,13 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                  :en_qs_ontohasFather "Ishaq" ;
                  :en_qs_ontohasMother "Rafaqa" ;
                  :en_qs_ontohasName "Yacoub" ;
-                 <https://w3id.org/def/en_qs_onto/en_qs_ontoinVerse_Nu.> "Alnisa163" ;
+                 <https://w3id.org/def/en_qs_onto#en_qs_ontoinVerse_Nu.> "Alnisa163" ;
                  :en_qs_ontoinVerse_Text "إِنَّا أَوْحَيْنَا إِلَيْكَ كَمَا أَوْحَيْنَا إِلَى نُوحٍ وَالنَّبِيِّينَ مِنْ بَعْدِهِ وَأَوْحَيْنَا إِلَى إِبْرَاهِيمَ وَإِسْمَاعِيلَ وَإِسْحَاقَ وَيَعْقُوبَ وَالْأَسْبَاطِ وَعِيسَى وَأَيُّوبَ وَيُونُسَ وَهَارُونَ وَسُلَيْمَانَ وَآتَيْنَا دَاوُودَ زَبُورًا" ;
                  :en_qs_ontonameRepeat "16" ;
                  rdfs:isDefinedBy <https://w3id.org/def/en_qs_onto> .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoper11
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoper11
 :en_qs_ontoper11 rdf:type owl:NamedIndividual ,
                           :en_qs_ontoProphet ;
                  owl:sameAs <https://www.wikidata.org/wiki/Q563644> ;
@@ -2033,13 +2033,13 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                  :en_qs_ontohasFather "Yacoub" ;
                  :en_qs_ontohasMother "Raheel" ;
                  :en_qs_ontohasName "Yousuf" ;
-                 <https://w3id.org/def/en_qs_onto/en_qs_ontoinVerse_Nu.> "Al'aneam84" ;
+                 <https://w3id.org/def/en_qs_onto#en_qs_ontoinVerse_Nu.> "Al'aneam84" ;
                  :en_qs_ontoinVerse_Text "وَوَهَبْنَا لَهُ إِسْحَاقَ وَيَعْقُوبَ كُلًّا هَدَيْنَا وَنُوحًا هَدَيْنَا مِنْ قَبْلُ وَمِنْ ذُرِّيَّتِهِ دَاوُودَ وَسُلَيْمَانَ وَأَيُّوبَ وَيُوسُفَ وَمُوسَى وَهَارُونَ وَكَذَلِكَ نَجْزِي الْمُحْسِنِينَ " ;
                  :en_qs_ontonameRepeat "27" ;
                  rdfs:isDefinedBy <https://w3id.org/def/en_qs_onto> .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoper12
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoper12
 :en_qs_ontoper12 rdf:type owl:NamedIndividual ,
                           :en_qs_ontoProphet ;
                  owl:sameAs <https://www.wikidata.org/wiki/Q2625307> ;
@@ -2054,13 +2054,13 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                  :en_qs_ontohasFather "null" ;
                  :en_qs_ontohasMother "null" ;
                  :en_qs_ontohasName "Ayoub" ;
-                 <https://w3id.org/def/en_qs_onto/en_qs_ontoinVerse_Nu.> "Al'aneam84" ;
+                 <https://w3id.org/def/en_qs_onto#en_qs_ontoinVerse_Nu.> "Al'aneam84" ;
                  :en_qs_ontoinVerse_Text "وَوَهَبْنَا لَهُ إِسْحَاقَ وَيَعْقُوبَ كُلًّا هَدَيْنَا وَنُوحًا هَدَيْنَا مِنْ قَبْلُ وَمِنْ ذُرِّيَّتِهِ دَاوُودَ وَسُلَيْمَانَ وَأَيُّوبَ وَيُوسُفَ وَمُوسَى وَهَارُونَ وَكَذَلِكَ نَجْزِي الْمُحْسِنِينَ " ;
                  :en_qs_ontonameRepeat "4" ;
                  rdfs:isDefinedBy <https://w3id.org/def/en_qs_onto> .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoper13
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoper13
 :en_qs_ontoper13 rdf:type owl:NamedIndividual ,
                           :en_qs_ontoRighteou ;
                  owl:sameAs <https://www.wikidata.org/wiki/Q332574> ;
@@ -2073,12 +2073,12 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                  :en_qs_ontohasFather "null" ;
                  :en_qs_ontohasMother "null" ;
                  :en_qs_ontohasName "Haskell" ;
-                 <https://w3id.org/def/en_qs_onto/en_qs_ontoinVerse_Nu.> "Al-Anbiyā85" ;
+                 <https://w3id.org/def/en_qs_onto#en_qs_ontoinVerse_Nu.> "Al-Anbiyā85" ;
                  :en_qs_ontoinVerse_Text "وَإِسْمَاعِيلَ وَإِدْرِيسَ وَذَا الْكِفْلِ كُلٌّ مِنَ الصَّابِرِينَ" ;
                  :en_qs_ontonameRepeat "2" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoper14
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoper14
 :en_qs_ontoper14 rdf:type owl:NamedIndividual ,
                           :en_qs_ontoMessenger ,
                           :en_qs_ontoProphet ;
@@ -2095,7 +2095,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                  :en_qs_ontohasFather "null" ;
                  :en_qs_ontohasMother "null" ;
                  :en_qs_ontohasName "Yunus" ;
-                 <https://w3id.org/def/en_qs_onto/en_qs_ontoinVerse_Nu.> "Al'aneam86" ;
+                 <https://w3id.org/def/en_qs_onto#en_qs_ontoinVerse_Nu.> "Al'aneam86" ;
                  :en_qs_ontoinVerse_Text "وَإِسْمَاعِيلَ وَالْيَسَعَ وَيُونُسَ وَلُوطًا وَكُلًّا فَضَّلْنَا عَلَى الْعَالَمِينَ" ;
                  :en_qs_ontomessage "call people to worship god alone" ;
                  :en_qs_ontonameRepeat "4" ;
@@ -2105,7 +2105,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                             "the man of the fish" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoper15
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoper15
 :en_qs_ontoper15 rdf:type owl:NamedIndividual ,
                           :en_qs_ontoMessenger ;
                  owl:sameAs <https://www.wikidata.org/wiki/Q982867> ;
@@ -2121,7 +2121,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                  :en_qs_ontohasFather "null" ;
                  :en_qs_ontohasMother "null" ;
                  :en_qs_ontohasName "Shoaib" ;
-                 <https://w3id.org/def/en_qs_onto/en_qs_ontoinVerse_Nu.> "Al-A‘rāf85" ;
+                 <https://w3id.org/def/en_qs_onto#en_qs_ontoinVerse_Nu.> "Al-A‘rāf85" ;
                  :en_qs_ontoinVerse_Text "وَإِلَىٰ مَدْيَنَ أَخَاهُمْ شُعَيْبًا قَالَ يَا قَوْمِ اعْبُدُوا اللَّهَ مَا لَكُم مِّنْ إِلَٰه غَيْرُهُ قَدْ جَاءَتْكُم بَيِّنَةٌ مِّن رَّبِّكُمْ  فَأَوْفُوا الْكَيْلَ وَالْمِيزَانَ وَلَا تَبْخَسُوا النَّاسَ أَشْيَاءَهُمْ وَلَا تُفْسِدُوا فِي الْأَرْضِ بَعْدَ إِصْلَاحِهَا ذَٰلِكُمْ خَيْرٌ لَّكُمْ إِن كُنتُم مُّؤْمِنِينَ" ;
                  :en_qs_ontomessage "call people to worship god alone" ;
                  :en_qs_ontonameRepeat "11" ;
@@ -2129,7 +2129,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                  rdfs:isDefinedBy <https://w3id.org/def/en_qs_onto> .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoper16
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoper16
 :en_qs_ontoper16 rdf:type owl:NamedIndividual ,
                           :en_qs_ontoMessenger ,
                           :en_qs_ontoProphet ;
@@ -2149,14 +2149,14 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                  :en_qs_ontohasFather "Omran" ;
                  :en_qs_ontohasMother "null" ;
                  :en_qs_ontohasName "Mousa" ;
-                 <https://w3id.org/def/en_qs_onto/en_qs_ontoinVerse_Nu.> "Al-Baqarah53" ;
+                 <https://w3id.org/def/en_qs_onto#en_qs_ontoinVerse_Nu.> "Al-Baqarah53" ;
                  :en_qs_ontoinVerse_Text "وَإِذْ آتَيْنَا مُوسَى الْكِتَابَ وَالْفُرْقَانَ لَعَلَّكُمْ تَهْتَدُونَ" ;
                  :en_qs_ontomessage "call people to worship god alone" ;
                  :en_qs_ontonameRepeat "136" ;
                  rdfs:isDefinedBy <https://w3id.org/def/en_qs_onto> .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoper17
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoper17
 :en_qs_ontoper17 rdf:type owl:NamedIndividual ,
                           :en_qs_ontoProphet ;
                  owl:sameAs <https://www.wikidata.org/wiki/Q380714> ;
@@ -2172,13 +2172,13 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                  :en_qs_ontohasFather "Omran" ;
                  :en_qs_ontohasMother "null" ;
                  :en_qs_ontohasName "Harun" ;
-                 <https://w3id.org/def/en_qs_onto/en_qs_ontoinVerse_Nu.> "Muriam53" ;
+                 <https://w3id.org/def/en_qs_onto#en_qs_ontoinVerse_Nu.> "Muriam53" ;
                  :en_qs_ontoinVerse_Text "وَوَهَبْنَا لَهُ مِنْ رَحْمَتِنَا أَخَاهُ هَارُونَ نَبِيًّا" ;
                  :en_qs_ontonameRepeat "20" ;
                  rdfs:isDefinedBy <https://w3id.org/def/en_qs_onto> .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoper18
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoper18
 :en_qs_ontoper18 rdf:type owl:NamedIndividual ,
                           :en_qs_ontoProphet ;
                  owl:sameAs <https://www.wikidata.org/wiki/Q1257863> ;
@@ -2195,13 +2195,13 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                  :en_qs_ontohasFather "null" ;
                  :en_qs_ontohasMother "null" ;
                  :en_qs_ontohasName "Dawud" ;
-                 <https://w3id.org/def/en_qs_onto/en_qs_ontoinVerse_Nu.> "Al'aneam84" ;
+                 <https://w3id.org/def/en_qs_onto#en_qs_ontoinVerse_Nu.> "Al'aneam84" ;
                  :en_qs_ontoinVerse_Text "وَوَهَبْنَا لَهُ إِسْحَاقَ وَيَعْقُوبَ كُلًّا هَدَيْنَا وَنُوحًا هَدَيْنَا مِنْ قَبْلُ وَمِنْ ذُرِّيَّتِهِ دَاوُودَ وَسُلَيْمَانَ وَأَيُّوبَ وَيُوسُفَ وَمُوسَى وَهَارُونَ وَكَذَلِكَ نَجْزِي الْمُحْسِنِينَ " ;
                  :en_qs_ontonameRepeat "16" ;
                  rdfs:isDefinedBy <https://w3id.org/def/en_qs_onto> .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoper19
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoper19
 :en_qs_ontoper19 rdf:type owl:NamedIndividual ,
                           :en_qs_ontoProphet ;
                  owl:sameAs <https://www.wikidata.org/wiki/Q1768167> ;
@@ -2217,13 +2217,13 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                  :en_qs_ontohasFather "Dawud" ;
                  :en_qs_ontohasMother "null" ;
                  :en_qs_ontohasName "Sulaiman" ;
-                 <https://w3id.org/def/en_qs_onto/en_qs_ontoinVerse_Nu.> "Al'aneam84" ;
+                 <https://w3id.org/def/en_qs_onto#en_qs_ontoinVerse_Nu.> "Al'aneam84" ;
                  :en_qs_ontoinVerse_Text "وَوَهَبْنَا لَهُ إِسْحَاقَ وَيَعْقُوبَ كُلًّا هَدَيْنَا وَنُوحًا هَدَيْنَا مِنْ قَبْلُ وَمِنْ ذُرِّيَّتِهِ دَاوُودَ وَسُلَيْمَانَ وَأَيُّوبَ وَيُوسُفَ وَمُوسَى وَهَارُونَ وَكَذَلِكَ نَجْزِي الْمُحْسِنِينَ " ;
                  :en_qs_ontonameRepeat "17" ;
                  rdfs:isDefinedBy <https://w3id.org/def/en_qs_onto> .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoper2
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoper2
 :en_qs_ontoper2 rdf:type owl:NamedIndividual ,
                          :en_qs_ontoProphet ;
                 owl:sameAs <https://www.wikidata.org/wiki/Q327375> ;
@@ -2239,13 +2239,13 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                 :en_qs_ontohasFather "Yard" ;
                 :en_qs_ontohasMother "null" ;
                 :en_qs_ontohasName "Enoch" ;
-                <https://w3id.org/def/en_qs_onto/en_qs_ontoinVerse_Nu.> "Muriam56" ;
+                <https://w3id.org/def/en_qs_onto#en_qs_ontoinVerse_Nu.> "Muriam56" ;
                 :en_qs_ontoinVerse_Text "وَاذْكُرْ فِي الْكِتَابِ إِدْرِيسَ إِنَّهُ كَانَ صِدِّيقًا نَبِيًّا" ;
                 :en_qs_ontonameRepeat "2" ;
                 rdfs:isDefinedBy <https://w3id.org/def/en_qs_onto> .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoper20
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoper20
 :en_qs_ontoper20 rdf:type owl:NamedIndividual ,
                           :en_qs_ontoMessenger ,
                           :en_qs_ontoProphet ;
@@ -2261,7 +2261,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                  :en_qs_ontohasFather "null" ;
                  :en_qs_ontohasMother "null" ;
                  :en_qs_ontohasName "Ilyas" ;
-                 <https://w3id.org/def/en_qs_onto/en_qs_ontoinVerse_Nu.> "Al'aneam85" ;
+                 <https://w3id.org/def/en_qs_onto#en_qs_ontoinVerse_Nu.> "Al'aneam85" ;
                  :en_qs_ontoinVerse_Text "وَزَكَرِيَّا وَيَحْيَى وَعِيسَى وَإِلْيَاسَ كُلٌّ مِنَ الصَّالِحِينَ" ;
                  :en_qs_ontomessage "call people to worship god alone" ;
                  :en_qs_ontonameRepeat "2" ;
@@ -2269,7 +2269,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                  owl:sameAs "Elijah" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoper21
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoper21
 :en_qs_ontoper21 rdf:type owl:NamedIndividual ,
                           :en_qs_ontoProphet ;
                  owl:sameAs <https://www.wikidata.org/wiki/Q15215483> ;
@@ -2285,13 +2285,13 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                  :en_qs_ontohasFather "null" ;
                  :en_qs_ontohasMother "null" ;
                  :en_qs_ontohasName "Alyse" ;
-                 <https://w3id.org/def/en_qs_onto/en_qs_ontoinVerse_Nu.> "Al'aneam86" ;
+                 <https://w3id.org/def/en_qs_onto#en_qs_ontoinVerse_Nu.> "Al'aneam86" ;
                  :en_qs_ontoinVerse_Text "وَإِسْمَاعِيلَ وَالْيَسَعَ وَيُونُسَ وَلُوطًا وَكُلًّا فَضَّلْنَا عَلَى الْعَالَمِينَ" ;
                  :en_qs_ontonameRepeat "2" ;
                  rdfs:isDefinedBy <https://w3id.org/def/en_qs_onto> .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoper22
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoper22
 :en_qs_ontoper22 rdf:type owl:NamedIndividual ,
                           :en_qs_ontoProphet ;
                  owl:sameAs <https://www.wikidata.org/wiki/Q2420409> ;
@@ -2307,13 +2307,13 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                  :en_qs_ontohasFather "null" ;
                  :en_qs_ontohasMother "null" ;
                  :en_qs_ontohasName "Zakariaa" ;
-                 <https://w3id.org/def/en_qs_onto/en_qs_ontoinVerse_Nu.> "Aal Imran38" ;
+                 <https://w3id.org/def/en_qs_onto#en_qs_ontoinVerse_Nu.> "Aal Imran38" ;
                  :en_qs_ontoinVerse_Text "هُنَالِكَ دَعَا زَكَرِيَّا رَبَّهُ ۖ قَالَ رَبِّ هَبْ لِي مِن لَّدُنكَ ذُرِّيَّةً طَيِّبَةً ۖ إِنَّكَ سَمِيعُ الدُّعَاءِ" ;
                  :en_qs_ontonameRepeat "7" ;
                  rdfs:isDefinedBy <https://w3id.org/def/en_qs_onto> .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoper23
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoper23
 :en_qs_ontoper23 rdf:type owl:NamedIndividual ,
                           :en_qs_ontoProphet ;
                  owl:sameAs <https://www.wikidata.org/wiki/Q2422313> ;
@@ -2329,13 +2329,13 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                  :en_qs_ontohasFather "Zakariaa" ;
                  :en_qs_ontohasMother "null" ;
                  :en_qs_ontohasName "Yahia" ;
-                 <https://w3id.org/def/en_qs_onto/en_qs_ontoinVerse_Nu.> "Al Imran39" ;
+                 <https://w3id.org/def/en_qs_onto#en_qs_ontoinVerse_Nu.> "Al Imran39" ;
                  :en_qs_ontoinVerse_Text "فَنَادَتْهُ الْمَلَائِكَةُ وَهُوَ قَائِمٌ يُصَلِّي فِي الْمِحْرَابِ أَنَّ اللَّهَ يُبَشِّرُكَ بِيَحْيَىٰ مُصَدِّقًا بِكَلِمَةٍ مِّنَ اللَّهِ وَسَيِّدًا وَحَصُورًا وَنَبِيًّا مِّنَ الصَّالِحِينَ" ;
                  :en_qs_ontonameRepeat "5" ;
                  rdfs:isDefinedBy <https://w3id.org/def/en_qs_onto> .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoper24
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoper24
 :en_qs_ontoper24 rdf:type owl:NamedIndividual ,
                           :en_qs_ontoMessenger ,
                           :en_qs_ontoProphet ;
@@ -2353,7 +2353,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                  :en_qs_ontohasFather "null" ;
                  :en_qs_ontohasMother "Mariam" ;
                  :en_qs_ontohasName "Eisaa" ;
-                 <https://w3id.org/def/en_qs_onto/en_qs_ontoinVerse_Nu.> "Alnisa157" ;
+                 <https://w3id.org/def/en_qs_onto#en_qs_ontoinVerse_Nu.> "Alnisa157" ;
                  :en_qs_ontoinVerse_Text "وَقَوْلِهِمْ إِنَّا قَتَلْنَا الْمَسِيحَ عِيسَى ابْنَ مَرْيَمَ رَسُولَ اللّهِ وَمَا قَتَلُوهُ وَمَا صَلَبُوهُ وَلَـكِن شُبِّهَ لَهُمْ وَإِنَّ الَّذِينَ اخْتَلَفُواْ فِيهِ لَفِي شَكٍّ مِّنْهُ مَا لَهُم بِهِ مِنْ عِلْمٍ إِلاَّ اتِّبَاعَ الظَّنِّ وَمَا قَتَلُوهُ يَقِينًا" ;
                  :en_qs_ontomessage "call people to worship god alone" ;
                  :en_qs_ontonameRepeat "25" ;
@@ -2361,7 +2361,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                  rdfs:isDefinedBy <https://w3id.org/def/en_qs_onto> .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoper25
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoper25
 :en_qs_ontoper25 rdf:type owl:NamedIndividual ,
                           :en_qs_ontoMessenger ,
                           :en_qs_ontoProphet ;
@@ -2379,7 +2379,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                  :en_qs_ontohasFather "Abdalla" ;
                  :en_qs_ontohasMother "Amnah" ;
                  :en_qs_ontohasName "Mohammed" ;
-                 <https://w3id.org/def/en_qs_onto/en_qs_ontoinVerse_Nu.> "Mohammed2" ;
+                 <https://w3id.org/def/en_qs_onto#en_qs_ontoinVerse_Nu.> "Mohammed2" ;
                  :en_qs_ontoinVerse_Text "وَالَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ وَآمَنُوا بِمَا نُزِّلَ عَلَى مُحَمَّدٍ وَهُوَ الْحَقُّ مِنْ رَبِّهِمْ ۙ كَفَّرَ عَنْهُمْ سَيِّئَاتِهِمْ وَأَصْلَحَ بَالَهُمْ " ;
                  :en_qs_ontomessage "call people to worship god alone" ;
                  :en_qs_ontonameRepeat "5" ;
@@ -2387,7 +2387,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                  rdfs:isDefinedBy <https://w3id.org/def/en_qs_onto> .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoper26
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoper26
 :en_qs_ontoper26 rdf:type owl:NamedIndividual ,
                           :en_qs_ontoRighteou ;
                  owl:sameAs <https://www.wikidata.org/wiki/Q1478857> ;
@@ -2399,12 +2399,12 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                  :en_qs_ontohasFather "Omran" ;
                  :en_qs_ontohasMother "null" ;
                  :en_qs_ontohasName "Muriam" ;
-                 <https://w3id.org/def/en_qs_onto/en_qs_ontoinVerse_Nu.> "Aal Imran42" ;
+                 <https://w3id.org/def/en_qs_onto#en_qs_ontoinVerse_Nu.> "Aal Imran42" ;
                  :en_qs_ontoinVerse_Text "وَإِذْ قَالَتِ الْمَلَائِكَةُ يَا مَرْيَمُ إِنَّ اللَّهَ اصْطَفَاكِ وَطَهَّرَكِ وَاصْطَفَاكِ عَلَىٰ نِسَاءِ الْعَالَمِينَ " ;
                  :en_qs_ontonameRepeat "34" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoper27
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoper27
 :en_qs_ontoper27 rdf:type owl:NamedIndividual ,
                           :en_qs_ontoRighteou ;
                  owl:sameAs <https://www.wikidata.org/wiki/Q1729394> ;
@@ -2414,12 +2414,12 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                  <http://xmlns.com/foaf/0.1/name> "لقمان" ;
                  <http://xmlns.com/foaf/0.1/nick> "the wise" ;
                  :en_qs_ontohasName "Luqman" ;
-                 <https://w3id.org/def/en_qs_onto/en_qs_ontoinVerse_Nu.> "Luqman12" ;
+                 <https://w3id.org/def/en_qs_onto#en_qs_ontoinVerse_Nu.> "Luqman12" ;
                  :en_qs_ontoinVerse_Text "وَلَقَدْ آتَيْنَا لُقْمَانَ الحِكْمَةَ أَنِ اشْكُرْ للهِ ومَن يَشْكُرْ فَإنَّمَا يَشـكُرُ لِنَفْسِهِ ومَن كَفَرَ فَإنَّ اللهَ غَنِيٌّ حَمِيدٌ" ;
                  :en_qs_ontonameRepeat "2" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoper28
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoper28
 :en_qs_ontoper28 rdf:type owl:NamedIndividual ,
                           :en_qs_ontoRighteou ;
                  owl:sameAs <https://www.wikidata.org/wiki/Q1207846> ;
@@ -2431,13 +2431,13 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                  <http://xmlns.com/foaf/0.1/nick> "Dhi_Alqarnayn" ;
                  :en_qs_ontoassignedBy "God" ;
                  :en_qs_ontohasName "Eiash" ;
-                 <https://w3id.org/def/en_qs_onto/en_qs_ontoinVerse_Nu.> "Alkahf83" ;
+                 <https://w3id.org/def/en_qs_onto#en_qs_ontoinVerse_Nu.> "Alkahf83" ;
                  :en_qs_ontoinVerse_Text "وَيَسْئَلُونَكَ عَنْ ذِي الْقَرْنَيْنِ قُلْ سَأَتْلُوا عَلَيْكُمْ مِنْهُ ذِكْرًا" ;
                  :en_qs_ontonameRepeat "1" ;
                  rdfs:comment "ملك صالح ذكر في القرآن، بنى ردمًا يدفع به أذى يأجوج ومأجوج" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoper29
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoper29
 :en_qs_ontoper29 rdf:type owl:NamedIndividual ,
                           :en_qs_ontoInfidel ;
                  :en_qs_ontomentionedIn :en_qs_ontosurah1 ;
@@ -2448,13 +2448,13 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                  :en_qs_ontohasFather "null" ;
                  :en_qs_ontohasMother "null" ;
                  :en_qs_ontohasName "Pharaoh" ;
-                 <https://w3id.org/def/en_qs_onto/en_qs_ontoinVerse_Nu.> "Al-Baqarah50" ;
+                 <https://w3id.org/def/en_qs_onto#en_qs_ontoinVerse_Nu.> "Al-Baqarah50" ;
                  :en_qs_ontoinVerse_Text "وَإِذْ فَرَقْنَا بِكُمُ الْبَحْرَ فَأَنجَيْنَاكُمْ وَأَغْرَقْنَا آلَ فِرْعَوْنَ وَأَنتُمْ تَنظُرُونَ" ;
                  :en_qs_ontonameRepeat "71" ;
                  :en_qs_ontosEnd "God drowned him in the sea with his soldiers" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoper3
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoper3
 :en_qs_ontoper3 rdf:type owl:NamedIndividual ,
                          :en_qs_ontoMessenger ,
                          :en_qs_ontoProphet ;
@@ -2473,14 +2473,14 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                 :en_qs_ontohasFather "lamk" ;
                 :en_qs_ontohasMother "null" ;
                 :en_qs_ontohasName "Noah" ;
-                <https://w3id.org/def/en_qs_onto/en_qs_ontoinVerse_Nu.> "Al-Furqān37" ;
+                <https://w3id.org/def/en_qs_onto#en_qs_ontoinVerse_Nu.> "Al-Furqān37" ;
                 :en_qs_ontoinVerse_Text "وَقَوْمَ نُوحٍ لَمَّا كَذَّبُوا الرُّسُلَ أَغْرَقْنَاهُمْ وَجَعَلْنَاهُمْ لِلنَّاسِ آيَةً ۖ وَأَعْتَدْنَا لِلظَّالِمِينَ عَذَابًا أَلِيمًا " ;
                 :en_qs_ontomessage "call people to worship god alone" ;
                 :en_qs_ontonameRepeat "43" ;
                 rdfs:isDefinedBy <https://w3id.org/def/en_qs_onto> .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoper30
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoper30
 :en_qs_ontoper30 rdf:type owl:NamedIndividual ,
                           :en_qs_ontoInfidel ;
                  owl:sameAs <https://www.wikidata.org/wiki/Q1542154> ;
@@ -2492,13 +2492,13 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                  :en_qs_ontohasFather "null" ;
                  :en_qs_ontohasMother "null" ;
                  :en_qs_ontohasName "Noah's wife" ;
-                 <https://w3id.org/def/en_qs_onto/en_qs_ontoinVerse_Nu.> "Altahrim10" ;
+                 <https://w3id.org/def/en_qs_onto#en_qs_ontoinVerse_Nu.> "Altahrim10" ;
                  :en_qs_ontoinVerse_Text "ضَرَبَ اللَّهُ مَثَلًا لِّلَّذِينَ كَفَرُوا امْرَأَتَ نُوحٍ وَامْرَأَتَ لُوطٍ كَانَتَا تَحْتَ عَبْدَيْنِ مِنْ عِبَادِنَا صَالِحَيْنِ فَخَانَتَاهُمَا فَلَمْ يُغْنِيَا عَنْهُمَا مِنَ اللَّهِ شَيْئًا وَقِيلَ ادْخُلَا النَّارَ مَعَ الدَّاخِلِينَ" ;
                  :en_qs_ontonameRepeat "1" ;
                  :en_qs_ontosEnd "God drowned her in the flood with her nation" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoper31
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoper31
 :en_qs_ontoper31 rdf:type owl:NamedIndividual ,
                           :en_qs_ontoInfidel ;
                  owl:sameAs <https://www.wikidata.org/wiki/Q2575060> ;
@@ -2510,13 +2510,13 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                  :en_qs_ontohasFather "null" ;
                  :en_qs_ontohasMother "null" ;
                  :en_qs_ontohasName "Lut's wife" ;
-                 <https://w3id.org/def/en_qs_onto/en_qs_ontoinVerse_Nu.> "Altahrim10" ;
+                 <https://w3id.org/def/en_qs_onto#en_qs_ontoinVerse_Nu.> "Altahrim10" ;
                  :en_qs_ontoinVerse_Text "ضَرَبَ اللَّهُ مَثَلًا لِّلَّذِينَ كَفَرُوا امْرَأَتَ نُوحٍ وَامْرَأَتَ لُوطٍ كَانَتَا تَحْتَ عَبْدَيْنِ مِنْ عِبَادِنَا صَالِحَيْنِ فَخَانَتَاهُمَا فَلَمْ يُغْنِيَا عَنْهُمَا مِنَ اللَّهِ شَيْئًا وَقِيلَ ادْخُلَا النَّارَ مَعَ الدَّاخِلِينَ" ;
                  :en_qs_ontonameRepeat "1" ;
                  :en_qs_ontosEnd "God punished her in torment with her nation" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoper4
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoper4
 :en_qs_ontoper4 rdf:type owl:NamedIndividual ,
                          :en_qs_ontoMessenger ;
                 owl:sameAs <https://www.wikidata.org/wiki/Q193669> ;
@@ -2531,7 +2531,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                 :en_qs_ontohasFather "Shalikh" ;
                 :en_qs_ontohasMother "null" ;
                 :en_qs_ontohasName "Hūd" ;
-                <https://w3id.org/def/en_qs_onto/en_qs_ontoinVerse_Nu.> "Hūd50" ;
+                <https://w3id.org/def/en_qs_onto#en_qs_ontoinVerse_Nu.> "Hūd50" ;
                 :en_qs_ontoinVerse_Text "وَإِلَى عَادٍ أَخَاهُمْ هُودًا قَالَ يَا قَوْمِ اعْبُدُوا اللَّهَ مَا لَكُمْ مِنْ إِلَهٍ غَيْرُهُ إِنْ أَنْتُمْ إِلَّا مُفْتَرُونَ" ;
                 :en_qs_ontomessage "call people to worship god alone" ;
                 :en_qs_ontonameRepeat "7" ;
@@ -2539,7 +2539,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                 rdfs:isDefinedBy <https://w3id.org/def/en_qs_onto> .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoper5
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoper5
 :en_qs_ontoper5 rdf:type owl:NamedIndividual ,
                          :en_qs_ontoMessenger ;
                 owl:sameAs <https://www.wikidata.org/wiki/Q326189> ;
@@ -2555,14 +2555,14 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                 :en_qs_ontohasFather "null" ;
                 :en_qs_ontohasMother "null" ;
                 :en_qs_ontohasName "Salih" ;
-                <https://w3id.org/def/en_qs_onto/en_qs_ontoinVerse_Nu.> "Al-A‘rāf77" ;
+                <https://w3id.org/def/en_qs_onto#en_qs_ontoinVerse_Nu.> "Al-A‘rāf77" ;
                 :en_qs_ontoinVerse_Text "فَعَقَرُوا النَّاقَةَ وَعَتَوْا عَنْ أَمْرِ رَبِّهِمْ وَقَالُوا يَاصَالِحُ ائْتِنَا بِمَا تَعِدُنَا إِنْ كُنْتَ مِنَ الْمُرْسَلِينَ " ;
                 :en_qs_ontomessage "call people to worship god alone" ;
                 :en_qs_ontonameRepeat "9" ;
                 rdfs:isDefinedBy <https://w3id.org/def/en_qs_onto> .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoper6
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoper6
 :en_qs_ontoper6 rdf:type owl:NamedIndividual ,
                          :en_qs_ontoMessenger ,
                          :en_qs_ontoProphet ;
@@ -2579,14 +2579,14 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                 :en_qs_ontohasFather "null" ;
                 :en_qs_ontohasMother "null" ;
                 :en_qs_ontohasName "Ibrahim" ;
-                <https://w3id.org/def/en_qs_onto/en_qs_ontoinVerse_Nu.> "Al-Baqarah124" ;
+                <https://w3id.org/def/en_qs_onto#en_qs_ontoinVerse_Nu.> "Al-Baqarah124" ;
                 :en_qs_ontoinVerse_Text "وَإِذِ ابْتَلَى إِبْرَاهِيمَ رَبُّهُ بِكَلِمَاتٍ فَأَتَمَّهُنَّ قَالَ إِنِّي جَاعِلُكَ لِلنَّاسِ إِمَامًا قَالَ وَمِنْ ذُرِّيَّتِي قَالَ لَا يَنَالُ عَهْدِي الظَّالِمِينَ" ;
                 :en_qs_ontomessage "call people to worship god alone" ;
                 :en_qs_ontonameRepeat "69" ;
                 rdfs:isDefinedBy <https://w3id.org/def/en_qs_onto> .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoper7
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoper7
 :en_qs_ontoper7 rdf:type owl:NamedIndividual ,
                          :en_qs_ontoMessenger ,
                          :en_qs_ontoProphet ;
@@ -2601,14 +2601,14 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                 :en_qs_ontohasFather "null" ;
                 :en_qs_ontohasMother "null" ;
                 :en_qs_ontohasName "Lut" ;
-                <https://w3id.org/def/en_qs_onto/en_qs_ontoinVerse_Nu.> "Al'aneam86" ;
+                <https://w3id.org/def/en_qs_onto#en_qs_ontoinVerse_Nu.> "Al'aneam86" ;
                 :en_qs_ontoinVerse_Text "وَإِسْمَاعِيلَ وَالْيَسَعَ وَيُونُسَ وَلُوطًا وَكُلًّا فَضَّلْنَا عَلَى الْعَالَمِينَ" ;
                 :en_qs_ontomessage "call people to worship god alone" ;
                 :en_qs_ontonameRepeat "27" ;
                 rdfs:isDefinedBy <https://w3id.org/def/en_qs_onto> .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoper8
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoper8
 :en_qs_ontoper8 rdf:type owl:NamedIndividual ,
                          :en_qs_ontoMessenger ,
                          :en_qs_ontoProphet ;
@@ -2623,14 +2623,14 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                 :en_qs_ontohasFather "Ibrahim" ;
                 :en_qs_ontohasMother "Hajer" ;
                 :en_qs_ontohasName "Ismail" ;
-                <https://w3id.org/def/en_qs_onto/en_qs_ontoinVerse_Nu.> "Al'aneam86" ;
+                <https://w3id.org/def/en_qs_onto#en_qs_ontoinVerse_Nu.> "Al'aneam86" ;
                 :en_qs_ontoinVerse_Text "وَإِسْمَاعِيلَ وَالْيَسَعَ وَيُونُسَ وَلُوطًا وَكُلًّا فَضَّلْنَا عَلَى الْعَالَمِينَ" ;
                 :en_qs_ontomessage "call people to worship god alone" ;
                 :en_qs_ontonameRepeat "12" ;
                 rdfs:isDefinedBy <https://w3id.org/def/en_qs_onto> .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontoper9
+###  https://w3id.org/def/en_qs_onto#en_qs_ontoper9
 :en_qs_ontoper9 rdf:type owl:NamedIndividual ,
                          :en_qs_ontoProphet ;
                 owl:sameAs <https://www.wikidata.org/wiki/Q1642480> ;
@@ -2644,13 +2644,13 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                 :en_qs_ontohasFather "Ibrahim" ;
                 :en_qs_ontohasMother "Sara" ;
                 :en_qs_ontohasName "Ishaq" ;
-                <https://w3id.org/def/en_qs_onto/en_qs_ontoinVerse_Nu.> "Hūd71" ;
+                <https://w3id.org/def/en_qs_onto#en_qs_ontoinVerse_Nu.> "Hūd71" ;
                 :en_qs_ontoinVerse_Text "وَامْرَأَتُهُ قَائِمَةٌ فَضَحِكَتْ فَبَشَّرْنَاهَا بِإِسْحَاقَ وَمِنْ وَرَاءِ إِسْحَاقَ يَعْقُوبَ" ;
                 :en_qs_ontonameRepeat "17" ;
                 rdfs:isDefinedBy <https://w3id.org/def/en_qs_onto> .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontosurah1
+###  https://w3id.org/def/en_qs_onto#en_qs_ontosurah1
 :en_qs_ontosurah1 rdf:type owl:NamedIndividual ,
                            :en_qs_ontoCivilian_Surah ;
                   owl:sameAs <https://www.wikidata.org/wiki/Q219675> ;
@@ -2668,7 +2668,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                   :en_qs_ontohasName "Al-Baqarah" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontosurah10
+###  https://w3id.org/def/en_qs_onto#en_qs_ontosurah10
 :en_qs_ontosurah10 rdf:type owl:NamedIndividual ,
                             :en_qs_ontoCivilian_Surah ;
                    owl:sameAs <https://www.wikidata.org/wiki/Q219682> ;
@@ -2683,7 +2683,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                    <http://purl.org/dc/elements/1.1/description> "سورة قرانية في الفصل الثالث من القرآن." .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontosurah11
+###  https://w3id.org/def/en_qs_onto#en_qs_ontosurah11
 :en_qs_ontosurah11 rdf:type owl:NamedIndividual ,
                             :en_qs_ontoMeccan_Surah ;
                    owl:sameAs <https://www.wikidata.org/wiki/Q223754> ;
@@ -2694,7 +2694,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                    :en_qs_ontohasName "Luqman" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontosurah12
+###  https://w3id.org/def/en_qs_onto#en_qs_ontosurah12
 :en_qs_ontosurah12 rdf:type owl:NamedIndividual ,
                             :en_qs_ontoMeccan_Surah ;
                    owl:sameAs <https://www.wikidata.org/wiki/Q220706> ;
@@ -2705,7 +2705,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                    :en_qs_ontohasName "Alkahf" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontosurah13
+###  https://w3id.org/def/en_qs_onto#en_qs_ontosurah13
 :en_qs_ontosurah13 rdf:type owl:NamedIndividual ,
                             :en_qs_ontoCivilian_Surah ;
                    owl:sameAs <https://www.wikidata.org/wiki/Q235785> ;
@@ -2717,7 +2717,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                    :en_qs_ontohasName "Altahrim" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontosurah14
+###  https://w3id.org/def/en_qs_onto#en_qs_ontosurah14
 :en_qs_ontosurah14 rdf:type owl:NamedIndividual ,
                             :en_qs_ontoMeccan_Surah ;
                    owl:sameAs <https://www.wikidata.org/wiki/Q230856> ;
@@ -2728,7 +2728,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                    :en_qs_ontohasName "Al_qamar" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontosurah15
+###  https://w3id.org/def/en_qs_onto#en_qs_ontosurah15
 :en_qs_ontosurah15 rdf:type owl:NamedIndividual ,
                             :en_qs_ontoMeccan_Surah ;
                    owl:sameAs <https://www.wikidata.org/wiki/Q230107> ;
@@ -2739,7 +2739,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                    :en_qs_ontohasName "Alsaafaat" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontosurah16
+###  https://w3id.org/def/en_qs_onto#en_qs_ontosurah16
 :en_qs_ontosurah16 rdf:type owl:NamedIndividual ,
                             :en_qs_ontoMeccan_Surah ;
                    owl:sameAs <https://www.wikidata.org/wiki/Q221025> ;
@@ -2752,7 +2752,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                    :en_qs_ontohasName "Alnaml" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontosurah17
+###  https://w3id.org/def/en_qs_onto#en_qs_ontosurah17
 :en_qs_ontosurah17 rdf:type owl:NamedIndividual ,
                             :en_qs_ontoMeccan_Surah ;
                    owl:sameAs <https://www.wikidata.org/wiki/Q221013> ;
@@ -2763,7 +2763,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                    :en_qs_ontohasName "Al-Shu‘arā" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontosurah18
+###  https://w3id.org/def/en_qs_onto#en_qs_ontosurah18
 :en_qs_ontosurah18 rdf:type owl:NamedIndividual ,
                             :en_qs_ontoMeccan_Surah ;
                    owl:sameAs <https://www.wikidata.org/wiki/Q232063> ;
@@ -2775,7 +2775,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                    :en_qs_ontohasName "Alhaka" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontosurah19
+###  https://w3id.org/def/en_qs_onto#en_qs_ontosurah19
 :en_qs_ontosurah19 rdf:type owl:NamedIndividual ,
                             :en_qs_ontoMeccan_Surah ;
                    owl:sameAs <https://www.wikidata.org/wiki/Q220785> ;
@@ -2786,7 +2786,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                    :en_qs_ontohasName "Almuminun" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontosurah2
+###  https://w3id.org/def/en_qs_onto#en_qs_ontosurah2
 :en_qs_ontosurah2 rdf:type owl:NamedIndividual ,
                            :en_qs_ontoMeccan_Surah ;
                   owl:sameAs <https://www.wikidata.org/wiki/Q220716> ;
@@ -2798,7 +2798,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                   :en_qs_ontohasName "Muriam" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontosurah20
+###  https://w3id.org/def/en_qs_onto#en_qs_ontosurah20
 :en_qs_ontosurah20 rdf:type owl:NamedIndividual ,
                             :en_qs_ontoCivilian_Surah ;
                    owl:sameAs <https://www.wikidata.org/wiki/Q219701> ;
@@ -2812,7 +2812,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                    :en_qs_ontohasName "Al-Mā’idah" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontosurah21
+###  https://w3id.org/def/en_qs_onto#en_qs_ontosurah21
 :en_qs_ontosurah21 rdf:type owl:NamedIndividual ,
                             :en_qs_ontoCivilian_Surah ;
                    owl:sameAs <https://www.wikidata.org/wiki/Q233170> ;
@@ -2822,7 +2822,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                    :en_qs_ontohasName "Al-Shams" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontosurah22
+###  https://w3id.org/def/en_qs_onto#en_qs_ontosurah22
 :en_qs_ontosurah22 rdf:type owl:NamedIndividual ,
                             :en_qs_ontoMeccan_Surah ;
                    owl:sameAs <https://www.wikidata.org/wiki/Q219815> ;
@@ -2833,7 +2833,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                    :en_qs_ontohasName "Yūsuf" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontosurah23
+###  https://w3id.org/def/en_qs_onto#en_qs_ontosurah23
 :en_qs_ontosurah23 rdf:type owl:NamedIndividual ,
                             :en_qs_ontoMeccan_Surah ;
                    owl:sameAs <https://www.wikidata.org/wiki/Q221060> ;
@@ -2845,7 +2845,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                    :en_qs_ontohasName "Al-‘Ankabūt" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontosurah24
+###  https://w3id.org/def/en_qs_onto#en_qs_ontosurah24
 :en_qs_ontosurah24 rdf:type owl:NamedIndividual ,
                             :en_qs_ontoMeccan_Surah ;
                    owl:sameAs <https://www.wikidata.org/wiki/Q233123> ;
@@ -2856,7 +2856,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                    :en_qs_ontohasName "Alfajr" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontosurah25
+###  https://w3id.org/def/en_qs_onto#en_qs_ontosurah25
 :en_qs_ontosurah25 rdf:type owl:NamedIndividual ,
                             :en_qs_ontoMeccan_Surah ;
                    owl:sameAs <https://www.wikidata.org/wiki/Q219933> ;
@@ -2869,7 +2869,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                    <http://purl.org/dc/elements/1.1/description> "السورة القرانية في الجزء الرابع عشر." .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontosurah26
+###  https://w3id.org/def/en_qs_onto#en_qs_ontosurah26
 :en_qs_ontosurah26 rdf:type owl:NamedIndividual ,
                             :en_qs_ontoMeccan_Surah ;
                    owl:sameAs <https://www.wikidata.org/wiki/Q220678> ;
@@ -2881,7 +2881,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                    <http://purl.org/dc/elements/1.1/description> "السورة القرانية في الجزءالخامس عشر." .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontosurah27
+###  https://w3id.org/def/en_qs_onto#en_qs_ontosurah27
 :en_qs_ontosurah27 rdf:type owl:NamedIndividual ,
                             :en_qs_ontoCivilian_Surah ;
                    owl:sameAs <https://www.wikidata.org/wiki/Q219738> ;
@@ -2892,7 +2892,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                    :en_qs_ontohasName "Al-Tawbah" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontosurah28
+###  https://w3id.org/def/en_qs_onto#en_qs_ontosurah28
 :en_qs_ontosurah28 rdf:type owl:NamedIndividual ,
                             :en_qs_ontoMeccan_Surah ;
                    owl:sameAs <https://www.wikidata.org/wiki/Q230638> ;
@@ -2903,7 +2903,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                    :en_qs_ontohasName "Alfateh" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontosurah3
+###  https://w3id.org/def/en_qs_onto#en_qs_ontosurah3
 :en_qs_ontosurah3 rdf:type owl:NamedIndividual ,
                            :en_qs_ontoMeccan_Surah ;
                   owl:sameAs <https://www.wikidata.org/wiki/Q220983> ;
@@ -2915,7 +2915,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                   :en_qs_ontohasName "Al-Furqān" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontosurah4
+###  https://w3id.org/def/en_qs_onto#en_qs_ontosurah4
 :en_qs_ontosurah4 rdf:type owl:NamedIndividual ,
                            :en_qs_ontoMeccan_Surah ;
                   owl:sameAs <https://www.wikidata.org/wiki/Q219786> ;
@@ -2930,7 +2930,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                   <http://purl.org/dc/elements/1.1/description> "سورة قرانية في الجزء الحادي عشر من القران." .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontosurah5
+###  https://w3id.org/def/en_qs_onto#en_qs_ontosurah5
 :en_qs_ontosurah5 rdf:type owl:NamedIndividual ,
                            :en_qs_ontoMeccan_Surah ;
                   owl:sameAs <https://www.wikidata.org/wiki/Q219713> ;
@@ -2946,7 +2946,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                   <http://purl.org/dc/elements/1.1/description> "سورة قرانية في الجزء السابع من القران." .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontosurah6
+###  https://w3id.org/def/en_qs_onto#en_qs_ontosurah6
 :en_qs_ontosurah6 rdf:type owl:NamedIndividual ,
                            :en_qs_ontoMeccan_Surah ;
                   owl:sameAs <https://www.wikidata.org/wiki/Q219707> ;
@@ -2965,7 +2965,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                   :en_qs_ontohasName "Al'aneam" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontosurah7
+###  https://w3id.org/def/en_qs_onto#en_qs_ontosurah7
 :en_qs_ontosurah7 rdf:type owl:NamedIndividual ,
                            :en_qs_ontoMeccan_Surah ;
                   owl:sameAs <https://www.wikidata.org/wiki/Q220757> ;
@@ -2977,7 +2977,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                   :en_qs_ontohasName "Al-Anbiyā" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontosurah8
+###  https://w3id.org/def/en_qs_onto#en_qs_ontosurah8
 :en_qs_ontosurah8 rdf:type owl:NamedIndividual ,
                            :en_qs_ontoCivilian_Surah ;
                   owl:sameAs <https://www.wikidata.org/wiki/Q219696> ;
@@ -2989,7 +2989,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                   :en_qs_ontohasName "Alnisa" .
 
 
-###  https://w3id.org/def/en_qs_onto/en_qs_ontosurah9
+###  https://w3id.org/def/en_qs_onto#en_qs_ontosurah9
 :en_qs_ontosurah9 rdf:type owl:NamedIndividual ,
                            :en_qs_ontoCivilian_Surah ;
                   owl:sameAs <https://www.wikidata.org/wiki/Q230604> ;
@@ -2998,6 +2998,10 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                   :en_qs_ontoreported :en_qs_ontoper25 ;
                   <http://xmlns.com/foaf/0.1/name> "سورة محمد" ;
                   :en_qs_ontohasName "Mohammed" .
+
+
+###  https://w3id.org/def/en_qs_onto/en_qs_ontosurah1
+<https://w3id.org/def/en_qs_onto/en_qs_ontosurah1> rdf:type owl:NamedIndividual .
 
 
 ###  https://www.wikidata.org/wiki/Q1207846
