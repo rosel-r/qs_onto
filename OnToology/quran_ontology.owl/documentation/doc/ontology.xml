@@ -200,10 +200,6 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
         <rdfs:range rdf:resource="https://w3id.org/def/en_qs_onto/en_qs_ontoPlace"/>
-        <dc:description>ولادة الشخص في مكان محدد واحد.</dc:description>
-        <rdfs:comment>ولد في .</rdfs:comment>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/def/en_qs_onto"/>
-        <rdfs:label>bornedIn</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1476,6 +1472,15 @@
     
 
 
+    <!-- http://dbpedia.org/property/birthPlace -->
+
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/property/birthPlace">
+        <owl:sameAs rdf:resource="https://w3id.org/def/en_qs_onto/en_qs_ontobornedIn"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://mappings.dbpedia.org/index.php/OntologyClass:Place -->
 
 
@@ -1924,6 +1929,13 @@
         <en_qs_ontoinVerse_Text>شَهۡرُ رَمَضَانَ ٱلَّذِيٓ أُنزِلَ فِيهِ ٱلۡقُرۡءَانُ هُدٗى لِّلنَّاسِ وَبَيِّنَٰتٖ مِّنَ ٱلۡهُدَىٰ وَٱلۡفُرۡقَانِۚ فَمَن شَهِدَ مِنكُمُ ٱلشَّهۡرَ فَلۡيَصُمۡهُۖ وَمَن كَانَ مَرِيضًا أَوۡ عَلَىٰ سَفَرٖ فَعِدَّةٞ مِّنۡ أَيَّامٍ أُخَرَۗ يُرِيدُ ٱللَّهُ بِكُمُ ٱلۡيُسۡرَ وَلَا يُرِيدُ بِكُمُ ٱلۡعُسۡرَ وَلِتُكۡمِلُواْ ٱلۡعِدَّةَ وَلِتُكَبِّرُواْ ٱللَّهَ عَلَىٰ مَا هَدَىٰكُمۡ وَلَعَلَّكُمۡ تَشۡكُرُونَ</en_qs_ontoinVerse_Text>
         <dc:description>الكتاب المقدّس عند المسلمين</dc:description>
     </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/def/en_qs_onto/en_qs_ontobornedIn -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/def/en_qs_onto/en_qs_ontobornedIn"/>
     
 
 
@@ -4716,6 +4728,12 @@
         <rdfs:comment>الأية.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/def/en_qs_onto"/>
         <rdfs:label>Verse</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/def/en_qs_onto/en_qs_ontobornedIn">
+        <dc:description>ولادة الشخص في مكان محدد واحد.</dc:description>
+        <rdfs:comment>ولد في .</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/def/en_qs_onto"/>
+        <rdfs:label>bornedIn</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf">
         <dc:description>السور القرانية هي جزء من الاجزاء والاجزاء هي جزء من القران.</dc:description>

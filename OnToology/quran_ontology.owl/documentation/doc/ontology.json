@@ -311,6 +311,12 @@
     "@id" : "http://xmlns.com/foaf/0.1/Person"
   } ]
 }, {
+  "@id" : "http://dbpedia.org/property/birthPlace",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2002/07/owl#sameAs" : [ {
+    "@id" : "https://w3id.org/def/en_qs_onto/en_qs_ontobornedIn"
+  } ]
+}, {
   "@id" : "http://mappings.dbpedia.org/index.php/OntologyClass:Place",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2002/07/owl#sameAs" : [ {
@@ -1540,7 +1546,7 @@
   } ]
 }, {
   "@id" : "https://w3id.org/def/en_qs_onto/en_qs_ontobornedIn",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://purl.org/dc/elements/1.1/description" : [ {
     "@value" : "ولادة الشخص في مكان محدد واحد."
   } ],
