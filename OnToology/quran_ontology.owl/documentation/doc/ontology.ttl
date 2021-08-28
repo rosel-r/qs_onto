@@ -126,11 +126,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 :en_qs_ontobornedIn rdf:type owl:ObjectProperty ,
                              owl:FunctionalProperty ;
                     rdfs:domain <http://xmlns.com/foaf/0.1/Person> ;
-                    rdfs:range :en_qs_ontoPlace ;
-                    <http://purl.org/dc/elements/1.1/description> "ولادة الشخص في مكان محدد واحد." ;
-                    rdfs:comment "ولد في ." ;
-                    rdfs:isDefinedBy <https://w3id.org/def/en_qs_onto> ;
-                    rdfs:label "bornedIn" .
+                    rdfs:range :en_qs_ontoPlace .
 
 
 ###  https://w3id.org/def/en_qs_onto/en_qs_ontocommandeIn
@@ -966,6 +962,11 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                                      owl:sameAs <http://xmlns.com/foaf/0.1/Person> .
 
 
+###  http://dbpedia.org/property/birthPlace
+<http://dbpedia.org/property/birthPlace> rdf:type owl:NamedIndividual ;
+                                         owl:sameAs :en_qs_ontobornedIn .
+
+
 ###  http://mappings.dbpedia.org/index.php/OntologyClass:Place
 <http://mappings.dbpedia.org/index.php/OntologyClass:Place> rdf:type owl:NamedIndividual ;
                                                             owl:sameAs :en_qs_ontoPlace .
@@ -1266,6 +1267,10 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                  <https://w3id.org/def/en_qs_onto/en_qs_ontoinVerse_Nu.> "Al-Baqarah185" ;
                  :en_qs_ontoinVerse_Text "شَهۡرُ رَمَضَانَ ٱلَّذِيٓ أُنزِلَ فِيهِ ٱلۡقُرۡءَانُ هُدٗى لِّلنَّاسِ وَبَيِّنَٰتٖ مِّنَ ٱلۡهُدَىٰ وَٱلۡفُرۡقَانِۚ فَمَن شَهِدَ مِنكُمُ ٱلشَّهۡرَ فَلۡيَصُمۡهُۖ وَمَن كَانَ مَرِيضًا أَوۡ عَلَىٰ سَفَرٖ فَعِدَّةٞ مِّنۡ أَيَّامٍ أُخَرَۗ يُرِيدُ ٱللَّهُ بِكُمُ ٱلۡيُسۡرَ وَلَا يُرِيدُ بِكُمُ ٱلۡعُسۡرَ وَلِتُكۡمِلُواْ ٱلۡعِدَّةَ وَلِتُكَبِّرُواْ ٱللَّهَ عَلَىٰ مَا هَدَىٰكُمۡ وَلَعَلَّكُمۡ تَشۡكُرُونَ" ;
                  <http://purl.org/dc/elements/1.1/description> "الكتاب المقدّس عند المسلمين" .
+
+
+###  https://w3id.org/def/en_qs_onto/en_qs_ontobornedIn
+:en_qs_ontobornedIn rdf:type owl:NamedIndividual .
 
 
 ###  https://w3id.org/def/en_qs_onto/en_qs_ontoch1
@@ -3330,6 +3335,12 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 :en_qs_ontoVerse rdfs:comment "الأية." ;
                  rdfs:isDefinedBy <https://w3id.org/def/en_qs_onto> ;
                  rdfs:label "Verse" .
+
+
+:en_qs_ontobornedIn <http://purl.org/dc/elements/1.1/description> "ولادة الشخص في مكان محدد واحد." ;
+                    rdfs:comment "ولد في ." ;
+                    rdfs:isDefinedBy <https://w3id.org/def/en_qs_onto> ;
+                    rdfs:label "bornedIn" .
 
 
 :en_qs_ontopartOf <http://purl.org/dc/elements/1.1/description> "السور القرانية هي جزء من الاجزاء والاجزاء هي جزء من القران." ;

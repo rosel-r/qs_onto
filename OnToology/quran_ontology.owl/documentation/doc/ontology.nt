@@ -125,10 +125,6 @@ _:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/19
 <https://w3id.org/def/en_qs_onto/en_qs_ontobornedIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
 <https://w3id.org/def/en_qs_onto/en_qs_ontobornedIn> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/Person> .
 <https://w3id.org/def/en_qs_onto/en_qs_ontobornedIn> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/en_qs_onto/en_qs_ontoPlace> .
-<https://w3id.org/def/en_qs_onto/en_qs_ontobornedIn> <http://purl.org/dc/elements/1.1/description> "ولادة الشخص في مكان محدد واحد." .
-<https://w3id.org/def/en_qs_onto/en_qs_ontobornedIn> <http://www.w3.org/2000/01/rdf-schema#comment> "ولد في ." .
-<https://w3id.org/def/en_qs_onto/en_qs_ontobornedIn> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/def/en_qs_onto> .
-<https://w3id.org/def/en_qs_onto/en_qs_ontobornedIn> <http://www.w3.org/2000/01/rdf-schema#label> "bornedIn" .
 # 
 # https://w3id.org/def/en_qs_onto/en_qs_ontocommandeIn
 <https://w3id.org/def/en_qs_onto/en_qs_ontocommandeIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -991,6 +987,11 @@ _:genid79 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 <http://dbpedia.org/ontology/Person> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://dbpedia.org/ontology/Person> <http://www.w3.org/2002/07/owl#sameAs> <http://xmlns.com/foaf/0.1/Person> .
 # 
+# http://dbpedia.org/property/birthPlace
+<http://dbpedia.org/property/birthPlace> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://dbpedia.org/property/birthPlace> <http://www.w3.org/2002/07/owl#sameAs> <https://w3id.org/def/en_qs_onto/en_qs_ontobornedIn> .
+<https://w3id.org/def/en_qs_onto/en_qs_ontobornedIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
 # http://mappings.dbpedia.org/index.php/OntologyClass:Place
 <http://mappings.dbpedia.org/index.php/OntologyClass:Place> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://mappings.dbpedia.org/index.php/OntologyClass:Place> <http://www.w3.org/2002/07/owl#sameAs> <https://w3id.org/def/en_qs_onto/en_qs_ontoPlace> .
@@ -1253,6 +1254,8 @@ _:genid79 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 <https://w3id.org/def/en_qs_onto/en_qs_ontobook4> <https://w3id.org/def/en_qs_onto/en_qs_ontoinVerse_Nu.> "Al-Baqarah185" .
 <https://w3id.org/def/en_qs_onto/en_qs_ontobook4> <https://w3id.org/def/en_qs_onto/en_qs_ontoinVerse_Text> "شَهۡرُ رَمَضَانَ ٱلَّذِيٓ أُنزِلَ فِيهِ ٱلۡقُرۡءَانُ هُدٗى لِّلنَّاسِ وَبَيِّنَٰتٖ مِّنَ ٱلۡهُدَىٰ وَٱلۡفُرۡقَانِۚ فَمَن شَهِدَ مِنكُمُ ٱلشَّهۡرَ فَلۡيَصُمۡهُۖ وَمَن كَانَ مَرِيضًا أَوۡ عَلَىٰ سَفَرٖ فَعِدَّةٞ مِّنۡ أَيَّامٍ أُخَرَۗ يُرِيدُ ٱللَّهُ بِكُمُ ٱلۡيُسۡرَ وَلَا يُرِيدُ بِكُمُ ٱلۡعُسۡرَ وَلِتُكۡمِلُواْ ٱلۡعِدَّةَ وَلِتُكَبِّرُواْ ٱللَّهَ عَلَىٰ مَا هَدَىٰكُمۡ وَلَعَلَّكُمۡ تَشۡكُرُونَ" .
 <https://w3id.org/def/en_qs_onto/en_qs_ontobook4> <http://purl.org/dc/elements/1.1/description> "الكتاب المقدّس عند المسلمين" .
+# 
+# https://w3id.org/def/en_qs_onto/en_qs_ontobornedIn
 # 
 # https://w3id.org/def/en_qs_onto/en_qs_ontoch1
 <https://w3id.org/def/en_qs_onto/en_qs_ontoch1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -3112,6 +3115,11 @@ _:genid79 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 <https://w3id.org/def/en_qs_onto/en_qs_ontoVerse> <http://www.w3.org/2000/01/rdf-schema#comment> "الأية." .
 <https://w3id.org/def/en_qs_onto/en_qs_ontoVerse> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/def/en_qs_onto> .
 <https://w3id.org/def/en_qs_onto/en_qs_ontoVerse> <http://www.w3.org/2000/01/rdf-schema#label> "Verse" .
+# 
+<https://w3id.org/def/en_qs_onto/en_qs_ontobornedIn> <http://purl.org/dc/elements/1.1/description> "ولادة الشخص في مكان محدد واحد." .
+<https://w3id.org/def/en_qs_onto/en_qs_ontobornedIn> <http://www.w3.org/2000/01/rdf-schema#comment> "ولد في ." .
+<https://w3id.org/def/en_qs_onto/en_qs_ontobornedIn> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/def/en_qs_onto> .
+<https://w3id.org/def/en_qs_onto/en_qs_ontobornedIn> <http://www.w3.org/2000/01/rdf-schema#label> "bornedIn" .
 # 
 <https://w3id.org/def/en_qs_onto/en_qs_ontopartOf> <http://purl.org/dc/elements/1.1/description> "السور القرانية هي جزء من الاجزاء والاجزاء هي جزء من القران." .
 <https://w3id.org/def/en_qs_onto/en_qs_ontopartOf> <http://www.w3.org/2000/01/rdf-schema#comment> "جزء من" .
