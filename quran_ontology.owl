@@ -199,6 +199,7 @@
         <rdfs:comment>ولد في .</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/def/en_qs_onto"/>
         <rdfs:label>bornedIn</rdfs:label>
+        <owl:sameAs rdf:resource="http://dbpedia.org/property/birthPlace"/>
     </owl:ObjectProperty>
     
 
