@@ -195,11 +195,6 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
         <rdfs:range rdf:resource="https://w3id.org/def/en_qs_onto/en_qs_ontoPlace"/>
-        <dc:description>ولادة الشخص في مكان محدد واحد.</dc:description>
-        <rdfs:comment>ولد في .</rdfs:comment>
-        <rdfs:isDefinedBy rdf:resource="https://w3id.org/def/en_qs_onto"/>
-        <rdfs:label>bornedIn</rdfs:label>
-        <owl:sameAs rdf:resource="http://dbpedia.org/property/birthPlace"/>
     </owl:ObjectProperty>
     
 
@@ -1377,6 +1372,14 @@
     
 
 
+    <!-- http://dbpedia.org/property/birthPlace -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/property/birthPlace">
+        <owl:sameAs rdf:resource="https://w3id.org/def/en_qs_onto/en_qs_ontobornedIn"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://mappings.dbpedia.org/index.php/OntologyClass:Place -->
 
     <owl:NamedIndividual rdf:about="http://mappings.dbpedia.org/index.php/OntologyClass:Place">
@@ -1786,6 +1789,12 @@
         <dc:description>الكتاب المقدّس عند المسلمين</dc:description>
         <foaf:name>القران الكريم</foaf:name>
     </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/def/en_qs_onto/en_qs_ontobornedIn -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/def/en_qs_onto/en_qs_ontobornedIn"/>
     
 
 
@@ -4380,6 +4389,12 @@
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/def/en_qs_onto"/>
         <rdfs:label>Verse</rdfs:label>
         <rdfs:comment>الأية.</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/def/en_qs_onto/en_qs_ontobornedIn">
+        <rdfs:comment>ولد في .</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/def/en_qs_onto"/>
+        <rdfs:label>bornedIn</rdfs:label>
+        <dc:description>ولادة الشخص في مكان محدد واحد.</dc:description>
     </rdf:Description>
     <rdf:Description rdf:about="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf">
         <rdfs:comment>جزء من</rdfs:comment>
