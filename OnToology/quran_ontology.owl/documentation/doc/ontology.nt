@@ -990,7 +990,6 @@ _:genid79 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 # http://dbpedia.org/property/birthPlace
 <http://dbpedia.org/property/birthPlace> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://dbpedia.org/property/birthPlace> <http://www.w3.org/2002/07/owl#sameAs> <https://w3id.org/def/en_qs_onto/en_qs_ontobornedIn> .
-<https://w3id.org/def/en_qs_onto/en_qs_ontobornedIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 # 
 # http://mappings.dbpedia.org/index.php/OntologyClass:Place
 <http://mappings.dbpedia.org/index.php/OntologyClass:Place> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -1256,6 +1255,7 @@ _:genid79 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 <https://w3id.org/def/en_qs_onto/en_qs_ontobook4> <http://purl.org/dc/elements/1.1/description> "الكتاب المقدّس عند المسلمين" .
 # 
 # https://w3id.org/def/en_qs_onto/en_qs_ontobornedIn
+<https://w3id.org/def/en_qs_onto/en_qs_ontobornedIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 # 
 # https://w3id.org/def/en_qs_onto/en_qs_ontoch1
 <https://w3id.org/def/en_qs_onto/en_qs_ontoch1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
