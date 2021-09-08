@@ -1396,26 +1396,6 @@
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#per32 -->
-
-    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#per32">
-        <rdf:type rdf:resource="https://w3id.org/def/en_qs_onto/en_qs_ontoInfidel"/>
-        <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q192785"/>
-        <en_qs_ontomentionedIn rdf:resource="https://w3id.org/def/en_qs_onto/en_qs_ontosurah1"/>
-        <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</foaf:age>
-        <foaf:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Male</foaf:gender>
-        <foaf:nick rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</foaf:nick>
-        <en_qs_ontohasFather rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</en_qs_ontohasFather>
-        <en_qs_ontohasMother rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</en_qs_ontohasMother>
-        <en_qs_ontohasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Goliath</en_qs_ontohasName>
-        <en_qs_ontoinVerse_Nu. rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Al-Baqarah251</en_qs_ontoinVerse_Nu.>
-        <en_qs_ontoinVerse_Text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">فَهَزَمُوهُمْ بِإِذْنِ اللَّهِ وَقَتَلَ دَاوُودُ جَالُوتَ وَآتَاهُ اللَّهُ الْمُلْكَ وَالْحِكْمَةَ وَعَلَّمَهُ مِمَّا يَشَاءُ ۗ وَلَوْلَا دَفْعُ اللَّهِ النَّاسَ بَعْضَهُمْ بِبَعْضٍ لَفَسَدَتِ الْأَرْضُ وَلَكِنَّ اللَّهَ ذُو فَضْلٍ عَلَى الْعَالَمِينَ</en_qs_ontoinVerse_Text>
-        <en_qs_ontonameRepeat rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</en_qs_ontonameRepeat>
-        <foaf:name>جالوت</foaf:name>
-    </owl:NamedIndividual>
-    
-
-
     <!-- http://xmlns.com/foaf/0.1/Person -->
 
     <owl:NamedIndividual rdf:about="http://xmlns.com/foaf/0.1/Person">
@@ -3332,6 +3312,26 @@
         <en_qs_ontonameRepeat rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</en_qs_ontonameRepeat>
         <en_qs_ontosEnd>God punished her in torment with her nation</en_qs_ontosEnd>
         <foaf:name>امرأة لوط</foaf:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/def/en_qs_onto/en_qs_ontoper32 -->
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/def/en_qs_onto/en_qs_ontoper32">
+        <rdf:type rdf:resource="https://w3id.org/def/en_qs_onto/en_qs_ontoInfidel"/>
+        <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q192785"/>
+        <en_qs_ontomentionedIn rdf:resource="https://w3id.org/def/en_qs_onto/en_qs_ontosurah1"/>
+        <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</foaf:age>
+        <foaf:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Male</foaf:gender>
+        <foaf:nick rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</foaf:nick>
+        <en_qs_ontohasFather rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</en_qs_ontohasFather>
+        <en_qs_ontohasMother rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</en_qs_ontohasMother>
+        <en_qs_ontohasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Goliath</en_qs_ontohasName>
+        <en_qs_ontoinVerse_Nu. rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Al-Baqarah251</en_qs_ontoinVerse_Nu.>
+        <en_qs_ontoinVerse_Text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">فَهَزَمُوهُمْ بِإِذْنِ اللَّهِ وَقَتَلَ دَاوُودُ جَالُوتَ وَآتَاهُ اللَّهُ الْمُلْكَ وَالْحِكْمَةَ وَعَلَّمَهُ مِمَّا يَشَاءُ ۗ وَلَوْلَا دَفْعُ اللَّهِ النَّاسَ بَعْضَهُمْ بِبَعْضٍ لَفَسَدَتِ الْأَرْضُ وَلَكِنَّ اللَّهَ ذُو فَضْلٍ عَلَى الْعَالَمِينَ</en_qs_ontoinVerse_Text>
+        <en_qs_ontonameRepeat rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</en_qs_ontonameRepeat>
+        <foaf:name>جالوت</foaf:name>
     </owl:NamedIndividual>
     
 
