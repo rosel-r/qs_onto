@@ -999,22 +999,6 @@ _:genid79 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 <http://purl.org/dc/terms/isPartOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://purl.org/dc/terms/isPartOf> <http://www.w3.org/2002/07/owl#sameAs> <https://w3id.org/def/en_qs_onto/en_qs_ontopartOf> .
 # 
-# http://www.co-ode.org/ontologies/ont.owl#per32
-<http://www.co-ode.org/ontologies/ont.owl#per32> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://www.co-ode.org/ontologies/ont.owl#per32> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/en_qs_onto/en_qs_ontoInfidel> .
-<http://www.co-ode.org/ontologies/ont.owl#per32> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q192785> .
-<http://www.co-ode.org/ontologies/ont.owl#per32> <https://w3id.org/def/en_qs_onto/en_qs_ontomentionedIn> <https://w3id.org/def/en_qs_onto/en_qs_ontosurah1> .
-<http://www.co-ode.org/ontologies/ont.owl#per32> <http://xmlns.com/foaf/0.1/age> "null" .
-<http://www.co-ode.org/ontologies/ont.owl#per32> <http://xmlns.com/foaf/0.1/gender> "Male" .
-<http://www.co-ode.org/ontologies/ont.owl#per32> <http://xmlns.com/foaf/0.1/name> "جالوت" .
-<http://www.co-ode.org/ontologies/ont.owl#per32> <http://xmlns.com/foaf/0.1/nick> "null" .
-<http://www.co-ode.org/ontologies/ont.owl#per32> <https://w3id.org/def/en_qs_onto/en_qs_ontohasFather> "null" .
-<http://www.co-ode.org/ontologies/ont.owl#per32> <https://w3id.org/def/en_qs_onto/en_qs_ontohasMother> "null" .
-<http://www.co-ode.org/ontologies/ont.owl#per32> <https://w3id.org/def/en_qs_onto/en_qs_ontohasName> "Goliath" .
-<http://www.co-ode.org/ontologies/ont.owl#per32> <https://w3id.org/def/en_qs_onto/en_qs_ontoinVerse_Nu.> "Al-Baqarah251" .
-<http://www.co-ode.org/ontologies/ont.owl#per32> <https://w3id.org/def/en_qs_onto/en_qs_ontoinVerse_Text> "فَهَزَمُوهُمْ بِإِذْنِ اللَّهِ وَقَتَلَ دَاوُودُ جَالُوتَ وَآتَاهُ اللَّهُ الْمُلْكَ وَالْحِكْمَةَ وَعَلَّمَهُ مِمَّا يَشَاءُ ۗ وَلَوْلَا دَفْعُ اللَّهِ النَّاسَ بَعْضَهُمْ بِبَعْضٍ لَفَسَدَتِ الْأَرْضُ وَلَكِنَّ اللَّهَ ذُو فَضْلٍ عَلَى الْعَالَمِينَ" .
-<http://www.co-ode.org/ontologies/ont.owl#per32> <https://w3id.org/def/en_qs_onto/en_qs_ontonameRepeat> "3" .
-# 
 # http://xmlns.com/foaf/0.1/Person
 <http://xmlns.com/foaf/0.1/Person> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://xmlns.com/foaf/0.1/Person> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q215627> .
@@ -2407,6 +2391,22 @@ _:genid79 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 <https://w3id.org/def/en_qs_onto/en_qs_ontoper31> <https://w3id.org/def/en_qs_onto/en_qs_ontoinVerse_Text> "ضَرَبَ اللَّهُ مَثَلًا لِّلَّذِينَ كَفَرُوا امْرَأَتَ نُوحٍ وَامْرَأَتَ لُوطٍ كَانَتَا تَحْتَ عَبْدَيْنِ مِنْ عِبَادِنَا صَالِحَيْنِ فَخَانَتَاهُمَا فَلَمْ يُغْنِيَا عَنْهُمَا مِنَ اللَّهِ شَيْئًا وَقِيلَ ادْخُلَا النَّارَ مَعَ الدَّاخِلِينَ" .
 <https://w3id.org/def/en_qs_onto/en_qs_ontoper31> <https://w3id.org/def/en_qs_onto/en_qs_ontonameRepeat> "1" .
 <https://w3id.org/def/en_qs_onto/en_qs_ontoper31> <https://w3id.org/def/en_qs_onto/en_qs_ontosEnd> "God punished her in torment with her nation" .
+# 
+# https://w3id.org/def/en_qs_onto/en_qs_ontoper32
+<https://w3id.org/def/en_qs_onto/en_qs_ontoper32> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/def/en_qs_onto/en_qs_ontoper32> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/en_qs_onto/en_qs_ontoInfidel> .
+<https://w3id.org/def/en_qs_onto/en_qs_ontoper32> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q192785> .
+<https://w3id.org/def/en_qs_onto/en_qs_ontoper32> <https://w3id.org/def/en_qs_onto/en_qs_ontomentionedIn> <https://w3id.org/def/en_qs_onto/en_qs_ontosurah1> .
+<https://w3id.org/def/en_qs_onto/en_qs_ontoper32> <http://xmlns.com/foaf/0.1/age> "null" .
+<https://w3id.org/def/en_qs_onto/en_qs_ontoper32> <http://xmlns.com/foaf/0.1/gender> "Male" .
+<https://w3id.org/def/en_qs_onto/en_qs_ontoper32> <http://xmlns.com/foaf/0.1/name> "جالوت" .
+<https://w3id.org/def/en_qs_onto/en_qs_ontoper32> <http://xmlns.com/foaf/0.1/nick> "null" .
+<https://w3id.org/def/en_qs_onto/en_qs_ontoper32> <https://w3id.org/def/en_qs_onto/en_qs_ontohasFather> "null" .
+<https://w3id.org/def/en_qs_onto/en_qs_ontoper32> <https://w3id.org/def/en_qs_onto/en_qs_ontohasMother> "null" .
+<https://w3id.org/def/en_qs_onto/en_qs_ontoper32> <https://w3id.org/def/en_qs_onto/en_qs_ontohasName> "Goliath" .
+<https://w3id.org/def/en_qs_onto/en_qs_ontoper32> <https://w3id.org/def/en_qs_onto/en_qs_ontoinVerse_Nu.> "Al-Baqarah251" .
+<https://w3id.org/def/en_qs_onto/en_qs_ontoper32> <https://w3id.org/def/en_qs_onto/en_qs_ontoinVerse_Text> "فَهَزَمُوهُمْ بِإِذْنِ اللَّهِ وَقَتَلَ دَاوُودُ جَالُوتَ وَآتَاهُ اللَّهُ الْمُلْكَ وَالْحِكْمَةَ وَعَلَّمَهُ مِمَّا يَشَاءُ ۗ وَلَوْلَا دَفْعُ اللَّهِ النَّاسَ بَعْضَهُمْ بِبَعْضٍ لَفَسَدَتِ الْأَرْضُ وَلَكِنَّ اللَّهَ ذُو فَضْلٍ عَلَى الْعَالَمِينَ" .
+<https://w3id.org/def/en_qs_onto/en_qs_ontoper32> <https://w3id.org/def/en_qs_onto/en_qs_ontonameRepeat> "3" .
 # 
 # https://w3id.org/def/en_qs_onto/en_qs_ontoper4
 <https://w3id.org/def/en_qs_onto/en_qs_ontoper4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

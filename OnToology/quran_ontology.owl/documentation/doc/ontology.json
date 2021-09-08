@@ -335,45 +335,6 @@
     "@id" : "https://w3id.org/def/en_qs_onto/en_qs_ontopartOf"
   } ]
 }, {
-  "@id" : "http://www.co-ode.org/ontologies/ont.owl#per32",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/def/en_qs_onto/en_qs_ontoInfidel" ],
-  "http://www.w3.org/2002/07/owl#sameAs" : [ {
-    "@id" : "https://www.wikidata.org/wiki/Q192785"
-  } ],
-  "http://xmlns.com/foaf/0.1/age" : [ {
-    "@value" : "null"
-  } ],
-  "http://xmlns.com/foaf/0.1/gender" : [ {
-    "@value" : "Male"
-  } ],
-  "http://xmlns.com/foaf/0.1/name" : [ {
-    "@value" : "جالوت"
-  } ],
-  "http://xmlns.com/foaf/0.1/nick" : [ {
-    "@value" : "null"
-  } ],
-  "https://w3id.org/def/en_qs_onto/en_qs_ontohasFather" : [ {
-    "@value" : "null"
-  } ],
-  "https://w3id.org/def/en_qs_onto/en_qs_ontohasMother" : [ {
-    "@value" : "null"
-  } ],
-  "https://w3id.org/def/en_qs_onto/en_qs_ontohasName" : [ {
-    "@value" : "Goliath"
-  } ],
-  "https://w3id.org/def/en_qs_onto/en_qs_ontoinVerse_Nu." : [ {
-    "@value" : "Al-Baqarah251"
-  } ],
-  "https://w3id.org/def/en_qs_onto/en_qs_ontoinVerse_Text" : [ {
-    "@value" : "فَهَزَمُوهُمْ بِإِذْنِ اللَّهِ وَقَتَلَ دَاوُودُ جَالُوتَ وَآتَاهُ اللَّهُ الْمُلْكَ وَالْحِكْمَةَ وَعَلَّمَهُ مِمَّا يَشَاءُ ۗ وَلَوْلَا دَفْعُ اللَّهِ النَّاسَ بَعْضَهُمْ بِبَعْضٍ لَفَسَدَتِ الْأَرْضُ وَلَكِنَّ اللَّهَ ذُو فَضْلٍ عَلَى الْعَالَمِينَ"
-  } ],
-  "https://w3id.org/def/en_qs_onto/en_qs_ontomentionedIn" : [ {
-    "@id" : "https://w3id.org/def/en_qs_onto/en_qs_ontosurah1"
-  } ],
-  "https://w3id.org/def/en_qs_onto/en_qs_ontonameRepeat" : [ {
-    "@value" : "3"
-  } ]
-}, {
   "@id" : "http://www.w3.org/2002/07/owl#sameAs",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
@@ -4770,6 +4731,45 @@
   } ],
   "https://w3id.org/def/en_qs_onto/en_qs_ontosEnd" : [ {
     "@value" : "God punished her in torment with her nation"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/en_qs_onto/en_qs_ontoper32",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/def/en_qs_onto/en_qs_ontoInfidel" ],
+  "http://www.w3.org/2002/07/owl#sameAs" : [ {
+    "@id" : "https://www.wikidata.org/wiki/Q192785"
+  } ],
+  "http://xmlns.com/foaf/0.1/age" : [ {
+    "@value" : "null"
+  } ],
+  "http://xmlns.com/foaf/0.1/gender" : [ {
+    "@value" : "Male"
+  } ],
+  "http://xmlns.com/foaf/0.1/name" : [ {
+    "@value" : "جالوت"
+  } ],
+  "http://xmlns.com/foaf/0.1/nick" : [ {
+    "@value" : "null"
+  } ],
+  "https://w3id.org/def/en_qs_onto/en_qs_ontohasFather" : [ {
+    "@value" : "null"
+  } ],
+  "https://w3id.org/def/en_qs_onto/en_qs_ontohasMother" : [ {
+    "@value" : "null"
+  } ],
+  "https://w3id.org/def/en_qs_onto/en_qs_ontohasName" : [ {
+    "@value" : "Goliath"
+  } ],
+  "https://w3id.org/def/en_qs_onto/en_qs_ontoinVerse_Nu." : [ {
+    "@value" : "Al-Baqarah251"
+  } ],
+  "https://w3id.org/def/en_qs_onto/en_qs_ontoinVerse_Text" : [ {
+    "@value" : "فَهَزَمُوهُمْ بِإِذْنِ اللَّهِ وَقَتَلَ دَاوُودُ جَالُوتَ وَآتَاهُ اللَّهُ الْمُلْكَ وَالْحِكْمَةَ وَعَلَّمَهُ مِمَّا يَشَاءُ ۗ وَلَوْلَا دَفْعُ اللَّهِ النَّاسَ بَعْضَهُمْ بِبَعْضٍ لَفَسَدَتِ الْأَرْضُ وَلَكِنَّ اللَّهَ ذُو فَضْلٍ عَلَى الْعَالَمِينَ"
+  } ],
+  "https://w3id.org/def/en_qs_onto/en_qs_ontomentionedIn" : [ {
+    "@id" : "https://w3id.org/def/en_qs_onto/en_qs_ontosurah1"
+  } ],
+  "https://w3id.org/def/en_qs_onto/en_qs_ontonameRepeat" : [ {
+    "@value" : "3"
   } ]
 }, {
   "@id" : "https://w3id.org/def/en_qs_onto/en_qs_ontoper4",
