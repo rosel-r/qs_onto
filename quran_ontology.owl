@@ -522,6 +522,7 @@
                 <owl:unionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="https://w3id.org/def/en_qs_onto/en_qs_ontoMessenger"/>
                     <rdf:Description rdf:about="https://w3id.org/def/en_qs_onto/en_qs_ontoProphet"/>
+                    <rdf:Description rdf:about="https://w3id.org/def/en_qs_onto/en_qs_ontoRighteou"/>
                 </owl:unionOf>
             </owl:Class>
         </rdfs:range>
@@ -541,6 +542,7 @@
                 <owl:unionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="https://w3id.org/def/en_qs_onto/en_qs_ontoMessenger"/>
                     <rdf:Description rdf:about="https://w3id.org/def/en_qs_onto/en_qs_ontoProphet"/>
+                    <rdf:Description rdf:about="https://w3id.org/def/en_qs_onto/en_qs_ontoRighteou"/>
                 </owl:unionOf>
             </owl:Class>
         </rdfs:domain>
@@ -746,6 +748,7 @@
                 <owl:unionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="https://w3id.org/def/en_qs_onto/en_qs_ontoMessenger"/>
                     <rdf:Description rdf:about="https://w3id.org/def/en_qs_onto/en_qs_ontoProphet"/>
+                    <rdf:Description rdf:about="https://w3id.org/def/en_qs_onto/en_qs_ontoRighteou"/>
                 </owl:unionOf>
             </owl:Class>
         </rdfs:domain>
@@ -985,6 +988,17 @@
                 </owl:allValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <owl:disjointUnionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://w3id.org/def/en_qs_onto/en_qs_ontoInfidel"/>
+            <rdf:Description rdf:about="https://w3id.org/def/en_qs_onto/en_qs_ontoNation"/>
+            <rdf:Description rdf:about="https://w3id.org/def/en_qs_onto/en_qs_ontoRighteou"/>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/def/en_qs_onto/en_qs_ontoMessenger"/>
+                    <rdf:Description rdf:about="https://w3id.org/def/en_qs_onto/en_qs_ontoProphet"/>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:disjointUnionOf>
     </rdf:Description>
     
 
