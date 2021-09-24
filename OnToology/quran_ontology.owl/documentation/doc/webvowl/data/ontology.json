@@ -1,0 +1,7087 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "en", "undefined" ],
+    "baseIris" : [ "https://w3id.org/def/en_qs_onto", "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://schema.org", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2003/01/geo/wgs84_pos", "http://purl.org/dc/terms", "http://www.w3.org/2001/XMLSchema", "http://xmlns.com/foaf/0.1", "http://www.w3.org/2000/10/swap/pim/contact", "http://www.w3.org/2004/02/skos/core" ],
+    "title" : {
+      "undefined" : "Quran Stories Ontology"
+    },
+    "iri" : "https://w3id.org/def/en_qs_onto/",
+    "labels" : {
+      "undefined" : "QURAN STORIES ONTOLOGY"
+    },
+    "comments" : {
+      "undefined" : "أنطولوجيا القصص القرانية"
+    },
+    "other" : {
+      "date" : [ {
+        "identifier" : "date",
+        "language" : "undefined",
+        "value" : "25/2/2021",
+        "type" : "label"
+      } ],
+      "creater" : [ {
+        "identifier" : "creater",
+        "language" : "en",
+        "value" : "Rusul Y. Raghib",
+        "type" : "label"
+      } ],
+      "abstract" : [ {
+        "identifier" : "abstract",
+        "language" : "en",
+        "value" : "This ontology focuses on the field of Qur'anic stories that included many of the stories that were mentioned in the Holy Qur'an and interpreted in history books such as stories of the prophets, messengers, righteous people, infidels, nations , animals that had a role in these stories, The events that actually occurred during these stories, such as miracles, divine punishment and divine honors to some of the messengers or prophets, and others.",
+        "type" : "label"
+      } ],
+      "title" : [ {
+        "identifier" : "title",
+        "language" : "undefined",
+        "value" : "Quran Stories Ontology",
+        "type" : "label"
+      } ]
+    }
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "8",
+    "type" : "owl:Class"
+  }, {
+    "id" : "13",
+    "type" : "owl:Class"
+  }, {
+    "id" : "20",
+    "type" : "owl:Class"
+  }, {
+    "id" : "14",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "24",
+    "type" : "owl:Class"
+  }, {
+    "id" : "28",
+    "type" : "owl:Class"
+  }, {
+    "id" : "67",
+    "type" : "owl:Class"
+  }, {
+    "id" : "42",
+    "type" : "owl:Class"
+  }, {
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "89",
+    "type" : "owl:Class"
+  }, {
+    "id" : "48",
+    "type" : "owl:Class"
+  }, {
+    "id" : "18",
+    "type" : "owl:Class"
+  }, {
+    "id" : "11",
+    "type" : "owl:disjointUnionOf"
+  }, {
+    "id" : "108",
+    "type" : "owl:Class"
+  }, {
+    "id" : "21",
+    "type" : "owl:Class"
+  }, {
+    "id" : "40",
+    "type" : "owl:Class"
+  }, {
+    "id" : "70",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "128",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "158",
+    "type" : "owl:Class"
+  }, {
+    "id" : "7",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "44",
+    "type" : "owl:Class"
+  }, {
+    "id" : "9",
+    "type" : "owl:disjointUnionOf"
+  }, {
+    "id" : "66",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "38",
+    "type" : "owl:Class"
+  }, {
+    "id" : "172",
+    "type" : "owl:Class"
+  }, {
+    "id" : "31",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "175",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "123",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "176",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "178",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "179",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "33",
+    "type" : "owl:Class"
+  }, {
+    "id" : "181",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "184",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "187",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "189",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "117",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "194",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "180",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "98",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "202",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "136",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "22",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "205",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "206",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "186",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "156",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "16",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "149",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "148",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "102",
+    "type" : "owl:Class"
+  }, {
+    "id" : "211",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "130",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "212",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "177",
+    "type" : "owl:Class"
+  }, {
+    "id" : "214",
+    "type" : "owl:Class"
+  }, {
+    "id" : "217",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "78",
+    "type" : "owl:Class"
+  }, {
+    "id" : "210",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "88",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "74",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "171",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "76",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "127",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "152",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "121",
+    "type" : "owl:Class"
+  }, {
+    "id" : "160",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "227",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "69",
+    "type" : "owl:Class"
+  }, {
+    "id" : "231",
+    "type" : "owl:Class"
+  }, {
+    "id" : "169",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "82",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "201",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "204",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "234",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "101",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "146",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "196",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "139",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "84",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "81",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "53",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "85",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "207",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "64",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "208",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "161",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "191",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "174",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "221",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "240",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "63",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "168",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "154",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "166",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "219",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "91",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "72",
+    "type" : "owl:Class"
+  }, {
+    "id" : "36",
+    "type" : "owl:Class"
+  }, {
+    "id" : "26",
+    "type" : "owl:Class"
+  }, {
+    "id" : "125",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "111",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "113",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "223",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "132",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "183",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "246",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "12",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "46",
+    "type" : "owl:Class"
+  }, {
+    "id" : "236",
+    "type" : "owl:Class"
+  }, {
+    "id" : "200",
+    "type" : "owl:Class"
+  }, {
+    "id" : "103",
+    "type" : "owl:Class"
+  }, {
+    "id" : "245",
+    "type" : "owl:Class"
+  }, {
+    "id" : "134",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "143",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "5",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "93",
+    "type" : "owl:Class"
+  }, {
+    "id" : "23",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "30",
+    "type" : "owl:Class"
+  }, {
+    "id" : "60",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "107",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "216",
+    "type" : "owl:Class"
+  }, {
+    "id" : "95",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "276",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "277",
+    "type" : "owl:Thing"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoCivilian_Surah",
+    "baseIri" : "https://w3id.org/def/en_qs_onto",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/def/en_qs_onto",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "en_qs_ontoCivilian_Surah",
+      "undefined" : "Civilian_Surah"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontosurah9",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "labels" : {
+        "IRI-based" : "en_qs_ontosurah9"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontosurah20",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "labels" : {
+        "IRI-based" : "en_qs_ontosurah20"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontosurah21",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "labels" : {
+        "IRI-based" : "en_qs_ontosurah21"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontosurah10",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "description" : {
+        "undefined" : "سورة قرانية في الفصل الثالث من القرآن."
+      },
+      "labels" : {
+        "IRI-based" : "en_qs_ontosurah10"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontosurah8",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "labels" : {
+        "IRI-based" : "en_qs_ontosurah8"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontosurah27",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "labels" : {
+        "IRI-based" : "en_qs_ontosurah27"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontosurah1",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "labels" : {
+        "IRI-based" : "en_qs_ontosurah1"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontosurah13",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "labels" : {
+        "IRI-based" : "en_qs_ontosurah13"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "السورة المدنية"
+    },
+    "id" : "8",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoMissionPlace",
+    "baseIri" : "https://w3id.org/def/en_qs_onto",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/def/en_qs_onto",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "en_qs_ontoMissionPlace",
+      "undefined" : "MissionPlace"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontopc6",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "labels" : {
+        "IRI-based" : "en_qs_ontopc6"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontopc7",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "labels" : {
+        "IRI-based" : "en_qs_ontopc7"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "مكان البعثه."
+    },
+    "id" : "13",
+    "superClasses" : [ "14" ]
+  }, {
+    "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoVerse",
+    "baseIri" : "https://w3id.org/def/en_qs_onto",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/def/en_qs_onto",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "en_qs_ontoVerse",
+      "undefined" : "Verse"
+    },
+    "comment" : {
+      "undefined" : "الأية."
+    },
+    "id" : "20"
+  }, {
+    "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoPlace",
+    "baseIri" : "https://w3id.org/def/en_qs_onto",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/def/en_qs_onto",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "en_qs_ontoPlace",
+      "undefined" : "Place"
+    },
+    "union" : [ "21", "22", "23", "13" ],
+    "subClasses" : [ "21", "22", "23", "13" ],
+    "comment" : {
+      "undefined" : "المكان"
+    },
+    "attributes" : [ "union" ],
+    "id" : "14"
+  }, {
+    "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoReptile",
+    "baseIri" : "https://w3id.org/def/en_qs_onto",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/def/en_qs_onto",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "en_qs_ontoReptile",
+      "undefined" : "Reptile"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoanim6",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "labels" : {
+        "IRI-based" : "en_qs_ontoanim6"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "الزواحف"
+    },
+    "id" : "24",
+    "superClasses" : [ "11" ]
+  }, {
+    "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoMiracles",
+    "baseIri" : "https://w3id.org/def/en_qs_onto",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/def/en_qs_onto",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "en_qs_ontoMiracles",
+      "undefined" : "Miracles"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoev10",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "labels" : {
+        "IRI-based" : "en_qs_ontoev10"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoev11",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "labels" : {
+        "IRI-based" : "en_qs_ontoev11"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoev12",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "labels" : {
+        "IRI-based" : "en_qs_ontoev12"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoev13",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "labels" : {
+        "IRI-based" : "en_qs_ontoev13"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoev14",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "labels" : {
+        "IRI-based" : "en_qs_ontoev14"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoev15",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "labels" : {
+        "IRI-based" : "en_qs_ontoev15"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoev17",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "labels" : {
+        "IRI-based" : "en_qs_ontoev17"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoev3",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "labels" : {
+        "IRI-based" : "en_qs_ontoev3"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "المعجزات"
+    },
+    "id" : "28",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/Project",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://xmlns.com/foaf/0.1/",
+        "type" : "iri"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "testing",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Project",
+      "undefined" : "Project"
+    },
+    "comment" : {
+      "undefined" : "A project (a collective endeavour of some kind)."
+    },
+    "attributes" : [ "external" ],
+    "id" : "67"
+  }, {
+    "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoProphet",
+    "baseIri" : "https://w3id.org/def/en_qs_onto",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/def/en_qs_onto",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "en_qs_ontoProphet",
+      "undefined" : "Prophet"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoper20",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "https://w3id.org/def/en_qs_onto",
+          "type" : "iri"
+        } ],
+        "sameAs" : [ {
+          "identifier" : "sameAs",
+          "language" : "undefined",
+          "value" : "Elijah",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "en_qs_ontoper20"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoper2",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "https://w3id.org/def/en_qs_onto",
+          "type" : "iri"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "en_qs_ontoper2"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoper1",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "https://w3id.org/def/en_qs_onto",
+          "type" : "iri"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "en_qs_ontoper1"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoper24",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "https://w3id.org/def/en_qs_onto",
+          "type" : "iri"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "en_qs_ontoper24"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoper12",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "https://w3id.org/def/en_qs_onto",
+          "type" : "iri"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "en_qs_ontoper12"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoper23",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "https://w3id.org/def/en_qs_onto",
+          "type" : "iri"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "en_qs_ontoper23"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoper11",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "https://w3id.org/def/en_qs_onto",
+          "type" : "iri"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "en_qs_ontoper11"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoper22",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "https://w3id.org/def/en_qs_onto",
+          "type" : "iri"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "en_qs_ontoper22"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoper10",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "https://w3id.org/def/en_qs_onto",
+          "type" : "iri"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "en_qs_ontoper10"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoper21",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "https://w3id.org/def/en_qs_onto",
+          "type" : "iri"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "en_qs_ontoper21"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoper8",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "https://w3id.org/def/en_qs_onto",
+          "type" : "iri"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "en_qs_ontoper8"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoper7",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "https://w3id.org/def/en_qs_onto",
+          "type" : "iri"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "en_qs_ontoper7"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoper9",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "https://w3id.org/def/en_qs_onto",
+          "type" : "iri"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "en_qs_ontoper9"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoper3",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "https://w3id.org/def/en_qs_onto",
+          "type" : "iri"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "en_qs_ontoper3"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoper6",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "https://w3id.org/def/en_qs_onto",
+          "type" : "iri"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "en_qs_ontoper6"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoper17",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "https://w3id.org/def/en_qs_onto",
+          "type" : "iri"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "en_qs_ontoper17"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoper16",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "https://w3id.org/def/en_qs_onto",
+          "type" : "iri"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "en_qs_ontoper16"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoper14",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "https://w3id.org/def/en_qs_onto",
+          "type" : "iri"
+        } ],
+        "sameAs" : [ {
+          "identifier" : "sameAs",
+          "language" : "undefined",
+          "value" : "Dhun-Nûn",
+          "type" : "label"
+        }, {
+          "identifier" : "sameAs",
+          "language" : "undefined",
+          "value" : "the man of the fish",
+          "type" : "label"
+        }, {
+          "identifier" : "sameAs",
+          "language" : "undefined",
+          "value" : "Jonah",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "en_qs_ontoper14"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoper25",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "description" : {
+        "undefined" : "خاتم الأنبياء والرسل وفقًا للمعتقد الإسلامي."
+      },
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "https://w3id.org/def/en_qs_onto",
+          "type" : "iri"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "en_qs_ontoper25"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoper19",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "https://w3id.org/def/en_qs_onto",
+          "type" : "iri"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "en_qs_ontoper19"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoper18",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "https://w3id.org/def/en_qs_onto",
+          "type" : "iri"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "en_qs_ontoper18"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "النبي"
+    },
+    "id" : "42",
+    "superClasses" : [ "16" ]
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/PersonalProfileDocument",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "instances" : 0,
+    "annotations" : {
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "testing",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "PersonalProfileDocument",
+      "undefined" : "PersonalProfileDocument"
+    },
+    "comment" : {
+      "undefined" : "A personal profile RDF document."
+    },
+    "attributes" : [ "external" ],
+    "id" : "4",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoBird",
+    "baseIri" : "https://w3id.org/def/en_qs_onto",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/def/en_qs_onto",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "en_qs_ontoBird",
+      "undefined" : "Bird"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoanim4",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "comment" : {
+        "undefined" : "https://w3id.org/def/en_qs_onto"
+      },
+      "labels" : {
+        "IRI-based" : "en_qs_ontoanim4"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoanim1",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "https://w3id.org/def/en_qs_onto",
+          "type" : "iri"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "en_qs_ontoanim1"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "الطير."
+    },
+    "id" : "89",
+    "superClasses" : [ "11" ]
+  }, {
+    "iri" : "http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing",
+    "baseIri" : "http://www.w3.org/2003/01/geo/wgs84_pos",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SpatialThing",
+      "undefined" : "Spatial Thing"
+    },
+    "subClasses" : [ "16" ],
+    "attributes" : [ "external" ],
+    "id" : "48"
+  }, {
+    "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoEvent",
+    "baseIri" : "https://w3id.org/def/en_qs_onto",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/def/en_qs_onto",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "en_qs_ontoEvent",
+      "undefined" : "Event"
+    },
+    "subClasses" : [ "2", "93" ],
+    "comment" : {
+      "undefined" : "الحدث."
+    },
+    "id" : "18"
+  }, {
+    "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoAnimal",
+    "baseIri" : "https://w3id.org/def/en_qs_onto",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/def/en_qs_onto",
+        "type" : "iri"
+      } ]
+    },
+    "disjointUnion" : [ "102", "103", "89", "24" ],
+    "label" : {
+      "IRI-based" : "en_qs_ontoAnimal",
+      "undefined" : "Animal"
+    },
+    "subClasses" : [ "102", "103", "89", "24" ],
+    "comment" : {
+      "undefined" : "الحيوان"
+    },
+    "attributes" : [ "disjointUnion" ],
+    "id" : "11"
+  }, {
+    "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoBook",
+    "baseIri" : "https://w3id.org/def/en_qs_onto",
+    "instances" : 0,
+    "description" : {
+      "undefined" : "مجموعة من الأوراق بأنواع مختلفة (ورقية، إلكترونية، إلخ.) تحتوي على كلمات وجمل لهدف أساسي وهو الحفظ (ضد الضياع)."
+    },
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/def/en_qs_onto",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "en_qs_ontoBook",
+      "undefined" : "Book"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontobook3",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "labels" : {
+        "IRI-based" : "en_qs_ontobook3"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontobook4",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "description" : {
+        "undefined" : "الكتاب المقدّس عند المسلمين"
+      },
+      "labels" : {
+        "IRI-based" : "en_qs_ontobook4"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontobook1",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "comment" : {
+        "undefined" : "هو الكتاب الذي اعطاه الله سبحانه وتعالى الى النبي داوود (عليه السلام) والذي يتضمن تعاليم الدين الاسلامي انذاك."
+      },
+      "labels" : {
+        "IRI-based" : "en_qs_ontobook1"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontobook2",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "labels" : {
+        "IRI-based" : "en_qs_ontobook2"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "الكتاب."
+    },
+    "id" : "108"
+  }, {
+    "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoBirthPlace",
+    "baseIri" : "https://w3id.org/def/en_qs_onto",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/def/en_qs_onto",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "en_qs_ontoBirthPlace",
+      "undefined" : "BirthPlace"
+    },
+    "comment" : {
+      "undefined" : "مكان ولاده"
+    },
+    "id" : "21",
+    "superClasses" : [ "14" ]
+  }, {
+    "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoRighteou",
+    "baseIri" : "https://w3id.org/def/en_qs_onto",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/def/en_qs_onto",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "en_qs_ontoRighteou",
+      "undefined" : "Righteou"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoper13",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "labels" : {
+        "IRI-based" : "en_qs_ontoper13"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoper28",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "comment" : {
+        "undefined" : "ملك صالح ذكر في القرآن، بنى ردمًا يدفع به أذى يأجوج ومأجوج"
+      },
+      "labels" : {
+        "IRI-based" : "en_qs_ontoper28"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoper27",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "labels" : {
+        "IRI-based" : "en_qs_ontoper27"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoper26",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "labels" : {
+        "IRI-based" : "en_qs_ontoper26"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "الصالح."
+    },
+    "id" : "40",
+    "superClasses" : [ "16" ]
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/OnlineAccount",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://xmlns.com/foaf/0.1/",
+        "type" : "iri"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "testing",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "OnlineAccount",
+      "undefined" : "Online Account"
+    },
+    "subClasses" : [ "121", "72", "69" ],
+    "comment" : {
+      "undefined" : "An online account."
+    },
+    "attributes" : [ "external" ],
+    "id" : "70"
+  }, {
+    "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoGod_Punishment",
+    "baseIri" : "https://w3id.org/def/en_qs_onto",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/def/en_qs_onto",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "en_qs_ontoGod_Punishment",
+      "undefined" : "God_punishment"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoev9",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "labels" : {
+        "IRI-based" : "en_qs_ontoev9"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoev8",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "labels" : {
+        "IRI-based" : "en_qs_ontoev8"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoev16",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "labels" : {
+        "IRI-based" : "en_qs_ontoev16"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoev7",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "labels" : {
+        "IRI-based" : "en_qs_ontoev7"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoev6",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "labels" : {
+        "IRI-based" : "en_qs_ontoev6"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoev5",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "labels" : {
+        "IRI-based" : "en_qs_ontoev5"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoev4",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "labels" : {
+        "IRI-based" : "en_qs_ontoev4"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "العقاب الألهي"
+    },
+    "id" : "1",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://purl.org/dc/terms/Agent",
+    "equivalent" : [ "31" ],
+    "baseIri" : "http://purl.org/dc/terms",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Agent"
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "128"
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Class",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Class"
+    },
+    "attributes" : [ "external" ],
+    "id" : "158"
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/Image",
+    "equivalent" : [ "161" ],
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://xmlns.com/foaf/0.1/",
+        "type" : "iri"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "stable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Image",
+      "undefined" : "Image"
+    },
+    "comment" : {
+      "undefined" : "An image."
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "7",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoMessenger",
+    "baseIri" : "https://w3id.org/def/en_qs_onto",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/def/en_qs_onto",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "en_qs_ontoMessenger",
+      "undefined" : "Messenger"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoper20",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "https://w3id.org/def/en_qs_onto",
+          "type" : "iri"
+        } ],
+        "sameAs" : [ {
+          "identifier" : "sameAs",
+          "language" : "undefined",
+          "value" : "Elijah",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "en_qs_ontoper20"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoper24",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "https://w3id.org/def/en_qs_onto",
+          "type" : "iri"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "en_qs_ontoper24"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoper8",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "https://w3id.org/def/en_qs_onto",
+          "type" : "iri"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "en_qs_ontoper8"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoper7",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "https://w3id.org/def/en_qs_onto",
+          "type" : "iri"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "en_qs_ontoper7"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoper16",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "https://w3id.org/def/en_qs_onto",
+          "type" : "iri"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "en_qs_ontoper16"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoper15",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "description" : {
+        "undefined" : "الرسول شعيب هو احد الرسل الذين تم ذكرهم في القران الكريم في سورة الاعراف في الاية رقم 85"
+      },
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "https://w3id.org/def/en_qs_onto",
+          "type" : "iri"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "en_qs_ontoper15"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoper14",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "https://w3id.org/def/en_qs_onto",
+          "type" : "iri"
+        } ],
+        "sameAs" : [ {
+          "identifier" : "sameAs",
+          "language" : "undefined",
+          "value" : "Dhun-Nûn",
+          "type" : "label"
+        }, {
+          "identifier" : "sameAs",
+          "language" : "undefined",
+          "value" : "the man of the fish",
+          "type" : "label"
+        }, {
+          "identifier" : "sameAs",
+          "language" : "undefined",
+          "value" : "Jonah",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "en_qs_ontoper14"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoper25",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "description" : {
+        "undefined" : "خاتم الأنبياء والرسل وفقًا للمعتقد الإسلامي."
+      },
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "https://w3id.org/def/en_qs_onto",
+          "type" : "iri"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "en_qs_ontoper25"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoper4",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "description" : {
+        "undefined" : "الرسول هود هو احد الرسل الذين تم ذكرهم في القران الكريم في سورة هود  في الاية رقم 50."
+      },
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "https://w3id.org/def/en_qs_onto",
+          "type" : "iri"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "en_qs_ontoper4"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoper3",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "https://w3id.org/def/en_qs_onto",
+          "type" : "iri"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "en_qs_ontoper3"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoper6",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "https://w3id.org/def/en_qs_onto",
+          "type" : "iri"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "en_qs_ontoper6"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoper5",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "https://w3id.org/def/en_qs_onto",
+          "type" : "iri"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "en_qs_ontoper5"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "الرسول"
+    },
+    "id" : "44",
+    "superClasses" : [ "16" ]
+  }, {
+    "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoSurah",
+    "baseIri" : "https://w3id.org/def/en_qs_onto",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/def/en_qs_onto",
+        "type" : "iri"
+      } ]
+    },
+    "disjointUnion" : [ "78", "8" ],
+    "label" : {
+      "IRI-based" : "en_qs_ontoSurah",
+      "undefined" : "Surah"
+    },
+    "subClasses" : [ "78", "8" ],
+    "comment" : {
+      "undefined" : "السورة القرانية"
+    },
+    "attributes" : [ "disjointUnion" ],
+    "id" : "9"
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "66",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoInfidel",
+    "baseIri" : "https://w3id.org/def/en_qs_onto",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/def/en_qs_onto",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "en_qs_ontoInfidel",
+      "undefined" : "Infidel"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoper31",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "labels" : {
+        "IRI-based" : "en_qs_ontoper31"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoper30",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "labels" : {
+        "IRI-based" : "en_qs_ontoper30"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoper32",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "labels" : {
+        "IRI-based" : "en_qs_ontoper32"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoper29",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "labels" : {
+        "IRI-based" : "en_qs_ontoper29"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "الكافر."
+    },
+    "id" : "38",
+    "superClasses" : [ "16" ]
+  }, {
+    "iri" : "http://www.w3.org/2004/02/skos/core#Concept",
+    "baseIri" : "http://www.w3.org/2004/02/skos/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Concept",
+      "undefined" : "Concept"
+    },
+    "attributes" : [ "external" ],
+    "id" : "172"
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/Agent",
+    "equivalent" : [ "128" ],
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "instances" : 0,
+    "annotations" : {
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "stable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Agent",
+      "undefined" : "Agent"
+    },
+    "subClasses" : [ "30", "33", "16" ],
+    "comment" : {
+      "undefined" : "An agent (eg. person, group, software or physical artifact)."
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "31"
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "175",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "123",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "instances" : 0,
+    "union" : [ "108", "177", "9" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "176"
+  }, {
+    "instances" : 0,
+    "union" : [ "20", "177", "9" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "178"
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "179",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/Organization",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://xmlns.com/foaf/0.1/",
+        "type" : "iri"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "stable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Organization",
+      "undefined" : "Organization"
+    },
+    "comment" : {
+      "undefined" : "An organization."
+    },
+    "attributes" : [ "external" ],
+    "id" : "33",
+    "superClasses" : [ "31" ]
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "181",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "instances" : 0,
+    "union" : [ "11", "16" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "184"
+  }, {
+    "instances" : 0,
+    "union" : [ "11", "16" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "187"
+  }, {
+    "instances" : 0,
+    "union" : [ "42", "44" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "189"
+  }, {
+    "instances" : 0,
+    "union" : [ "42", "44" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "117"
+  }, {
+    "iri" : "http://schema.org/CreativeWork",
+    "equivalent" : [ "5" ],
+    "baseIri" : "http://schema.org",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CreativeWork"
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "194"
+  }, {
+    "instances" : 0,
+    "union" : [ "42", "44" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "180"
+  }, {
+    "instances" : 0,
+    "union" : [ "42", "44" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "98"
+  }, {
+    "instances" : 0,
+    "union" : [ "11", "16" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "202"
+  }, {
+    "instances" : 0,
+    "union" : [ "42", "44" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "136"
+  }, {
+    "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoLivePlace",
+    "equivalent" : [ "23" ],
+    "baseIri" : "https://w3id.org/def/en_qs_onto",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/def/en_qs_onto",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "en_qs_ontoLivePlace",
+      "undefined" : "LivePlace"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontopc3",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "labels" : {
+        "IRI-based" : "en_qs_ontopc3"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontopc10",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "labels" : {
+        "IRI-based" : "en_qs_ontopc10"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontopc4",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "labels" : {
+        "IRI-based" : "en_qs_ontopc4"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontopc5",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "labels" : {
+        "IRI-based" : "en_qs_ontopc5"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontopc8",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "labels" : {
+        "IRI-based" : "en_qs_ontopc8"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontopc9",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "labels" : {
+        "IRI-based" : "en_qs_ontopc9"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontopc1",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "labels" : {
+        "IRI-based" : "en_qs_ontopc1"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontopc2",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "labels" : {
+        "IRI-based" : "en_qs_ontopc2"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "مكان العيش."
+    },
+    "attributes" : [ "equivalent" ],
+    "id" : "22",
+    "superClasses" : [ "14" ]
+  }, {
+    "instances" : 0,
+    "union" : [ "42", "44" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "205"
+  }, {
+    "instances" : 0,
+    "union" : [ "42", "44" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "206"
+  }, {
+    "instances" : 0,
+    "union" : [ "42", "44" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "186"
+  }, {
+    "instances" : 0,
+    "union" : [ "11", "16" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "156"
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/Person",
+    "equivalent" : [ "207", "208" ],
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://xmlns.com/foaf/0.1/",
+        "type" : "iri"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "stable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Person",
+      "undefined" : "Person"
+    },
+    "subClasses" : [ "36", "38", "40", "42", "44" ],
+    "comment" : {
+      "undefined" : "A person."
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "16",
+    "superClasses" : [ "31", "48" ]
+  }, {
+    "instances" : 0,
+    "union" : [ "20", "177", "9" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "149"
+  }, {
+    "instances" : 0,
+    "union" : [ "108", "177", "9" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "148"
+  }, {
+    "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoMammal",
+    "baseIri" : "https://w3id.org/def/en_qs_onto",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/def/en_qs_onto",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "en_qs_ontoMammal",
+      "undefined" : "Mammal"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoanim3",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "labels" : {
+        "IRI-based" : "en_qs_ontoanim3"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoanim2",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "labels" : {
+        "IRI-based" : "en_qs_ontoanim2"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "الثدييات"
+    },
+    "id" : "102",
+    "superClasses" : [ "11" ]
+  }, {
+    "instances" : 0,
+    "union" : [ "42", "44" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "211"
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "130",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "212",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoChapter",
+    "baseIri" : "https://w3id.org/def/en_qs_onto",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/def/en_qs_onto",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "en_qs_ontoChapter",
+      "undefined" : "Chapter"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoch4",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "labels" : {
+        "IRI-based" : "en_qs_ontoch4"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoch29",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "labels" : {
+        "IRI-based" : "en_qs_ontoch29"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoch3",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "labels" : {
+        "IRI-based" : "en_qs_ontoch3"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoch2",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "comment" : {
+        "undefined" : "الجزء الثاني"
+      },
+      "labels" : {
+        "IRI-based" : "en_qs_ontoch2"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoch28",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "labels" : {
+        "IRI-based" : "en_qs_ontoch28"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoch1",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "labels" : {
+        "IRI-based" : "en_qs_ontoch1"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoch27",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "labels" : {
+        "IRI-based" : "en_qs_ontoch27"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoch26",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "labels" : {
+        "IRI-based" : "en_qs_ontoch26"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoch25",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "labels" : {
+        "IRI-based" : "en_qs_ontoch25"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoch24",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "labels" : {
+        "IRI-based" : "en_qs_ontoch24"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoch23",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "labels" : {
+        "IRI-based" : "en_qs_ontoch23"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoch22",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "labels" : {
+        "IRI-based" : "en_qs_ontoch22"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoch21",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "labels" : {
+        "IRI-based" : "en_qs_ontoch21"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoch20",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "labels" : {
+        "IRI-based" : "en_qs_ontoch20"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoch19",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "labels" : {
+        "IRI-based" : "en_qs_ontoch19"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoch18",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "labels" : {
+        "IRI-based" : "en_qs_ontoch18"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoch17",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "labels" : {
+        "IRI-based" : "en_qs_ontoch17"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoch16",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "labels" : {
+        "IRI-based" : "en_qs_ontoch16"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoch15",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "labels" : {
+        "IRI-based" : "en_qs_ontoch15"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoch14",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "labels" : {
+        "IRI-based" : "en_qs_ontoch14"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoch13",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "labels" : {
+        "IRI-based" : "en_qs_ontoch13"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoch12",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "labels" : {
+        "IRI-based" : "en_qs_ontoch12"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoch11",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "labels" : {
+        "IRI-based" : "en_qs_ontoch11"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoch10",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "labels" : {
+        "IRI-based" : "en_qs_ontoch10"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoch30",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "labels" : {
+        "IRI-based" : "en_qs_ontoch30"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoch9",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "labels" : {
+        "IRI-based" : "en_qs_ontoch9"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoch8",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "labels" : {
+        "IRI-based" : "en_qs_ontoch8"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoch7",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "labels" : {
+        "IRI-based" : "en_qs_ontoch7"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoch6",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "labels" : {
+        "IRI-based" : "en_qs_ontoch6"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoch5",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "labels" : {
+        "IRI-based" : "en_qs_ontoch5"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "الجزء القراني"
+    },
+    "id" : "177"
+  }, {
+    "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoDate",
+    "baseIri" : "https://w3id.org/def/en_qs_onto",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/def/en_qs_onto",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "en_qs_ontoDate",
+      "undefined" : "Date"
+    },
+    "comment" : {
+      "undefined" : "التاريخ."
+    },
+    "id" : "214"
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "217",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoMeccan_Surah",
+    "baseIri" : "https://w3id.org/def/en_qs_onto",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/def/en_qs_onto",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "en_qs_ontoMeccan_Surah",
+      "undefined" : "Meccan_Surah"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontosurah2",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "labels" : {
+        "IRI-based" : "en_qs_ontosurah2"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontosurah4",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "description" : {
+        "undefined" : "سورة قرانية في الجزء الحادي عشر من القران."
+      },
+      "labels" : {
+        "IRI-based" : "en_qs_ontosurah4"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontosurah3",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "labels" : {
+        "IRI-based" : "en_qs_ontosurah3"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontosurah11",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "labels" : {
+        "IRI-based" : "en_qs_ontosurah11"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontosurah22",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "labels" : {
+        "IRI-based" : "en_qs_ontosurah22"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontosurah6",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "labels" : {
+        "IRI-based" : "en_qs_ontosurah6"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontosurah5",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "description" : {
+        "undefined" : "سورة قرانية في الجزء السابع من القران."
+      },
+      "labels" : {
+        "IRI-based" : "en_qs_ontosurah5"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontosurah7",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "labels" : {
+        "IRI-based" : "en_qs_ontosurah7"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontosurah16",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "labels" : {
+        "IRI-based" : "en_qs_ontosurah16"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontosurah28",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "labels" : {
+        "IRI-based" : "en_qs_ontosurah28"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontosurah17",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "labels" : {
+        "IRI-based" : "en_qs_ontosurah17"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontosurah18",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "labels" : {
+        "IRI-based" : "en_qs_ontosurah18"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontosurah19",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "labels" : {
+        "IRI-based" : "en_qs_ontosurah19"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontosurah12",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "labels" : {
+        "IRI-based" : "en_qs_ontosurah12"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontosurah23",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "labels" : {
+        "IRI-based" : "en_qs_ontosurah23"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontosurah24",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "labels" : {
+        "IRI-based" : "en_qs_ontosurah24"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontosurah25",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "description" : {
+        "undefined" : "السورة القرانية في الجزء الرابع عشر."
+      },
+      "labels" : {
+        "IRI-based" : "en_qs_ontosurah25"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontosurah14",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "labels" : {
+        "IRI-based" : "en_qs_ontosurah14"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontosurah26",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "description" : {
+        "undefined" : "السورة القرانية في الجزءالخامس عشر."
+      },
+      "labels" : {
+        "IRI-based" : "en_qs_ontosurah26"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontosurah15",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "labels" : {
+        "IRI-based" : "en_qs_ontosurah15"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "السورة المكية"
+    },
+    "id" : "78",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "210",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "88",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "74",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "171",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "76",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "127",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "152",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/OnlineChatAccount",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://xmlns.com/foaf/0.1/",
+        "type" : "iri"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "unstable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "OnlineChatAccount",
+      "undefined" : "Online Chat Account"
+    },
+    "comment" : {
+      "undefined" : "An online chat account."
+    },
+    "attributes" : [ "external" ],
+    "id" : "121",
+    "superClasses" : [ "70" ]
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "160",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "227",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/OnlineGamingAccount",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://xmlns.com/foaf/0.1/",
+        "type" : "iri"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "unstable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "OnlineGamingAccount",
+      "undefined" : "Online Gaming Account"
+    },
+    "comment" : {
+      "undefined" : "An online gaming account."
+    },
+    "attributes" : [ "external" ],
+    "id" : "69",
+    "superClasses" : [ "70" ]
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/LabelProperty",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://xmlns.com/foaf/0.1/",
+        "type" : "iri"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "unstable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "LabelProperty",
+      "undefined" : "Label Property"
+    },
+    "comment" : {
+      "undefined" : "A foaf:LabelProperty is any RDF property with texual values that serve as labels."
+    },
+    "attributes" : [ "external" ],
+    "id" : "231"
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "169",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "82",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "201",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "204",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "234",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "101",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "146",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "196",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "139",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "84",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "81",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "53",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "85",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/10/swap/pim/contact#Person",
+    "baseIri" : "http://www.w3.org/2000/10/swap/pim/contact",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Person"
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "207"
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "64",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://schema.org/Person",
+    "baseIri" : "http://schema.org",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Person"
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "208"
+  }, {
+    "iri" : "http://schema.org/ImageObject",
+    "equivalent" : [ "7" ],
+    "baseIri" : "http://schema.org",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ImageObject"
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "161"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "191",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "174",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "221",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "240",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "63",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "168",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "154",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "166",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "219",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "91",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/OnlineEcommerceAccount",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://xmlns.com/foaf/0.1/",
+        "type" : "iri"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "unstable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "OnlineEcommerceAccount",
+      "undefined" : "Online E-commerce Account"
+    },
+    "comment" : {
+      "undefined" : "An online e-commerce account."
+    },
+    "attributes" : [ "external" ],
+    "id" : "72",
+    "superClasses" : [ "70" ]
+  }, {
+    "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoNation",
+    "baseIri" : "https://w3id.org/def/en_qs_onto",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/def/en_qs_onto",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "en_qs_ontoNation",
+      "undefined" : "Nation"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontonat3",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "labels" : {
+        "IRI-based" : "en_qs_ontonat3"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontonat4",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "labels" : {
+        "IRI-based" : "en_qs_ontonat4"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontonat5",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "labels" : {
+        "IRI-based" : "en_qs_ontonat5"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontonat6",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "labels" : {
+        "IRI-based" : "en_qs_ontonat6"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontonat1",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "labels" : {
+        "IRI-based" : "en_qs_ontonat1"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontonat2",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "labels" : {
+        "IRI-based" : "en_qs_ontonat2"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontonat7",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "labels" : {
+        "IRI-based" : "en_qs_ontonat7"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontonat8",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "labels" : {
+        "IRI-based" : "en_qs_ontonat8"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontonat10",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "labels" : {
+        "IRI-based" : "en_qs_ontonat10"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontonat9",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "labels" : {
+        "IRI-based" : "en_qs_ontonat9"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "القوم."
+    },
+    "id" : "36",
+    "superClasses" : [ "16" ]
+  }, {
+    "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoHonoring",
+    "baseIri" : "https://w3id.org/def/en_qs_onto",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/def/en_qs_onto",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "en_qs_ontoHonoring",
+      "undefined" : "Honoring"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoev1",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "labels" : {
+        "IRI-based" : "en_qs_ontoev1"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "التكريم الألهي"
+    },
+    "id" : "26",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "125",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "111",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "113",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "223",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "132",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "183",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "246",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoHistoricEvent",
+    "baseIri" : "https://w3id.org/def/en_qs_onto",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/def/en_qs_onto",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "en_qs_ontoHistoricEvent",
+      "undefined" : "HistoricEvent"
+    },
+    "subClasses" : [ "46", "26", "28", "1" ],
+    "comment" : {
+      "undefined" : "الاحداث التاريخية"
+    },
+    "id" : "2",
+    "superClasses" : [ "18" ]
+  }, {
+    "instances" : 0,
+    "union" : [ "42", "44" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "12"
+  }, {
+    "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoGod_Comanded",
+    "baseIri" : "https://w3id.org/def/en_qs_onto",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/def/en_qs_onto",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "en_qs_ontoGod_Comanded",
+      "undefined" : "God_Comanded"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoev2",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "labels" : {
+        "IRI-based" : "en_qs_ontoev2"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "الأمر الألهي."
+    },
+    "id" : "46",
+    "superClasses" : [ "2" ]
+  }, {
+    "instances" : 0,
+    "union" : [ "31", "16" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "236"
+  }, {
+    "instances" : 0,
+    "union" : [ "31", "16" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "200"
+  }, {
+    "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoInsect",
+    "baseIri" : "https://w3id.org/def/en_qs_onto",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/def/en_qs_onto",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "en_qs_ontoInsect",
+      "undefined" : "Insect"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoanim5",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "https://w3id.org/def/en_qs_onto",
+          "type" : "iri"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "en_qs_ontoanim5"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "الحشرة."
+    },
+    "id" : "103",
+    "superClasses" : [ "11" ]
+  }, {
+    "instances" : 0,
+    "union" : [ "31", "16" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "245"
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "134",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "143",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/Document",
+    "equivalent" : [ "194" ],
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://xmlns.com/foaf/0.1/",
+        "type" : "iri"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "stable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Document",
+      "undefined" : "Document"
+    },
+    "subClasses" : [ "4", "7" ],
+    "comment" : {
+      "undefined" : "A document."
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "5"
+  }, {
+    "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoAfterLive_Event",
+    "baseIri" : "https://w3id.org/def/en_qs_onto",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/def/en_qs_onto",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "en_qs_ontoAfterLive_Event",
+      "undefined" : "AfterLive_Event"
+    },
+    "comment" : {
+      "undefined" : "احداث ما بعد الحياة"
+    },
+    "id" : "93",
+    "superClasses" : [ "18" ]
+  }, {
+    "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoCity",
+    "equivalent" : [ "22" ],
+    "baseIri" : "https://w3id.org/def/en_qs_onto",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/def/en_qs_onto",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "en_qs_ontoCity",
+      "undefined" : "City"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontopc3",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "labels" : {
+        "IRI-based" : "en_qs_ontopc3"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontopc10",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "labels" : {
+        "IRI-based" : "en_qs_ontopc10"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontopc4",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "labels" : {
+        "IRI-based" : "en_qs_ontopc4"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontopc5",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "labels" : {
+        "IRI-based" : "en_qs_ontopc5"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontopc8",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "labels" : {
+        "IRI-based" : "en_qs_ontopc8"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontopc9",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "labels" : {
+        "IRI-based" : "en_qs_ontopc9"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontopc1",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "labels" : {
+        "IRI-based" : "en_qs_ontopc1"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontopc2",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "labels" : {
+        "IRI-based" : "en_qs_ontopc2"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "المدينة"
+    },
+    "attributes" : [ "equivalent" ],
+    "id" : "23",
+    "superClasses" : [ "14" ]
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/Group",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "instances" : 0,
+    "annotations" : {
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "stable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Group",
+      "undefined" : "Group"
+    },
+    "comment" : {
+      "undefined" : "A class of Agents."
+    },
+    "attributes" : [ "external" ],
+    "id" : "30",
+    "superClasses" : [ "31" ]
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "60",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "107",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoEvent_Tool",
+    "baseIri" : "https://w3id.org/def/en_qs_onto",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/def/en_qs_onto",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "en_qs_ontoEvent_Tool",
+      "undefined" : "Event_Tool"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoevT1",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "labels" : {
+        "IRI-based" : "en_qs_ontoevT1"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoevT2",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "labels" : {
+        "IRI-based" : "en_qs_ontoevT2"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoevT3",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "labels" : {
+        "IRI-based" : "en_qs_ontoevT3"
+      }
+    }, {
+      "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoevT4",
+      "baseIri" : "https://w3id.org/def/en_qs_onto",
+      "labels" : {
+        "IRI-based" : "en_qs_ontoevT4"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "أداة الحدث."
+    },
+    "id" : "216"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "95",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "276",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "277",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  } ],
+  "property" : [ {
+    "id" : "0",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "3",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "6",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "10",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "15",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "17",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "25",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "27",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "29",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "32",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "34",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "35",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "37",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "39",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "41",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "43",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "45",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "47",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "49",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "50",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "52",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "59",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "62",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "65",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "68",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "71",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "73",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "75",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "77",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "79",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "80",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "83",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "55",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "87",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "90",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "92",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "94",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "97",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "100",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "104",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "106",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "109",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "110",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "112",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "56",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "61",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "114",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "116",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "119",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "122",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "124",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "126",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "129",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "54",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "96",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "131",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "133",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "135",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "138",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "140",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "142",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "105",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "145",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "147",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "19",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "151",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "153",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "155",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "159",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "162",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "163",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "164",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "165",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "167",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "170",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "86",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "115",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "173",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "99",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "182",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "185",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "137",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "188",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "190",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "192",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "193",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "195",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "197",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "198",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "199",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "203",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "209",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "213",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "157",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "215",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "141",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "218",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "220",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "222",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "224",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "225",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "226",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "228",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "229",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "230",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "232",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "233",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "235",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "58",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "120",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "237",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "238",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "239",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "241",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "242",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "243",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "57",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "244",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "247",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "248",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "249",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "250",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "51",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "251",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "252",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "253",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "254",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "255",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "256",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "257",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "258",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "259",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "118",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "261",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "262",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "263",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "264",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "265",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "266",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "267",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "268",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "269",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "270",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "271",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "272",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "273",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "144",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "150",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "274",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "275",
+    "type" : "owl:objectProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "range" : "2",
+    "domain" : "1",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "0"
+  }, {
+    "range" : "5",
+    "domain" : "4",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "3"
+  }, {
+    "range" : "5",
+    "domain" : "7",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "6"
+  }, {
+    "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoappearedWith",
+    "baseIri" : "https://w3id.org/def/en_qs_onto",
+    "range" : "12",
+    "description" : {
+      "undefined" : "ظهور دور الحيوان الذي ذُكر في القران مع نبي او رسول."
+    },
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/def/en_qs_onto",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "en_qs_ontoappearedWith",
+      "undefined" : "appearedWith"
+    },
+    "domain" : "11",
+    "comment" : {
+      "undefined" : "ظهر مع."
+    },
+    "attributes" : [ "object" ],
+    "id" : "10"
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/workInfoHomepage",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "range" : "5",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://xmlns.com/foaf/0.1/",
+        "type" : "iri"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "testing",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "workInfoHomepage",
+      "undefined" : "work info homepage"
+    },
+    "domain" : "16",
+    "comment" : {
+      "undefined" : "A work info homepage of some person; a page about their work for some organization."
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "15"
+  }, {
+    "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoisPlaceOccurance",
+    "inverse" : "19",
+    "baseIri" : "https://w3id.org/def/en_qs_onto",
+    "range" : "18",
+    "description" : {
+      "undefined" : "مكان حدوث حدث معين."
+    },
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/def/en_qs_onto",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "en_qs_ontoisPlaceOccurance",
+      "undefined" : "isPlaceOccurance"
+    },
+    "domain" : "14",
+    "comment" : {
+      "undefined" : "مكان حدوث"
+    },
+    "attributes" : [ "object" ],
+    "id" : "17"
+  }, {
+    "range" : "2",
+    "domain" : "26",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "25"
+  }, {
+    "range" : "2",
+    "domain" : "28",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "27"
+  }, {
+    "range" : "31",
+    "domain" : "30",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "29"
+  }, {
+    "range" : "31",
+    "domain" : "33",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "32"
+  }, {
+    "range" : "31",
+    "domain" : "16",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "34"
+  }, {
+    "range" : "16",
+    "domain" : "36",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "35"
+  }, {
+    "range" : "16",
+    "domain" : "38",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "37"
+  }, {
+    "range" : "16",
+    "domain" : "40",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "39"
+  }, {
+    "range" : "16",
+    "domain" : "42",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "41"
+  }, {
+    "range" : "16",
+    "domain" : "44",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "43"
+  }, {
+    "range" : "2",
+    "domain" : "46",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "45"
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/based_near",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "range" : "48",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://xmlns.com/foaf/0.1/",
+        "type" : "iri"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "testing",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "based_near",
+      "undefined" : "based near"
+    },
+    "domain" : "48",
+    "comment" : {
+      "undefined" : "A location that something is based near, for some broadly human notion of near."
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "47"
+  }, {
+    "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontocommandeIn",
+    "baseIri" : "https://w3id.org/def/en_qs_onto",
+    "range" : "46",
+    "description" : {
+      "undefined" : "امر الرسول بتبليغ تعاليم الدين من قبل الله."
+    },
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/def/en_qs_onto",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "en_qs_ontocommandeIn",
+      "undefined" : "commandeIn"
+    },
+    "domain" : "44",
+    "comment" : {
+      "undefined" : "امر ب ."
+    },
+    "attributes" : [ "object" ],
+    "id" : "49"
+  }, {
+    "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoadvised",
+    "inverse" : "51",
+    "baseIri" : "https://w3id.org/def/en_qs_onto",
+    "range" : "36",
+    "description" : {
+      "undefined" : "نصح الاقوام بواسطة النبي المكلف بالنصح من قبل الله."
+    },
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/def/en_qs_onto",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "en_qs_ontoadvised",
+      "undefined" : "advised"
+    },
+    "domain" : "42",
+    "comment" : {
+      "undefined" : "نصح"
+    },
+    "attributes" : [ "object" ],
+    "id" : "50"
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/page",
+    "inverse" : "54",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "range" : "5",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://xmlns.com/foaf/0.1/",
+        "type" : "iri"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "stable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "page",
+      "undefined" : "page"
+    },
+    "domain" : "53",
+    "subproperty" : [ "55", "56", "57", "58" ],
+    "comment" : {
+      "undefined" : "A page or document about this thing."
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "52"
+  }, {
+    "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontomentionedIn",
+    "inverse" : "61",
+    "baseIri" : "https://w3id.org/def/en_qs_onto",
+    "range" : "9",
+    "description" : {
+      "undefined" : "ذُكر الشيء في سورة ما."
+    },
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/def/en_qs_onto",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "en_qs_ontomentionedIn",
+      "undefined" : "mentionedIn"
+    },
+    "domain" : "60",
+    "comment" : {
+      "undefined" : "ذُكر في"
+    },
+    "attributes" : [ "object" ],
+    "id" : "59"
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/givenName",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "range" : "64",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://xmlns.com/foaf/0.1/",
+        "type" : "iri"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "testing",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "givenName",
+      "undefined" : "Given name"
+    },
+    "domain" : "63",
+    "comment" : {
+      "undefined" : "The given name of some person."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "62"
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/dnaChecksum",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "range" : "66",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://xmlns.com/foaf/0.1/",
+        "type" : "iri"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "archaic",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "dnaChecksum",
+      "undefined" : "DNA checksum"
+    },
+    "domain" : "63",
+    "comment" : {
+      "undefined" : "A checksum for the DNA of some thing. Joke."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "65"
+  }, {
+    "range" : "70",
+    "domain" : "69",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "68"
+  }, {
+    "range" : "70",
+    "domain" : "72",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "71"
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/yahooChatID",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "range" : "74",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://xmlns.com/foaf/0.1/",
+        "type" : "iri"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "testing",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "yahooChatID",
+      "undefined" : "Yahoo chat ID"
+    },
+    "domain" : "63",
+    "comment" : {
+      "undefined" : "A Yahoo chat ID"
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "73"
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/name",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "range" : "76",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://xmlns.com/foaf/0.1/",
+        "type" : "iri"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "testing",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "name",
+      "undefined" : "name"
+    },
+    "domain" : "63",
+    "comment" : {
+      "undefined" : "A name for some thing."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "75"
+  }, {
+    "range" : "9",
+    "domain" : "78",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "77"
+  }, {
+    "range" : "9",
+    "domain" : "8",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "79"
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/icqChatID",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "range" : "82",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://xmlns.com/foaf/0.1/",
+        "type" : "iri"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "testing",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "icqChatID",
+      "undefined" : "ICQ chat ID"
+    },
+    "domain" : "81",
+    "comment" : {
+      "undefined" : "An ICQ chat ID"
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "80"
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/givenname",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "range" : "85",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://xmlns.com/foaf/0.1/",
+        "type" : "iri"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "archaic",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "givenname",
+      "undefined" : "Given name"
+    },
+    "domain" : "84",
+    "comment" : {
+      "undefined" : "The given name of some person."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "83"
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/isPrimaryTopicOf",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "range" : "5",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://xmlns.com/foaf/0.1/",
+        "type" : "iri"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "stable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "isPrimaryTopicOf",
+      "undefined" : "is primary topic of"
+    },
+    "superproperty" : [ "52" ],
+    "domain" : "53",
+    "subproperty" : [ "86", "58" ],
+    "comment" : {
+      "undefined" : "A document that this thing is the primary topic of."
+    },
+    "attributes" : [ "inverse functional", "object", "external" ],
+    "id" : "55"
+  }, {
+    "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoadvise",
+    "baseIri" : "https://w3id.org/def/en_qs_onto",
+    "range" : "88",
+    "description" : {
+      "undefined" : "النصحية المقدمة من النبي الى قومه."
+    },
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/def/en_qs_onto",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "en_qs_ontoadvise",
+      "undefined" : "advise"
+    },
+    "domain" : "42",
+    "comment" : {
+      "undefined" : "نصح"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "87"
+  }, {
+    "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontooverturnedFrom",
+    "baseIri" : "https://w3id.org/def/en_qs_onto",
+    "range" : "91",
+    "description" : {
+      "undefined" : "انقلاب الشي من شيئ اخر مثلا \" انقلاب عصى موسى الى ثعبان\"."
+    },
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/def/en_qs_onto",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "en_qs_ontooverturnedFrom",
+      "undefined" : "overturnedFrom"
+    },
+    "domain" : "11",
+    "comment" : {
+      "undefined" : "منقلب من"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "90"
+  }, {
+    "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoaccomplishedBy",
+    "inverse" : "49",
+    "baseIri" : "https://w3id.org/def/en_qs_onto",
+    "range" : "44",
+    "description" : {
+      "undefined" : "انجاز الأمر الألهي من قبل النبي او الرسول"
+    },
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/def/en_qs_onto",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "en_qs_ontoaccomplishedBy",
+      "undefined" : "accomplishedBy"
+    },
+    "domain" : "46",
+    "comment" : {
+      "undefined" : "انجز من قبل"
+    },
+    "attributes" : [ "object" ],
+    "id" : "92"
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/depiction",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "range" : "7",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://xmlns.com/foaf/0.1/",
+        "type" : "iri"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "testing",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "depiction",
+      "undefined" : "depiction"
+    },
+    "domain" : "95",
+    "subproperty" : [ "96" ],
+    "comment" : {
+      "undefined" : "A depiction of some thing."
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "94"
+  }, {
+    "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontohonoredWith",
+    "inverse" : "99",
+    "baseIri" : "https://w3id.org/def/en_qs_onto",
+    "range" : "26",
+    "description" : {
+      "undefined" : "تكريم النبي او الرسول بتكريم ألهي."
+    },
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/def/en_qs_onto",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "en_qs_ontohonoredWith",
+      "undefined" : "honoredWith"
+    },
+    "domain" : "98",
+    "comment" : {
+      "undefined" : "كُرم ب ."
+    },
+    "attributes" : [ "object" ],
+    "id" : "97"
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/family_name",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "range" : "101",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://xmlns.com/foaf/0.1/",
+        "type" : "iri"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "archaic",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "family_name",
+      "undefined" : "family_name"
+    },
+    "domain" : "16",
+    "comment" : {
+      "undefined" : "The family name of some person."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "100"
+  }, {
+    "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontobornPlaceOf",
+    "inverse" : "105",
+    "baseIri" : "https://w3id.org/def/en_qs_onto",
+    "range" : "16",
+    "description" : {
+      "undefined" : "مكان الولادة لشخص ما."
+    },
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/def/en_qs_onto",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "en_qs_ontobornPlaceOf",
+      "undefined" : "bornedPlaceOf"
+    },
+    "domain" : "14",
+    "comment" : {
+      "undefined" : "مكان ولادة ."
+    },
+    "attributes" : [ "object" ],
+    "id" : "104"
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/title",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "range" : "107",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://xmlns.com/foaf/0.1/",
+        "type" : "iri"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "testing",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "title",
+      "undefined" : "title"
+    },
+    "domain" : "84",
+    "comment" : {
+      "undefined" : "Title (Mr, Mrs, Ms, Dr. etc)"
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "106"
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/account",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "range" : "70",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://xmlns.com/foaf/0.1/",
+        "type" : "iri"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "testing",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "account",
+      "undefined" : "account"
+    },
+    "domain" : "31",
+    "comment" : {
+      "undefined" : "Indicates an account held by this agent."
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "109"
+  }, {
+    "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoinVerse_Nu.",
+    "baseIri" : "https://w3id.org/def/en_qs_onto",
+    "range" : "111",
+    "description" : {
+      "undefined" : "رقم الأية التي ذكر فيها شيء ما."
+    },
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/def/en_qs_onto",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "en_qs_ontoinVerse_Nu.",
+      "undefined" : "inVerse_Nu."
+    },
+    "domain" : "84",
+    "comment" : {
+      "undefined" : "في الاية_رقم"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "110"
+  }, {
+    "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontolesson",
+    "baseIri" : "https://w3id.org/def/en_qs_onto",
+    "range" : "113",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/def/en_qs_onto",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "en_qs_ontolesson",
+      "undefined" : "lesson"
+    },
+    "domain" : "18",
+    "comment" : {
+      "undefined" : "الدرس او العبرة من الحدث."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "112"
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/tipjar",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "range" : "5",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://xmlns.com/foaf/0.1/",
+        "type" : "iri"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "testing",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "tipjar",
+      "undefined" : "tipjar"
+    },
+    "superproperty" : [ "52" ],
+    "domain" : "31",
+    "comment" : {
+      "undefined" : "A tipjar document for this agent, describing means for payment and reward."
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "56"
+  }, {
+    "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoreported",
+    "baseIri" : "https://w3id.org/def/en_qs_onto",
+    "range" : "60",
+    "description" : {
+      "undefined" : "ذكر السورة القرانية لشيء ما ."
+    },
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/def/en_qs_onto",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "en_qs_ontoreported",
+      "undefined" : "reported"
+    },
+    "domain" : "9",
+    "comment" : {
+      "undefined" : "ذكرت"
+    },
+    "attributes" : [ "object" ],
+    "id" : "61"
+  }, {
+    "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontotargeted",
+    "inverse" : "115",
+    "baseIri" : "https://w3id.org/def/en_qs_onto",
+    "range" : "36",
+    "description" : {
+      "undefined" : "استهداف الحدث لقوم ما ."
+    },
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/def/en_qs_onto",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "en_qs_ontotargeted",
+      "undefined" : "targeted"
+    },
+    "domain" : "1",
+    "comment" : {
+      "undefined" : "استهدف"
+    },
+    "attributes" : [ "object" ],
+    "id" : "114"
+  }, {
+    "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontomissionPlace_Of",
+    "inverse" : "118",
+    "baseIri" : "https://w3id.org/def/en_qs_onto",
+    "range" : "117",
+    "description" : {
+      "undefined" : "مكان بعثة الرسول او النبي."
+    },
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/def/en_qs_onto",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "en_qs_ontomissionPlace_Of",
+      "undefined" : "missionedPlace_Of"
+    },
+    "domain" : "14",
+    "comment" : {
+      "undefined" : "مكان بعثة"
+    },
+    "attributes" : [ "object" ],
+    "id" : "116"
+  }, {
+    "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontodueTo",
+    "inverse" : "120",
+    "baseIri" : "https://w3id.org/def/en_qs_onto",
+    "range" : "18",
+    "description" : {
+      "undefined" : "حدوث حدث بسبب اداة الحدث."
+    },
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/def/en_qs_onto",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "en_qs_ontodueTo",
+      "undefined" : "dueTo"
+    },
+    "domain" : "18",
+    "comment" : {
+      "undefined" : "بسبب"
+    },
+    "attributes" : [ "object", "transitive" ],
+    "id" : "119"
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/aimChatID",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "range" : "123",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://xmlns.com/foaf/0.1/",
+        "type" : "iri"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "testing",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "aimChatID",
+      "undefined" : "AIM chat ID"
+    },
+    "domain" : "84",
+    "comment" : {
+      "undefined" : "An AIM chat ID"
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "122"
+  }, {
+    "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoinVerse_Text",
+    "baseIri" : "https://w3id.org/def/en_qs_onto",
+    "range" : "125",
+    "description" : {
+      "undefined" : "نص الأية التي ذكرت الشيء."
+    },
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/def/en_qs_onto",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "en_qs_ontoinVerse_Text",
+      "undefined" : "inVerse_Text"
+    },
+    "domain" : "84",
+    "comment" : {
+      "undefined" : "نص الاية"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "124"
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/skypeID",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "range" : "127",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://xmlns.com/foaf/0.1/",
+        "type" : "iri"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "testing",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "skypeID",
+      "undefined" : "Skype ID"
+    },
+    "domain" : "31",
+    "comment" : {
+      "undefined" : "A Skype ID"
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "126"
+  }, {
+    "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontohappenedBy",
+    "baseIri" : "https://w3id.org/def/en_qs_onto",
+    "range" : "130",
+    "description" : {
+      "undefined" : "حدث تم حدوثه من قبل الله."
+    },
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/def/en_qs_onto",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "en_qs_ontohappenedBy",
+      "undefined" : "happendBy"
+    },
+    "domain" : "18",
+    "comment" : {
+      "undefined" : "حدثَ بواسطة"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "129"
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/topic",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "range" : "53",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://xmlns.com/foaf/0.1/",
+        "type" : "iri"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "testing",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "topic",
+      "undefined" : "topic"
+    },
+    "domain" : "5",
+    "comment" : {
+      "undefined" : "A topic of some page or document."
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "54"
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/img",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "range" : "7",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://xmlns.com/foaf/0.1/",
+        "type" : "iri"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "testing",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "img",
+      "undefined" : "image"
+    },
+    "superproperty" : [ "94" ],
+    "domain" : "16",
+    "comment" : {
+      "undefined" : "An image that can be used to represent some thing (ie. those depictions which are particularly representative of something, eg. one's photo on a homepage)."
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "96"
+  }, {
+    "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontohasFather",
+    "baseIri" : "https://w3id.org/def/en_qs_onto",
+    "range" : "132",
+    "description" : {
+      "undefined" : "الاب لشخص ما ."
+    },
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/def/en_qs_onto",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "en_qs_ontohasFather",
+      "undefined" : "hasFather"
+    },
+    "domain" : "16",
+    "comment" : {
+      "undefined" : "له أب"
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "131"
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/sha1",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "range" : "134",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://xmlns.com/foaf/0.1/",
+        "type" : "iri"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "unstable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "sha1",
+      "undefined" : "sha1sum (hex)"
+    },
+    "domain" : "5",
+    "comment" : {
+      "undefined" : "A sha1sum hash, in hex."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "133"
+  }, {
+    "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontogaveTo",
+    "inverse" : "137",
+    "baseIri" : "https://w3id.org/def/en_qs_onto",
+    "range" : "136",
+    "description" : {
+      "undefined" : "الكتاب اعطي الى نبي او رسول."
+    },
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/def/en_qs_onto",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "en_qs_ontogaveTo",
+      "undefined" : "gaveTo"
+    },
+    "domain" : "108",
+    "comment" : {
+      "undefined" : "اعطي الى ."
+    },
+    "attributes" : [ "object", "functional" ],
+    "id" : "135"
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/firstName",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "range" : "139",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://xmlns.com/foaf/0.1/",
+        "type" : "iri"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "testing",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "firstName",
+      "undefined" : "firstName"
+    },
+    "domain" : "16",
+    "comment" : {
+      "undefined" : "The first name of a person."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "138"
+  }, {
+    "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoreceived",
+    "inverse" : "141",
+    "baseIri" : "https://w3id.org/def/en_qs_onto",
+    "range" : "44",
+    "description" : {
+      "undefined" : "استلام الاقوام لنبي او رسول."
+    },
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/def/en_qs_onto",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "en_qs_ontoreceived",
+      "undefined" : "received"
+    },
+    "domain" : "36",
+    "comment" : {
+      "undefined" : "استلم , استقبل ."
+    },
+    "attributes" : [ "object" ],
+    "id" : "140"
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/made",
+    "inverse" : "144",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "range" : "143",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://xmlns.com/foaf/0.1/",
+        "type" : "iri"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "stable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "made",
+      "undefined" : "made"
+    },
+    "domain" : "31",
+    "comment" : {
+      "undefined" : "Something that was made by this agent."
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "142"
+  }, {
+    "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontobornedIn",
+    "baseIri" : "https://w3id.org/def/en_qs_onto",
+    "range" : "14",
+    "description" : {
+      "undefined" : "ولادة الشخص في مكان محدد واحد."
+    },
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/def/en_qs_onto",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "en_qs_ontobornedIn",
+      "undefined" : "bornedIn"
+    },
+    "domain" : "16",
+    "comment" : {
+      "undefined" : "ولد في ."
+    },
+    "attributes" : [ "object", "functional" ],
+    "id" : "105"
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/familyName",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "range" : "146",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://xmlns.com/foaf/0.1/",
+        "type" : "iri"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "testing",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "familyName",
+      "undefined" : "familyName"
+    },
+    "domain" : "16",
+    "comment" : {
+      "undefined" : "The family name of some person."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "145"
+  }, {
+    "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoconsisitOf",
+    "inverse" : "150",
+    "baseIri" : "https://w3id.org/def/en_qs_onto",
+    "range" : "149",
+    "description" : {
+      "undefined" : "يتكون كتاب القران من اجزاء وتتألف الاجزاء من سور قرانية والسور تتألف من ايات."
+    },
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/def/en_qs_onto",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "en_qs_ontoconsisitOf",
+      "undefined" : "consistOf"
+    },
+    "domain" : "148",
+    "comment" : {
+      "undefined" : "يتكون من ,يتألف من."
+    },
+    "attributes" : [ "object" ],
+    "id" : "147"
+  }, {
+    "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontooccuredIn",
+    "baseIri" : "https://w3id.org/def/en_qs_onto",
+    "range" : "14",
+    "description" : {
+      "undefined" : "حدوث الحدث في مكان معين."
+    },
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/def/en_qs_onto",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "en_qs_ontooccuredIn",
+      "undefined" : "occuredIn"
+    },
+    "domain" : "18",
+    "comment" : {
+      "undefined" : "حدث في"
+    },
+    "attributes" : [ "object" ],
+    "id" : "19"
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/plan",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "range" : "152",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://xmlns.com/foaf/0.1/",
+        "type" : "iri"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "testing",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "plan",
+      "undefined" : "plan"
+    },
+    "domain" : "16",
+    "comment" : {
+      "undefined" : "A .plan comment, in the tradition of finger and '.plan' files."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "151"
+  }, {
+    "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontonameRepeat",
+    "baseIri" : "https://w3id.org/def/en_qs_onto",
+    "range" : "154",
+    "description" : {
+      "undefined" : "عدد المرات التي تكرر فيها اسم شيء ما"
+    },
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/def/en_qs_onto",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "en_qs_ontonameRepeat",
+      "undefined" : "nameRepeat"
+    },
+    "domain" : "84",
+    "comment" : {
+      "undefined" : "تكرار الاسم"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "153"
+  }, {
+    "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontobelongTo",
+    "inverse" : "157",
+    "baseIri" : "https://w3id.org/def/en_qs_onto",
+    "range" : "14",
+    "description" : {
+      "undefined" : "انتماء الشخص او الحيوان الى مكان معين."
+    },
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/def/en_qs_onto",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "en_qs_ontobelongTo",
+      "undefined" : "belongTo"
+    },
+    "domain" : "156",
+    "comment" : {
+      "undefined" : "ينتمي الى ."
+    },
+    "attributes" : [ "object" ],
+    "id" : "155"
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/myersBriggs",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "range" : "160",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://xmlns.com/foaf/0.1/",
+        "type" : "iri"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "testing",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "myersBriggs",
+      "undefined" : "myersBriggs"
+    },
+    "domain" : "16",
+    "comment" : {
+      "undefined" : "A Myers Briggs (MBTI) personality classification."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "159"
+  }, {
+    "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoassignedIn",
+    "baseIri" : "https://w3id.org/def/en_qs_onto",
+    "range" : "46",
+    "description" : {
+      "undefined" : "تكليف النبي بنصيحة القوم وارشادهم."
+    },
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/def/en_qs_onto",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "en_qs_ontoassignedIn",
+      "undefined" : "assignedIn"
+    },
+    "domain" : "42",
+    "comment" : {
+      "undefined" : "كلف ب ."
+    },
+    "attributes" : [ "object" ],
+    "id" : "162"
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/publications",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "range" : "5",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://xmlns.com/foaf/0.1/",
+        "type" : "iri"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "testing",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "publications",
+      "undefined" : "publications"
+    },
+    "domain" : "16",
+    "comment" : {
+      "undefined" : "A link to the publications of this person."
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "163"
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/interest",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "range" : "5",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://xmlns.com/foaf/0.1/",
+        "type" : "iri"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "testing",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "interest",
+      "undefined" : "interest"
+    },
+    "domain" : "31",
+    "comment" : {
+      "undefined" : "A page about a topic of interest to this person."
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "164"
+  }, {
+    "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontomessage",
+    "baseIri" : "https://w3id.org/def/en_qs_onto",
+    "range" : "166",
+    "description" : {
+      "undefined" : "الرسالة التي حملها الرسول لقومه."
+    },
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/def/en_qs_onto",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "en_qs_ontomessage",
+      "undefined" : "message"
+    },
+    "domain" : "44",
+    "comment" : {
+      "undefined" : "الرسالة"
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "165"
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/mbox_sha1sum",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "range" : "169",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://xmlns.com/foaf/0.1/",
+        "type" : "iri"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "testing",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "mbox_sha1sum",
+      "undefined" : "sha1sum of a personal mailbox URI name"
+    },
+    "domain" : "168",
+    "comment" : {
+      "undefined" : "The sha1sum of the URI of an Internet mailbox associated with exactly one owner, the  first owner of the mailbox."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "167"
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/nick",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "range" : "171",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://xmlns.com/foaf/0.1/",
+        "type" : "iri"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "testing",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "nick",
+      "undefined" : "nickname"
+    },
+    "domain" : "16",
+    "comment" : {
+      "undefined" : "A short informal nickname characterising an agent (includes login identifiers, IRC and other chat nicknames)."
+    },
+    "attributes" : [ "datatype", "external", "functional" ],
+    "id" : "170"
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/openid",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "range" : "5",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://xmlns.com/foaf/0.1/",
+        "type" : "iri"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "testing",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "openid",
+      "undefined" : "openid"
+    },
+    "superproperty" : [ "55" ],
+    "domain" : "31",
+    "comment" : {
+      "undefined" : "An OpenID for an Agent."
+    },
+    "attributes" : [ "inverse functional", "object", "external" ],
+    "id" : "86"
+  }, {
+    "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontotargetedBy",
+    "baseIri" : "https://w3id.org/def/en_qs_onto",
+    "range" : "1",
+    "description" : {
+      "undefined" : "استهداف القوم بواسطة حدث ما ."
+    },
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/def/en_qs_onto",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "en_qs_ontotargetedBy",
+      "undefined" : "targetedBy"
+    },
+    "domain" : "36",
+    "comment" : {
+      "undefined" : "استُهدف من قبل"
+    },
+    "attributes" : [ "object" ],
+    "id" : "115"
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/pastProject",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "range" : "174",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://xmlns.com/foaf/0.1/",
+        "type" : "iri"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "testing",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "pastProject",
+      "undefined" : "past project"
+    },
+    "domain" : "16",
+    "comment" : {
+      "undefined" : "A project this person has previously worked on."
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "173"
+  }, {
+    "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontohonoringTo",
+    "baseIri" : "https://w3id.org/def/en_qs_onto",
+    "range" : "180",
+    "description" : {
+      "undefined" : "التكريم للنبي او الرسول."
+    },
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/def/en_qs_onto",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "en_qs_ontohonoringTo",
+      "undefined" : "honoringTo"
+    },
+    "domain" : "26",
+    "comment" : {
+      "undefined" : "تكريماً الى."
+    },
+    "attributes" : [ "object" ],
+    "id" : "99"
+  }, {
+    "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontohasParents",
+    "baseIri" : "https://w3id.org/def/en_qs_onto",
+    "range" : "183",
+    "description" : {
+      "undefined" : "الوالدان لشخص ما."
+    },
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/def/en_qs_onto",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "en_qs_ontohasParents",
+      "undefined" : "hasParents"
+    },
+    "domain" : "16",
+    "comment" : {
+      "undefined" : "له والدان"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "182"
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/theme",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "range" : "63",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://xmlns.com/foaf/0.1/",
+        "type" : "iri"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "archaic",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "theme",
+      "undefined" : "theme"
+    },
+    "domain" : "63",
+    "comment" : {
+      "undefined" : "A theme."
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "185"
+  }, {
+    "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontohasBook",
+    "baseIri" : "https://w3id.org/def/en_qs_onto",
+    "range" : "108",
+    "description" : {
+      "undefined" : "امتلاك النبي او الرسول للكتاب الذي انوله عليه الله تعالى ."
+    },
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/def/en_qs_onto",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "en_qs_ontohasBook",
+      "undefined" : "hasBook"
+    },
+    "domain" : "186",
+    "comment" : {
+      "undefined" : "امتلك كتاب"
+    },
+    "attributes" : [ "object", "functional" ],
+    "id" : "137"
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/knows",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "range" : "16",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://xmlns.com/foaf/0.1/",
+        "type" : "iri"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "stable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "knows",
+      "undefined" : "knows"
+    },
+    "domain" : "16",
+    "comment" : {
+      "undefined" : "A person known by this person (indicating some level of reciprocated interaction between the parties)."
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "188"
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/focus",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "range" : "191",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://xmlns.com/foaf/0.1/",
+        "type" : "iri"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "testing",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "focus",
+      "undefined" : "focus"
+    },
+    "domain" : "172",
+    "comment" : {
+      "undefined" : "The underlying or 'focal' entity associated with some SKOS-described concept."
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "190"
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/phone",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "range" : "63",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://xmlns.com/foaf/0.1/",
+        "type" : "iri"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "testing",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "phone",
+      "undefined" : "phone"
+    },
+    "domain" : "63",
+    "comment" : {
+      "undefined" : "A phone,  specified using fully qualified tel: URI scheme (refs: http://www.w3.org/Addressing/schemes.html#tel)."
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "192"
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/depicts",
+    "inverse" : "94",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "range" : "95",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://xmlns.com/foaf/0.1/",
+        "type" : "iri"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "testing",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "depicts",
+      "undefined" : "depicts"
+    },
+    "domain" : "7",
+    "comment" : {
+      "undefined" : "A thing depicted in this representation."
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "193"
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/geekcode",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "range" : "196",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://xmlns.com/foaf/0.1/",
+        "type" : "iri"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "archaic",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "geekcode",
+      "undefined" : "geekcode"
+    },
+    "domain" : "16",
+    "comment" : {
+      "undefined" : "A textual geekcode for this person, see http://www.geekcode.com/geek.html"
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "195"
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/primaryTopic",
+    "inverse" : "55",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "range" : "53",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://xmlns.com/foaf/0.1/",
+        "type" : "iri"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "stable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "primaryTopic",
+      "undefined" : "primary topic"
+    },
+    "domain" : "5",
+    "comment" : {
+      "undefined" : "The primary topic of some page or document."
+    },
+    "attributes" : [ "object", "external", "functional" ],
+    "id" : "197"
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/schoolHomepage",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "range" : "5",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://xmlns.com/foaf/0.1/",
+        "type" : "iri"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "testing",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "schoolHomepage",
+      "undefined" : "schoolHomepage"
+    },
+    "domain" : "16",
+    "comment" : {
+      "undefined" : "A homepage of a school attended by the person."
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "198"
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/gender",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "range" : "201",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://xmlns.com/foaf/0.1/",
+        "type" : "iri"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "testing",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "gender",
+      "undefined" : "gender"
+    },
+    "domain" : "200",
+    "comment" : {
+      "undefined" : "The gender of this Agent (typically but not necessarily 'male' or 'female')."
+    },
+    "attributes" : [ "datatype", "external", "functional" ],
+    "id" : "199"
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/lastName",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "range" : "204",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://xmlns.com/foaf/0.1/",
+        "type" : "iri"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "testing",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "lastName",
+      "undefined" : "lastName"
+    },
+    "domain" : "16",
+    "comment" : {
+      "undefined" : "The last name of a person."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "203"
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/status",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "range" : "210",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://xmlns.com/foaf/0.1/",
+        "type" : "iri"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "unstable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "status",
+      "undefined" : "status"
+    },
+    "domain" : "31",
+    "comment" : {
+      "undefined" : "A string expressing what the user is happy for the general public (normally) to know about their current activity."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "209"
+  }, {
+    "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoswallow",
+    "baseIri" : "https://w3id.org/def/en_qs_onto",
+    "range" : "16",
+    "description" : {
+      "undefined" : "ابتلاع الحيوان لشيء ما ."
+    },
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/def/en_qs_onto",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "en_qs_ontoswallow",
+      "undefined" : "swallow"
+    },
+    "domain" : "11",
+    "comment" : {
+      "undefined" : "ابتلع"
+    },
+    "attributes" : [ "object" ],
+    "id" : "213"
+  }, {
+    "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoinclude",
+    "baseIri" : "https://w3id.org/def/en_qs_onto",
+    "range" : "202",
+    "description" : {
+      "undefined" : "يحتوي المكان على اشياء."
+    },
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/def/en_qs_onto",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "en_qs_ontoinclude",
+      "undefined" : "include"
+    },
+    "domain" : "14",
+    "comment" : {
+      "undefined" : "يشمل , يحتوي ."
+    },
+    "attributes" : [ "object" ],
+    "id" : "157"
+  }, {
+    "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontogenerate",
+    "baseIri" : "https://w3id.org/def/en_qs_onto",
+    "range" : "18",
+    "description" : {
+      "undefined" : "احداث اداة الحدث للحدث."
+    },
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/def/en_qs_onto",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "en_qs_ontogenerate",
+      "undefined" : "generate"
+    },
+    "domain" : "216",
+    "comment" : {
+      "undefined" : "أحدث"
+    },
+    "attributes" : [ "object" ],
+    "id" : "215"
+  }, {
+    "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontosendTo",
+    "baseIri" : "https://w3id.org/def/en_qs_onto",
+    "range" : "36",
+    "description" : {
+      "undefined" : "ارسال النبي او الرسول الى قوما ما."
+    },
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/def/en_qs_onto",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "en_qs_ontosendTo",
+      "undefined" : "sendTo"
+    },
+    "domain" : "44",
+    "comment" : {
+      "undefined" : "ارسل اللى"
+    },
+    "attributes" : [ "object", "functional" ],
+    "id" : "141"
+  }, {
+    "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoreasonFor_Mention",
+    "baseIri" : "https://w3id.org/def/en_qs_onto",
+    "range" : "219",
+    "description" : {
+      "undefined" : "سبب ذكر حيوان معين في القران."
+    },
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/def/en_qs_onto",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "en_qs_ontoreasonFor_Mention",
+      "undefined" : "reasonFor_Mention"
+    },
+    "domain" : "11",
+    "comment" : {
+      "undefined" : "سبب الذكر"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "218"
+  }, {
+    "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontotHave",
+    "baseIri" : "https://w3id.org/def/en_qs_onto",
+    "range" : "221",
+    "description" : {
+      "undefined" : "عدم امتلاك الشخص لشيء ما."
+    },
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/def/en_qs_onto",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "en_qs_ontotHave",
+      "undefined" : "don'tHave"
+    },
+    "domain" : "16",
+    "comment" : {
+      "undefined" : "لا يملك"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "220"
+  }, {
+    "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontohasMother",
+    "baseIri" : "https://w3id.org/def/en_qs_onto",
+    "range" : "223",
+    "description" : {
+      "undefined" : "الأم لشخص ما."
+    },
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/def/en_qs_onto",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "en_qs_ontohasMother",
+      "undefined" : "hasMother"
+    },
+    "domain" : "16",
+    "comment" : {
+      "undefined" : "له أم"
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "222"
+  }, {
+    "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontodoneBy",
+    "inverse" : "215",
+    "baseIri" : "https://w3id.org/def/en_qs_onto",
+    "range" : "216",
+    "description" : {
+      "undefined" : "حدوث الحدث بواسطة اداة الحدث."
+    },
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/def/en_qs_onto",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "en_qs_ontodoneBy",
+      "undefined" : "doneBy"
+    },
+    "domain" : "18",
+    "comment" : {
+      "undefined" : "تم بواسطة ."
+    },
+    "attributes" : [ "object" ],
+    "id" : "224"
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/accountServiceHomepage",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "range" : "5",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://xmlns.com/foaf/0.1/",
+        "type" : "iri"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "testing",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "accountServiceHomepage",
+      "undefined" : "account service homepage"
+    },
+    "domain" : "70",
+    "comment" : {
+      "undefined" : "Indicates a homepage of the service provide for this online account."
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "225"
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/logo",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "range" : "84",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://xmlns.com/foaf/0.1/",
+        "type" : "iri"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "testing",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "logo",
+      "undefined" : "logo"
+    },
+    "domain" : "84",
+    "comment" : {
+      "undefined" : "A logo representing some thing."
+    },
+    "attributes" : [ "inverse functional", "object", "external" ],
+    "id" : "226"
+  }, {
+    "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontolivedIn",
+    "baseIri" : "https://w3id.org/def/en_qs_onto",
+    "range" : "14",
+    "description" : {
+      "undefined" : "عاش شخص ما في مكان معين."
+    },
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/def/en_qs_onto",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "en_qs_ontolivedIn",
+      "undefined" : "livedIn"
+    },
+    "domain" : "184",
+    "comment" : {
+      "undefined" : "عاش في"
+    },
+    "attributes" : [ "object" ],
+    "id" : "228"
+  }, {
+    "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontohasMiracle",
+    "baseIri" : "https://w3id.org/def/en_qs_onto",
+    "range" : "28",
+    "description" : {
+      "undefined" : "امتلاك النبي او الرسول لمعجزة وهبت له من الله تعالى."
+    },
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/def/en_qs_onto",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "en_qs_ontohasMiracle",
+      "undefined" : "hasMiracle"
+    },
+    "domain" : "206",
+    "comment" : {
+      "undefined" : "لديه معجزة ."
+    },
+    "attributes" : [ "object" ],
+    "id" : "229"
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/fundedBy",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "range" : "84",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://xmlns.com/foaf/0.1/",
+        "type" : "iri"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "archaic",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "fundedBy",
+      "undefined" : "funded by"
+    },
+    "domain" : "84",
+    "comment" : {
+      "undefined" : "An organization funding a project or person."
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "230"
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/accountName",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "range" : "181",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://xmlns.com/foaf/0.1/",
+        "type" : "iri"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "testing",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "accountName",
+      "undefined" : "account name"
+    },
+    "domain" : "70",
+    "comment" : {
+      "undefined" : "Indicates the name (identifier) associated with this online account."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "232"
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/jabberID",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "range" : "234",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://xmlns.com/foaf/0.1/",
+        "type" : "iri"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "testing",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "jabberID",
+      "undefined" : "jabber ID"
+    },
+    "domain" : "84",
+    "comment" : {
+      "undefined" : "A jabber ID for something."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "233"
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/age",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "range" : "179",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://xmlns.com/foaf/0.1/",
+        "type" : "iri"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "unstable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "age",
+      "undefined" : "age"
+    },
+    "domain" : "236",
+    "comment" : {
+      "undefined" : "The age in years of some agent."
+    },
+    "attributes" : [ "datatype", "external", "functional" ],
+    "id" : "235"
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/homepage",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "range" : "5",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://xmlns.com/foaf/0.1/",
+        "type" : "iri"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "stable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "homepage",
+      "undefined" : "homepage"
+    },
+    "superproperty" : [ "55", "52" ],
+    "domain" : "53",
+    "comment" : {
+      "undefined" : "A homepage for some thing."
+    },
+    "attributes" : [ "inverse functional", "object", "external" ],
+    "id" : "58"
+  }, {
+    "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoledTo",
+    "baseIri" : "https://w3id.org/def/en_qs_onto",
+    "range" : "18",
+    "description" : {
+      "undefined" : "ادى الحدث الى حدث معين."
+    },
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/def/en_qs_onto",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "en_qs_ontoledTo",
+      "undefined" : "ledTo"
+    },
+    "domain" : "18",
+    "comment" : {
+      "undefined" : "ادى الى"
+    },
+    "attributes" : [ "object", "transitive" ],
+    "id" : "120"
+  }, {
+    "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontolivePlace_Of",
+    "inverse" : "228",
+    "baseIri" : "https://w3id.org/def/en_qs_onto",
+    "range" : "187",
+    "description" : {
+      "undefined" : "مكان عيش شخص ما."
+    },
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/def/en_qs_onto",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "en_qs_ontolivePlace_Of",
+      "undefined" : "livePlace_Of"
+    },
+    "domain" : "14",
+    "comment" : {
+      "undefined" : "مكان عيش ."
+    },
+    "attributes" : [ "object" ],
+    "id" : "237"
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/msnChatID",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "range" : "227",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://xmlns.com/foaf/0.1/",
+        "type" : "iri"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "testing",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "msnChatID",
+      "undefined" : "MSN chat ID"
+    },
+    "domain" : "84",
+    "comment" : {
+      "undefined" : "An MSN chat ID"
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "238"
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/topic_interest",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "range" : "143",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://xmlns.com/foaf/0.1/",
+        "type" : "iri"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "testing",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "topic_interest",
+      "undefined" : "topic_interest"
+    },
+    "domain" : "31",
+    "comment" : {
+      "undefined" : "A thing of interest to this person."
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "239"
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/currentProject",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "range" : "174",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://xmlns.com/foaf/0.1/",
+        "type" : "iri"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "testing",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "currentProject",
+      "undefined" : "current project"
+    },
+    "domain" : "16",
+    "comment" : {
+      "undefined" : "A current project this person works on."
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "241"
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/holdsAccount",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "range" : "70",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://xmlns.com/foaf/0.1/",
+        "type" : "iri"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "archaic",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "holdsAccount",
+      "undefined" : "account"
+    },
+    "domain" : "31",
+    "comment" : {
+      "undefined" : "Indicates an account held by this agent."
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "242"
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/thumbnail",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "range" : "7",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://xmlns.com/foaf/0.1/",
+        "type" : "iri"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "testing",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "thumbnail",
+      "undefined" : "thumbnail"
+    },
+    "domain" : "7",
+    "comment" : {
+      "undefined" : "A derived thumbnail image."
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "243"
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/weblog",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "range" : "5",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://xmlns.com/foaf/0.1/",
+        "type" : "iri"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "stable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "weblog",
+      "undefined" : "weblog"
+    },
+    "superproperty" : [ "52" ],
+    "domain" : "31",
+    "comment" : {
+      "undefined" : "A weblog of some thing (whether person, group, company etc.)."
+    },
+    "attributes" : [ "inverse functional", "object", "external" ],
+    "id" : "57"
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/birthday",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "range" : "175",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://xmlns.com/foaf/0.1/",
+        "type" : "iri"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "unstable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "birthday",
+      "undefined" : "birthday"
+    },
+    "domain" : "245",
+    "comment" : {
+      "undefined" : "The birthday of this Agent, represented in mm-dd string form, eg. '12-31'."
+    },
+    "attributes" : [ "datatype", "external", "functional" ],
+    "id" : "244"
+  }, {
+    "range" : "11",
+    "domain" : "89",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "247"
+  }, {
+    "range" : "11",
+    "domain" : "103",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "248"
+  }, {
+    "range" : "70",
+    "domain" : "121",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "249"
+  }, {
+    "range" : "11",
+    "domain" : "24",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "250"
+  }, {
+    "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoadvisedBy",
+    "baseIri" : "https://w3id.org/def/en_qs_onto",
+    "range" : "42",
+    "description" : {
+      "undefined" : "نصيحة الاقوام التي تمت من قبل النبي المكلف من قبل الله ."
+    },
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/def/en_qs_onto",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "en_qs_ontoadvisedBy",
+      "undefined" : "advisedBy"
+    },
+    "domain" : "36",
+    "comment" : {
+      "undefined" : "نصح من قبل"
+    },
+    "attributes" : [ "object" ],
+    "id" : "51"
+  }, {
+    "range" : "18",
+    "domain" : "2",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "251"
+  }, {
+    "range" : "11",
+    "domain" : "102",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "252"
+  }, {
+    "range" : "18",
+    "domain" : "93",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "253"
+  }, {
+    "range" : "16",
+    "domain" : "33",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "254"
+  }, {
+    "range" : "67",
+    "domain" : "16",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "255"
+  }, {
+    "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontomentionedIn",
+    "inverse" : "61",
+    "baseIri" : "https://w3id.org/def/en_qs_onto",
+    "range" : "9",
+    "description" : {
+      "undefined" : "ذُكر الشيء في سورة ما."
+    },
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/def/en_qs_onto",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "en_qs_ontomentionedIn",
+      "undefined" : "mentionedIn"
+    },
+    "domain" : "16",
+    "comment" : {
+      "undefined" : "ذُكر في"
+    },
+    "attributes" : [ "object", "someValues" ],
+    "id" : "256"
+  }, {
+    "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontolivedIn",
+    "baseIri" : "https://w3id.org/def/en_qs_onto",
+    "range" : "14",
+    "description" : {
+      "undefined" : "عاش شخص ما في مكان معين."
+    },
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/def/en_qs_onto",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "en_qs_ontolivedIn",
+      "undefined" : "livedIn"
+    },
+    "domain" : "16",
+    "comment" : {
+      "undefined" : "عاش في"
+    },
+    "attributes" : [ "allValues", "object" ],
+    "id" : "257"
+  }, {
+    "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontodoneBy",
+    "inverse" : "215",
+    "baseIri" : "https://w3id.org/def/en_qs_onto",
+    "range" : "216",
+    "description" : {
+      "undefined" : "حدوث الحدث بواسطة اداة الحدث."
+    },
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/def/en_qs_onto",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "en_qs_ontodoneBy",
+      "undefined" : "doneBy"
+    },
+    "domain" : "18",
+    "comment" : {
+      "undefined" : "تم بواسطة ."
+    },
+    "attributes" : [ "object", "someValues" ],
+    "id" : "258"
+  }, {
+    "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoledTo",
+    "baseIri" : "https://w3id.org/def/en_qs_onto",
+    "range" : "18",
+    "description" : {
+      "undefined" : "ادى الحدث الى حدث معين."
+    },
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/def/en_qs_onto",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "en_qs_ontoledTo",
+      "undefined" : "ledTo"
+    },
+    "domain" : "18",
+    "comment" : {
+      "undefined" : "ادى الى"
+    },
+    "attributes" : [ "object", "someValues", "transitive" ],
+    "id" : "259"
+  }, {
+    "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontomissionedTo",
+    "baseIri" : "https://w3id.org/def/en_qs_onto",
+    "range" : "14",
+    "description" : {
+      "undefined" : "بعث النبي او الرسول لمكن معين."
+    },
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/def/en_qs_onto",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "en_qs_ontomissionedTo",
+      "undefined" : "missionedTo"
+    },
+    "domain" : "189",
+    "comment" : {
+      "undefined" : "بُعث الى"
+    },
+    "attributes" : [ "object" ],
+    "id" : "118"
+  }, {
+    "range" : "33",
+    "domain" : "5",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "261"
+  }, {
+    "range" : "67",
+    "domain" : "5",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "262"
+  }, {
+    "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoassignedBy",
+    "baseIri" : "https://w3id.org/def/en_qs_onto",
+    "range" : "212",
+    "description" : {
+      "undefined" : "تكليف النبي او الرسول من قبل الله."
+    },
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/def/en_qs_onto",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "en_qs_ontoassignedBy",
+      "undefined" : "assignedBy"
+    },
+    "domain" : "211",
+    "comment" : {
+      "undefined" : "كُلف من قبل."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "263"
+  }, {
+    "range" : "14",
+    "domain" : "23",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "264"
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/member",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "range" : "31",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://xmlns.com/foaf/0.1/",
+        "type" : "iri"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "stable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "member",
+      "undefined" : "member"
+    },
+    "domain" : "30",
+    "comment" : {
+      "undefined" : "Indicates a member of a Group"
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "265"
+  }, {
+    "range" : "14",
+    "domain" : "22",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "266"
+  }, {
+    "range" : "48",
+    "domain" : "16",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "267"
+  }, {
+    "range" : "14",
+    "domain" : "13",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "268"
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/mbox",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "range" : "143",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://xmlns.com/foaf/0.1/",
+        "type" : "iri"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "stable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "mbox",
+      "undefined" : "personal mailbox"
+    },
+    "domain" : "31",
+    "comment" : {
+      "undefined" : "A  personal mailbox, ie. an Internet mailbox associated with exactly one owner, the first owner of this mailbox. This is a 'static inverse functional property', in that  there is (across time and change) at most one individual that ever has any particular value for foaf:mbox."
+    },
+    "attributes" : [ "inverse functional", "object", "external" ],
+    "id" : "269"
+  }, {
+    "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontohasName",
+    "baseIri" : "https://w3id.org/def/en_qs_onto",
+    "range" : "246",
+    "description" : {
+      "undefined" : "الاسم لشيء ما ."
+    },
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/def/en_qs_onto",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "en_qs_ontohasName",
+      "undefined" : "hasName"
+    },
+    "domain" : "84",
+    "comment" : {
+      "undefined" : "له اسم"
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "270"
+  }, {
+    "range" : "14",
+    "domain" : "21",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "271"
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/surname",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "range" : "217",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://xmlns.com/foaf/0.1/",
+        "type" : "iri"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "archaic",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "surname",
+      "undefined" : "Surname"
+    },
+    "domain" : "16",
+    "comment" : {
+      "undefined" : "The surname of some person."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "272"
+  }, {
+    "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontoendowedTo",
+    "inverse" : "229",
+    "baseIri" : "https://w3id.org/def/en_qs_onto",
+    "range" : "205",
+    "description" : {
+      "undefined" : "المعجزة وهبت الى نبي او رسسول."
+    },
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/def/en_qs_onto",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "en_qs_ontoendowedTo",
+      "undefined" : "endowedTo"
+    },
+    "domain" : "28",
+    "comment" : {
+      "undefined" : "وهب الى ."
+    },
+    "attributes" : [ "object" ],
+    "id" : "273"
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/maker",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "range" : "31",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://xmlns.com/foaf/0.1/",
+        "type" : "iri"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "stable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "maker",
+      "undefined" : "maker"
+    },
+    "domain" : "143",
+    "comment" : {
+      "undefined" : "An agent that  made this thing."
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "144"
+  }, {
+    "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontopartOf",
+    "baseIri" : "https://w3id.org/def/en_qs_onto",
+    "range" : "176",
+    "description" : {
+      "undefined" : "السور القرانية هي جزء من الاجزاء والاجزاء هي جزء من القران."
+    },
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/def/en_qs_onto",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "en_qs_ontopartOf",
+      "undefined" : "partOf"
+    },
+    "domain" : "178",
+    "comment" : {
+      "undefined" : "جزء من"
+    },
+    "attributes" : [ "object" ],
+    "id" : "150"
+  }, {
+    "iri" : "https://w3id.org/def/en_qs_onto/en_qs_ontosEnd",
+    "baseIri" : "https://w3id.org/def/en_qs_onto",
+    "range" : "240",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://w3id.org/def/en_qs_onto",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "en_qs_ontosEnd",
+      "undefined" : "it'sEnd"
+    },
+    "domain" : "38",
+    "comment" : {
+      "undefined" : "نهاية الكافر."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "274"
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/workplaceHomepage",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "range" : "5",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://xmlns.com/foaf/0.1/",
+        "type" : "iri"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "testing",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "workplaceHomepage",
+      "undefined" : "workplace homepage"
+    },
+    "domain" : "16",
+    "comment" : {
+      "undefined" : "A workplace homepage of some person; the homepage of an organization they work for."
+    },
+    "attributes" : [ "object", "external" ],
+    "id" : "275"
+  } ]
+}
