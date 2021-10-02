@@ -2395,7 +2395,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                  <http://xmlns.com/foaf/0.1/age> "null" ;
                  <http://xmlns.com/foaf/0.1/gender> "Female" ;
                  <http://xmlns.com/foaf/0.1/name> "مريم" ;
-                 <http://xmlns.com/foaf/0.1/nick> "Mary" ;
+                 <http://xmlns.com/foaf/0.1/nick> "the Virgin" ;
                  :en_qs_ontohasFather "Omran" ;
                  :en_qs_ontohasMother "null" ;
                  :en_qs_ontohasName "Muriam" ;
@@ -2440,6 +2440,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 ###  https://w3id.org/def/en_qs_onto/en_qs_ontoper29
 :en_qs_ontoper29 rdf:type owl:NamedIndividual ,
                           :en_qs_ontoInfidel ;
+                 owl:sameAs <https://www.wikidata.org/wiki/Q37110> ;
                  :en_qs_ontomentionedIn :en_qs_ontosurah1 ;
                  <http://xmlns.com/foaf/0.1/age> "400 year" ;
                  <http://xmlns.com/foaf/0.1/gender> "Male" ;
@@ -2530,7 +2531,9 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                  :en_qs_ontohasName "Goliath" ;
                  <https://w3id.org/def/en_qs_onto/en_qs_ontoinVerse_Nu.> "Al-Baqarah251" ;
                  :en_qs_ontoinVerse_Text "فَهَزَمُوهُمْ بِإِذْنِ اللَّهِ وَقَتَلَ دَاوُودُ جَالُوتَ وَآتَاهُ اللَّهُ الْمُلْكَ وَالْحِكْمَةَ وَعَلَّمَهُ مِمَّا يَشَاءُ ۗ وَلَوْلَا دَفْعُ اللَّهِ النَّاسَ بَعْضَهُمْ بِبَعْضٍ لَفَسَدَتِ الْأَرْضُ وَلَكِنَّ اللَّهَ ذُو فَضْلٍ عَلَى الْعَالَمِينَ" ;
-                 :en_qs_ontonameRepeat "3" .
+                 :en_qs_ontonameRepeat "3" ;
+                 <http://purl.org/dc/elements/1.1/description> "محارب فلستي معروف لمعركته ضد النبي داوود" ;
+                 rdfs:isDefinedBy <https://w3id.org/def/en_qs_onto> .
 
 
 ###  https://w3id.org/def/en_qs_onto/en_qs_ontoper4
@@ -3243,6 +3246,10 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 
 ###  https://www.wikidata.org/wiki/Q332574
 <https://www.wikidata.org/wiki/Q332574> rdf:type owl:NamedIndividual .
+
+
+###  https://www.wikidata.org/wiki/Q37110
+<https://www.wikidata.org/wiki/Q37110> rdf:type owl:NamedIndividual .
 
 
 ###  https://www.wikidata.org/wiki/Q380714
