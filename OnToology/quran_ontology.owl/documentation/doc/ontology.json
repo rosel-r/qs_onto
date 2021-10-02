@@ -4476,7 +4476,7 @@
     "@value" : "مريم"
   } ],
   "http://xmlns.com/foaf/0.1/nick" : [ {
-    "@value" : "Mary"
+    "@value" : "the Virgin"
   } ],
   "https://w3id.org/def/en_qs_onto/en_qs_ontohasFather" : [ {
     "@value" : "Omran"
@@ -4577,6 +4577,9 @@
 }, {
   "@id" : "https://w3id.org/def/en_qs_onto/en_qs_ontoper29",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/def/en_qs_onto/en_qs_ontoInfidel" ],
+  "http://www.w3.org/2002/07/owl#sameAs" : [ {
+    "@id" : "https://www.wikidata.org/wiki/Q37110"
+  } ],
   "http://xmlns.com/foaf/0.1/age" : [ {
     "@value" : "400 year"
   } ],
@@ -4762,6 +4765,12 @@
 }, {
   "@id" : "https://w3id.org/def/en_qs_onto/en_qs_ontoper32",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/def/en_qs_onto/en_qs_ontoInfidel" ],
+  "http://purl.org/dc/elements/1.1/description" : [ {
+    "@value" : "محارب فلستي معروف لمعركته ضد النبي داوود"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/def/en_qs_onto"
+  } ],
   "http://www.w3.org/2002/07/owl#sameAs" : [ {
     "@id" : "https://www.wikidata.org/wiki/Q192785"
   } ],
@@ -6135,6 +6144,9 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://www.wikidata.org/wiki/Q332574",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "https://www.wikidata.org/wiki/Q37110",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
 }, {
   "@id" : "https://www.wikidata.org/wiki/Q380714",

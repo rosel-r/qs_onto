@@ -3420,7 +3420,7 @@
         <foaf:age>null</foaf:age>
         <foaf:gender>Female</foaf:gender>
         <foaf:name>مريم</foaf:name>
-        <foaf:nick>Mary</foaf:nick>
+        <foaf:nick>the Virgin</foaf:nick>
         <en_qs_ontohasFather>Omran</en_qs_ontohasFather>
         <en_qs_ontohasMother>null</en_qs_ontohasMother>
         <en_qs_ontohasName>Muriam</en_qs_ontohasName>
@@ -3477,6 +3477,7 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/def/en_qs_onto/en_qs_ontoper29">
         <rdf:type rdf:resource="https://w3id.org/def/en_qs_onto/en_qs_ontoInfidel"/>
+        <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q37110"/>
         <en_qs_ontomentionedIn rdf:resource="https://w3id.org/def/en_qs_onto/en_qs_ontosurah1"/>
         <foaf:age>400 year</foaf:age>
         <foaf:gender>Male</foaf:gender>
@@ -3584,6 +3585,8 @@
         <en_qs_ontoinVerse_Nu.>Al-Baqarah251</en_qs_ontoinVerse_Nu.>
         <en_qs_ontoinVerse_Text>فَهَزَمُوهُمْ بِإِذْنِ اللَّهِ وَقَتَلَ دَاوُودُ جَالُوتَ وَآتَاهُ اللَّهُ الْمُلْكَ وَالْحِكْمَةَ وَعَلَّمَهُ مِمَّا يَشَاءُ ۗ وَلَوْلَا دَفْعُ اللَّهِ النَّاسَ بَعْضَهُمْ بِبَعْضٍ لَفَسَدَتِ الْأَرْضُ وَلَكِنَّ اللَّهَ ذُو فَضْلٍ عَلَى الْعَالَمِينَ</en_qs_ontoinVerse_Text>
         <en_qs_ontonameRepeat>3</en_qs_ontonameRepeat>
+        <dc:description>محارب فلستي معروف لمعركته ضد النبي داوود</dc:description>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/def/en_qs_onto"/>
     </owl:NamedIndividual>
     
 
@@ -4604,6 +4607,13 @@
 
 
     <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q332574"/>
+    
+
+
+    <!-- https://www.wikidata.org/wiki/Q37110 -->
+
+
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q37110"/>
     
 
 
