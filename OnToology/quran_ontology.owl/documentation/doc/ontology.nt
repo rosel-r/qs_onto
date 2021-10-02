@@ -2308,7 +2308,7 @@ _:genid89 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 <https://w3id.org/def/en_qs_onto/en_qs_ontoper26> <http://xmlns.com/foaf/0.1/age> "null" .
 <https://w3id.org/def/en_qs_onto/en_qs_ontoper26> <http://xmlns.com/foaf/0.1/gender> "Female" .
 <https://w3id.org/def/en_qs_onto/en_qs_ontoper26> <http://xmlns.com/foaf/0.1/name> "مريم" .
-<https://w3id.org/def/en_qs_onto/en_qs_ontoper26> <http://xmlns.com/foaf/0.1/nick> "Mary" .
+<https://w3id.org/def/en_qs_onto/en_qs_ontoper26> <http://xmlns.com/foaf/0.1/nick> "the Virgin" .
 <https://w3id.org/def/en_qs_onto/en_qs_ontoper26> <https://w3id.org/def/en_qs_onto/en_qs_ontohasFather> "Omran" .
 <https://w3id.org/def/en_qs_onto/en_qs_ontoper26> <https://w3id.org/def/en_qs_onto/en_qs_ontohasMother> "null" .
 <https://w3id.org/def/en_qs_onto/en_qs_ontoper26> <https://w3id.org/def/en_qs_onto/en_qs_ontohasName> "Muriam" .
@@ -2350,6 +2350,7 @@ _:genid89 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 # https://w3id.org/def/en_qs_onto/en_qs_ontoper29
 <https://w3id.org/def/en_qs_onto/en_qs_ontoper29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/def/en_qs_onto/en_qs_ontoper29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/en_qs_onto/en_qs_ontoInfidel> .
+<https://w3id.org/def/en_qs_onto/en_qs_ontoper29> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q37110> .
 <https://w3id.org/def/en_qs_onto/en_qs_ontoper29> <https://w3id.org/def/en_qs_onto/en_qs_ontomentionedIn> <https://w3id.org/def/en_qs_onto/en_qs_ontosurah1> .
 <https://w3id.org/def/en_qs_onto/en_qs_ontoper29> <http://xmlns.com/foaf/0.1/age> "400 year" .
 <https://w3id.org/def/en_qs_onto/en_qs_ontoper29> <http://xmlns.com/foaf/0.1/gender> "Male" .
@@ -2437,6 +2438,8 @@ _:genid89 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 <https://w3id.org/def/en_qs_onto/en_qs_ontoper32> <https://w3id.org/def/en_qs_onto/en_qs_ontoinVerse_Nu.> "Al-Baqarah251" .
 <https://w3id.org/def/en_qs_onto/en_qs_ontoper32> <https://w3id.org/def/en_qs_onto/en_qs_ontoinVerse_Text> "فَهَزَمُوهُمْ بِإِذْنِ اللَّهِ وَقَتَلَ دَاوُودُ جَالُوتَ وَآتَاهُ اللَّهُ الْمُلْكَ وَالْحِكْمَةَ وَعَلَّمَهُ مِمَّا يَشَاءُ ۗ وَلَوْلَا دَفْعُ اللَّهِ النَّاسَ بَعْضَهُمْ بِبَعْضٍ لَفَسَدَتِ الْأَرْضُ وَلَكِنَّ اللَّهَ ذُو فَضْلٍ عَلَى الْعَالَمِينَ" .
 <https://w3id.org/def/en_qs_onto/en_qs_ontoper32> <https://w3id.org/def/en_qs_onto/en_qs_ontonameRepeat> "3" .
+<https://w3id.org/def/en_qs_onto/en_qs_ontoper32> <http://purl.org/dc/elements/1.1/description> "محارب فلستي معروف لمعركته ضد النبي داوود" .
+<https://w3id.org/def/en_qs_onto/en_qs_ontoper32> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/def/en_qs_onto> .
 # 
 # https://w3id.org/def/en_qs_onto/en_qs_ontoper4
 <https://w3id.org/def/en_qs_onto/en_qs_ontoper4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -3058,6 +3061,9 @@ _:genid89 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 # 
 # https://www.wikidata.org/wiki/Q332574
 <https://www.wikidata.org/wiki/Q332574> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# https://www.wikidata.org/wiki/Q37110
+<https://www.wikidata.org/wiki/Q37110> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 # 
 # https://www.wikidata.org/wiki/Q380714
 <https://www.wikidata.org/wiki/Q380714> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
