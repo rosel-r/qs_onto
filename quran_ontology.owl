@@ -3188,7 +3188,7 @@
         <en_qs_ontomentionedIn rdf:resource="https://w3id.org/def/en_qs_onto/en_qs_ontosurah10"/>
         <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</foaf:age>
         <foaf:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Female</foaf:gender>
-        <foaf:nick rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mary</foaf:nick>
+        <foaf:nick rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the Virgin</foaf:nick>
         <en_qs_ontohasFather rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Omran</en_qs_ontohasFather>
         <en_qs_ontohasMother rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</en_qs_ontohasMother>
         <en_qs_ontohasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Muriam</en_qs_ontohasName>
@@ -3243,6 +3243,7 @@
 
     <owl:NamedIndividual rdf:about="https://w3id.org/def/en_qs_onto/en_qs_ontoper29">
         <rdf:type rdf:resource="https://w3id.org/def/en_qs_onto/en_qs_ontoInfidel"/>
+        <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q37110"/>
         <en_qs_ontomentionedIn rdf:resource="https://w3id.org/def/en_qs_onto/en_qs_ontosurah1"/>
         <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#string">400 year</foaf:age>
         <foaf:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Male</foaf:gender>
@@ -3345,6 +3346,8 @@
         <en_qs_ontoinVerse_Nu. rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Al-Baqarah251</en_qs_ontoinVerse_Nu.>
         <en_qs_ontoinVerse_Text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">فَهَزَمُوهُمْ بِإِذْنِ اللَّهِ وَقَتَلَ دَاوُودُ جَالُوتَ وَآتَاهُ اللَّهُ الْمُلْكَ وَالْحِكْمَةَ وَعَلَّمَهُ مِمَّا يَشَاءُ ۗ وَلَوْلَا دَفْعُ اللَّهِ النَّاسَ بَعْضَهُمْ بِبَعْضٍ لَفَسَدَتِ الْأَرْضُ وَلَكِنَّ اللَّهَ ذُو فَضْلٍ عَلَى الْعَالَمِينَ</en_qs_ontoinVerse_Text>
         <en_qs_ontonameRepeat rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</en_qs_ontonameRepeat>
+        <dc:description>محارب فلستي معروف لمعركته ضد النبي داوود</dc:description>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/def/en_qs_onto"/>
         <foaf:name>جالوت</foaf:name>
     </owl:NamedIndividual>
     
@@ -4275,6 +4278,12 @@
     <!-- https://www.wikidata.org/wiki/Q332574 -->
 
     <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q332574"/>
+    
+
+
+    <!-- https://www.wikidata.org/wiki/Q37110 -->
+
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q37110"/>
     
 
 
