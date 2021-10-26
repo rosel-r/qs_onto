@@ -1281,7 +1281,8 @@
     <!-- https://w3id.org/def/en_qs_onto/en_qs_ontoPlace -->
 
     <owl:Class rdf:about="https://w3id.org/def/en_qs_onto/en_qs_ontoPlace">
-        <owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="https://w3id.org/def/en_qs_onto/en_qs_ontoBirthPlace"/>
@@ -1290,8 +1291,7 @@
                     <rdf:Description rdf:about="https://w3id.org/def/en_qs_onto/en_qs_ontoMissionPlace"/>
                 </owl:unionOf>
             </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -1632,6 +1632,7 @@
         <en_qs_ontoinVerse_Nu. rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Al_qamar 27</en_qs_ontoinVerse_Nu.>
         <en_qs_ontoinVerse_Text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">إِنَّا مُرْسِلُو النَّاقَةِ فِتْنَةً لَهُمْ فَارْتَقِبْهُمْ وَاصْطَبِرْ</en_qs_ontoinVerse_Text>
         <en_qs_ontoreasonFor_Mention rdf:datatype="http://www.w3.org/2001/XMLSchema#string">trial for Salih&apos;s nation </en_qs_ontoreasonFor_Mention>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/def/en_qs_onto"/>
         <foaf:name>الناقة</foaf:name>
     </owl:NamedIndividual>
     
@@ -1647,6 +1648,7 @@
         <en_qs_ontohasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Whale</en_qs_ontohasName>
         <en_qs_ontoinVerse_Nu. rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alsaafaat142</en_qs_ontoinVerse_Nu.>
         <en_qs_ontoinVerse_Text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">فَالْتَقَمَهُ الْحُوتُ وَهُوَ مُلِيمٌ</en_qs_ontoinVerse_Text>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/def/en_qs_onto"/>
         <foaf:name>الحوت</foaf:name>
     </owl:NamedIndividual>
     
@@ -1694,7 +1696,8 @@
         <en_qs_ontoinVerse_Text rdf:datatype="http://www.w3.org/2001/XMLSchema#string">فَأَلْقَىٰ عَصَاهُ فَإِذَا هِيَ ثُعْبَانٌ مُّبِينٌ</en_qs_ontoinVerse_Text>
         <en_qs_ontooverturnedFrom>Stick</en_qs_ontooverturnedFrom>
         <en_qs_ontoreasonFor_Mention rdf:datatype="http://www.w3.org/2001/XMLSchema#string">God made it sign to Pharaoh and his people</en_qs_ontoreasonFor_Mention>
-        <foaf:name>الثعبان</foaf:name>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/def/en_qs_onto"/>
+        <foaf:name>ثعبان موسى</foaf:name>
     </owl:NamedIndividual>
     
 
