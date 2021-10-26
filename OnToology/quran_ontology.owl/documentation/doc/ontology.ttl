@@ -908,14 +908,14 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 
 ###  https://w3id.org/def/en_qs_onto/en_qs_ontoPlace
 :en_qs_ontoPlace rdf:type owl:Class ;
-                 owl:equivalentClass [ rdf:type owl:Class ;
-                                       owl:unionOf ( :en_qs_ontoBirthPlace
-                                                     :en_qs_ontoCity
-                                                     :en_qs_ontoLivePlace
-                                                     :en_qs_ontoMissionPlace
-                                                   )
-                                     ] ;
-                 rdfs:subClassOf owl:Thing .
+                 rdfs:subClassOf owl:Thing ,
+                                 [ rdf:type owl:Class ;
+                                   owl:unionOf ( :en_qs_ontoBirthPlace
+                                                 :en_qs_ontoCity
+                                                 :en_qs_ontoLivePlace
+                                                 :en_qs_ontoMissionPlace
+                                               )
+                                 ] .
 
 
 ###  https://w3id.org/def/en_qs_onto/en_qs_ontoProphet
@@ -1136,7 +1136,8 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                  :en_qs_ontohasName "Camel" ;
                  <https://w3id.org/def/en_qs_onto/en_qs_ontoinVerse_Nu.> "Al_qamar 27" ;
                  :en_qs_ontoinVerse_Text "إِنَّا مُرْسِلُو النَّاقَةِ فِتْنَةً لَهُمْ فَارْتَقِبْهُمْ وَاصْطَبِرْ" ;
-                 :en_qs_ontoreasonFor_Mention "trial for Salih's nation " .
+                 :en_qs_ontoreasonFor_Mention "trial for Salih's nation " ;
+                 rdfs:isDefinedBy <https://w3id.org/def/en_qs_onto> .
 
 
 ###  https://w3id.org/def/en_qs_onto/en_qs_ontoanim3
@@ -1148,7 +1149,8 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                  <http://xmlns.com/foaf/0.1/name> "الحوت" ;
                  :en_qs_ontohasName "Whale" ;
                  <https://w3id.org/def/en_qs_onto/en_qs_ontoinVerse_Nu.> "Alsaafaat142" ;
-                 :en_qs_ontoinVerse_Text "فَالْتَقَمَهُ الْحُوتُ وَهُوَ مُلِيمٌ" .
+                 :en_qs_ontoinVerse_Text "فَالْتَقَمَهُ الْحُوتُ وَهُوَ مُلِيمٌ" ;
+                 rdfs:isDefinedBy <https://w3id.org/def/en_qs_onto> .
 
 
 ###  https://w3id.org/def/en_qs_onto/en_qs_ontoanim4
@@ -1181,12 +1183,13 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                           :en_qs_ontoReptile ;
                  :en_qs_ontoappearedWith :en_qs_ontoper16 ;
                  :en_qs_ontomentionedIn :en_qs_ontosurah5 ;
-                 <http://xmlns.com/foaf/0.1/name> "الثعبان" ;
+                 <http://xmlns.com/foaf/0.1/name> "ثعبان موسى" ;
                  :en_qs_ontohasName "snack" ;
                  <https://w3id.org/def/en_qs_onto/en_qs_ontoinVerse_Nu.> "Al-A‘rāf107" ;
                  :en_qs_ontoinVerse_Text "فَأَلْقَىٰ عَصَاهُ فَإِذَا هِيَ ثُعْبَانٌ مُّبِينٌ" ;
                  :en_qs_ontooverturnedFrom "Stick" ;
-                 :en_qs_ontoreasonFor_Mention "God made it sign to Pharaoh and his people" .
+                 :en_qs_ontoreasonFor_Mention "God made it sign to Pharaoh and his people" ;
+                 rdfs:isDefinedBy <https://w3id.org/def/en_qs_onto> .
 
 
 ###  https://w3id.org/def/en_qs_onto/en_qs_ontobook1

@@ -943,7 +943,8 @@ _:genid82 <http://www.w3.org/2002/07/owl#onClass> <https://w3id.org/def/en_qs_on
 # 
 # https://w3id.org/def/en_qs_onto/en_qs_ontoPlace
 <https://w3id.org/def/en_qs_onto/en_qs_ontoPlace> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/def/en_qs_onto/en_qs_ontoPlace> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid83 .
+<https://w3id.org/def/en_qs_onto/en_qs_ontoPlace> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> .
+<https://w3id.org/def/en_qs_onto/en_qs_ontoPlace> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid83 .
 _:genid83 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 _:genid83 <http://www.w3.org/2002/07/owl#unionOf> _:genid87 .
 _:genid87 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
@@ -958,7 +959,6 @@ _:genid85 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid84 .
 _:genid84 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
 _:genid84 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/en_qs_onto/en_qs_ontoMissionPlace> .
 _:genid84 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-<https://w3id.org/def/en_qs_onto/en_qs_ontoPlace> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> .
 # 
 # https://w3id.org/def/en_qs_onto/en_qs_ontoProphet
 <https://w3id.org/def/en_qs_onto/en_qs_ontoProphet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -1150,6 +1150,7 @@ _:genid89 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 <https://w3id.org/def/en_qs_onto/en_qs_ontoanim2> <https://w3id.org/def/en_qs_onto/en_qs_ontoinVerse_Nu.> "Al_qamar 27" .
 <https://w3id.org/def/en_qs_onto/en_qs_ontoanim2> <https://w3id.org/def/en_qs_onto/en_qs_ontoinVerse_Text> "إِنَّا مُرْسِلُو النَّاقَةِ فِتْنَةً لَهُمْ فَارْتَقِبْهُمْ وَاصْطَبِرْ" .
 <https://w3id.org/def/en_qs_onto/en_qs_ontoanim2> <https://w3id.org/def/en_qs_onto/en_qs_ontoreasonFor_Mention> "trial for Salih's nation " .
+<https://w3id.org/def/en_qs_onto/en_qs_ontoanim2> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/def/en_qs_onto> .
 # 
 # https://w3id.org/def/en_qs_onto/en_qs_ontoanim3
 <https://w3id.org/def/en_qs_onto/en_qs_ontoanim3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -1161,6 +1162,7 @@ _:genid89 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 <https://w3id.org/def/en_qs_onto/en_qs_ontoanim3> <https://w3id.org/def/en_qs_onto/en_qs_ontohasName> "Whale" .
 <https://w3id.org/def/en_qs_onto/en_qs_ontoanim3> <https://w3id.org/def/en_qs_onto/en_qs_ontoinVerse_Nu.> "Alsaafaat142" .
 <https://w3id.org/def/en_qs_onto/en_qs_ontoanim3> <https://w3id.org/def/en_qs_onto/en_qs_ontoinVerse_Text> "فَالْتَقَمَهُ الْحُوتُ وَهُوَ مُلِيمٌ" .
+<https://w3id.org/def/en_qs_onto/en_qs_ontoanim3> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/def/en_qs_onto> .
 # 
 # https://w3id.org/def/en_qs_onto/en_qs_ontoanim4
 <https://w3id.org/def/en_qs_onto/en_qs_ontoanim4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -1190,12 +1192,13 @@ _:genid89 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 <https://w3id.org/def/en_qs_onto/en_qs_ontoanim6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/en_qs_onto/en_qs_ontoReptile> .
 <https://w3id.org/def/en_qs_onto/en_qs_ontoanim6> <https://w3id.org/def/en_qs_onto/en_qs_ontoappearedWith> <https://w3id.org/def/en_qs_onto/en_qs_ontoper16> .
 <https://w3id.org/def/en_qs_onto/en_qs_ontoanim6> <https://w3id.org/def/en_qs_onto/en_qs_ontomentionedIn> <https://w3id.org/def/en_qs_onto/en_qs_ontosurah5> .
-<https://w3id.org/def/en_qs_onto/en_qs_ontoanim6> <http://xmlns.com/foaf/0.1/name> "الثعبان" .
+<https://w3id.org/def/en_qs_onto/en_qs_ontoanim6> <http://xmlns.com/foaf/0.1/name> "ثعبان موسى" .
 <https://w3id.org/def/en_qs_onto/en_qs_ontoanim6> <https://w3id.org/def/en_qs_onto/en_qs_ontohasName> "snack" .
 <https://w3id.org/def/en_qs_onto/en_qs_ontoanim6> <https://w3id.org/def/en_qs_onto/en_qs_ontoinVerse_Nu.> "Al-A‘rāf107" .
 <https://w3id.org/def/en_qs_onto/en_qs_ontoanim6> <https://w3id.org/def/en_qs_onto/en_qs_ontoinVerse_Text> "فَأَلْقَىٰ عَصَاهُ فَإِذَا هِيَ ثُعْبَانٌ مُّبِينٌ" .
 <https://w3id.org/def/en_qs_onto/en_qs_ontoanim6> <https://w3id.org/def/en_qs_onto/en_qs_ontooverturnedFrom> "Stick" .
 <https://w3id.org/def/en_qs_onto/en_qs_ontoanim6> <https://w3id.org/def/en_qs_onto/en_qs_ontoreasonFor_Mention> "God made it sign to Pharaoh and his people" .
+<https://w3id.org/def/en_qs_onto/en_qs_ontoanim6> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/def/en_qs_onto> .
 # 
 # https://w3id.org/def/en_qs_onto/en_qs_ontobook1
 <https://w3id.org/def/en_qs_onto/en_qs_ontobook1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
