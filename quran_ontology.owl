@@ -217,24 +217,6 @@
 
     <owl:ObjectProperty rdf:about="https://w3id.org/def/en_qs_onto/en_qs_ontoconsisitOf">
         <owl:inverseOf rdf:resource="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf"/>
-        <rdfs:domain>
-            <owl:Class>
-                <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://w3id.org/def/en_qs_onto/en_qs_ontoBook"/>
-                    <rdf:Description rdf:about="https://w3id.org/def/en_qs_onto/en_qs_ontoChapter"/>
-                    <rdf:Description rdf:about="https://w3id.org/def/en_qs_onto/en_qs_ontoSurah"/>
-                </owl:unionOf>
-            </owl:Class>
-        </rdfs:domain>
-        <rdfs:range>
-            <owl:Class>
-                <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://w3id.org/def/en_qs_onto/en_qs_ontoChapter"/>
-                    <rdf:Description rdf:about="https://w3id.org/def/en_qs_onto/en_qs_ontoSurah"/>
-                    <rdf:Description rdf:about="https://w3id.org/def/en_qs_onto/en_qs_ontoVerse"/>
-                </owl:unionOf>
-            </owl:Class>
-        </rdfs:range>
         <dc:description>يتكون كتاب القران من اجزاء وتتألف الاجزاء من سور قرانية والسور تتألف من ايات.</dc:description>
         <rdfs:comment>يتكون من ,يتألف من.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/def/en_qs_onto"/>
@@ -571,26 +553,7 @@
 
     <!-- https://w3id.org/def/en_qs_onto/en_qs_ontopartOf -->
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf">
-        <rdfs:domain>
-            <owl:Class>
-                <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://w3id.org/def/en_qs_onto/en_qs_ontoChapter"/>
-                    <rdf:Description rdf:about="https://w3id.org/def/en_qs_onto/en_qs_ontoSurah"/>
-                    <rdf:Description rdf:about="https://w3id.org/def/en_qs_onto/en_qs_ontoVerse"/>
-                </owl:unionOf>
-            </owl:Class>
-        </rdfs:domain>
-        <rdfs:range>
-            <owl:Class>
-                <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://w3id.org/def/en_qs_onto/en_qs_ontoBook"/>
-                    <rdf:Description rdf:about="https://w3id.org/def/en_qs_onto/en_qs_ontoChapter"/>
-                    <rdf:Description rdf:about="https://w3id.org/def/en_qs_onto/en_qs_ontoSurah"/>
-                </owl:unionOf>
-            </owl:Class>
-        </rdfs:range>
-    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf"/>
     
 
 
@@ -638,6 +601,7 @@
     <!-- https://w3id.org/def/en_qs_onto/en_qs_ontoswallow -->
 
     <owl:ObjectProperty rdf:about="https://w3id.org/def/en_qs_onto/en_qs_ontoswallow">
+        <owl:inverseOf rdf:resource="https://w3id.org/def/en_qs_onto/swallowBy"/>
         <rdfs:domain rdf:resource="https://w3id.org/def/en_qs_onto/en_qs_ontoAnimal"/>
         <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
         <dc:description>ابتلاع الحيوان لشيء ما .</dc:description>
@@ -675,6 +639,15 @@
     
 
 
+    <!-- https://w3id.org/def/en_qs_onto/swallowBy -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/def/en_qs_onto/swallowBy">
+        <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <rdfs:range rdf:resource="https://w3id.org/def/en_qs_onto/en_qs_ontoAnimal"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -698,6 +671,7 @@
 
     <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/birthday">
         <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
     </rdf:Description>
     
 
@@ -706,6 +680,7 @@
 
     <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/familyName">
         <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
     </rdf:Description>
     
 
@@ -714,6 +689,7 @@
 
     <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/gender">
         <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
     </rdf:Description>
     
 
@@ -722,7 +698,6 @@
 
     <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/name">
         <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
     </rdf:Description>
     
 
@@ -2845,6 +2820,7 @@
         <en_qs_ontomentionedIn rdf:resource="https://w3id.org/def/en_qs_onto/en_qs_ontosurah6"/>
         <en_qs_ontomissionedTo rdf:resource="https://w3id.org/def/en_qs_onto/en_qs_ontopc9"/>
         <en_qs_ontosendTo rdf:resource="https://w3id.org/def/en_qs_onto/en_qs_ontonat7"/>
+        <swallowBy rdf:resource="https://w3id.org/def/en_qs_onto/en_qs_ontoanim3"/>
         <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</foaf:age>
         <foaf:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Male</foaf:gender>
         <foaf:nick rdf:datatype="http://www.w3.org/2001/XMLSchema#string">null</foaf:nick>
