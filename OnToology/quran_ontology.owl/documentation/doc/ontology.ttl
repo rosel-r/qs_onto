@@ -13,7 +13,8 @@
                                     <http://purl.org/dc/elements/1.1/title> "Quran Stories Ontology" ;
                                     rdfs:comment "أنطولوجيا القصص القرانية" ;
                                     rdfs:label "QURAN STORIES ONTOLOGY" ;
-                                    <https://www.geonames.org/countries/EG/egypt.html#terms:creater> "Rusul Y. Raghib"@en .
+                                    <https://www.geonames.org/countries/EG/egypt.html#terms:creater> "Rusul Y. Raghib"@en ,
+                                                                                                     "Rusul Y. Ragheb" .
 
 #################################################################
 #    Annotation properties
@@ -908,14 +909,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 
 ###  https://w3id.org/def/en_qs_onto/en_qs_ontoPlace
 :en_qs_ontoPlace rdf:type owl:Class ;
-                 rdfs:subClassOf owl:Thing ,
-                                 [ rdf:type owl:Class ;
-                                   owl:unionOf ( :en_qs_ontoBirthPlace
-                                                 :en_qs_ontoCity
-                                                 :en_qs_ontoLivePlace
-                                                 :en_qs_ontoMissionPlace
-                                               )
-                                 ] .
+                 rdfs:subClassOf owl:Thing .
 
 
 ###  https://w3id.org/def/en_qs_onto/en_qs_ontoProphet

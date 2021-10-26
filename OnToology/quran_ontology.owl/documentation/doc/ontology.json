@@ -285,20 +285,6 @@
   } ]
 }, {
   "@id" : "_:genid83",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2002/07/owl#unionOf" : [ {
-    "@list" : [ {
-      "@id" : "https://w3id.org/def/en_qs_onto/en_qs_ontoBirthPlace"
-    }, {
-      "@id" : "https://w3id.org/def/en_qs_onto/en_qs_ontoCity"
-    }, {
-      "@id" : "https://w3id.org/def/en_qs_onto/en_qs_ontoLivePlace"
-    }, {
-      "@id" : "https://w3id.org/def/en_qs_onto/en_qs_ontoMissionPlace"
-    } ]
-  } ]
-}, {
-  "@id" : "_:genid88",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#Thing"
@@ -525,6 +511,8 @@
   "https://www.geonames.org/countries/EG/egypt.html#terms:creater" : [ {
     "@language" : "en",
     "@value" : "Rusul Y. Raghib"
+  }, {
+    "@value" : "Rusul Y. Ragheb"
   } ]
 }, {
   "@id" : "https://w3id.org/def/en_qs_onto/en_qs_ontoAfterLive_Event",
@@ -934,8 +922,6 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#Thing"
-  }, {
-    "@id" : "_:genid83"
   } ]
 }, {
   "@id" : "https://w3id.org/def/en_qs_onto/en_qs_ontoProphet",
@@ -997,7 +983,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#Thing"
   }, {
-    "@id" : "_:genid88"
+    "@id" : "_:genid83"
   } ],
   "http://www.w3.org/2002/07/owl#disjointUnionOf" : [ {
     "@list" : [ {
