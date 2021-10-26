@@ -143,18 +143,6 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 ###  https://w3id.org/def/en_qs_onto/en_qs_ontoconsisitOf
 :en_qs_ontoconsisitOf rdf:type owl:ObjectProperty ;
                       owl:inverseOf :en_qs_ontopartOf ;
-                      rdfs:domain [ rdf:type owl:Class ;
-                                    owl:unionOf ( :en_qs_ontoBook
-                                                  :en_qs_ontoChapter
-                                                  :en_qs_ontoSurah
-                                                )
-                                  ] ;
-                      rdfs:range [ rdf:type owl:Class ;
-                                   owl:unionOf ( :en_qs_ontoChapter
-                                                 :en_qs_ontoSurah
-                                                 :en_qs_ontoVerse
-                                               )
-                                 ] ;
                       <http://purl.org/dc/elements/1.1/description> "يتكون كتاب القران من اجزاء وتتألف الاجزاء من سور قرانية والسور تتألف من ايات." ;
                       rdfs:comment "يتكون من ,يتألف من." ;
                       rdfs:isDefinedBy <https://w3id.org/def/en_qs_onto> ;
@@ -401,19 +389,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 
 
 ###  https://w3id.org/def/en_qs_onto/en_qs_ontopartOf
-:en_qs_ontopartOf rdf:type owl:ObjectProperty ;
-                  rdfs:domain [ rdf:type owl:Class ;
-                                owl:unionOf ( :en_qs_ontoChapter
-                                              :en_qs_ontoSurah
-                                              :en_qs_ontoVerse
-                                            )
-                              ] ;
-                  rdfs:range [ rdf:type owl:Class ;
-                               owl:unionOf ( :en_qs_ontoBook
-                                             :en_qs_ontoChapter
-                                             :en_qs_ontoSurah
-                                           )
-                             ] .
+:en_qs_ontopartOf rdf:type owl:ObjectProperty .
 
 
 ###  https://w3id.org/def/en_qs_onto/en_qs_ontoreceived
@@ -450,6 +426,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 
 ###  https://w3id.org/def/en_qs_onto/en_qs_ontoswallow
 :en_qs_ontoswallow rdf:type owl:ObjectProperty ;
+                   owl:inverseOf :swallowBy ;
                    rdfs:domain :en_qs_ontoAnimal ;
                    rdfs:range <http://xmlns.com/foaf/0.1/Person> ;
                    <http://purl.org/dc/elements/1.1/description> "ابتلاع الحيوان لشيء ما ." ;
@@ -479,6 +456,12 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                       rdfs:label "targetedBy" .
 
 
+###  https://w3id.org/def/en_qs_onto/swallowBy
+:swallowBy rdf:type owl:ObjectProperty ;
+           rdfs:domain <http://xmlns.com/foaf/0.1/Person> ;
+           rdfs:range :en_qs_ontoAnimal .
+
+
 #################################################################
 #    Data properties
 #################################################################
@@ -488,15 +471,18 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 
 
 ###  http://xmlns.com/foaf/0.1/birthday
-<http://xmlns.com/foaf/0.1/birthday> rdfs:domain <http://xmlns.com/foaf/0.1/Person> .
+<http://xmlns.com/foaf/0.1/birthday> rdfs:domain <http://xmlns.com/foaf/0.1/Person> ;
+                                     rdfs:range rdfs:Literal .
 
 
 ###  http://xmlns.com/foaf/0.1/familyName
-<http://xmlns.com/foaf/0.1/familyName> rdfs:domain <http://xmlns.com/foaf/0.1/Person> .
+<http://xmlns.com/foaf/0.1/familyName> rdfs:domain <http://xmlns.com/foaf/0.1/Person> ;
+                                       rdfs:range rdfs:Literal .
 
 
 ###  http://xmlns.com/foaf/0.1/gender
-<http://xmlns.com/foaf/0.1/gender> rdfs:domain <http://xmlns.com/foaf/0.1/Person> .
+<http://xmlns.com/foaf/0.1/gender> rdfs:domain <http://xmlns.com/foaf/0.1/Person> ;
+                                   rdfs:range rdfs:Literal .
 
 
 ###  http://xmlns.com/foaf/0.1/name
@@ -2084,6 +2070,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                  :en_qs_ontomentionedIn :en_qs_ontosurah6 ;
                  :en_qs_ontomissionedTo :en_qs_ontopc9 ;
                  :en_qs_ontosendTo :en_qs_ontonat7 ;
+                 :swallowBy :en_qs_ontoanim3 ;
                  <http://xmlns.com/foaf/0.1/age> "null" ;
                  <http://xmlns.com/foaf/0.1/gender> "Male" ;
                  <http://xmlns.com/foaf/0.1/name> "يونس" ;
