@@ -934,8 +934,7 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#Thing"
-  } ],
-  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+  }, {
     "@id" : "_:genid83"
   } ]
 }, {
@@ -1148,6 +1147,9 @@
 }, {
   "@id" : "https://w3id.org/def/en_qs_onto/en_qs_ontoanim2",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/def/en_qs_onto/en_qs_ontoMammal" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/def/en_qs_onto"
+  } ],
   "http://xmlns.com/foaf/0.1/name" : [ {
     "@value" : "الناقة"
   } ],
@@ -1172,6 +1174,9 @@
 }, {
   "@id" : "https://w3id.org/def/en_qs_onto/en_qs_ontoanim3",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/def/en_qs_onto/en_qs_ontoMammal" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/def/en_qs_onto"
+  } ],
   "http://xmlns.com/foaf/0.1/name" : [ {
     "@value" : "الحوت"
   } ],
@@ -1246,8 +1251,11 @@
 }, {
   "@id" : "https://w3id.org/def/en_qs_onto/en_qs_ontoanim6",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/def/en_qs_onto/en_qs_ontoReptile" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/def/en_qs_onto"
+  } ],
   "http://xmlns.com/foaf/0.1/name" : [ {
-    "@value" : "الثعبان"
+    "@value" : "ثعبان موسى"
   } ],
   "https://w3id.org/def/en_qs_onto/en_qs_ontoappearedWith" : [ {
     "@id" : "https://w3id.org/def/en_qs_onto/en_qs_ontoper16"

@@ -1372,7 +1372,8 @@
 
 
     <owl:Class rdf:about="https://w3id.org/def/en_qs_onto/en_qs_ontoPlace">
-        <owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="https://w3id.org/def/en_qs_onto/en_qs_ontoBirthPlace"/>
@@ -1381,8 +1382,7 @@
                     <rdf:Description rdf:about="https://w3id.org/def/en_qs_onto/en_qs_ontoMissionPlace"/>
                 </owl:unionOf>
             </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -1764,6 +1764,7 @@
         <en_qs_ontoinVerse_Nu.>Al_qamar 27</en_qs_ontoinVerse_Nu.>
         <en_qs_ontoinVerse_Text>إِنَّا مُرْسِلُو النَّاقَةِ فِتْنَةً لَهُمْ فَارْتَقِبْهُمْ وَاصْطَبِرْ</en_qs_ontoinVerse_Text>
         <en_qs_ontoreasonFor_Mention>trial for Salih&apos;s nation </en_qs_ontoreasonFor_Mention>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/def/en_qs_onto"/>
     </owl:NamedIndividual>
     
 
@@ -1780,6 +1781,7 @@
         <en_qs_ontohasName>Whale</en_qs_ontohasName>
         <en_qs_ontoinVerse_Nu.>Alsaafaat142</en_qs_ontoinVerse_Nu.>
         <en_qs_ontoinVerse_Text>فَالْتَقَمَهُ الْحُوتُ وَهُوَ مُلِيمٌ</en_qs_ontoinVerse_Text>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/def/en_qs_onto"/>
     </owl:NamedIndividual>
     
 
@@ -1824,12 +1826,13 @@
         <rdf:type rdf:resource="https://w3id.org/def/en_qs_onto/en_qs_ontoReptile"/>
         <en_qs_ontoappearedWith rdf:resource="https://w3id.org/def/en_qs_onto/en_qs_ontoper16"/>
         <en_qs_ontomentionedIn rdf:resource="https://w3id.org/def/en_qs_onto/en_qs_ontosurah5"/>
-        <foaf:name>الثعبان</foaf:name>
+        <foaf:name>ثعبان موسى</foaf:name>
         <en_qs_ontohasName>snack</en_qs_ontohasName>
         <en_qs_ontoinVerse_Nu.>Al-A‘rāf107</en_qs_ontoinVerse_Nu.>
         <en_qs_ontoinVerse_Text>فَأَلْقَىٰ عَصَاهُ فَإِذَا هِيَ ثُعْبَانٌ مُّبِينٌ</en_qs_ontoinVerse_Text>
         <en_qs_ontooverturnedFrom>Stick</en_qs_ontooverturnedFrom>
         <en_qs_ontoreasonFor_Mention>God made it sign to Pharaoh and his people</en_qs_ontoreasonFor_Mention>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/def/en_qs_onto"/>
     </owl:NamedIndividual>
     
 
