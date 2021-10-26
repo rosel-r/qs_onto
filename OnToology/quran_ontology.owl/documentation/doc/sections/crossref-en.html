@@ -202,6 +202,11 @@ This section provides details for each class and property defined by [Ontology N
                title="https://w3id.org/def/en_qs_onto/en_qs_ontoswallow">swallow</a>
             <sup class="type-op" title="object property">op</sup>
          </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#https://w3id.org/def/en_qs_onto/swallowBy" title="https://w3id.org/def/en_qs_onto/swallowBy">swallow by</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
          <dt>is same as</dt>
          <dd>
             <a href="http://dbpedia.org/ontology/Animal"
@@ -1546,11 +1551,6 @@ This section provides details for each class and property defined by [Ontology N
             title="https://w3id.org/def/en_qs_onto/en_qs_ontooccuredIn">occuredIn</a>
       </li>
       <li>
-         <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontopartOf" title="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf">
-            <span>partOf</span>
-         </a>
-      </li>
-      <li>
          <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontoreceived"
             title="https://w3id.org/def/en_qs_onto/en_qs_ontoreceived">received</a>
       </li>
@@ -1564,6 +1564,11 @@ This section provides details for each class and property defined by [Ontology N
       <li>
          <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontoswallow"
             title="https://w3id.org/def/en_qs_onto/en_qs_ontoswallow">swallow</a>
+      </li>
+      <li>
+         <a href="#https://w3id.org/def/en_qs_onto/swallowBy" title="https://w3id.org/def/en_qs_onto/swallowBy">
+            <span>swallow by</span>
+         </a>
       </li>
       <li>
          <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontotargeted"
@@ -1964,33 +1969,11 @@ This section provides details for each class and property defined by [Ontology N
       </dl>
       <div class="description">
          <dl>
-            <dt>has domain</dt>
-            <dd>
-               <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontoBook" title="https://w3id.org/def/en_qs_onto/en_qs_ontoBook">Book</a>
-               <sup class="type-c" title="class">c</sup> 
-               <span class="logic">or</span> 
-               <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontoChapter"
-                  title="https://w3id.org/def/en_qs_onto/en_qs_ontoChapter">Chapter</a>
-               <sup class="type-c" title="class">c</sup> 
-               <span class="logic">or</span> 
-               <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontoSurah" title="https://w3id.org/def/en_qs_onto/en_qs_ontoSurah">Surah</a>
-               <sup class="type-c" title="class">c</sup>
-            </dd>
-            <dt>has range</dt>
-            <dd>
-               <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontoChapter"
-                  title="https://w3id.org/def/en_qs_onto/en_qs_ontoChapter">Chapter</a>
-               <sup class="type-c" title="class">c</sup> 
-               <span class="logic">or</span> 
-               <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontoSurah" title="https://w3id.org/def/en_qs_onto/en_qs_ontoSurah">Surah</a>
-               <sup class="type-c" title="class">c</sup> 
-               <span class="logic">or</span> 
-               <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontoVerse" title="https://w3id.org/def/en_qs_onto/en_qs_ontoVerse">Verse</a>
-               <sup class="type-c" title="class">c</sup>
-            </dd>
             <dt>is inverse of</dt>
             <dd>
-               <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontopartOf" title="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf">partOf</a>
+               <a href="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf"
+                  target="_blank"
+                  title="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf">partOf</a>
                <sup class="type-op" title="object property">op</sup>
             </dd>
          </dl>
@@ -2795,56 +2778,6 @@ This section provides details for each class and property defined by [Ontology N
          </dl>
       </div>
    </div>
-   <div class="entity" id="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf">
-      <h3>partOf<sup class="type-op" title="object property">op</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> https://w3id.org/def/en_qs_onto/en_qs_ontopartOf</p>
-      <div class="description">
-         <dl>
-            <dt>has domain</dt>
-            <dd>
-               <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontoChapter"
-                  title="https://w3id.org/def/en_qs_onto/en_qs_ontoChapter">Chapter</a>
-               <sup class="type-c" title="class">c</sup> 
-               <span class="logic">or</span> 
-               <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontoSurah" title="https://w3id.org/def/en_qs_onto/en_qs_ontoSurah">Surah</a>
-               <sup class="type-c" title="class">c</sup> 
-               <span class="logic">or</span> 
-               <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontoVerse" title="https://w3id.org/def/en_qs_onto/en_qs_ontoVerse">Verse</a>
-               <sup class="type-c" title="class">c</sup>
-            </dd>
-            <dt>has range</dt>
-            <dd>
-               <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontoBook" title="https://w3id.org/def/en_qs_onto/en_qs_ontoBook">Book</a>
-               <sup class="type-c" title="class">c</sup> 
-               <span class="logic">or</span> 
-               <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontoChapter"
-                  title="https://w3id.org/def/en_qs_onto/en_qs_ontoChapter">Chapter</a>
-               <sup class="type-c" title="class">c</sup> 
-               <span class="logic">or</span> 
-               <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontoSurah" title="https://w3id.org/def/en_qs_onto/en_qs_ontoSurah">Surah</a>
-               <sup class="type-c" title="class">c</sup>
-            </dd>
-            <dt>is inverse of</dt>
-            <dd>
-               <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontoconsisitOf"
-                  title="https://w3id.org/def/en_qs_onto/en_qs_ontoconsisitOf">consistOf</a>
-               <sup class="type-op" title="object property">op</sup>
-            </dd>
-            <dt>is same as</dt>
-            <dd>
-               <a href="http://purl.org/dc/terms/isPartOf"
-                  target="_blank"
-                  title="http://purl.org/dc/terms/isPartOf">is part of</a>
-            </dd>
-            <dt>is also defined as</dt>
-            <dd>named individual</dd>
-         </dl>
-      </div>
-   </div>
    <div class="entity" id="https://w3id.org/def/en_qs_onto/en_qs_ontoreceived">
       <h3>received<sup class="type-op" title="object property">op</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
@@ -3005,6 +2938,41 @@ This section provides details for each class and property defined by [Ontology N
                <a href="http://xmlns.com/foaf/0.1/Person"
                   target="_blank"
                   title="http://xmlns.com/foaf/0.1/Person">person</a>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#https://w3id.org/def/en_qs_onto/swallowBy" title="https://w3id.org/def/en_qs_onto/swallowBy">swallow by</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="https://w3id.org/def/en_qs_onto/swallowBy">
+      <h3>swallow by<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/def/en_qs_onto/swallowBy</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="http://xmlns.com/foaf/0.1/Person"
+                  target="_blank"
+                  title="http://xmlns.com/foaf/0.1/Person">person</a>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontoAnimal"
+                  title="https://w3id.org/def/en_qs_onto/en_qs_ontoAnimal">Animal</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontoswallow"
+                  title="https://w3id.org/def/en_qs_onto/en_qs_ontoswallow">swallow</a>
+               <sup class="type-op" title="object property">op</sup>
             </dd>
          </dl>
       </div>
@@ -9072,6 +9040,11 @@ This section provides details for each class and property defined by [Ontology N
             <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontonat7" title="https://w3id.org/def/en_qs_onto/en_qs_ontonat7">en qs ontonat7</a>
          </dd>
          <dd>
+            <a href="#https://w3id.org/def/en_qs_onto/swallowBy" title="https://w3id.org/def/en_qs_onto/swallowBy">swallow by</a>
+            <sup class="type-op" title="object property">op</sup> 
+            <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontoanim3" title="https://w3id.org/def/en_qs_onto/en_qs_ontoanim3">en qs ontoanim3</a>
+         </dd>
+         <dd>
             <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontoassignedBy"
                title="https://w3id.org/def/en_qs_onto/en_qs_ontoassignedBy">assignedBy</a>
             <sup class="type-dp" title="data property">dp</sup> 
@@ -11553,17 +11526,23 @@ This section provides details for each class and property defined by [Ontology N
          </dd>
          <dt>has facts</dt>
          <dd>
-            <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontopartOf" title="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf">partOf</a>
+            <a href="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf"
+               target="_blank"
+               title="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf">partOf</a>
             <sup class="type-op" title="object property">op</sup> 
             <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontobook4" title="https://w3id.org/def/en_qs_onto/en_qs_ontobook4">en qs ontobook4</a>
          </dd>
          <dd>
-            <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontopartOf" title="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf">partOf</a>
+            <a href="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf"
+               target="_blank"
+               title="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf">partOf</a>
             <sup class="type-op" title="object property">op</sup> 
             <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontoch1" title="https://w3id.org/def/en_qs_onto/en_qs_ontoch1">en qs ontoch1</a>
          </dd>
          <dd>
-            <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontopartOf" title="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf">partOf</a>
+            <a href="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf"
+               target="_blank"
+               title="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf">partOf</a>
             <sup class="type-op" title="object property">op</sup> 
             <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontoch2" title="https://w3id.org/def/en_qs_onto/en_qs_ontoch2">en qs ontoch2</a>
          </dd>
@@ -11642,12 +11621,16 @@ This section provides details for each class and property defined by [Ontology N
          </dd>
          <dt>has facts</dt>
          <dd>
-            <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontopartOf" title="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf">partOf</a>
+            <a href="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf"
+               target="_blank"
+               title="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf">partOf</a>
             <sup class="type-op" title="object property">op</sup> 
             <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontobook4" title="https://w3id.org/def/en_qs_onto/en_qs_ontobook4">en qs ontobook4</a>
          </dd>
          <dd>
-            <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontopartOf" title="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf">partOf</a>
+            <a href="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf"
+               target="_blank"
+               title="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf">partOf</a>
             <sup class="type-op" title="object property">op</sup> 
             <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontoch3" title="https://w3id.org/def/en_qs_onto/en_qs_ontoch3">en qs ontoch3</a>
          </dd>
@@ -11705,12 +11688,16 @@ This section provides details for each class and property defined by [Ontology N
          </dd>
          <dt>has facts</dt>
          <dd>
-            <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontopartOf" title="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf">partOf</a>
+            <a href="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf"
+               target="_blank"
+               title="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf">partOf</a>
             <sup class="type-op" title="object property">op</sup> 
             <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontobook4" title="https://w3id.org/def/en_qs_onto/en_qs_ontobook4">en qs ontobook4</a>
          </dd>
          <dd>
-            <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontopartOf" title="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf">partOf</a>
+            <a href="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf"
+               target="_blank"
+               title="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf">partOf</a>
             <sup class="type-op" title="object property">op</sup> 
             <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontoch21" title="https://w3id.org/def/en_qs_onto/en_qs_ontoch21">en qs ontoch21</a>
          </dd>
@@ -11750,12 +11737,16 @@ This section provides details for each class and property defined by [Ontology N
          </dd>
          <dt>has facts</dt>
          <dd>
-            <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontopartOf" title="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf">partOf</a>
+            <a href="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf"
+               target="_blank"
+               title="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf">partOf</a>
             <sup class="type-op" title="object property">op</sup> 
             <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontobook4" title="https://w3id.org/def/en_qs_onto/en_qs_ontobook4">en qs ontobook4</a>
          </dd>
          <dd>
-            <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontopartOf" title="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf">partOf</a>
+            <a href="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf"
+               target="_blank"
+               title="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf">partOf</a>
             <sup class="type-op" title="object property">op</sup> 
             <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontoch15" title="https://w3id.org/def/en_qs_onto/en_qs_ontoch15">en qs ontoch15</a>
          </dd>
@@ -11795,12 +11786,16 @@ This section provides details for each class and property defined by [Ontology N
          </dd>
          <dt>has facts</dt>
          <dd>
-            <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontopartOf" title="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf">partOf</a>
+            <a href="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf"
+               target="_blank"
+               title="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf">partOf</a>
             <sup class="type-op" title="object property">op</sup> 
             <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontobook4" title="https://w3id.org/def/en_qs_onto/en_qs_ontobook4">en qs ontobook4</a>
          </dd>
          <dd>
-            <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontopartOf" title="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf">partOf</a>
+            <a href="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf"
+               target="_blank"
+               title="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf">partOf</a>
             <sup class="type-op" title="object property">op</sup> 
             <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontoch28" title="https://w3id.org/def/en_qs_onto/en_qs_ontoch28">en qs ontoch28</a>
          </dd>
@@ -11846,12 +11841,16 @@ This section provides details for each class and property defined by [Ontology N
          </dd>
          <dt>has facts</dt>
          <dd>
-            <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontopartOf" title="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf">partOf</a>
+            <a href="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf"
+               target="_blank"
+               title="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf">partOf</a>
             <sup class="type-op" title="object property">op</sup> 
             <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontobook4" title="https://w3id.org/def/en_qs_onto/en_qs_ontobook4">en qs ontobook4</a>
          </dd>
          <dd>
-            <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontopartOf" title="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf">partOf</a>
+            <a href="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf"
+               target="_blank"
+               title="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf">partOf</a>
             <sup class="type-op" title="object property">op</sup> 
             <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontoch27" title="https://w3id.org/def/en_qs_onto/en_qs_ontoch27">en qs ontoch27</a>
          </dd>
@@ -11891,12 +11890,16 @@ This section provides details for each class and property defined by [Ontology N
          </dd>
          <dt>has facts</dt>
          <dd>
-            <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontopartOf" title="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf">partOf</a>
+            <a href="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf"
+               target="_blank"
+               title="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf">partOf</a>
             <sup class="type-op" title="object property">op</sup> 
             <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontobook4" title="https://w3id.org/def/en_qs_onto/en_qs_ontobook4">en qs ontobook4</a>
          </dd>
          <dd>
-            <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontopartOf" title="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf">partOf</a>
+            <a href="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf"
+               target="_blank"
+               title="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf">partOf</a>
             <sup class="type-op" title="object property">op</sup> 
             <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontoch23" title="https://w3id.org/def/en_qs_onto/en_qs_ontoch23">en qs ontoch23</a>
          </dd>
@@ -11936,12 +11939,16 @@ This section provides details for each class and property defined by [Ontology N
          </dd>
          <dt>has facts</dt>
          <dd>
-            <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontopartOf" title="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf">partOf</a>
+            <a href="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf"
+               target="_blank"
+               title="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf">partOf</a>
             <sup class="type-op" title="object property">op</sup> 
             <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontobook4" title="https://w3id.org/def/en_qs_onto/en_qs_ontobook4">en qs ontobook4</a>
          </dd>
          <dd>
-            <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontopartOf" title="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf">partOf</a>
+            <a href="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf"
+               target="_blank"
+               title="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf">partOf</a>
             <sup class="type-op" title="object property">op</sup> 
             <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontoch19" title="https://w3id.org/def/en_qs_onto/en_qs_ontoch19">en qs ontoch19</a>
          </dd>
@@ -11993,12 +12000,16 @@ This section provides details for each class and property defined by [Ontology N
          </dd>
          <dt>has facts</dt>
          <dd>
-            <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontopartOf" title="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf">partOf</a>
+            <a href="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf"
+               target="_blank"
+               title="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf">partOf</a>
             <sup class="type-op" title="object property">op</sup> 
             <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontobook4" title="https://w3id.org/def/en_qs_onto/en_qs_ontobook4">en qs ontobook4</a>
          </dd>
          <dd>
-            <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontopartOf" title="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf">partOf</a>
+            <a href="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf"
+               target="_blank"
+               title="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf">partOf</a>
             <sup class="type-op" title="object property">op</sup> 
             <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontoch19" title="https://w3id.org/def/en_qs_onto/en_qs_ontoch19">en qs ontoch19</a>
          </dd>
@@ -12038,12 +12049,16 @@ This section provides details for each class and property defined by [Ontology N
          </dd>
          <dt>has facts</dt>
          <dd>
-            <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontopartOf" title="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf">partOf</a>
+            <a href="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf"
+               target="_blank"
+               title="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf">partOf</a>
             <sup class="type-op" title="object property">op</sup> 
             <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontobook4" title="https://w3id.org/def/en_qs_onto/en_qs_ontobook4">en qs ontobook4</a>
          </dd>
          <dd>
-            <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontopartOf" title="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf">partOf</a>
+            <a href="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf"
+               target="_blank"
+               title="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf">partOf</a>
             <sup class="type-op" title="object property">op</sup> 
             <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontoch29" title="https://w3id.org/def/en_qs_onto/en_qs_ontoch29">en qs ontoch29</a>
          </dd>
@@ -12089,12 +12104,16 @@ This section provides details for each class and property defined by [Ontology N
          </dd>
          <dt>has facts</dt>
          <dd>
-            <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontopartOf" title="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf">partOf</a>
+            <a href="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf"
+               target="_blank"
+               title="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf">partOf</a>
             <sup class="type-op" title="object property">op</sup> 
             <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontobook4" title="https://w3id.org/def/en_qs_onto/en_qs_ontobook4">en qs ontobook4</a>
          </dd>
          <dd>
-            <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontopartOf" title="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf">partOf</a>
+            <a href="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf"
+               target="_blank"
+               title="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf">partOf</a>
             <sup class="type-op" title="object property">op</sup> 
             <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontoch18" title="https://w3id.org/def/en_qs_onto/en_qs_ontoch18">en qs ontoch18</a>
          </dd>
@@ -12134,12 +12153,16 @@ This section provides details for each class and property defined by [Ontology N
          </dd>
          <dt>has facts</dt>
          <dd>
-            <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontopartOf" title="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf">partOf</a>
+            <a href="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf"
+               target="_blank"
+               title="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf">partOf</a>
             <sup class="type-op" title="object property">op</sup> 
             <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontobook4" title="https://w3id.org/def/en_qs_onto/en_qs_ontobook4">en qs ontobook4</a>
          </dd>
          <dd>
-            <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontopartOf" title="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf">partOf</a>
+            <a href="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf"
+               target="_blank"
+               title="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf">partOf</a>
             <sup class="type-op" title="object property">op</sup> 
             <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontoch16" title="https://w3id.org/def/en_qs_onto/en_qs_ontoch16">en qs ontoch16</a>
          </dd>
@@ -12185,12 +12208,16 @@ This section provides details for each class and property defined by [Ontology N
          </dd>
          <dt>has facts</dt>
          <dd>
-            <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontopartOf" title="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf">partOf</a>
+            <a href="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf"
+               target="_blank"
+               title="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf">partOf</a>
             <sup class="type-op" title="object property">op</sup> 
             <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontobook4" title="https://w3id.org/def/en_qs_onto/en_qs_ontobook4">en qs ontobook4</a>
          </dd>
          <dd>
-            <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontopartOf" title="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf">partOf</a>
+            <a href="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf"
+               target="_blank"
+               title="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf">partOf</a>
             <sup class="type-op" title="object property">op</sup> 
             <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontoch6" title="https://w3id.org/def/en_qs_onto/en_qs_ontoch6">en qs ontoch6</a>
          </dd>
@@ -12248,12 +12275,16 @@ This section provides details for each class and property defined by [Ontology N
          </dd>
          <dt>has facts</dt>
          <dd>
-            <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontopartOf" title="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf">partOf</a>
+            <a href="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf"
+               target="_blank"
+               title="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf">partOf</a>
             <sup class="type-op" title="object property">op</sup> 
             <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontobook4" title="https://w3id.org/def/en_qs_onto/en_qs_ontobook4">en qs ontobook4</a>
          </dd>
          <dd>
-            <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontopartOf" title="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf">partOf</a>
+            <a href="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf"
+               target="_blank"
+               title="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf">partOf</a>
             <sup class="type-op" title="object property">op</sup> 
             <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontoch30" title="https://w3id.org/def/en_qs_onto/en_qs_ontoch30">en qs ontoch30</a>
          </dd>
@@ -12287,12 +12318,16 @@ This section provides details for each class and property defined by [Ontology N
          </dd>
          <dt>has facts</dt>
          <dd>
-            <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontopartOf" title="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf">partOf</a>
+            <a href="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf"
+               target="_blank"
+               title="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf">partOf</a>
             <sup class="type-op" title="object property">op</sup> 
             <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontobook4" title="https://w3id.org/def/en_qs_onto/en_qs_ontobook4">en qs ontobook4</a>
          </dd>
          <dd>
-            <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontopartOf" title="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf">partOf</a>
+            <a href="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf"
+               target="_blank"
+               title="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf">partOf</a>
             <sup class="type-op" title="object property">op</sup> 
             <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontoch12" title="https://w3id.org/def/en_qs_onto/en_qs_ontoch12">en qs ontoch12</a>
          </dd>
@@ -12332,12 +12367,16 @@ This section provides details for each class and property defined by [Ontology N
          </dd>
          <dt>has facts</dt>
          <dd>
-            <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontopartOf" title="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf">partOf</a>
+            <a href="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf"
+               target="_blank"
+               title="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf">partOf</a>
             <sup class="type-op" title="object property">op</sup> 
             <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontobook4" title="https://w3id.org/def/en_qs_onto/en_qs_ontobook4">en qs ontobook4</a>
          </dd>
          <dd>
-            <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontopartOf" title="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf">partOf</a>
+            <a href="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf"
+               target="_blank"
+               title="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf">partOf</a>
             <sup class="type-op" title="object property">op</sup> 
             <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontoch20" title="https://w3id.org/def/en_qs_onto/en_qs_ontoch20">en qs ontoch20</a>
          </dd>
@@ -12383,12 +12422,16 @@ This section provides details for each class and property defined by [Ontology N
          </dd>
          <dt>has facts</dt>
          <dd>
-            <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontopartOf" title="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf">partOf</a>
+            <a href="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf"
+               target="_blank"
+               title="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf">partOf</a>
             <sup class="type-op" title="object property">op</sup> 
             <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontobook4" title="https://w3id.org/def/en_qs_onto/en_qs_ontobook4">en qs ontobook4</a>
          </dd>
          <dd>
-            <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontopartOf" title="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf">partOf</a>
+            <a href="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf"
+               target="_blank"
+               title="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf">partOf</a>
             <sup class="type-op" title="object property">op</sup> 
             <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontoch30" title="https://w3id.org/def/en_qs_onto/en_qs_ontoch30">en qs ontoch30</a>
          </dd>
@@ -12431,12 +12474,16 @@ This section provides details for each class and property defined by [Ontology N
          </dd>
          <dt>has facts</dt>
          <dd>
-            <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontopartOf" title="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf">partOf</a>
+            <a href="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf"
+               target="_blank"
+               title="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf">partOf</a>
             <sup class="type-op" title="object property">op</sup> 
             <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontobook4" title="https://w3id.org/def/en_qs_onto/en_qs_ontobook4">en qs ontobook4</a>
          </dd>
          <dd>
-            <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontopartOf" title="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf">partOf</a>
+            <a href="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf"
+               target="_blank"
+               title="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf">partOf</a>
             <sup class="type-op" title="object property">op</sup> 
             <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontoch14" title="https://w3id.org/def/en_qs_onto/en_qs_ontoch14">en qs ontoch14</a>
          </dd>
@@ -12485,12 +12532,16 @@ This section provides details for each class and property defined by [Ontology N
          </dd>
          <dt>has facts</dt>
          <dd>
-            <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontopartOf" title="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf">partOf</a>
+            <a href="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf"
+               target="_blank"
+               title="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf">partOf</a>
             <sup class="type-op" title="object property">op</sup> 
             <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontobook4" title="https://w3id.org/def/en_qs_onto/en_qs_ontobook4">en qs ontobook4</a>
          </dd>
          <dd>
-            <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontopartOf" title="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf">partOf</a>
+            <a href="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf"
+               target="_blank"
+               title="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf">partOf</a>
             <sup class="type-op" title="object property">op</sup> 
             <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontoch15" title="https://w3id.org/def/en_qs_onto/en_qs_ontoch15">en qs ontoch15</a>
          </dd>
@@ -12530,12 +12581,16 @@ This section provides details for each class and property defined by [Ontology N
          </dd>
          <dt>has facts</dt>
          <dd>
-            <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontopartOf" title="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf">partOf</a>
+            <a href="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf"
+               target="_blank"
+               title="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf">partOf</a>
             <sup class="type-op" title="object property">op</sup> 
             <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontobook4" title="https://w3id.org/def/en_qs_onto/en_qs_ontobook4">en qs ontobook4</a>
          </dd>
          <dd>
-            <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontopartOf" title="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf">partOf</a>
+            <a href="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf"
+               target="_blank"
+               title="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf">partOf</a>
             <sup class="type-op" title="object property">op</sup> 
             <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontoch10" title="https://w3id.org/def/en_qs_onto/en_qs_ontoch10">en qs ontoch10</a>
          </dd>
@@ -12575,12 +12630,16 @@ This section provides details for each class and property defined by [Ontology N
          </dd>
          <dt>has facts</dt>
          <dd>
-            <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontopartOf" title="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf">partOf</a>
+            <a href="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf"
+               target="_blank"
+               title="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf">partOf</a>
             <sup class="type-op" title="object property">op</sup> 
             <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontobook4" title="https://w3id.org/def/en_qs_onto/en_qs_ontobook4">en qs ontobook4</a>
          </dd>
          <dd>
-            <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontopartOf" title="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf">partOf</a>
+            <a href="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf"
+               target="_blank"
+               title="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf">partOf</a>
             <sup class="type-op" title="object property">op</sup> 
             <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontoch26" title="https://w3id.org/def/en_qs_onto/en_qs_ontoch26">en qs ontoch26</a>
          </dd>
@@ -12620,12 +12679,16 @@ This section provides details for each class and property defined by [Ontology N
          </dd>
          <dt>has facts</dt>
          <dd>
-            <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontopartOf" title="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf">partOf</a>
+            <a href="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf"
+               target="_blank"
+               title="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf">partOf</a>
             <sup class="type-op" title="object property">op</sup> 
             <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontobook4" title="https://w3id.org/def/en_qs_onto/en_qs_ontobook4">en qs ontobook4</a>
          </dd>
          <dd>
-            <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontopartOf" title="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf">partOf</a>
+            <a href="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf"
+               target="_blank"
+               title="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf">partOf</a>
             <sup class="type-op" title="object property">op</sup> 
             <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontoch18" title="https://w3id.org/def/en_qs_onto/en_qs_ontoch18">en qs ontoch18</a>
          </dd>
@@ -12674,12 +12737,16 @@ This section provides details for each class and property defined by [Ontology N
          </dd>
          <dt>has facts</dt>
          <dd>
-            <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontopartOf" title="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf">partOf</a>
+            <a href="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf"
+               target="_blank"
+               title="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf">partOf</a>
             <sup class="type-op" title="object property">op</sup> 
             <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontobook4" title="https://w3id.org/def/en_qs_onto/en_qs_ontobook4">en qs ontobook4</a>
          </dd>
          <dd>
-            <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontopartOf" title="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf">partOf</a>
+            <a href="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf"
+               target="_blank"
+               title="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf">partOf</a>
             <sup class="type-op" title="object property">op</sup> 
             <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontoch11" title="https://w3id.org/def/en_qs_onto/en_qs_ontoch11">en qs ontoch11</a>
          </dd>
@@ -12740,12 +12807,16 @@ This section provides details for each class and property defined by [Ontology N
          </dd>
          <dt>has facts</dt>
          <dd>
-            <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontopartOf" title="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf">partOf</a>
+            <a href="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf"
+               target="_blank"
+               title="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf">partOf</a>
             <sup class="type-op" title="object property">op</sup> 
             <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontobook4" title="https://w3id.org/def/en_qs_onto/en_qs_ontobook4">en qs ontobook4</a>
          </dd>
          <dd>
-            <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontopartOf" title="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf">partOf</a>
+            <a href="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf"
+               target="_blank"
+               title="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf">partOf</a>
             <sup class="type-op" title="object property">op</sup> 
             <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontoch8" title="https://w3id.org/def/en_qs_onto/en_qs_ontoch8">en qs ontoch8</a>
          </dd>
@@ -12809,12 +12880,16 @@ This section provides details for each class and property defined by [Ontology N
          </dd>
          <dt>has facts</dt>
          <dd>
-            <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontopartOf" title="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf">partOf</a>
+            <a href="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf"
+               target="_blank"
+               title="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf">partOf</a>
             <sup class="type-op" title="object property">op</sup> 
             <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontobook4" title="https://w3id.org/def/en_qs_onto/en_qs_ontobook4">en qs ontobook4</a>
          </dd>
          <dd>
-            <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontopartOf" title="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf">partOf</a>
+            <a href="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf"
+               target="_blank"
+               title="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf">partOf</a>
             <sup class="type-op" title="object property">op</sup> 
             <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontoch7" title="https://w3id.org/def/en_qs_onto/en_qs_ontoch7">en qs ontoch7</a>
          </dd>
@@ -12902,12 +12977,16 @@ This section provides details for each class and property defined by [Ontology N
          </dd>
          <dt>has facts</dt>
          <dd>
-            <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontopartOf" title="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf">partOf</a>
+            <a href="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf"
+               target="_blank"
+               title="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf">partOf</a>
             <sup class="type-op" title="object property">op</sup> 
             <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontobook4" title="https://w3id.org/def/en_qs_onto/en_qs_ontobook4">en qs ontobook4</a>
          </dd>
          <dd>
-            <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontopartOf" title="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf">partOf</a>
+            <a href="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf"
+               target="_blank"
+               title="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf">partOf</a>
             <sup class="type-op" title="object property">op</sup> 
             <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontoch17" title="https://w3id.org/def/en_qs_onto/en_qs_ontoch17">en qs ontoch17</a>
          </dd>
@@ -12953,12 +13032,16 @@ This section provides details for each class and property defined by [Ontology N
          </dd>
          <dt>has facts</dt>
          <dd>
-            <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontopartOf" title="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf">partOf</a>
+            <a href="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf"
+               target="_blank"
+               title="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf">partOf</a>
             <sup class="type-op" title="object property">op</sup> 
             <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontobook4" title="https://w3id.org/def/en_qs_onto/en_qs_ontobook4">en qs ontobook4</a>
          </dd>
          <dd>
-            <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontopartOf" title="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf">partOf</a>
+            <a href="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf"
+               target="_blank"
+               title="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf">partOf</a>
             <sup class="type-op" title="object property">op</sup> 
             <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontoch4" title="https://w3id.org/def/en_qs_onto/en_qs_ontoch4">en qs ontoch4</a>
          </dd>
@@ -13004,12 +13087,16 @@ This section provides details for each class and property defined by [Ontology N
          </dd>
          <dt>has facts</dt>
          <dd>
-            <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontopartOf" title="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf">partOf</a>
+            <a href="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf"
+               target="_blank"
+               title="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf">partOf</a>
             <sup class="type-op" title="object property">op</sup> 
             <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontobook4" title="https://w3id.org/def/en_qs_onto/en_qs_ontobook4">en qs ontobook4</a>
          </dd>
          <dd>
-            <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontopartOf" title="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf">partOf</a>
+            <a href="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf"
+               target="_blank"
+               title="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf">partOf</a>
             <sup class="type-op" title="object property">op</sup> 
             <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontoch26" title="https://w3id.org/def/en_qs_onto/en_qs_ontoch26">en qs ontoch26</a>
          </dd>
@@ -13067,7 +13154,8 @@ This section provides details for each class and property defined by [Ontology N
       <dl class="description">
          <dt>is same as</dt>
          <dd>
-            <a href="#https://w3id.org/def/en_qs_onto/en_qs_ontopartOf" title="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf">partOf</a>
+            <a href="#d4e6860"
+               title="https://w3id.org/def/en_qs_onto/en_qs_ontopartOf">partOf</a>
          </dd>
       </dl>
    </div>
@@ -13125,7 +13213,7 @@ This section provides details for each class and property defined by [Ontology N
       <dl class="description">
          <dt>is same as</dt>
          <dd>
-            <a href="#d4e1436" title="http://xmlns.com/foaf/0.1/Person">person</a>
+            <a href="#d4e1391" title="http://xmlns.com/foaf/0.1/Person">person</a>
          </dd>
       </dl>
    </div>

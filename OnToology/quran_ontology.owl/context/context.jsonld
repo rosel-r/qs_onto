@@ -214,6 +214,10 @@
     "en_qs_ontoEvent_Tool" : {
       "@id" : "https://w3id.org/def/en_qs_onto/en_qs_ontoEvent_Tool"
     },
+    "swallowBy" : {
+      "@id" : "https://w3id.org/def/en_qs_onto/swallowBy",
+      "@type" : "@id"
+    },
     "en_qs_ontocommandeIn" : {
       "@id" : "https://w3id.org/def/en_qs_onto/en_qs_ontocommandeIn",
       "@type" : "@id"
