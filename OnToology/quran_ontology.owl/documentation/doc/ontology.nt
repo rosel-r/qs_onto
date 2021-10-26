@@ -2,6 +2,7 @@
 <https://w3id.org/def/en_qs_onto/> <http://www.w3.org/2002/07/owl#versionIRI> <https://w3id.org/def/en_qs_onto/> .
 <https://w3id.org/def/en_qs_onto/> <http://www.w3.org/2002/07/owl#imports> <http://xmlns.com/foaf/0.1/> .
 <https://w3id.org/def/en_qs_onto/> <http://purl.org/dc/elements/1.1/date> "25/2/2021" .
+<https://w3id.org/def/en_qs_onto/> <http://purl.org/dc/elements/1.1/description> "The Holy Quran Stories ontology focuses on the field of Quranic stories that included many of the stories that were mentioned in the Holy Quran and interpreted in history books such as stories of the prophets, messengers, righteous people, infidels, nations , animals that had a role in these stories, The events that actually occurred during these stories, such as miracles, divine punishment and divine honors to some of the messengers or prophets, and others." .
 <https://w3id.org/def/en_qs_onto/> <http://purl.org/dc/elements/1.1/title> "Quran Stories Ontology" .
 <https://w3id.org/def/en_qs_onto/> <http://www.w3.org/2000/01/rdf-schema#comment> "أنطولوجيا القصص القرانية" .
 <https://w3id.org/def/en_qs_onto/> <http://www.w3.org/2000/01/rdf-schema#label> "QURAN STORIES ONTOLOGY" .
