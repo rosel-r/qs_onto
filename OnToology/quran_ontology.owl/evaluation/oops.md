@@ -29,18 +29,8 @@ It is obvious that not all the pitfalls are equally important; their impact in t
 
     
 
-#### P13. Inverse relationships not explicitly declared <img src="https://raw.githubusercontent.com/OnToology/oops-report/master/sample/minor.png" height="15px"> (30 cases detected).
-*This pitfall appears when any relationship (except for those that are defined as symmetric properties using owl:SymmetricProperty) does not have an inverse relationship (owl:inverseOf) defined within the ontology.*
-
-    
-
 #### SUGGESTION: symmetric or transitive object properties.. symmetric or transitive object properties. <img src="https://raw.githubusercontent.com/OnToology/oops-report/master/sample/minor.png" height="15px"> (6 cases detected).
 *The domain and range axioms are equal for each of the following object properties. Could they be symmetric or transitive?*
-
-    
-
-#### P02. Creating synonyms as classes <img src="https://raw.githubusercontent.com/OnToology/oops-report/master/sample/minor.png" height="15px"> (1 cases detected).
-*Several classes whose identifiers are synonyms are created and defined as equivalent (owl:equivalentClass) in the same namespace. This pitfall is related to the guidelines presented in [2], which explain that synonyms for the same concept do not represent different classes.*
 
     
 
@@ -49,8 +39,13 @@ It is obvious that not all the pitfalls are equally important; their impact in t
 
     
 
-#### P19. Defining multiple domains or ranges in properties <img src="https://raw.githubusercontent.com/OnToology/oops-report/master/sample/critical.png" height="15px"> (3 cases detected).
-*The domain or range (or both) of a property (relationships and attributes) is defined by stating more than one rdfs:domain or rdfs:range statements. In OWL multiple rdfs:domain or rdfs:range axioms are allowed, but they are interpreted as conjunction, being, therefore, equivalent to the construct owl:intersectionOf. This pitfall is related to the common error that appears when defining domains and ranges described in [7].*
+#### P12. Equivalent properties not explicitly declared <img src="https://raw.githubusercontent.com/OnToology/oops-report/master/sample/important.png" height="15px"> (2 cases detected).
+*The ontology lacks information about equivalent properties (owl:equivalentProperty) in the cases of duplicated relationships and/or attributes.*
+
+    
+
+#### P02. Creating synonyms as classes <img src="https://raw.githubusercontent.com/OnToology/oops-report/master/sample/minor.png" height="15px"> (1 cases detected).
+*Several classes whose identifiers are synonyms are created and defined as equivalent (owl:equivalentClass) in the same namespace. This pitfall is related to the guidelines presented in [2], which explain that synonyms for the same concept do not represent different classes.*
 
     
 
@@ -59,13 +54,18 @@ It is obvious that not all the pitfalls are equally important; their impact in t
 
     
 
+#### P19. Defining multiple domains or ranges in properties <img src="https://raw.githubusercontent.com/OnToology/oops-report/master/sample/critical.png" height="15px"> (3 cases detected).
+*The domain or range (or both) of a property (relationships and attributes) is defined by stating more than one rdfs:domain or rdfs:range statements. In OWL multiple rdfs:domain or rdfs:range axioms are allowed, but they are interpreted as conjunction, being, therefore, equivalent to the construct owl:intersectionOf. This pitfall is related to the common error that appears when defining domains and ranges described in [7].*
+
+    
+
 #### P22. Using different naming conventions in the ontology <img src="https://raw.githubusercontent.com/OnToology/oops-report/master/sample/minor.png" height="15px"> (1 cases detected).
 *The ontology elements are not named following the same convention (for example CamelCase or use of delimiters as &quot;-&quot; or &quot;_&quot;) . Some notions about naming conventions are provided in [2].*
 
     
 
-#### P12. Equivalent properties not explicitly declared <img src="https://raw.githubusercontent.com/OnToology/oops-report/master/sample/important.png" height="15px"> (2 cases detected).
-*The ontology lacks information about equivalent properties (owl:equivalentProperty) in the cases of duplicated relationships and/or attributes.*
+#### P13. Inverse relationships not explicitly declared <img src="https://raw.githubusercontent.com/OnToology/oops-report/master/sample/minor.png" height="15px"> (30 cases detected).
+*This pitfall appears when any relationship (except for those that are defined as symmetric properties using owl:SymmetricProperty) does not have an inverse relationship (owl:inverseOf) defined within the ontology.*
 
     
 

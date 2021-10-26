@@ -6,6 +6,7 @@
 <https://w3id.org/def/en_qs_onto/> <http://www.w3.org/2000/01/rdf-schema#comment> "أنطولوجيا القصص القرانية" .
 <https://w3id.org/def/en_qs_onto/> <http://www.w3.org/2000/01/rdf-schema#label> "QURAN STORIES ONTOLOGY" .
 <https://w3id.org/def/en_qs_onto/> <https://www.geonames.org/countries/EG/egypt.html#terms:creater> "Rusul Y. Raghib"@en .
+<https://w3id.org/def/en_qs_onto/> <https://www.geonames.org/countries/EG/egypt.html#terms:creater> "Rusul Y. Ragheb" .
 # 
 # 
 # #################################################################
@@ -944,21 +945,6 @@ _:genid82 <http://www.w3.org/2002/07/owl#onClass> <https://w3id.org/def/en_qs_on
 # https://w3id.org/def/en_qs_onto/en_qs_ontoPlace
 <https://w3id.org/def/en_qs_onto/en_qs_ontoPlace> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/def/en_qs_onto/en_qs_ontoPlace> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> .
-<https://w3id.org/def/en_qs_onto/en_qs_ontoPlace> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid83 .
-_:genid83 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-_:genid83 <http://www.w3.org/2002/07/owl#unionOf> _:genid87 .
-_:genid87 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid87 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/en_qs_onto/en_qs_ontoBirthPlace> .
-_:genid87 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid86 .
-_:genid86 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid86 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/en_qs_onto/en_qs_ontoCity> .
-_:genid86 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid85 .
-_:genid85 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid85 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/en_qs_onto/en_qs_ontoLivePlace> .
-_:genid85 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid84 .
-_:genid84 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid84 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/en_qs_onto/en_qs_ontoMissionPlace> .
-_:genid84 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
 # 
 # https://w3id.org/def/en_qs_onto/en_qs_ontoProphet
 <https://w3id.org/def/en_qs_onto/en_qs_ontoProphet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -978,17 +964,17 @@ _:genid84 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1
 # https://w3id.org/def/en_qs_onto/en_qs_ontoSurah
 <https://w3id.org/def/en_qs_onto/en_qs_ontoSurah> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/def/en_qs_onto/en_qs_ontoSurah> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> .
-<https://w3id.org/def/en_qs_onto/en_qs_ontoSurah> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid88 .
-_:genid88 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:genid88 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/def/en_qs_onto/en_qs_ontoreported> .
-_:genid88 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2002/07/owl#Thing> .
-<https://w3id.org/def/en_qs_onto/en_qs_ontoSurah> <http://www.w3.org/2002/07/owl#disjointUnionOf> _:genid90 .
-_:genid90 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid90 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/en_qs_onto/en_qs_ontoCivilian_Surah> .
-_:genid90 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid89 .
-_:genid89 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid89 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/en_qs_onto/en_qs_ontoMeccan_Surah> .
-_:genid89 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<https://w3id.org/def/en_qs_onto/en_qs_ontoSurah> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid83 .
+_:genid83 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid83 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/def/en_qs_onto/en_qs_ontoreported> .
+_:genid83 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2002/07/owl#Thing> .
+<https://w3id.org/def/en_qs_onto/en_qs_ontoSurah> <http://www.w3.org/2002/07/owl#disjointUnionOf> _:genid85 .
+_:genid85 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid85 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/en_qs_onto/en_qs_ontoCivilian_Surah> .
+_:genid85 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid84 .
+_:genid84 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid84 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/en_qs_onto/en_qs_ontoMeccan_Surah> .
+_:genid84 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
 # 
 # https://w3id.org/def/en_qs_onto/en_qs_ontoVerse
 <https://w3id.org/def/en_qs_onto/en_qs_ontoVerse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .

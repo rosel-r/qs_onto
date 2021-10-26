@@ -20,6 +20,7 @@
         <rdfs:comment>أنطولوجيا القصص القرانية</rdfs:comment>
         <rdfs:label>QURAN STORIES ONTOLOGY</rdfs:label>
         <terms:creater xml:lang="en">Rusul Y. Raghib</terms:creater>
+        <terms:creater>Rusul Y. Ragheb</terms:creater>
     </owl:Ontology>
     
 
@@ -1373,16 +1374,6 @@
 
     <owl:Class rdf:about="https://w3id.org/def/en_qs_onto/en_qs_ontoPlace">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-        <rdfs:subClassOf>
-            <owl:Class>
-                <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="https://w3id.org/def/en_qs_onto/en_qs_ontoBirthPlace"/>
-                    <rdf:Description rdf:about="https://w3id.org/def/en_qs_onto/en_qs_ontoCity"/>
-                    <rdf:Description rdf:about="https://w3id.org/def/en_qs_onto/en_qs_ontoLivePlace"/>
-                    <rdf:Description rdf:about="https://w3id.org/def/en_qs_onto/en_qs_ontoMissionPlace"/>
-                </owl:unionOf>
-            </owl:Class>
-        </rdfs:subClassOf>
     </owl:Class>
     
 
